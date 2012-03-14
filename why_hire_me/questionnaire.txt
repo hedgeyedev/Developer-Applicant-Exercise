@@ -1,7 +1,10 @@
-How many years of Ruby experience do you have?
-
-
 How many years of Web development experience do you have?
+
+
+How many years of JavaScript experience do you have?
+
+
+How many years of Ruby experience do you have?
 
 
 How many years of Rails development experience do you have?
