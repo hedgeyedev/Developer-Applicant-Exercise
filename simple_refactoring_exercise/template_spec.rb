@@ -1,5 +1,4 @@
-$: << File.dirname(__FILE__)
-require 'template'
+require_relative 'template'
 
 describe Template do
   include Template
