@@ -4,7 +4,7 @@ To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com),
 
 1. Fork this repository
 2. In the *why_hire_me* directory
- * Add a file cover_letter.txt with cover letter type verbiage.
+ * Add a file `cover_letter.txt` with cover letter type verbiage.
  * Add a file that describes one of your preferred development tools (editor, desktop app, etc.) and why you use it 
  * Fill out the questionnaire.txt
  * Anything else we should know
@@ -22,12 +22,12 @@ To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com),
      * a "stack" on the right including a link to the users profile, followed by the tweet text on the same line.  Below that the relative time of the tweek (i.e. 1 minute ago) and source attribution (i.e. "via Twitter for Android")
      * Barebones style ok.  No need for nice css, text wrapping, but bonus if you do it.
  * Required
-   * .rvmrc and Gemfile
-   * at least 1 spec
+     * .rvmrc and Gemfile
+     * at least 1 spec
  * Optional (Extra Credit)
-   * Comprehensive specs
-   * More/Nicer Styling
-   * More things that look like the original
+     * Comprehensive specs
+     * More/Nicer Styling
+     * More things that look like the original
 5. Commit and Push your code to your fork
 6. Send a pull request, we will review your code and get back to you
 
