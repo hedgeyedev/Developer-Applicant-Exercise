@@ -21,7 +21,7 @@ To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com),
     * Displays 20 entries from twitter's public timeline.  Use the data/API of your choice
         * For each entry, show:
             * image profile on the left
-            * a "stack" on the right including a link to the users profile, followed by the tweet text on the same line.  Below that the relative time of the tweek (i.e. 1 minute ago) and source attribution (i.e. "via Twitter for Android")
+            * a "stack" on the right including a link to the users profile, followed by the tweet text on the same line.  Below that the relative time of the tweet (i.e. 1 minute ago) and source attribution (i.e. "via Twitter for Android")
             * Barebones style ok.  No need for nice css, text wrapping, but bonus if you do it.
     * Required
         * `.rvmrc` and `Gemfile`
