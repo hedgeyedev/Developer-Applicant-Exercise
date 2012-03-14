@@ -31,7 +31,7 @@ To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com),
         * More/Nicer Styling
         * More things that look like the original
 5. Commit and Push your code to your fork
-6. Send a pull request, we will review your code and get back to you
+6. Send a pull request, we will review your code and get back to you.  If your GitHub profile does not include your name, please include your name in the pull request.
 
 
 
