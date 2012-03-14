@@ -35,5 +35,5 @@ To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com),
 
 
 
-<a name="footnote">**</a>: The awesome idea of github pull request as
+<a name="footnote"></a>**: The awesome idea of github pull request as
 job application task was previously done by [Integrum](http://integrumtech.com) [here](https://github.com/integrum/job-application)
