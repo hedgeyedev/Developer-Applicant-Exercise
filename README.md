@@ -18,8 +18,8 @@ To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com),
     * A headline with "Recent Public Tweets"
     * A smaller headline "What everyone on Twitter is talking about"
     * Displays 20 entries from twitter's public timeline.  Use the data/API of your choice
-        * For each entry, show the profile image, a link to the users profile, the tweet text, the relative time of the tweet (i.e. 1 minute ago), and attribution (i.e. "via Twitter for Android")
-        * Barebones style is adequate.  No need for nice CSS, text wrapping.
+        * For each entry, show the profile image, a link to the users profile, the tweet text, the time of the tweet, and source (i.e. "via Twitter for Android")
+        * Barebones style is adequate.  No need for nice CSS or text wrapping.
     * Provide the previously described view in 2 ways
         1. Have the route `/` retrieve the Twitter data on the server side and then render
         2. Have the route `/via_js` retrieve the Twitter data with JavaScript and render it after the document loads
@@ -28,7 +28,7 @@ To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com),
         * at least 1 spec
     * Tips
         * Do use gems, and JavaScript libraries.  
-        * If you are Ruby, JavaScript and web development savvy, it shouldn't take you that long.  A sample implementation, sans specs, is less than 100 lines of text total.
+        * If you are Ruby, JavaScript, and web development savvy, it shouldn't take you that long.  A sample implementation, sans specs, is less than 100 lines of text total.
         * Don't get caught up on styling, that's what designers are for.
         * Be careful with Twitter's rate limiting while testing.
 6. Commit and Push your code to your fork
