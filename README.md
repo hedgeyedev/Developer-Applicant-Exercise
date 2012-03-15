@@ -18,13 +18,8 @@ To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com),
     * A headline with "Recent Public Tweets"
     * A smaller headline "What everyone on Twitter is talking about"
     * Displays 20 entries from twitter's public timeline.  Use the data/API of your choice
-        * For each entry, show:
-            * Profile image
-            * A link to the users profile
-            * The tweet text
-            * The relative time of the tweet (i.e. 1 minute ago)
-            * Attribution (i.e. "via Twitter for Android")
-        * Barebones style is adequate.  No need for nice css, text wrapping.
+        * For each entry, show the profile image, a link to the users profile, the tweet text, the relative time of the tweet (i.e. 1 minute ago), and attribution (i.e. "via Twitter for Android")
+        * Barebones style is adequate.  No need for nice CSS, text wrapping.
     * Provide the previously described view in 2 ways
         1. Have the route `/` retrieve the Twitter data on the server side and then render
         2. Have the route `/via_js` retrieve the Twitter data with JavaScript and render it after the document loads
