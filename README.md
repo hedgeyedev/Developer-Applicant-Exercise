@@ -8,7 +8,7 @@ To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com),
 2. In the *why_hire_me* directory
     * Add a file `cover_letter.txt` with cover letter type verbiage.
     * Add a file that describes one of your preferred development tools (editor, desktop app, etc.) and why you use it (max 3 paragraphs)
-    * Fill out the questionnaire.txt and commit it
+    * Fill out the `questionnaire.txt` and commit it
     * Anything else we should know
 3. In the *simple_refactoring_exercise* directory you will find some Ruby code that needs to be refactored.
     * An rspec spec is provided
