@@ -11,7 +11,7 @@ To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com),
     * Anything else we should know.  For example, one of your preferred development tools (editor, desktop app, etc.) and why you use it.
 3. In the *simple_refactoring_exercise* directory you will find some Ruby code that needs to be refactored.
     * An rspec spec is provided
-    * Please [refactor](http://www.refactoring.com) the implementation.  Clarity, and duplication are a given, flawed implementation is also likely.
+    * Please [refactor](http://www.refactoring.com) the implementation.  Clarity and duplication are a given, flawed implementation is also likely.
     * Please note: feel free to change the specs, but they should all be passing when you turn in your code.
     * Leave a note about what you refactored and why.  Calling specific smells and specific refactorings is recommended.
 4. In the *simple_public_timeline* directory, please create a simple web app (use the Ruby framework of your choice. Suggestion: Sinatra is good for a tiny app like this) that looks close to the middle column in logged out state of http://twitter.com/public_timeline
