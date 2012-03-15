@@ -32,6 +32,7 @@ To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com),
         * Do use gems, and JavaScript libraries.  
         * If you are Ruby, JavaScript and web development savvy, it shouldn't take you that long.  A sample implementation, sans specs, is less than 100 lines of text total.
         * Don't get caught up on styling, that's what designers are for.
+        * Be careful with Twitter's rate limiting while testing.
 6. Commit and Push your code to your fork
 7. Send a pull request, we will review your code and get back to you.  If your GitHub profile does not include your name, please include your name in the pull request.
 
