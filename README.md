@@ -2,7 +2,7 @@
 
 To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com), you must successfully complete these steps [**](#footnote)
 
-**Please note:** your code will be tested on Ruby 1.9.2.  If we need a browser to test, it will be the latest version of Chrome, Firefox, Internet Explorer, and/or Safari.
+**Please note:** your code will be tested on Ruby 1.9.2 and the latest version of Chrome.
 
 1. Fork this repository
 2. In the *why_hire_me* directory
