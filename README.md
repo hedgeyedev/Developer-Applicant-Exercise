@@ -23,14 +23,14 @@ To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com),
             * a "stack" on the right including a link to the users profile, followed by the tweet text on the same line.  Below that the relative time of the tweet (i.e. 1 minute ago) and source attribution (i.e. "via Twitter for Android")
             * Barebones style adequate.  No need for nice css, text wrapping.
     * Provide the previously described view in 2 ways
-      1. have the route `/` retrieve the twitter data on the server side and then render
-      2. have the route `/via_js` retrieve the twitter data with Javascript and render it after the document loads
+      1. Have the route `/` retrieve the Twitter data on the server side and then render
+      2. Have the route `/via_js` retrieve the Twitter data with JavaScript and render it after the document loads
     * Required
         * `.rvmrc` and `Gemfile`
         * at least 1 spec
     * Tips
-        * Do use gems, and Javascript libraries.  
-        * If you are Ruby, Javascript and web development savvy, it shouldn't take you that long.  A sample implementation, sans specs, is less than 100 lines of text total.
+        * Do use gems, and JavaScript libraries.  
+        * If you are Ruby, JavaScript and web development savvy, it shouldn't take you that long.  A sample implementation, sans specs, is less than 100 lines of text total.
         * Don't get caught up on styling, that's what designers are for.
 6. Commit and Push your code to your fork
 7. Send a pull request, we will review your code and get back to you.  If your GitHub profile does not include your name, please include your name in the pull request.
