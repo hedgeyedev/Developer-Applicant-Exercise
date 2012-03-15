@@ -28,14 +28,10 @@ To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com),
     * Required
         * `.rvmrc` and `Gemfile`
         * at least 1 spec
-    * Optional (Extra Credit)
-        * Comprehensive specs
-        * More/Nicer Styling
-        * More things that look like the original
     * Tips
         * Do use gems, and Javascript libraries.  
         * If you are Ruby, Javascript and web development savvy, it shouldn't take you that long.  A sample implementation, sans specs, is less than 100 lines of text total.
-        * Optional stuff at the end. Don't get caught up on styling, that's what designers are for.
+        * Don't get caught up on styling, that's what designers are for.
 6. Commit and Push your code to your fork
 7. Send a pull request, we will review your code and get back to you.  If your GitHub profile does not include your name, please include your name in the pull request.
 
