@@ -23,8 +23,8 @@ To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com),
             * a "stack" on the right including a link to the users profile, followed by the tweet text on the same line.  Below that the relative time of the tweet (i.e. 1 minute ago) and source attribution (i.e. "via Twitter for Android")
             * Barebones style adequate.  No need for nice css, text wrapping.
     * Provide the previously described view in 2 ways
-      1. Have the route `/` retrieve the Twitter data on the server side and then render
-      2. Have the route `/via_js` retrieve the Twitter data with JavaScript and render it after the document loads
+        1. Have the route `/` retrieve the Twitter data on the server side and then render
+        2. Have the route `/via_js` retrieve the Twitter data with JavaScript and render it after the document loads
     * Required
         * `.rvmrc` and `Gemfile`
         * at least 1 spec
