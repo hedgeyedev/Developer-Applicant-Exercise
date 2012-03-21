@@ -1,0 +1,162 @@
+!!! Strict
+%html{:lang => "en", "xml:lang" => "en", :xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}/
+    %meta{:content => "en-us", "http-equiv" => "Content-Language"}/
+    %meta{:content => "no", "http-equiv" => "imagetoolbar"}/
+    %meta{:content => "width = 780", :name => "viewport"}/
+    %meta{:content => "1", :name => "page"}/
+    %meta{:content => "NOODP", :name => "robots"}/
+    %title#page_title Twitter / Public Timeline
+    %link{:href => "https://si0.twimg.com/a/1332273304/images/twitter_57.png", :rel => "apple-touch-icon"}/
+    %link{:href => "https://si0.twimg.com/a/1332273304/images/favicon.ico", :rel => "shortcut icon", :type => "image/x-icon"}/
+    %link{:href => "https://si0.twimg.com/a/1332273304/stylesheets/twitter.css?1332275273", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "https://si0.twimg.com/a/1332273304/stylesheets/geo.css?1332275273", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "https://si0.twimg.com/a/1332273304/stylesheets/buttons_new.css?1332275273", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+    :css
+      body { background: #C0DEED url('https://si0.twimg.com/a/1332273304/images/bg-clouds.png') repeat-x; }
+        %link{:href => "https://twitter.com/statuses/public_timeline.rss", :rel => "alternate", :title => "Everyone (RSS)", :type => "application/rss+xml"}/
+    %link{:href => "https://twitter.com/statuses/public_timeline.atom", :rel => "alternate", :title => "Everyone (Atom)", :type => "application/atom+xml"}/
+  %body#public_timeline.status
+    .fixed-banners
+    :javascript
+      //
+      document.domain = 'twitter.com';function fn(){document.write = "";window.top.location = window.self.location;setTimeout(function(){document.body.innerHTML = '';},0);window.self.onload = function(evt){document.body.innerHTML = '';};}if(window.top !== window.self){try{if(window.top.location.host){}else{fn();}}catch(e){fn();}}
+      //
+    #dim-screen
+    %ul#accessibility.offscreen
+      %li
+        %a{:accesskey => "0", :href => "#content"} Skip past navigation
+      %li
+        On a mobile phone? Check out
+        = succeed "!" do
+          %a{:href => "http://m.twitter.com/"} m.twitter.com
+      %li
+        %a{:accesskey => "2", :href => "#footer"} Skip to navigation
+      %li
+        %a{:href => "#signin"} Skip to sign in form
+    #container.subpage
+      %span#loader{:style => "display:none"}
+        %img{:alt => "Loader", :src => "https://si0.twimg.com/a/1332273304/images/loader.gif"}/
+      #header.clearfix
+        %a#logo{:accesskey => "1", :href => "https://twitter.com/", :title => "Twitter / Home"}
+          %img{:alt => "Twitter.com", :src => "https://si0.twimg.com/a/1332273304/images/twitter_logo_header.png"}/
+        %form#sign_out_form{:action => "/sessions/destroy", :method => "post", :style => "display:none;"}
+          %input{:name => "authenticity_token", :type => "hidden", :value => "a3ca6696d23794a8d537211bd12d217fe92d92df"}/
+        %ul.top-navigation.round
+          %li
+            %a{:accesskey => "l", :href => "/login"} Login
+          %li.signup-link
+            %a{:href => "/signup"} Join Twitter!
+      .content-bubble-arrow
+      %table.columns{:cellspacing => "0"}
+        %tbody
+          %tr
+            %td#content.round-left.column
+              .wrapper
+                .tab
+                  %h2.timeline-header Recent Public Tweets
+                  .badgebox
+                    %h3.timeline-subheader What everyone on Twitter is talking about!
+                  %ol#timeline.statuses
+                  -statuses.each do |status|
+                    %li{:id => "status_#{status.id}", :class => "u-#{status.user.screen_name} hentry status"}
+                      %span.thumb.vcard.author
+                        %a.tweet-url.profile-pic.url{:href => status.user.url}
+                          %img.photo.fn{:alt => status.user.name, :height => "48", :src => status.user.profile_image_url, :width => "48"}/
+                      %span.status-body
+                        %span.status-content
+                          %strong
+                            %a.tweet-url.screen-name{:href => status.user.url}&= status.user.screen_name
+                          %span.entry-content
+                            &=status.text
+                            %a.tweet-url.hashtag{:href => "/search?q=%23thetimeis", :rel => "nofollow", :title => "#thetimeis"} #thetimeis -- this needs to parse out hashtags
+                        %span.meta.entry-meta{:data => "{}"}
+                          %a.entry-date{:href => "https://twitter.com/#{status.user.screen_name}/status/#{status.id_str}", :rel => "bookmark"}
+                            %span.published.timestamp{:data => "{time:'#{status.created_at}'}"} fix this text to do relative times
+                          %span&= "via #{status.source}"
+                      %ul.meta-data.clearfix
+            %td#side_base.column.round-right
+              #side
+                .section
+                  .section-header
+                    %h1 Create Your Account
+                  .join
+                    %form#account_signup_form{:action => "/signup", :name => "account_signup_form"}
+                      %input#join{:name => "commit", :type => "submit", :value => "Join!"}/
+                    %p.complete
+                      Already using Twitter
+                      %br/
+                      from your phone?
+                      = succeed "." do
+                        %a{:href => "/account/complete"} Click here
+                .section
+                  #lang-select
+                    %form#lf{:action => "/sessions/change_locale", :method => "post", :style => "margin-top:2px"}
+                      %div{:style => "margin:0;padding:0"}
+                        %input{:name => "authenticity_token", :type => "hidden", :value => "a3ca6696d23794a8d537211bd12d217fe92d92df"}/
+                      %select{:name => "lang", :onchange => "document.getElementById('lf').submit();"}
+                        %option{:selected => "selected", :value => ""} Select Language ...&nbsp;
+                        %option{:value => "pl"} Polish - Polski
+                        %option{:value => "hi"} Hindi - हिन्दी
+                        %option{:value => "zh-tw"} Traditional Chinese - 繁體中文
+                        %option{:value => "fa"} Farsi - فارسی
+                        %option{:value => "fi"} Finnish - Suomi
+                        %option{:value => "th"} Thai - ภาษาไทย
+                        %option{:value => "id"} Indonesian - Bahasa Indonesia
+                        %option{:value => "fr"} French - français
+                        %option{:value => "de"} German - Deutsch
+                        %option{:value => "he"} Hebrew - עִבְרִית
+                        %option{:value => "no"} Norwegian - Norsk
+                        %option{:value => "nl"} Dutch - Nederlands
+                        %option{:value => "es"} Spanish - Español
+                        %option{:value => "ar"} Arabic - العربية
+                        %option{:value => "en"} English
+                        %option{:value => "sv"} Swedish - Svenska
+                        %option{:value => "msa"} Malay - Bahasa Melayu
+                        %option{:value => "ko"} Korean - 한국어
+                        %option{:value => "ru"} Russian - Русский
+                        %option{:value => "pt"} Portuguese - Português
+                        %option{:value => "ur"} Urdu - اردو
+                        %option{:value => "hu"} Hungarian - Magyar
+                        %option{:value => "zh-cn"} Simplified Chinese - 简体中文
+                        %option{:value => "it"} Italian - Italiano
+                        %option{:value => "ja"} Japanese - 日本語
+                        %option{:value => "tr"} Turkish - Türkçe
+                        %option{:value => "da"} Danish - Dansk
+                        %option{:value => "fil"} Filipino - Filipino
+      #footer.round
+        %h3.offscreen Footer
+        %ul.footer-nav
+          %li.first &copy; 2012 Twitter
+          %li
+            %a{:href => "/about"} About Us
+          %li
+            %a{:href => "/about/contact"} Contact
+          %li
+            %a{:href => "http://blog.twitter.com"} Blog
+          %li
+            %a{:href => "http://status.twitter.com"} Status
+          %li
+            %a{:href => "/about/resources"} Resources
+          %li
+            %a{:href => "//dev.twitter.com/"} API
+          %li
+            %a{:href => "//business.twitter.com/index_en.html"} Business
+          %li
+            %a{:href => "//support.twitter.com"} Help
+          %li
+            %a{:href => "/help/jobs"} Jobs
+          %li
+            %a{:href => "/tos"} Terms
+          %li
+            %a{:href => "/privacy"} Privacy
+    %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.3.0/jquery.min.js", :type => "text/javascript"}
+    %script{:src => "https://si0.twimg.com/a/1332273304/javascripts/twitter-https.js", :type => "text/javascript"}
+    %script{:src => "https://si0.twimg.com/a/1332273304/javascripts/lib/jquery.tipsy.min.js?1332275272", :type => "text/javascript"}
+    %script{:src => "//www.google.com/jsapi", :type => "text/javascript"}
+    %script{:src => "https://si0.twimg.com/a/1332273304/javascripts/lib/gears_init.js?1332275272", :type => "text/javascript"}
+    %script{:src => "https://si0.twimg.com/a/1332273304/javascripts/lib/mustache.js?1332275272", :type => "text/javascript"}
+    %script{:src => "https://si0.twimg.com/a/1332273304/javascripts/geov1.js?1332275272", :type => "text/javascript"}
+    %script{:src => "https://si0.twimg.com/a/1332273304/javascripts/api.js?1332275272", :type => "text/javascript"}
