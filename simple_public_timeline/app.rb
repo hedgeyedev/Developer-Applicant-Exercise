@@ -1,10 +1,11 @@
 require 'json'
 require 'sinatra'
 require_relative 'app/models'
+require_relative 'app/tweet_loader'
 require 'haml'
 
 get '/' do
-  haml :index, :locals => {:tweets => JSON(File.read("spec/tweets.json")).map{|e| Tweet.new(e) }}
+  haml :index, :locals => {:tweets => TweetLoader.tweets}
 end
 
 get '/via_js/?' do
@@ -13,7 +14,5 @@ end
 
 get '/load_tweets/?' do
   content_type 'application/json'
-  # https://api.twitter.com/1/statuses/public_timeline.json
-  tweets = JSON(File.read("spec/tweets.json")).map{|e| Tweet.new(e) }
-  JSON(tweets)
+  JSON(TweetLoader.tweets)
 end

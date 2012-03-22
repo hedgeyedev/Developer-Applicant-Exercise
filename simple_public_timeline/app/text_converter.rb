@@ -24,7 +24,7 @@ class TextConverter
   
   def self.convert_urls text
     URI.extract(text, SUPPORTED_URL_SCHEMES).each do |match|
-      text = text.sub(match, "<a href='#{match}' target='_blank'>#{match}</a>")
+      text = text.gsub(match, "<a href='#{match}' target='_blank'>#{match}</a>")
     end
     text
   end
