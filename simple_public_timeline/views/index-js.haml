@@ -17,7 +17,6 @@
     :css
       body { background: #C0DEED url('https://si0.twimg.com/a/1332273304/images/bg-clouds.png') repeat-x; }
   %body#public_timeline.status
-    - current_time = Time.now.utc
     .fixed-banners
     #dim-screen
     %ul#accessibility.offscreen
@@ -55,28 +54,23 @@
                   .badgebox
                     %h3.timeline-subheader What everyone on Twitter is talking about!
                   %ol#timeline.statuses
-                    -tweets.each do |tweet|
-                      %li{:id => "status_#{tweet.id}", :class => "u-#{tweet.user.screen_name} hentry status"}
-                        %span.thumb.vcard.author
-                          %a.tweet-url.profile-pic.url{:href => tweet.user.url}
-                            %img.photo.fn{:alt => tweet.user.name, :height => "48", :src => tweet.user.profile_image_url, :width => "48"}/
-                        %span.status-body
-                          %span.status-content
-                            %strong
-                              %a.tweet-url.screen-name{:href => tweet.user.url}&= tweet.user.screen_name
-                            %span.entry-content
-                              =tweet.html_text
-                          %span.meta.entry-meta{:data => "{}"}
-                            %a.entry-date{:href => "https://twitter.com/#{tweet.user.screen_name}/status/#{tweet.id}", :rel => "bookmark"}
-                              %span.published.timestamp{:title => tweet.created_at.iso8601}
-                            %span= "via #{tweet.source}"
-                        %ul.meta-data.clearfix
+                  / content here will be created via jQuery+Handlebars
             %td#side_base.column.round-right
-    %script{ :src => "https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js", :type => "text/javascript"}
-    %script{ :src => "js/jquery.timeago.js", :type => "text/javascript"}
-    :javascript
-    //
-    jQuery(document).ready(function() {
-      jQuery("span.published.timestamp").timeago();
+  %script{ :src => "https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js", :type => "text/javascript"}
+  %script{ :src => "js/jquery.timeago.js", :type => "text/javascript"}
+  %script{ :src => "js/handlebars-1.0.0.beta.6.js", :type => "text/javascript"}
+  %script{ :src => "js/tweets_template.js", :type => "text/javascript"}
+  :javascript
+  //
+  $(document).ready(function() {
+    $.ajax('/load_tweets', {
+      success: function(tweets) {
+        var timeline_statuses = $('#timeline.statuses');
+        $(tweets).each(function(index, tweet) {
+          timeline_statuses.append(TweetTemplate.compiled(tweet))
+        })
+        $("span.published.timestamp").timeago();
+      }
     });
-    //
+  });
+  //

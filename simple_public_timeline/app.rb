@@ -1,18 +1,19 @@
-require 'ostruct'
 require 'json'
+require 'sinatra'
+require_relative 'app/models'
+require 'haml'
 
 get '/' do
-  haml :index, :locals => {:statuses => JSON(File.read("spec/tweets.json")).map{|e| user=e.delete('user') ; os = OpenStruct.new(e); os.user=OpenStruct.new(user); os }}
+  haml :index, :locals => {:tweets => JSON(File.read("spec/tweets.json")).map{|e| Tweet.new(e) }}
 end
 
-# user:
-#   name
-#   profile_image_url
-#   url
-# id
-# text
-# created_at
-# source
+get '/via_js/?' do
+  haml :'index-js'
+end
 
-# <link [url]>[name]</link> [text]
-# [relative time] via [source]
+get '/load_tweets/?' do
+  content_type 'application/json'
+  # https://api.twitter.com/1/statuses/public_timeline.json
+  tweets = JSON(File.read("spec/tweets.json")).map{|e| Tweet.new(e) }
+  JSON(tweets)
+end
