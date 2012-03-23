@@ -1,0 +1,9 @@
+I am writing to you in regards to the Senior Web Engineer position I saw online. I believe I am the perfect candidate for this position. I have a proven track record of leading development teams both in official and unofficial capacities. I am passionate about good software, TDD and BDD, Agile methodologies, and staying on top of my game through experimentation and exploration. I love Smalltalk and Ruby and I'm very thrilled about the possibilities of Functional Languages coming to the forefront of our industry (especially Erlang, Clojure, and even Haskell).
+
+I have been developing software for the last 11 years: SOAs, web apps, database-driven apps, workflows. I haven't "done it all", but I've done a lot ... and I've done enough to know that I don't know it all. I've worked on several product teams and tools teams. I have managed and mentored developers of all types of backgrounds, I have taught courses on Agile development, Test Driven Design, and Productive Software Engineering with Dynamic Languages (using Smalltalk or Ruby). I am a regular presenter on upcoming topics, new frameworks, language idioms, etc. I'm a great team player, easy-going, and a good listener.
+
+
+Thank you for you time. I look forward to hearing from you.
+
+Sincerely yours,
+  Jason Rogers

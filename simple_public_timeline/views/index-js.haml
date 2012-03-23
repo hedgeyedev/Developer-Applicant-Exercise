@@ -1,0 +1,76 @@
+!!! Strict
+%html{:lang => "en", "xml:lang" => "en", :xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}/
+    %meta{:content => "en-us", "http-equiv" => "Content-Language"}/
+    %meta{:content => "no", "http-equiv" => "imagetoolbar"}/
+    %meta{:content => "width = 780", :name => "viewport"}/
+    %meta{:content => "1", :name => "page"}/
+    %meta{:content => "NOODP", :name => "robots"}/
+    %title#page_title Twitter / Public Timeline
+    %link{:href => "https://si0.twimg.com/a/1332273304/images/twitter_57.png", :rel => "apple-touch-icon"}/
+    %link{:href => "https://si0.twimg.com/a/1332273304/images/favicon.ico", :rel => "shortcut icon", :type => "image/x-icon"}/
+    %link{:href => "https://si0.twimg.com/a/1332273304/stylesheets/twitter.css?1332275273", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "https://si0.twimg.com/a/1332273304/stylesheets/geo.css?1332275273", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "https://si0.twimg.com/a/1332273304/stylesheets/buttons_new.css?1332275273", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+    :css
+      body { background: #C0DEED url('https://si0.twimg.com/a/1332273304/images/bg-clouds.png') repeat-x; }
+  %body#public_timeline.status
+    .fixed-banners
+    #dim-screen
+    %ul#accessibility.offscreen
+      %li
+        %a{:accesskey => "0", :href => "#content"} Skip past navigation
+      %li
+        On a mobile phone? Check out
+        = succeed "!" do
+          %a{:href => "http://m.twitter.com/"} m.twitter.com
+      %li
+        %a{:accesskey => "2", :href => "#footer"} Skip to navigation
+      %li
+        %a{:href => "#signin"} Skip to sign in form
+    #container.subpage
+      %span#loader{:style => "display:none"}
+        %img{:alt => "Loader", :src => "https://si0.twimg.com/a/1332273304/images/loader.gif"}/
+      #header.clearfix
+        %a#logo{:accesskey => "1", :href => "https://twitter.com/", :title => "Twitter / Home"}
+          %img{:alt => "Twitter.com", :src => "https://si0.twimg.com/a/1332273304/images/twitter_logo_header.png"}/
+        %form#sign_out_form{:action => "/sessions/destroy", :method => "post", :style => "display:none;"}
+          %input{:name => "authenticity_token", :type => "hidden", :value => "a3ca6696d23794a8d537211bd12d217fe92d92df"}/
+        %ul.top-navigation.round
+          %li
+            %a{:accesskey => "l", :href => "/login"} Login
+          %li.signup-link
+            %a{:href => "/signup"} Join Twitter!
+      .content-bubble-arrow
+      %table.columns{:cellspacing => "0"}
+        %tbody
+          %tr
+            %td#content.round-left.column
+              .wrapper
+                .tab
+                  %h2.timeline-header Recent Public Tweets
+                  .badgebox
+                    %h3.timeline-subheader What everyone on Twitter is talking about!
+                  %ol#timeline.statuses
+                  / content here will be created via jQuery+Handlebars
+            %td#side_base.column.round-right
+  %script{ :src => "https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js", :type => "text/javascript"}
+  %script{ :src => "js/jquery.timeago.js", :type => "text/javascript"}
+  %script{ :src => "js/handlebars-1.0.0.beta.6.js", :type => "text/javascript"}
+  %script{ :src => "js/tweets_template.js", :type => "text/javascript"}
+  :javascript
+  //
+  $(document).ready(function() {
+    $.ajax('/load_tweets', {
+      success: function(tweets) {
+        var timeline_statuses = $('#timeline.statuses');
+        $(tweets).each(function(index, tweet) {
+          timeline_statuses.append(TweetTemplate.compiled(tweet))
+        })
+        $("span.published.timestamp").timeago();
+      }
+    });
+  });
+  //
