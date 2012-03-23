@@ -1,25 +1,80 @@
+-=-=-=-=-=-=-=-
 How many years of Web development experience do you have?
+-=-=-=-=-=-=-=-
+9 years
 
-
+-=-=-=-=-=-=-=-
 How many years of JavaScript experience do you have?
+-=-=-=-=-=-=-=-
+5-6 years
 
-
+-=-=-=-=-=-=-=-
 How many years of Ruby experience do you have?
+-=-=-=-=-=-=-=-
+7 years
 
-
+-=-=-=-=-=-=-=-
 How many years of Rails development experience do you have?
+-=-=-=-=-=-=-=-
+Active: 2.5 years
+Non-Active (personal exploration): 4 years
 
+I've spent the last 4 years or so working with Sinatra for most web apps. The first 2.5
+years of Rails were on Rails 1.x and 2.x on an implementation of a Task Management and
+Project Planning application. It was based on a Radar metaphor, where the closer a task
+was to the center of the radar the more important/urgent it was. Tasks were tagged by
+their position on the radar as well as a relative effort of work (Easy, Medium, Hard).
+There were no due dates, or any dates for that matter, except a Completed Date (which is
+really the only date that matters). A company edict was passed down that "all teams shall
+use JIRA" and thus our handy little project management application died. After that, I
+didn't get a chance to use Rails professionally because 1) most of our datasources were
+/very/ legacy (so much so that it didn't make sense to try to whip Rails into shape to
+talk to these datasources) and 2) our applications steadily moved toward extremely
+light-weight SOAs that didn't need the bulk of Rails.
 
+-=-=-=-=-=-=-=-
 What are your opinions on Agile software development?
+-=-=-=-=-=-=-=-
+I'm a huge Agile fan, and an early signer of the Agile Manifesto. I've worked personally
+with some of the original influencers of XP. I've done Agile for most of my career, and I've
+tried to bring it in to every company I've worked for since my first exposure to it.
 
-
+-=-=-=-=-=-=-=-
 TDD or BDD?
+-=-=-=-=-=-=-=-
+I personally don't see much difference between the two disciplines as they are practiced
+today. The original idea of BDD focused on getting multiple stakeholders involved, but
+I think that doesn't actually happen in reality. Most "customers" (usually business folks)
+don't really want to spend the time to write Scenarios and to think about the feature-benefit
+tradeoff. As I have witnessed it, the burden to consider the feature-benefit trade-off
+usually falls to the Agile Engineering team. Writing Scenarios can sometimes be a chore, but
+more often than not they prove to be beneficial.
 
+Having said all of that, I think the concepts behind BDD are sound. It would be good to see
+them fully implemented in a project, but I have yet to encounter that situation.
 
+-=-=-=-=-=-=-=-
 What are you looking for in a job?
+-=-=-=-=-=-=-=-
+Good pay. Enjoyable work. Decent folks to work with. An appropriate work-life balance. The
+opportunity to give back to the Open Source community (I've worked in too many closed-source)
+businesses. A company with a real DevOps team that I can interact with and perhaps learn from.
+Decent benefits. A nice bonus structure would be good (I've been a bit spoiled over the last 7
+years). Business-class travel -- Coach just stinks! Ability to attend conferences and hob-nob
+with like-minded people that are doing cool things in their jobs. I could go on, but I'll stop
+there.
 
+Oh! One more thing... I don't want to get stuck in the Java eco-system again. I love dynamic
+languages and want to stick with them, Ruby in particular. But, I don't mind using JVM-based
+languages (Scala, Clojure, etc.) because the JVM is really a rock-solid platform! And it's only
+getting better with its trend toward embracing Dynamic Languages (e.g. InvokeDynamic is awesome).
 
+-=-=-=-=-=-=-=-
 Are you legal to work in the US?
+-=-=-=-=-=-=-=-
+Yes
 
-
+-=-=-=-=-=-=-=-
 When can you start?
+-=-=-=-=-=-=-=-
+mid- to late-April
