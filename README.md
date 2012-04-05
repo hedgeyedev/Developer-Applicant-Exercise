@@ -1,6 +1,6 @@
 # Web Developer Applicant Exercise
 
-To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com), you must successfully complete these steps [**](#footnote)
+
 
 **Please note:** your code will be tested on Ruby 1.9.2 and the latest version of Chrome.
 
