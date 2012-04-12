@@ -1,25 +1,34 @@
 How many years of Web development experience do you have?
+5 years
 
 
 How many years of JavaScript experience do you have?
+5 years
 
 
 How many years of Ruby experience do you have?
+4 years
 
 
 How many years of Rails development experience do you have?
+4 years
 
 
 What are your opinions on Agile software development?
-
+Agile software development means working in a fast paced development lifecycle
+with the ability to move faster, evolved and turn direction using minimal efforts.
 
 TDD or BDD?
+BDD
 
 
 What are you looking for in a job?
+experience, satisfaction, and the opportunity to learn something new.
 
 
 Are you legal to work in the US?
+not yet
 
 
 When can you start?
+3 months after notice
