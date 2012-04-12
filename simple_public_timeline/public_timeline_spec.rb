@@ -2,9 +2,8 @@ require_relative 'public_timeline'
 
 describe PublicTimeline do
 
-  it "GET '/' should response 200" do
-    get '/'
-    last_response.should be_ok
+  it "#get_recent_tweets should return 20 most recent Tweets" do
+    PublicTimeline::get_recent_tweets.length.should == 20
   end
   
 end
