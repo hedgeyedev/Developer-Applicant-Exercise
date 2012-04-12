@@ -1,4 +1,5 @@
 require "sinatra"
+require "twitter"
 class PublicTimeline < Sinatra::Base
   helpers do
     def extract_source source
@@ -8,12 +9,17 @@ class PublicTimeline < Sinatra::Base
       string
     end
   end
+  
+  def self.get_recent_tweets
+    Twitter.search("popular tweets", :rpp => 20, :result_type => "recent")
+  end
 
   get "/" do
-    @results = Twitter.search("popular tweets", :rpp => 20, :result_type => "recent")
+    @results = PublicTimeline::get_recent_tweets
     erb :index
   end
   
-  get "via_js" do
+  get "/via_js" do
+    erb :via_js
   end
 end
