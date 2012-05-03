@@ -1,25 +1,38 @@
 How many years of Web development experience do you have?
-
+5+ years
 
 How many years of JavaScript experience do you have?
-
+5+ years
 
 How many years of Ruby experience do you have?
-
+5+ years
 
 How many years of Rails development experience do you have?
-
+5+ years
 
 What are your opinions on Agile software development?
-
+I love the agile philosophy. The classic open source release early, release often fits right in and a strong focus on testing refactoring and features to be added without fear of breaking existing code.
 
 TDD or BDD?
-
+Two sides of the same coin, but recently I'm liking RSpec more than Test::Unit just because of the coding style. So BDD
 
 What are you looking for in a job?
-
+I'm looking for a job where I can grow as a programmer and work with a group of people who are passionate about their job and are willing explore new technologies when the task at hand requires it.
 
 Are you legal to work in the US?
-
+Yes
 
 When can you start?
+2 weeks notice
+
+**Extras**
+Prefered Development environment
+OSX, Textmate 2, Vim, Git, Zsh, Kaleidoscope, Homebrew
+
+I have a love for modern design especially typography, that said I am not a designer.
+
+Hobbies
+Coffee, photograpgy
+
+Spoken Languaes
+English, Japanese

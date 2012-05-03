@@ -1,0 +1,17 @@
+Timothy Neems
+80 Rumford St
+West Hartford, CT 06107
+(860) 597-1293
+tneems@gmail.com
+
+Dear Hiring Manager:
+
+I am seeking for a position as a Rails developer that will challenge me and help me grow as a developer.
+
+In my current position I have been working as a full stack Rails developer for over 5 years. There I have developed and deployed several custom sales and item costing reporting tools that are used on a daly basis by the sales and operations staff on a daily basis for quick, accurate data.
+
+I am a self-starter and self motivating, always looking for ways to improve my current and past projects by improving UX and adding features. I would love to be challenged by scaling issues and other technology issues you don’t come across when your user base is only a few dozen users.
+
+Sincerely,
+
+Timothy Neems

@@ -1,0 +1,22 @@
+.tweet {
+  position: relative;
+  padding-left: 58px;
+  min-height: 58px;
+  margin: 0 0 18px;
+}
+.tweet img {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.tweet .screen_name {
+  color: #999999;
+}
+.tweet .text {
+/*  margin: 0 0 5px;*/
+}
+
+.tweet .created_at, .tweet .source, .tweet .source a {
+  font-size: 85%;
+  color: #999999;
+}

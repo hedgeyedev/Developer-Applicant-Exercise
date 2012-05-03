@@ -1,0 +1,21 @@
+<h1>Recent Public Tweets</h1>
+<h2>What everyone on Twitter is talking about</h2>
+<div class="row">
+  <div id="tweets" class="span6"></div>
+</div>
+
+<script id="tweet-template" type="text/x-handlebars-template">
+  {{#each this}}
+    <div class="tweet">
+      <a href="http://twitter.com/{{user.screen_name}}"><img src="{{user.profile_image_url}}"></a>
+      <span class="name"><a href="http://twitter.com/{{user.screen_name}}">{{user.name}}</a></span>
+      <span class="screen_name">@{{user.screen_name}}</span>
+      <div class="text">{{text}}</div>
+      <span class="created_at">{{timeAgo created_at}}</span> <span class="source">via {{{source}}}</span>
+    </div>
+  {{/each}}
+</script>
+
+<script type="text/javascript" charset="utf-8">
+  var tweets = <%= tweets || "null" %>;
+</script>
