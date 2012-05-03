@@ -1,7 +1,7 @@
 // taken from http://webdesign.onyou.ch/2010/08/04/javascript-time-ago-pretty-date/x
 function prettyDate(date_str){
   var time_formats = [
-  [60, 'just now', 1], // 60
+  [60, 'seconds', 1], // 60
   [120, '1 minute ago', '1 minute from now'], // 60*2
   [3600, 'minutes', 60], // 60*60, 60
   [7200, '1 hour ago', '1 hour from now'], // 60*60*2
