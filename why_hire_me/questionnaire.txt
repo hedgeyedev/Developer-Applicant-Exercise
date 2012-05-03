@@ -24,3 +24,15 @@ Yes
 
 When can you start?
 2 weeks notice
+
+**Extras**
+Prefered Development environment
+OSX, Textmate 2, Vim, Git, Zsh, Kaleidoscope, Homebrew
+
+I have a love for modern design especially typography, that said I am not a designer.
+
+Hobbies
+Coffee, photograpgy
+
+Spoken Languaes
+English, Japanese
