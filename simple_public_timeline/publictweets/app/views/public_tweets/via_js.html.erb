@@ -1,0 +1,8 @@
+<script type='text/javascript'>
+	$(document).ready(function() {
+		$('#tweets').html('<%= escape_javascript render(:partial => 'public_tweets', :layout => false) %>').hide().slideDown('slow');	
+	});
+</script>
+
+<div id="tweets">
+</div>		

@@ -1,0 +1,11 @@
+	<% @public_tweets.each do |pt| %>
+		<p>
+			<%= image_tag(pt[:user][:profile_image_url_https], :style=> "vertical-align: middle;") %>
+			<span style="color: darkblue; font-weight: bold"><%= pt[:user][:screen_name] %></span>
+			<%= pt[:text] %><br />
+			<span style="font-size: 12px; margin-left: 50px;">
+				<%= time_ago_in_words(pt[:created_at]) %> ago via
+				<%= pt[:source].html_safe %>	
+			</span>
+		</p>
+	<% end %>
