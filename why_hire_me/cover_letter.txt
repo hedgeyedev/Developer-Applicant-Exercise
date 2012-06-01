@@ -1,0 +1,19 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138
+{\fonttbl\f0\fnil\fcharset0 Verdana;\f1\fnil\fcharset0 Calibri;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\ri0\sb100\sa100
+
+\f0\fs22 \cf0 May 31, 2012\uc0\u8232 \u8232 Subject: Application for Sr. Web Engineer\
+Dear Sir/Madame, \uc0\u8232 \u8232 This letter is to express my interest in the Sr. Web Engineer position listed on hedgeye.com. Based on my skills in web application development on Rails framework, I am confident that I would be a great addition to your team. \u8232 \u8232 During my time at United Way of Connecticut, I had developed and deployed web 2.0 websites using Ruby on Rails for both internal and external clients.\
+I am excited about the Sr. Web Engineer position and the ability to help your company succeed. Thank you in advance for your time. Please do not hesitate to contact me if you have any questions.\
+Sincerely,\
+Amit Patel.
+\f1 \
+\pard\pardeftab720\ri0
+
+\f0 \cf0 \'a0\
+\pard\pardeftab720\ri0\sl276\slmult1\sa200
+\cf0 \
+}
