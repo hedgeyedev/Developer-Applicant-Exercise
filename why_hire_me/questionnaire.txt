@@ -11,7 +11,7 @@ How many years of Rails development experience do you have?
 3 Years
 
 What are your opinions on Agile software development?
-
+Helps to get the right thing done in right time.
 
 TDD or BDD?
 I had just done one small project using cucumber and RSpec.
