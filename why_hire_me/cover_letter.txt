@@ -1,0 +1,14 @@
+Dear Hedgeye,
+
+Hi, my name is Ren and I am a software developer moving to New Haven in a few weeks.  
+
+At heart, I am a technologist with a love of design and a desire to build things (be it web software or wooden kayaks).  I am looking for a company that culturally supports developers, and a team that works hard, but maintains balance and perspective.  Above all, I want to find a team that seeks to learn by tackling new challenges and places an emphasis on growing and learning together.
+
+I have experience leading both in-house and hybrid teams. As both a team member and a team leader, I've worked to create an environment where the team values each individual member's strengths, strives for consensus when dealing with differences of opinion, and supports whoever is best equipped for the challenge at hand.
+
+I have significant experience throughout the web stack.  My professional day to day tools of choice are 960.gs, jQuery, Ruby, Rails, RSpec, Heroku, and Git.  Lately though, Minitest and MongoDB have been making appearances in my personal projects.
+
+I hope to talk with you soon,
+Ren
+
+PS. You might also be interested in my GitHub profile (http://github.com/ren), LinkedIn (http://www.linkedin.com/in/renprovey), and personal site (http://renprovey.com).
