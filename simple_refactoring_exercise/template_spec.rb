@@ -4,6 +4,8 @@ describe Template do
   include Template
 
   describe "#altcode_from_req_id" do
+    pending "better logic requirements (length, etc.)"
+
     it "should convert a req_id to an altcode" do
       altcode_from_req_id("5678901234").should == '56789-012'
     end
