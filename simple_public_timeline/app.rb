@@ -1,15 +1,17 @@
-# myapp.rb
+# app.rb
 
 require 'bundler/setup'
 
 require 'sinatra'
 require 'httparty'
+require_relative 'twitter'
 
 get '/' do
-  "This is /"
+  @tweets = Twitter.public_timeline(20)
+  erb :index
 end
 
 get '/via_js' do
-  "This is /via_js"
+  erb :via_js
 end
 

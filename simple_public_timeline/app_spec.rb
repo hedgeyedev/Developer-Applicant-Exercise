@@ -14,7 +14,7 @@ class MyAppTest < Test::Unit::TestCase
   def test_default
     get '/'
     assert last_response.ok?
-    assert_equal 'This is /', last_response.body
+    assert_true last_response.body.contains('Recent Public Tweets', last_response.body
   end
 
   def test_via_js
