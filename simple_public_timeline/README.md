@@ -11,4 +11,4 @@
 
 ## Testing:
 
-$ ruby app_spec.rb
+$ rake

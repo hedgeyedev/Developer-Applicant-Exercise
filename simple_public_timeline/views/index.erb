@@ -1,0 +1,6 @@
+<%= @tweets.count %>
+
+
+<% @tweets.each do |tweet| %>
+  <%= tweet['user']['name'] %>
+<% end %>
