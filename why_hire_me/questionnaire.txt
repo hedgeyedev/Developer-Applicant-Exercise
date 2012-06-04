@@ -1,25 +1,37 @@
 How many years of Web development experience do you have?
 
+10 years.  I built my first site while interning for an architecture company.  The next summer I went to Idaho and worked full time on PHP/MySQL sites for local companies, I've come a long way since then.
 
 How many years of JavaScript experience do you have?
 
+6 years.  While I'd relied on JavaScript for small things like image swapping, the first project I made use of AJAX, a JavaScript library, Google Maps api, and true UI improvements, was in 2006.  Thankfully, the month before the project started, Duke decided to stop requiring IE 4 & 5 support.
 
 How many years of Ruby experience do you have?
 
+6 years.
 
 How many years of Rails development experience do you have?
 
+6 years.
 
 What are your opinions on Agile software development?
 
+I think it is a really healthy way to work.  I've seen it implemented in a few variations, but I think for success it needs two things:
+	1. Everyone who influences, effects, or interacts with the development team needs to commit to the process, know how to write a story, and be committed to upholding their role.
+	2. Everyone needs to buy into the process for more reasons than it being the magic bullet of developer super productivity.  In my previous position I championed an agile development process, including pair programming.  I found the less measurable benefits far outweighed any productivity gain; we wrote better code, we became better estimators, we upheld our definition of done, we had shared understanding of our codebases, and had great growth in individuals' skillsets.
 
 TDD or BDD?
 
+I am surprised the commit for this question dosen't have a flame war going in the comments :)  I guess I am a BDD fan.  Honestly though, I can only paint in broad strokes the differences between the two.  I like RSpec, I like the mindset the language puts you in, and I like that a well-written RSpec test suite documents what the purpose of a method or a class is.  At the end of the day, I want a test methodology that ensures good coverage, is easy to implement, promotes good code, and documents a developer's intentions.
 
 What are you looking for in a job?
 
+I want to be part of a team, challenged, valued, and in the long term feel that I am having a net benefit on the world.  I also want to laugh a few times a day.
 
 Are you legal to work in the US?
 
+Yes.
 
 When can you start?
+
+We should arrive in New Haven the 13th/14th, but for purposes of settling in I'd not want to start before the 18th.

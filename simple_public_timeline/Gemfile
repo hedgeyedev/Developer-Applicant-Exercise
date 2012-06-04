@@ -1,0 +1,11 @@
+source "http://rubygems.org"
+gem "sinatra"
+gem "httparty"
+gem "rake"
+
+gem "rack-test"
+gem "rspec"
+
+group :development do
+  gem "shotgun"
+end
