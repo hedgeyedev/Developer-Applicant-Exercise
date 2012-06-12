@@ -1,5 +1,20 @@
 module Template
+  STARTINDEX = 0
+  STARTALTINDEX = 4
+  SPLITINDEX = 5
+  ENDINDEX = 7
   def template(source_template, req_id)
+    # Reduce to two lines of code
+    # Code Smells
+    #   Duplicated Code - CODE/ALTCODE sections
+    #   Long Method (for functionality)) - This can be done with two lines of code
+    #   Uncommunicative Method Name -  The method name really should be changed but not sure if this is within scope of refactoring
+    #   Comments -  Don't really add much value.  Don't specify intent.
+    template = source_template.gsub("%CODE%",req_id)
+    template = template.gsub("%ALTCODE%",req_id.to_s[STARTINDEX..4]+"-"+req_id.to_s[SPLITINDEX..ENDINDEX])
+  end
+
+  def template_old(source_template, req_id)
     template = String.new(source_template)
 
     # Substitute for %CODE%

@@ -1,0 +1,22 @@
+<script src="js/json.htmTable.js" type="text/javascript"></script>
+<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<link href="css/default.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+    $(document).ready(function() {
+$.ajax({
+type: "GET",
+url: "/via_js.json",
+dataType: "json",
+success: function(res) {
+$('#Results').append(CreateTableView(res.rows)).fadeIn();
+},
+error: function(errortype, textStatus, errorThrown) {
+    throw new Error(res)
+}
+});
+});
+</script>
+<h1>Recent Public Tweets</h1>
+<h2>What everyone on Twitter is talking about</h2>
+<div id="Results">
+</div>
