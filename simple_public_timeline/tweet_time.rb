@@ -3,6 +3,7 @@ require 'twitter'
 require 'json_builder'
 
 def grabtimeline
+  # Twitter Library requires that we use OAuth
   Twitter::Client.configure do |conf|
     # App configuration
     conf.application_name = 'TwitterDemo'
