@@ -1,0 +1,13 @@
+<h1>Recent Public Tweets</h1>
+<h2>What everyone on Twitter is talking about</h2>
+<table>
+<% for @status in @public_timeline %>
+    <tr>
+       <td><img src="<%= @status.user.profile_image_url%>"/></td>
+       <td><a href="https://twitter.com/<%= @status.user.screen_name%>"><%= @status.user.screen_name%></a></td>
+       <td><%= @status.text%></td>
+       <td><%= @status.created_at%></td>
+       <td><%= @status.source%></td>
+    </tr>
+   <% end %>
+</table>
