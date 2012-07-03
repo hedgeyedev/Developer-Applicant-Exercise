@@ -1,0 +1,57 @@
+<script type='text/javascript' src='http://evening-winter-4582.herokuapp.com/sst/SocialStocksTicker.js'></script>
+<link rel="stylesheet" type="text/css" href="http://evening-winter-4582.herokuapp.com/sst/SocialStocksTicker.css"/>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#simple_public_timeline').ticker({
+			'backgroundColor': 'white',
+			'stockNameColor' : '#333333',
+			'stockNoChange' : '#F89406',
+			'stockUpColor' : '#009933', 
+			'stockDownColor' : '#D14836', 
+			'updateStocksInMinutes' : '60',
+			'scrollSpeed' : '5', 
+			'tickerSpacing' : '12'
+		});
+	});
+</script>
+
+
+
+
+<div class="container">
+	<h3>Ticker</h3>
+	<div style="height: 50px; padding-top:20px" class="span4">
+		<div id="simple_public_timeline"></div>
+	</div>
+</div>
+
+
+<div class="container">
+	<h3>Plugin</h3>
+	<div class="well span5">
+		<h5>Arguments:</h5>
+			<pre>
+$('#simple_public_timeline').ticker({
+'backgroundColor': 'white',
+'stockNameColor' : '#333333',
+'stockNoChange' : '#000000',
+'stockUpColor' : '#009933',
+'stockDownColor' : '#D14836',
+'updateStocksInMinutes' : '60',
+'scrollSpeed' : '5',
+'tickerSpacing' : '12'
+});
+			</pre>
+		</pre>
+	</div>
+</div>
+
+<div class="container">
+	<h3>Admin Page</h3>
+	<div class="well span8">
+		<h5>To add a new user:</h5>
+			<pre>Admin.create({:email => "AdminName@Email.com", :password => "AdminPassword"})</pre>
+		</pre>
+	</div>
+</div>
