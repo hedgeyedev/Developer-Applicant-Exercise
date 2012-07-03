@@ -1,0 +1,30 @@
+Technology:
+	BackEnd:
+		(X) Auto Run
+			(X) Test Ruby 
+			(X) Test Javascript
+			(X) View Test
+		(X) RABL for passing json 
+	FrontEnd:
+		(X) Javscript
+			(X) Ember
+			(X) jQuery
+		(X) CSS
+			(X) Compass
+			(X) SASS
+			(X) Twitter Bootstrap
+	Project:
+		(X) Rails 3.2
+	Deploy:
+		( ) Capistrano
+		( ) Full working deploy
+
+
+Things I want
+	(X)CoffeeScript
+	(X)Jasmin
+	(X)Rspec
+	(X)Compass
+	(X)SASS
+	(X)Blueprint
+	

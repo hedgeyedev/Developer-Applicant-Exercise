@@ -1,0 +1,31 @@
+#simple_public_timeline {
+		font-size: 20px;
+		font-family: Arial,Helvetica;
+		background-color: #8794AD;
+    width: 200px;
+    height: 38px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.marqueeElement {
+/*		border: 1px solid black;*/
+    height: inherit;
+    width: inherit;
+    position:absolute;
+		text-decoration: none;
+}
+a:link, a:hover, a:active, a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+.no-change, positive-change, negative-change {
+	font-family: Arial,Helvetica;
+}
+
+.no-change { color: #F89406; }
+.negative-change { color: #D14836; }
+.positive-change { color: #009933; }
+
+

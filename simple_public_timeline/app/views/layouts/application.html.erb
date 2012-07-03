@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<script type="text/javascript" >
+	ENV = { CP_DEFAULT_CACHEABLE: true, VIEW_PRESERVES_CONTEXT: true};
+</script>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Stock Ticker</title>
+
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<%= render 'layouts/application/navigation' %>
+	<% if notice %>
+		<p class="alert alert-success"><%= notice %></p>
+	<% elsif alert %>
+	 	<p class="alert alert-error"><%= alert %></p>
+	<% end %>
+
+	<div id="body">
+		<div class="container">
+			<%= yield %>
+		</div>
+	</div>
+
+</body>
+</html>

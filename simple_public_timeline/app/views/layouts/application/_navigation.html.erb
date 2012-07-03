@@ -1,0 +1,34 @@
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+			</a>
+			<a class="brand" href=<%="#{root_path}"%> alt="Social Stock Ticker">SimplePublicTimeline</a>
+			<div class="nav-collapse">
+				<ul class="nav">
+					<% if (request.path == root_path) %>
+						<li class="active">
+							<a class="test_class" href=<%="#{root_path}"%>>Home</a>
+						</li>
+					<% else %>
+						<li  class="">
+							<a class="test_class" href=<%="#{root_path}"%>>Home</a>
+						</li>
+					<% end %>
+					<% if (request.path == docs_path) %>
+						<li  class="active">
+							<a href=<%="#{docs_path}"%>>Docs</a>
+						</li>
+					<% else %>
+						<li  class="">
+							<a href=<%="#{docs_path}"%>>Docs</a>
+						</li>
+					<% end %>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>	
