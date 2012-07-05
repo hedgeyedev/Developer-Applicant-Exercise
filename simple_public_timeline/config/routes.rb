@@ -11,10 +11,9 @@ SimplePublicTimeline::Application.routes.draw do
   
   
   resources :docs, :only => [:index]
-  resources :public_timeline, :only => [:index]
+  resources :tweets, :only => [:index]
+  get 'tweets/via_js'
 
-  match "via_js" => "public_timeline#via_js"
-  root :to => 'public_timeline#index'
-
+  root :to => 'tweets#index'
 
 end

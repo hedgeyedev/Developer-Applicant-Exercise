@@ -1,0 +1,17 @@
+<div class="well container span10">
+	<div class="span2">
+		<a href="https://twitter.com/<%= tweet['user']['screen_name'] %>">
+			<img src="<%= tweet['user']['profile_image_url'] %>" alt="Smiley face" height="80" width="auto" /> 
+		</a>
+	</div>
+	<div class="span6">
+		<div class="container span6">
+			<h3><a href="https://twitter.com/<%= tweet['user']['screen_name'] %>"><%= tweet['user']['name'] %></a></h3>
+			<%= tweet['text'] %>
+		</div>
+		<div class="container span6 marketing">
+			<p class="marketing-byline"><a href="https://twitter.com/<%= tweet['user']['screen_name'] %>/status/<%= tweet['id'] %>">Less than <%= time_from_creation(tweet['created_at']) %> ago</a> via <%= raw tweet['source'] %></p>
+				
+		</div>
+	</div>
+</div>

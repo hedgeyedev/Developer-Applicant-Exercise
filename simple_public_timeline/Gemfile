@@ -16,7 +16,8 @@ gem 'haml'
 gem 'thin'
 gem 'ember-rails'
 gem 'jquery-rails'
-gem 'twitter'
+gem 'httparty', :require => 'httparty'
+gem 'active_attr'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -59,7 +60,7 @@ group :test do
 	gem 'jasmine'
 	gem 'guard-jasmine'
 	gem 'jasminerice'
-	gem 'jasmine-headless-webkit'
+	# gem 'jasmine-headless-webkit'
 end
 
 group :test do

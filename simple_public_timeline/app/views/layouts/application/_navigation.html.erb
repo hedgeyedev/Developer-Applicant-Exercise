@@ -6,25 +6,25 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
 			</a>
-			<a class="brand" href=<%="#{root_path}"%> alt="Social Stock Ticker">SimplePublicTimeline</a>
+			<a class="brand" href=<%="#{root_path}"%> alt="Simple Public Timeline">SimplePublicTimeline</a>
 			<div class="nav-collapse">
 				<ul class="nav">
 					<% if (request.path == root_path) %>
 						<li class="active">
-							<a class="test_class" href=<%="#{root_path}"%>>Home</a>
+							<a class="test_class" href=<%="#{root_path}"%>>via Rails</a>
 						</li>
 					<% else %>
 						<li  class="">
-							<a class="test_class" href=<%="#{root_path}"%>>Home</a>
+							<a class="test_class" href=<%="#{root_path}"%>>via Rails</a>
 						</li>
 					<% end %>
-					<% if (request.path == docs_path) %>
+					<% if (request.path == tweets_via_js_path) %>
 						<li  class="active">
-							<a href=<%="#{docs_path}"%>>Docs</a>
+							<a href=<%="#{tweets_via_js_path}"%>>Via JS</a>
 						</li>
 					<% else %>
 						<li  class="">
-							<a href=<%="#{docs_path}"%>>Docs</a>
+							<a href=<%="#{tweets_via_js_path}"%>>via JS</a>
 						</li>
 					<% end %>
 				</ul>
