@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Recent Public Tweets</title>
+</head>
+<body>
+<h1>Recent Public Tweets</h1><br />
+<h3>What everyone on Twitter is talking about</h3>
+<div class="content">
+  <ul class="tweets">
+  <% @tweets.each do |t| %>
+     <li><%= t.to_s %></li>
+  <% end %>
+  </ul>
+</div>
+
+</body>
+</html>
+

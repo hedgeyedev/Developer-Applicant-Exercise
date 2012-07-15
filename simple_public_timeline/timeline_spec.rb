@@ -27,12 +27,12 @@ describe "Timeline" do
 
   it 'has a headline with "Recent Public Tweets"' do
      get '/'
-     last_response.should have('<h1>Recent Public Tweets</h1>')
+     last_response.should have('Recent Public Tweets')
   end
 
   it 'has a smaller headline "What everyone on Twitter is talking about"' do
      get '/'
-     last_response.should have('<h3>What everyone on Twitter is talking about</h3>')
+     last_response.should have('What everyone on Twitter is talking about')
   end
   it "retrieves 20 entries from twitter's public timeline" do
     pending()
