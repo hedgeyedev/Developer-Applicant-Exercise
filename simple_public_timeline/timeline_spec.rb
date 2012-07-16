@@ -16,24 +16,25 @@ describe "Timeline" do
   end
 
   it "responds to /" do
-     get '/'
-     last_response.should be_ok
+    get '/'
+    last_response.should be_ok
   end
 
   it "responds to /via_js" do
-     get '/via_js'
-     last_response.should be_ok
+    get '/via_js'
+    last_response.should be_ok
   end
 
   it 'has a headline with "Recent Public Tweets"' do
-     get '/'
-     last_response.should have('Recent Public Tweets')
+    get '/'
+    last_response.should match ('Recent Public Tweets')
   end
 
   it 'has a smaller headline "What everyone on Twitter is talking about"' do
-     get '/'
-     last_response.should have('What everyone on Twitter is talking about')
+    get '/'
+    last_response.should match ('What everyone on Twitter is talking about')
   end
+
   it "retrieves 20 entries from twitter's public timeline" do
     pending()
   end

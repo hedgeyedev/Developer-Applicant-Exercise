@@ -8,7 +8,11 @@
 <div class="content">
   <ul class="tweets">
   <% @tweets.each do |t| %>
-     <li><%= t.to_s %></li>
+     <li>
+       <a href="<%= user_link(t.user.screen_name) %>"><img src="<%= t.user.profile_image_url %>" /></a>
+       <%= t.text %><br />
+       Created at: <%= format_string_date(t.created_at) %> Source: <%= t.source %>
+     </li>
   <% end %>
   </ul>
 </div>

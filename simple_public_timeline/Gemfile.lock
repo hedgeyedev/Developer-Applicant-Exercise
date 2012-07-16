@@ -8,6 +8,7 @@ GEM
     diff-lcs (1.1.3)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    hashie (1.2.0)
     httparty (0.8.3)
       multi_json (~> 1.0)
       multi_xml
@@ -37,6 +38,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-script
+  hashie
   httparty
   rack-test
   rspec
