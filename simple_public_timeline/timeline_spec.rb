@@ -35,13 +35,4 @@ describe "Timeline" do
     last_response.should match ('What everyone on Twitter is talking about')
   end
 
-  it "retrieves 20 entries from twitter's public timeline" do
-    pending()
-  end
-
-  it "displays the profile image, link to users profile, tweet text, time of tweet, and source" do
-    pending()
-  end
-
-
 end

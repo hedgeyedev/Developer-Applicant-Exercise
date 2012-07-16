@@ -1,7 +1,29 @@
 <html>
 <head>
   <title>Recent Public Tweets</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="lib/jquery.js"></script>
+  <script src="lib/handlebars.js"> </script>
+  <script src="lib/ember.js"></script>
+  <script src="app.js"></script>
+  <script type="text/x-handlebars" data-template-name="timeline">
+    <ul>
+    {{#each App.timelineController.content}}
+      {{#view App.tweetView contentBinding="this"}}
+      <li>
+        <a {{bindAttr href="view.screen_name_link"}}><img {{bindAttr src="user.profile_image_url" }} /></a>
+        {{text }}<br />
+        Created at: {{view.created_at }} Source: {{{ source }}}
+      </li>
+      {{/view}}
+    {{/each}}
+    </ul>
+  </script>
 </head>
 <body>
+<h1>Recent Public Tweets</h1><br />
+<h3>What everyone on Twitter is talking about</h3>
+<div class="content">
+</div>
 </body>
 </html>
