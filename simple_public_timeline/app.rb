@@ -1,12 +1,10 @@
-require 'rubygems'
-require 'bundler'
+require 'sinatra/base'
+class App < Sinatra::Base
+  get '/' do
+    "html"
+  end
 
-require 'sinatra'
-
-get '/' do
-  
-end
-
-get '/via_js' do
-
+  get '/via_js' do
+    "js"
+  end
 end
