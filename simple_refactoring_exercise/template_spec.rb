@@ -15,4 +15,12 @@ describe Template do
     template('alt code is %ALTCODE%', '5678901234').should == 'alt code is 56789-012'
   end
 
+  it "should substitute %CODE%, without %ALTCODE% in the tempalte" do
+    template('Code is %CODE%', '5678901234').should == 'Code is 5678901234'
+  end
+
+  it "should handle value less than 7 characters" do
+    template('Code is %CODE%; alt code is %ALTCODE%', 'abc').should == 'Code is abc; alt code is abc'
+  end
+
 end
