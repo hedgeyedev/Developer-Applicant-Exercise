@@ -7,10 +7,10 @@ Feature: Viewing Twitter Timeline
     Given I am on the home page
     Then I should see headline "Recent Public Tweets"
     And  I should see sub-headline "What everyone on Twitter is talking about"
-    And  I should see 20 tweets
+    And  I should see 20 twits
 
   Scenario: View JS rendered tweets
     Given I am on the via_js page 
     Then I should see headline "Recent Public Tweets"
     And  I should see sub-headline "What everyone on Twitter is talking about"
-    And  I should see 20 tweets
+    And  I should see 20 twits

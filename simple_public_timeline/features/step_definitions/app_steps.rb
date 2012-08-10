@@ -14,7 +14,12 @@ Then /^I should see sub\-headline "(.*?)"$/ do |sub_headline|
   find(:xpath, '//h2').should have_content(sub_headline)
 end
 
-Then /^I should see (\d+) tweets$/ do |tweets_count|
-  pending page.find('div.twit').length.should == tweets_count
+Then /^I should see (\d+) twits$/ do |twits_count|
+  begin
+    wait_until(10){all(".twit").count==20}
+  rescue
+    p page.body
+  end 
+  all(".twit").count.should eq twits_count.to_i
 end
 
