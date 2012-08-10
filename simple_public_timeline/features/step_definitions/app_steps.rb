@@ -15,11 +15,6 @@ Then /^I should see sub\-headline "(.*?)"$/ do |sub_headline|
 end
 
 Then /^I should see (\d+) twits$/ do |twits_count|
-  begin
-    wait_until(10){all(".twit").count==20}
-  rescue
-    p page.body
-  end 
   all(".twit").count.should eq twits_count.to_i
 end
 
