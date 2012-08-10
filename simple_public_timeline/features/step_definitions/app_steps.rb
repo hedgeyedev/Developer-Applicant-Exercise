@@ -14,7 +14,7 @@ Then /^I should see sub\-headline "(.*?)"$/ do |sub_headline|
   pending find('h2').should have_content(sub_headline)
 end
 
-Then /^I should see (\d+) tweets$/ do |arg1|
-  pending # express the regexp above with the code you wish you had
+Then /^I should see (\d+) tweets$/ do |tweets_count|
+  pending page.find('div.tweet').length.should == tweets_count
 end
 
