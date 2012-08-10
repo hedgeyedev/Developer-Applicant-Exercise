@@ -7,14 +7,14 @@ Given /^I am on the via_js page$/ do
 end
 
 Then /^I should see headline "(.*?)"$/ do |headline|
-  pending find('h1').should have_content(headline)
+  find(:xpath, '//h1').should have_content(headline)
 end
 
 Then /^I should see sub\-headline "(.*?)"$/ do |sub_headline|
-  pending find('h2').should have_content(sub_headline)
+  find(:xpath, '//h2').should have_content(sub_headline)
 end
 
 Then /^I should see (\d+) tweets$/ do |tweets_count|
-  pending page.find('div.tweet').length.should == tweets_count
+  pending page.find('div.twit').length.should == tweets_count
 end
 

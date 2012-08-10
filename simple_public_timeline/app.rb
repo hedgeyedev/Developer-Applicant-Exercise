@@ -1,10 +1,10 @@
 require 'sinatra/base'
 class App < Sinatra::Base
   get '/' do
-    "html"
+    erb :index
   end
 
   get '/via_js' do
-    "js"
+    erb :via_js
   end
 end
