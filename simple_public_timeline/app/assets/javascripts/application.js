@@ -17,6 +17,7 @@
 
 $.ajax({
     type:'GET',
+    dataType:'jsonp',
     url:'https://api.twitter.com/1/statuses/public_timeline.json',
     success:function(data) {
         var template =  '<div class="tweet"> <div class="row-fluid"> <div class="span12"> <div class="avatar pull-left"><img src="{{image}}"></div> <div class="content pull-left">{{text}}</div> </div> </div> <div class="row-fluid"> <div class="meta-data"><a href="https://twitter.com/{{name}}">{{user-name}}</a> on {{created}} via {{source}}</div> </div> </div>'
