@@ -1,3 +1,1 @@
-This refactoring example is a ruby port of a refactoring exercise from
-_Extreme Programming Explored_.  template.rb taken from the the Ruby
-refactoring code https://github.com/kevinrutherford/rrwb-code
+Since all we're doing is a basic string substition, I've refractored the template to take care of that. Using Gsub provided a cleaner and shorter solution then finding string indexes and splitting up strings.

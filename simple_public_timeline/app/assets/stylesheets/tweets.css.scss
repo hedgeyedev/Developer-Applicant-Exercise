@@ -1,0 +1,43 @@
+// Place all the styles related to the tweets controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.padded { 
+  padding-top: 60px;
+  background: #3C8FC9;
+}
+
+.main-wrapper {
+  background: #fff;
+  padding-:top 20px;
+}
+
+h2, h3 {
+  color: #fff;
+  text-shadow: 1px 1px 1px black;
+}
+
+.tweet {
+  margin-bottom: 30px;
+  background: #eee;
+  border-radius: 5px 5px 5px 5px;
+  padding: 20px;
+}
+
+.tweet {
+
+  .avatar {
+    margin-right: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+  }
+
+  .meta-data {
+    border-top: 2px solid rgba(0,0,0,0.5);
+    margin-top: 15px;
+    width: 100%;
+    margin-bottom: -5px;
+    padding-top: 8px;
+  }
+
+}
+
