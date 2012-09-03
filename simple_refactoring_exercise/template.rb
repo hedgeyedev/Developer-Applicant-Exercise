@@ -24,3 +24,5 @@ module Template
     template_part_one + altcode + template_part_two
   end
 end
+
+# Difficult for me to decipher the code....
