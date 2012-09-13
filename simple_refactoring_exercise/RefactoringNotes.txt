@@ -1,0 +1,5 @@
+Refactoring notes
+ - Added input checking with errors, just in case someone tries to call it with the wrong types/values
+ - Left the altcode creation alone, could have inserted '-' and substring'ed, but it seemed like a fine way to do it
+ - Used gsub with regex and mapping, much cleaner and readable, should also handle multiple occurences.
+   Also allows for easier expansion in the future, could even be made dynamic

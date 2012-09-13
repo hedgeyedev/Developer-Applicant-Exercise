@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>
+			Recent Public Tweets
+		</title>
+	</head>
+	<body>
+		<h1>
+			Recent Public Tweets
+		</h1>
+		<h2>
+			What everyone on Twitter is talking about
+		</h2>
+		<div id="tweets">
+			<% tweets.each do |tweet| %>
+				<div class="tweet">
+					<img src="<%= tweet["imageURL"] %>"/>
+					<a href="http://twitter.com/<%= tweet["userName"] %>" class="name">
+						<%= tweet["name"] %>
+					</a>
+					<div class="created">
+						<%= tweet["created"] %>
+					</div>
+					<div class="text">
+						<%= tweet["text"] %>
+					</div>
+					<div class="source">
+						via <%= tweet["source"] %>
+					</div>
+				</div>
+		    <% end %>
+		</div>
+	</body>
+</html>

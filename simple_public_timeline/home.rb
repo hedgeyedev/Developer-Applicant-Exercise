@@ -4,29 +4,35 @@ require 'net/https'
 require 'json'
 
 get '/' do
+	tweets = getPublicTimeline
+	ERB.new(File.new("home.erb").read()).result(binding)
+end
+
+get '/via_js' do
+	(ERB.new(File.new("via_js.erb").read())).result()
+end
+
+get '/public_timeline' do
+	content_type(:json)
+	getPublicTimeline().to_json()
+end
+
+def getPublicTimeline()
 	url = URI.parse('https://api.twitter.com/1/statuses/public_timeline.json?count=20&include_entities=true')
 	http = Net::HTTP.new(url.host, url.port)
 	http.verify_mode = OpenSSL::SSL::VERIFY_NONE
 	http.use_ssl = true
-	response = http.get(url.path).body
-	
-	
-	parsed_json = JSON(response)
-	
-	content = "<html><head><title>Twitter Ruby Demo</title></head><body><div id=\"page\">"
-	parsed_json.each do |tweet|
-		imageURL = tweet["user"]["profile_image_url"]
-		text = tweet["text"]
-		name = tweet["user"]["name"]
-		userName = tweet["user"]["screen_name"]
-		source = tweet["source"]
-		created = DateTime.parse(tweet["created_at"]).strftime("%m/%d/%y %I:%M:%S")
-		content += "<img src=\"#{imageURL}\"/><a href=\"http://twitter.com/#{userName}\" class=\"name\">#{name}</a><div class=\"created\">#{created}</div><div class=\"text\">#{text}</div><div class=\"source\">via #{source}</div>"
+	parsedJson = JSON(http.get(url.path).body())
+	tweets = []
+	parsedJson.each do |tweet|		
+		tweets << {
+			"imageURL" => tweet["user"]["profile_image_url"],
+			"text" => tweet["text"],
+			"name" => tweet["user"]["name"],
+			"userName" => tweet["user"]["screen_name"],
+			"source" => tweet["source"],
+			"created" => DateTime.parse(tweet["created_at"]).strftime("%m/%d/%y %I:%M:%S")
+		}
 	end
-	content += "</div></body></html>"
-	content
-end
-
-get '/via_js' do
-	content = "<html><head><title>Twitter Ruby Demo</title></head><body><div id=\"page\">"
+	tweets
 end

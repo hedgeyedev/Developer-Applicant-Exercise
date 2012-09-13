@@ -8,6 +8,11 @@ describe Template do
     template("Code is %CODE%; alt code is %ALTCODE%", "5678901234").should == "Code is 5678901234; alt code is 56789-012"
   end
   
+  #functional multiple occurence test
+  it "should substitute %CODE% and %ALTCODE% in the template" do
+    template("Code is %CODE% and %CODE%; alt code is %ALTCODE% and %ALTCODE%", "5678901234").should == "Code is 5678901234 and 5678901234; alt code is 56789-012 and 56789-012"
+  end
+  
   #functional test (no replacements
   it "should substitute nothing in the template" do
     template("Code is nothing; alt code is nothing", "5678901234").should == "Code is nothing; alt code is nothing"
