@@ -14,7 +14,8 @@ To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com),
     * Please [refactor](http://www.refactoring.com) the implementation.  Clarity and duplication are a given, flawed implementation is also likely.
     * Please note: feel free to change the specs, but they should all be passing when you turn in your code.
     * Leave a note about what you refactored and why.  Calling specific smells and specific refactorings is recommended.
-4. In the *simple_public_timeline* directory, please create a simple web app (use the Ruby framework of your choice. Suggestion: Sinatra is good for a tiny app like this) that looks close to the middle column in logged out state of http://twitter.com/public_timeline
+4. In the *simple_public_timeline* directory, please create a simple web app (use the Ruby framework of your choice. Suggestion: Sinatra is good for a tiny app like this) that looks close to the middle column in logged out state of the now defunct http://twitter.com/public_timeline shown below
+![Twitter public timeline](https://raw.github.com/hedgeyedev/Developer-Applicant-Exercise/master/images/twitter_public_timeline.png)
     * A headline with "Recent Public Tweets"
     * A smaller headline "What everyone on Twitter is talking about"
     * Displays 20 entries from twitter's public timeline.  Use the data/API of your choice
@@ -31,6 +32,7 @@ To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com),
         * If you are Ruby, JavaScript, and web development savvy, it shouldn't take you that long.  A sample implementation, sans specs, is less than 100 lines of text total.
         * Don't get caught up on styling, that's what designers are for.
         * Be careful with Twitter's rate limiting while testing.
+        * Since Twitter retired the public_timeline, getting the last 20 entries is harder than it used to be.  I suggest something like https://github.com/intridea/tweetstream for ruby for access to sample (https://stream.twitter.com/1.1/statuses/sample.json).
 6. Commit and Push your code to your fork
 7. Send a pull request, we will review your code and get back to you.  If your GitHub profile does not include your name, please include your name in the pull request.
 
