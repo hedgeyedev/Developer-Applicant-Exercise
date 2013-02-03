@@ -1,7 +1,7 @@
 module Template
   def template(source_template, req_id)
-    alt_req_id = alter_req_id(req_id)
     template = String.new(source_template)
+    alt_req_id = alter_req_id(req_id)
     template.gsub!(/%CODE%/, req_id)
     template.gsub(/%ALTCODE%/, alt_req_id)
   end
