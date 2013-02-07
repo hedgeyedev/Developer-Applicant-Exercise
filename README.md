@@ -4,7 +4,7 @@ To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com),
 
 **Please note:** your code will be tested on Ruby 1.9.2 and the latest version of Chrome.
 
-1. Fork this repository
+1. Fork this repository - DONE
 2. In the *why_hire_me* directory
     * Add a file `cover_letter.txt` with cover letter type verbiage.
     * Fill out the `questionnaire.txt` and commit it

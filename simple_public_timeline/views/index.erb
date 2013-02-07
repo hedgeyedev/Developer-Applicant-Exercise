@@ -1,0 +1,10 @@
+Hello!
+
+Here are the most recent <%= @recent_tweets.size %> statuses:
+
+<% @recent_tweets.each do |tweet| %>
+	<p>
+		<b><%= tweet.user.screen_name %></b> sez: <%= tweet.text %>
+	</p>
+<% end %>
+
