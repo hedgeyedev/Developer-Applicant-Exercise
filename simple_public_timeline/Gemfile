@@ -3,3 +3,4 @@ gem 'sinatra', :git => "git://github.com/sinatra/sinatra.git"
 gem 'rspec', '~> 2.12.0'
 gem 'thin', '~> 1.5.0'
 gem 'tweetstream'
+gem 'slim'

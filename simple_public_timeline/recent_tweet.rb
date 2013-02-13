@@ -14,24 +14,41 @@ class RecentTweet < Sinatra::Base
 	  	config.auth_method        = AUTH_METHOD
 	end
 
-	@most_recent_count = 20
-
-	def self.most_recent_public(count)
-	    statuses = []
-	    TweetStream::Client.new.sample do |status, client|
-	        # puts status.text
-	        statuses << status
-	        client.stop if statuses.size >= count
-	    end
-	    statuses.first(count)
+	def initialize
+		super
+		@session = {}
+		@session[:recent_tweets] = []
+		@session[:client] = TweetStream::Client.new
 	end
 
-	
-	recent_tweets = self.most_recent_public(@most_recent_count)
+	def most_recent_public(count)
+	    @session[:client].sample do |status, client|
+	        puts status.text
+	        @session[:recent_tweets] << status
+	        if @session[:recent_tweets].size >= (count * 2)
+	        	@session[:recent_tweets] = @session[:recent_tweets].last(count)
+	        	client.stop_stream
+	        end
+	    end
+	    @session[:recent_tweets].last(count)
+	end
+
+	configure do
+		set :most_recent_count, 20
+	end
+
+	before '/' do
+		@recent_tweets = most_recent_public(settings.most_recent_count)		
+	end
 
 	get '/' do
-	  @recent_tweets = recent_tweets
-	  erb :index
+		redirect to('/loading_tweets') unless @recent_tweets.size > 0
+	  	erb :index
+	end
+
+	get '/loading_tweets' do
+		sleep 5
+		redirect back
 	end
 
 	run! if app_file == $0
