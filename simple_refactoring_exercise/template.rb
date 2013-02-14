@@ -1,9 +1,8 @@
 module Template
   def template(source_template, req_id)
-    template = String.new(source_template)
-    alt_req_id = alter_req_id(req_id)
+    template = source_template.to_s
     template.gsub!(/%CODE%/, req_id)
-    template.gsub(/%ALTCODE%/, alt_req_id)
+    template.gsub(/%ALTCODE%/, alter_req_id(req_id))
   end
 
   def alter_req_id(req_id)
@@ -11,6 +10,16 @@ module Template
   end
 
 end
+
+# Some refactoring notes:
+
+# Long method, obviously, with a good amount of duplication, 
+# and a number of unnecessary variables.
+
+# The conversion of the altcode was just crying to be made 
+# into a separate method (with tests!).
+
+# Gsub was born to do this kind of substitution stuff.
 
 
 # The old stuff
