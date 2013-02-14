@@ -2,9 +2,12 @@ require 'bundler/setup'
 require 'sinatra/base'
 require 'tweetstream'
 require './config/twitter_config'
+require 'slim'
 
 
 class RecentTweet < Sinatra::Base
+
+	set :slim, :pretty => true
 
 	TweetStream.configure do |config|
 		config.consumer_key       = CONSUMER_KEY
@@ -22,12 +25,11 @@ class RecentTweet < Sinatra::Base
 	end
 
 	def most_recent_public(count)
-	    @session[:client].sample do |status, client|
-	        puts status.text
+	    @session[:client].sample do |status|
 	        @session[:recent_tweets] << status
 	        if @session[:recent_tweets].size >= (count * 2)
 	        	@session[:recent_tweets] = @session[:recent_tweets].last(count)
-	        	client.stop_stream
+	        	@session[:client].stop_stream
 	        end
 	    end
 	    @session[:recent_tweets].last(count)
@@ -43,14 +45,18 @@ class RecentTweet < Sinatra::Base
 
 	get '/' do
 		redirect to('/loading_tweets') unless @recent_tweets.size > 0
-	  	erb :index
+	  	slim :index
 	end
 
 	get '/loading_tweets' do
-		sleep 5
+		sleep 4
 		redirect back
 	end
 
 	run! if app_file == $0
+
+	# add tests
+	# do js stuff
+
 
 end

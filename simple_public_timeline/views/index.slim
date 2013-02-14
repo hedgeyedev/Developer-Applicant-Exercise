@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+    title Recent Public Tweets
+
+  body
+    h1 Recent Public Tweets
+    h2 What everyone on Twitter is talking about!
+
+	- if @recent_tweets.any?
+		- @recent_tweets.each do |tweet|
+			div class="tweet"
+				| 
+					<a href="http://twitter.com/#{tweet.user.screen_name}">
+						<img src=#{tweet.user.profile_image_url} class="profile-image">
+					</a>
+					<a href="http://twitter.com/#{tweet.user.screen_name}" class="profile-name">#{tweet.user.screen_name}</a> <span class="status_text">#{tweet.text}</span>
+				br
+				span div="tweet_info" 
+					== "Posted at #{tweet.created_at} from #{tweet.source}"
+
+	- else
+		p Hey, there's no tweets!
+

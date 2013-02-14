@@ -1,8 +1,8 @@
-Hello!
-
-Here are the most recent <%= @recent_tweets.size %> statuses:
+<h1>Recent Public Tweets<h1>
+<h2>What everyone on Twitter is talking about!</h2>
 
 <% @recent_tweets.each do |tweet| %>
+	<span id="profile_image"><%= tweet.user.profile_image_url%></span>
 	<p>
 		<b><%= tweet.user.screen_name %></b> sez: <%= tweet.text %>
 	</p>
