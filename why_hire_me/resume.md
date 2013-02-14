@@ -1,18 +1,10 @@
 # Eric T. Kurzenberger
 
-[On LinkedIn](http://www.linkedin.com/in/offmango "LinkedIn")
-
-[On Github](http://github.com/offmango "Github")
+[On LinkedIn](http://www.linkedin.com/in/offmango "LinkedIn") • [On Github](http://github.com/offmango "Github")
 
 ### Contact Info
 
-[eric@etk.me](eric@etk.me)
-
-323.401.4260 
-
-203.254.9006
-
-30 Cummings Ave, Fairfield, CT 06824
+eric@etk.me • 323.401.4260 • 203.254.9006
 
 
 ## Ruby on Rails Software Engineer
