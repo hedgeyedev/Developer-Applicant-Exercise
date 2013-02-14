@@ -1,12 +1,17 @@
 # Eric T. Kurzenberger
 
 [On LinkedIn](http://www.linkedin.com/in/offmango "LinkedIn")
+
 [On Github](http://github.com/offmango "Github")
 
 ### Contact Info
+
 [eric@etk.me](eric@etk.me)
+
 323.401.4260 
+
 203.254.9006
+
 30 Cummings Ave, Fairfield, CT 06824
 
 
@@ -41,7 +46,7 @@ Highly-skilled and diverse Ruby on Rails software engineer, experienced in the d
 
 ## Experience
 
-*YALE UNIVERSITY (2007-present)* 
+*YALE UNIVERSITY* (2007-present)
 
 **Software Engineer**, Shared Solutions, ITS (2011-present)
 
@@ -69,30 +74,26 @@ YALE UNIVERSITY  (cont’d)
 * Maintained and provide support for Mac OSX Final Cut Pro digital film editing station
 
 
-*APPLE*
 
-**Mac Genius**, The Apple Store, Pasadena, CA (2004-2006)
+*APPLE* - **Mac Genius**, The Apple Store, Pasadena, CA (2004-2006)
 
 * Performed hardware & software repairs, technical support, and troubleshooting for Macintosh desktop and laptop systems at popular Apple Store Genius Bar, offering technical solutions and recommendations for consumers and small businesses
 
 
-*DIGITAL DOMAIN*
 
-**IS Administrator**, Venice, CA (2005)
+*DIGITAL DOMAIN* - **IS Administrator**, Venice, CA (2005)
 
 * Administered Mac OS X & Windows XP server & desktop systems; designed, implemented and provided support for workstations, network & creative design systems for Academy-Award-winning special-effects company with 200+ employees and digital artists
 
 
-*TEKSERVE*
 
-**Technician**, New York, NY (2002-04)
+*TEKSERVE* - **Technician**, New York, NY (2002-04)
 
 * Performed hardware & software repairs and provided technical support and sales solutions of Apple computer systems and peripherals for famous Manhattan “Old Reliable Mac Shop”
 
 
-*GOOD MACHINE* (now FOCUS FEATURES) 
 
-**Office Manager**, New York, NY (2000-02)
+*GOOD MACHINE* (now FOCUS FEATURES) - **Office Manager**, New York, NY (2000-02)
 
 * Supervised operations for renowned Manhattan independent film production and international sales & distribution company, responsible for server & network administration, technical support, HR and daily operations for two offices of 40+ employees
 

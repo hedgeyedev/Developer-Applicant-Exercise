@@ -49,13 +49,17 @@ class RecentTweet < Sinatra::Base
 	end
 
 	get '/loading_tweets' do
-		sleep 4
+		sleep 3
 		redirect back
 	end
 
+	get '/via_js' do
+	
+	end
+
+
 	run! if app_file == $0
 
-	# add tests
 	# do js stuff
 
 
