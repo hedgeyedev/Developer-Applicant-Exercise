@@ -53,14 +53,6 @@ class RecentTweet < Sinatra::Base
 		redirect back
 	end
 
-	get '/via_js' do
-	
-	end
-
-
 	run! if app_file == $0
-
-	# do js stuff
-
 
 end
