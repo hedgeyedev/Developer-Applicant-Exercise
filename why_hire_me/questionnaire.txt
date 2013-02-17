@@ -1,25 +1,27 @@
 How many years of Web development experience do you have?
-
+4
 
 How many years of JavaScript experience do you have?
-
+1
 
 How many years of Ruby experience do you have?
-
+3-4
 
 How many years of Rails development experience do you have?
-
+3-4
 
 What are your opinions on Agile software development?
-
+I'm all for it, as long as you don't get too wrapped up in the process and specifics to the point where it gets in the way of, you know, actually doing something.
 
 TDD or BDD?
-
+BDD, baby!
 
 What are you looking for in a job?
-
+An interesting, invigorating environment with every-changing challenges and good, knowledgeable people from whom I can learn.
 
 Are you legal to work in the US?
-
+Yes.
 
 When can you start?
+2 weeks from an accepted offer.
+

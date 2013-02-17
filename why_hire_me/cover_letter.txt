@@ -1,0 +1,15 @@
+Hello,
+
+
+My name is Eric Kurzenberger, and I am currently employed by Yale University as a Software Engineer, where I design, develop and deploy Ruby on Rails web applications using SCRUM and Agile planning methodologies and Behavior- and Test-Driven development.  I’ve been a Rails developer for over 3 years and have shipped a number of products which are currently in active production, covering areas such as e-commerce, data management, event planning, and personnel administration.
+
+For your perusal, my resume (resume.md) can be found in this directory.
+
+If you have any questions or would just like to chat, please don’t hesitate to contact me.
+
+
+Cheers,
+
+
+Eric
+
