@@ -8,6 +8,7 @@ require 'slim'
 class RecentTweet < Sinatra::Base
 
 	set :slim, :pretty => true
+	set :public_folder, 'public'
 
 	TweetStream.configure do |config|
 		config.consumer_key       = CONSUMER_KEY
@@ -51,6 +52,10 @@ class RecentTweet < Sinatra::Base
 	get '/loading_tweets' do
 		sleep 3
 		redirect back
+	end
+
+	get '/via_js' do
+		slim :via_js
 	end
 
 	run! if app_file == $0

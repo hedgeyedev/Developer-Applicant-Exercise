@@ -26,4 +26,12 @@ describe 'RecentTweet' do
 	    	)
 		end
 	end
+
+	describe "get /via_js" do
+		it "should load the most recent tweets via javascript" do
+			get '/via_js'
+			last_response.should be_ok
+	    	last_response.body.should include('Recent Public Tweets (now with Javascript!)')
+	    end
+	end
 end
