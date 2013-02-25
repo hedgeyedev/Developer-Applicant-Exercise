@@ -1,0 +1,17 @@
+<%
+      @statuses = []
+      @json_out = "["
+      @url_test = ""
+      
+      TweetStream::Client.new.sample do |status, client|
+        @statuses << status
+        client.stop if @statuses.size >= 20
+      end 
+          
+      @statuses.each do |lineitem|
+        
+        @json_out << ({"user_name" => lineitem.user.name, "user_screen_name" => lineitem.user.screen_name, "user_image" => lineitem.user.profile_image_url, "tweet" => lineitem.text, "created_at" => lineitem.created_at, "tweet_source" => lineitem.source}).to_json + ','
+        @url_test = lineitem.user.profile_image_url
+      end    
+%>
+<%=@json_out[0..-2] + ']'  %>

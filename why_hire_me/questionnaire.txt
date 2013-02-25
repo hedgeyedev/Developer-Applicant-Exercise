@@ -1,25 +1,35 @@
 How many years of Web development experience do you have?
 
+15
 
 How many years of JavaScript experience do you have?
 
+15
 
 How many years of Ruby experience do you have?
 
+2
 
 How many years of Rails development experience do you have?
 
+2
 
 What are your opinions on Agile software development?
 
+Great ideas. In perfect world it may just happen.
 
 TDD or BDD?
 
+Both
 
 What are you looking for in a job?
 
+Challenge
 
 Are you legal to work in the US?
 
+Yes
 
 When can you start?
+
+Need some time to arrange a move. Immediately thereafter
