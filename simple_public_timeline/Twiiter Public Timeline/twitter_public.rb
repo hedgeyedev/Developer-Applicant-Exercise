@@ -6,10 +6,10 @@ require 'json'
 # twitter authentication
 
 TweetStream.configure do |config|
-  config.consumer_key = 'key'
-  config.consumer_secret = 'secret'
-  config.oauth_token = 'oauth_token'
-  config.oauth_token_secret = 'oauth_secret'
+  config.consumer_key = 'm7Fdf72qEFesiVuBW1LNg'
+  config.consumer_secret = 'R74pPsB0udCZ0GMrHhLo4xldRNUKoD69JR63Gjc'
+  config.oauth_token = '1212101616-SXxF0TzeLmuhrpGJcRqknRq9D9FGp5rWJwi8JS0'
+  config.oauth_token_secret = 'cz4rIzOvfI8mH5i1SphXMkK4OjTcubnZ25XWoOAyTY'
   config.auth_method = :oauth
 end
 
