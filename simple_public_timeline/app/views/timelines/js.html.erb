@@ -1,0 +1,31 @@
+<h1>Recent Public Tweets</h1>
+<h3>What everyone on Twitter is talking about</h3>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+  	$.ajax({
+	  type: "GET",
+	  url: "/timelines.json"
+	}).done(function( tweets ) {
+	  var i = 0;
+	  $.each(tweets, function(key, value) {
+	  	// creating div to hold tweet
+	  	$('<div />', { class: 'tweet', id: 't_' + i }).appendTo('body');
+	  	// creating image with profile image, and appending to div.tweet
+	  	$('<img />', { src: value.user.profile_image_url, class: 'left' }).appendTo('#t_' + i);
+	  	// creating a paragraph for the tweet message, and prepending the screen_name anchor, 
+	  	// and appending all of it to div.tweet 
+	  	$('<p />', { text: value.text, class: 'left desc' }).prepend(
+	  	  $('<a />', { href: "http://twitter.com/" + value.user.screen_name, text: value.user.screen_name + " " })
+	  		).appendTo('#t_' + i);
+	  	// time paragraph appended to div.tweet
+	  	$('<p />', { text: value.created_at, class: "clear small" }).appendTo('#t_' + i);
+	  	// appending the source to the last created paragraph
+	  	$('#t_' + i + ' .small').append(' from ' + value.source);
+	 
+	  	i++;
+	  });
+	});
+  });
+</script>
