@@ -2486,3 +2486,27 @@ Started GET "/timelines" for 127.0.0.1 at 2013-02-27 10:41:30 -0500
 Processing by TimelinesController#index as HTML
   Rendered timelines/index.html.erb within layouts/application (5.0ms)
 Completed 200 OK in 1414ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-27 21:32:42 -0500
+Connecting to database specified by database.yml
+Processing by TimelinesController#index as HTML
+  Rendered timelines/index.html.erb within layouts/application (44.0ms)
+Completed 200 OK in 690ms (Views: 95.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/via_js" for 127.0.0.1 at 2013-02-27 21:32:58 -0500
+Processing by TimelinesController#js as HTML
+  Rendered timelines/js.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/timelines.json" for 127.0.0.1 at 2013-02-27 21:32:59 -0500
+Processing by TimelinesController#index as JSON
+Completed 200 OK in 952ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (460.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (208.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
