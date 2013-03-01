@@ -1,25 +1,26 @@
 How many years of Web development experience do you have?
-
+3 years
 
 How many years of JavaScript experience do you have?
-
+2 Years (But not very very advanced)
 
 How many years of Ruby experience do you have?
-
+3 Years
 
 How many years of Rails development experience do you have?
-
+3 Years
 
 What are your opinions on Agile software development?
-
+Helps to get the right thing done in right time.
 
 TDD or BDD?
-
+I had just done one small project using cucumber and RSpec.
 
 What are you looking for in a job?
-
+I have potential. Just want to be in the right place where I can learn and acquire new skills. I do have cool ideas and will like to implement and see the company succeed.
 
 Are you legal to work in the US?
-
+Yes.
 
 When can you start?
+I will require 2 weeks of prior notice.

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Publictweets</title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag 'jquery-1.7.2.min', 'rails', 'application'  %>
+  <%= csrf_meta_tag %>
+</head>
+	<body>
+
+		<div>
+			<h1>Recent Public Tweets</h1>
+			<h3>What everyone on Twitter is talking about!</h3>
+			<%= yield %>
+		</div>
+
+	</body>
+</html>
