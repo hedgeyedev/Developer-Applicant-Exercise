@@ -1,0 +1,18 @@
+<script src="http://code.jquery.com/jquery-latest.js"></script> 
+<script type="text/javascript">
+  function reloadIndex(){
+    $.ajax({
+      url: '/',
+      beforeSend: function(request){
+        $('#bodyContainer').html('loading...');
+      },
+      success: function(request){
+        $('#bodyContainer').html(request);}
+    });
+  }
+</script>
+
+<body onload="reloadIndex();">
+  <div id="bodyContainer">
+  </div>
+</body>

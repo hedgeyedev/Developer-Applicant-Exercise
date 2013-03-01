@@ -1,25 +1,38 @@
 How many years of Web development experience do you have?
+5 years
 
 
 How many years of JavaScript experience do you have?
+5 years
 
 
 How many years of Ruby experience do you have?
+4 years
 
 
 How many years of Rails development experience do you have?
+4 years
 
 
 What are your opinions on Agile software development?
-
+Agile can quickly response to changes and provide immediate result with less efforts.
 
 TDD or BDD?
+BDD
 
 
 What are you looking for in a job?
+experience, satisfaction, and the opportunity to learn something new.
+enter the community to keep my knowledge up to date.
 
 
 Are you legal to work in the US?
+not yet
 
 
 When can you start?
+3 months after notice
+
+
+i'm comfortable working on both Linux and Mac environment.
+i'm an ubuntu user for the past 2 years since my office mac broke down. Haven't got any change to buy a new one.

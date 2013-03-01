@@ -1,0 +1,10 @@
+<h1>Recent Public Tweets</h1>
+<h3>What everyone on Twitter is talking about</h3>
+<% unless @results.nil? %>
+  <% @results.each do |res| %>
+    <img src="<%= res.profile_image_url %>"> &nbsp;<b><a href="http://twitter.com/<%= res.from_user_name %>"><%= res.from_user_name %></a></b>&nbsp;<%= res.text %><br/>
+    <small><%= res.created_at %> via <%= extract_source res.source %></small>
+    <br/><br/>
+  <% end %>
+<% end %>
+
