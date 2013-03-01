@@ -1,25 +1,31 @@
 How many years of Web development experience do you have?
-
+7-8 months
 
 How many years of JavaScript experience do you have?
-
+none
 
 How many years of Ruby experience do you have?
-
+7-8 months
 
 How many years of Rails development experience do you have?
-
+7-8 months
 
 What are your opinions on Agile software development?
-
+The first time i have heard of Agile was on the phone with Forrest during 
+our phone interview. I have done a lot of research and found the idea to be amazing, 
+Have a pair of engineers work on a single project not only improves efficiency, it also acts like a built in redundant safety system. What excites me the most is that it makes learning that much easier.  
 
 TDD or BDD?
-
+I think booth systems have their own distinct advantages. 
 
 What are you looking for in a job?
-
+I am looking for a place to learn and gain experience, to contribute as a part of a team, and to be mentally stimulated with challenges. 
 
 Are you legal to work in the US?
-
+Yes i am.
 
 When can you start?
+I can start as soon as possible.
+
+A little about my self.
+I like using Sublime text editor for web development, it is very simple and functional and mainly due to the fact that it is free. I use Xcode for IOS development, i actually like the UI alot so t works out. 

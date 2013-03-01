@@ -1,0 +1,17 @@
+ <table align ="center" border="1" bordercolor="DCF0F7" bgcolor ="DCF0F7" style="background-color:FFFFFFF" width="700" cellpadding="" cellspacing="1">
+     <tr><td rowspan ="3" width = 1%><img src= http://2.bp.blogspot.com/_vR_Z8fpX1iY/TI_r83ghCJI/AAAAAAAAAF4/x-OJ2h0-1Cs/s1600/new_bird.png  width="150" height="120"></td><td colspan ="2" height = "60"><h1>Recent Public Tweetst</h1></td></tr>
+     <tr><td height ="60"><h2>What everyone on Twitter is talking about </h2></a></td>
+  
+
+<body bgcolor="5E9DC8">
+
+  <% @tweets.each do |tweet|%>
+   
+     <table align ="center" border="1" bordercolor="DCF0F7" bgcolor ="DCF0F7" style="background-color:FFFFFFF" width="700" cellpadding="" cellspacing="3">
+     <tr><td rowspan ="3" width = 15%><img src= <%=tweet.user.profile_image_url_https %> width="100" height="100"></td><td colspan ="2" height = "90"><%= tweet.text %></td></tr>
+     <tr><td width =15%><a href="http://www.twitter.com/<%= tweet.user.screen_name %>">Profile:<%= tweet.user.screen_name %></a></td><td><%= tweet.created_at %><%= raw tweet.source %></td></tr>
+
+    </table>
+    
+   <% end %>
+ </body>
