@@ -1,0 +1,445 @@
+section
+  padding-top: 60px
+
+hr.soften
+  background-image: 0 transparent
+  border: 0 none
+  height: 1px
+  margin: 54px 0
+
+.jumbotron
+  position: relative
+  h1
+    font-weight: 700
+    letter-spacing: -1px
+    line-height: 1
+    margin-bottom: 9px
+    margin-right: 0
+    font-size: 72px
+  p
+    font-weight: 300
+    margin-bottom: 18px
+    font-size: 18px
+    line-height: 24px
+    margin-left: 0
+    margin-right: 0
+  .btn-large
+    border-radius: 6px 6px 6px 6px
+    font-size: 20px
+    font-weight: 400
+    margin-right: 10px
+    padding: 14px 24px
+    small
+      font-size: 14px
+
+.masthead
+  margin-bottom: 72px
+  padding-top: 0
+  p
+    font-size: 30px
+    line-height: 36px
+    margin-left: 5%
+    margin-right: 5%
+
+.subhead
+  margin-bottom: 9px
+  padding-bottom: 0
+  h1
+    font-size: 54px
+
+.subnav
+  background-color: #EEE
+  background-image: 0
+  background-repeat: repeat-x
+  border: 1px solid #E5E5E5
+  border-radius: 4px 4px 4px 4px
+  background: none repeat scroll 0 0 #FFF
+  box-shadow: none
+  height: auto
+  position: static
+  top: auto
+  width: auto
+  z-index: auto
+  .nav >
+    li a
+      border-left: 1px solid #F5F5F5
+      border-radius: 0 0 0 0
+      border-right: 1px solid #E5E5E5
+      padding-bottom: 11px
+      padding-top: 11px
+      border: 0 none
+      margin: 0
+    .active a
+      background-color: #E9E9E9
+      border-left: 0 none
+      border-right-color: #DDD
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05) inset
+      color: #777
+      padding-left: 13px
+      &:hover
+        background-color: #E9E9E9
+        border-left: 0 none
+        border-right-color: #DDD
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05) inset
+        color: #777
+        padding-left: 13px
+      .caret, &:hover .caret
+        border-top-color: #777
+    li
+      &:first-child a
+        border-left: 0 none
+        padding-left: 12px
+        border-radius: 4px 4px 0 0
+        &:hover
+          border-left: 0 none
+          padding-left: 12px
+          border-radius: 4px 4px 0 0
+      &:last-child a
+        border-right: 0 none
+  .dropdown-menu
+    border-radius: 0 0 4px 4px
+
+.subnav-fixed
+  border-radius: 0 0 0 0
+  box-shadow: 0 1px 0 white inset, 0 1px 5px rgba(0, 0, 0, 0.1)
+  left: 0
+  position: fixed
+  right: 0
+  top: 40px
+  z-index: 1020
+  border-color: #D5D5D5
+  border-width: 0 0 1px
+  .nav
+    width: 1168px
+    margin: 0 auto
+    padding: 0 1px
+
+.bs-links
+  margin: 36px 0
+
+.quick-links
+  list-style: none outside none
+  min-height: 30px
+  overflow: hidden
+  text-align: center
+  margin: 40px 0 0
+  padding: 5px 20px
+  &:first-child
+    min-height: 0
+  li
+    color: #999
+    display: inline-block
+    margin: 5px
+  .github-btn, .tweet-btn, .follow-btn
+    position: relative
+    top: 5px
+
+.marketing
+  .row
+    margin-bottom: 9px
+  h1
+    font-size: 32px
+    font-weight: 300
+    text-align: center
+    margin: 36px 0 27px
+  h2, h3
+    font-weight: 300
+  h2
+    font-size: 22px
+  p
+    margin-right: 10px
+  .bs-icon
+    float: left
+    opacity: 0.8
+    margin: 0
+  .small-bs-icon
+    float: left
+    margin: 4px 5px 0 0
+
+.footer
+  border-top: 1px solid #E5E5E5
+  margin-top: 45px
+  padding: 35px 0 36px
+  p
+    color: #555
+    margin-bottom: 9px
+
+.show-grid
+  margin-bottom: 20px
+  margin-top: 10px
+  [class*=span]
+    background-color: #EEE
+    border-radius: 3px 3px 3px 3px
+    line-height: 30px
+    min-height: 30px
+    text-align: center
+    margin-bottom: 5px
+  &:hover [class*=span]
+    background: none repeat scroll 0 0 #DDD
+  .show-grid
+    margin-bottom: 0
+    margin-top: 0
+    [class*=span]
+      background-color: #CCC
+
+.mini-layout
+  border: 1px solid #DDD
+  border-radius: 6px 6px 6px 6px
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075)
+  height: 240px
+  margin-bottom: 20px
+  padding: 9px
+  div
+    border-radius: 3px 3px 3px 3px
+  .mini-layout-body
+    background-color: #DCEAF4
+    height: 240px
+    width: 70%
+    margin: 0 auto
+  &.fluid
+    .mini-layout-sidebar, .mini-layout-header, .mini-layout-body
+      float: left
+    .mini-layout-sidebar
+      background-color: #BBD8E9
+      height: 240px
+      width: 20%
+    .mini-layout-body
+      margin-left: 2.5%
+      width: 77.5%
+
+.popover-well
+  min-height: 160px
+  .popover
+    display: block
+  .popover-wrapper
+    float: left
+    height: 160px
+    position: relative
+    width: 50%
+    margin-left: 0
+  .popover-menu-wrapper
+    height: 80px
+
+.large-bird
+  opacity: 0.1
+  display: none
+  margin: 5px 0 0 310px
+
+.download
+  .page-header
+    margin-top: 36px
+  h3
+    margin-bottom: 5px
+
+.download-builder
+  input h3, .checkbox h3
+    margin-top: 9px
+  input[type=text]
+    color: #D14
+    font-family: Menlo,Monaco,"Courier New",monospace
+    font-size: 12px
+    margin-bottom: 9px
+    &:focus
+      background-color: #FFF
+
+.download .checkbox
+  background-color: #F9F9F9
+  border-radius: 3px 3px 3px 3px
+  color: #555
+  cursor: pointer
+  padding: 6px 10px 6px 25px
+  &:hover
+    background-color: #F5F5F5
+    color: #333
+  small
+    color: #777
+    font-size: 12px
+
+.download-btn
+  margin: 36px 0 108px
+
+#download
+  p, h4
+    color: #999
+    max-width: 50%
+    text-align: center
+    margin: 0 auto
+
+.download-btn .btn
+  border-radius: 6px 6px 6px 6px
+  display: block
+  font-size: 30px
+  line-height: 1
+  margin-bottom: 27px
+  text-align: center
+  width: auto
+  padding: 19px 24px
+
+.swatch-col
+  width: 30px
+
+.swatch
+  border-radius: 3px 3px 3px 3px
+  display: inline-block
+  height: 20px
+  width: 30px
+  margin: -6px 0
+
+.swatch-bordered
+  border: 1px solid #EEE
+  height: 18px
+  width: 28px
+
+.example-sites img
+  max-width: 100%
+  margin: 0 auto
+
+.marketing-byline
+  color: #999
+  font-size: 11px
+  font-weight: 300
+  line-height: 24px
+  text-align: left
+  margin: 0 0 27px
+
+.scrollspy-example
+  height: 200px
+  overflow: auto
+  position: relative
+
+form.well
+  padding: 14px
+
+.well hr
+  margin: 18px 0
+
+.focused
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(82, 168, 236, 0.6)
+  outline: 0 none
+  border-color: rgba(82, 168, 236, 0.8)
+
+.docs-input-sizes
+  select, input[type=text]
+    display: block
+    margin-bottom: 9px
+
+.the-icons
+  list-style: none outside none
+  margin-left: 0
+  i:hover
+    background-color: rgba(255, 0, 0, 0.25)
+
+.bootstrap-examples .thumbnail
+  background-color: #FFF
+  margin-bottom: 9px
+
+.responsive-utilities
+  th small
+    color: #999
+    display: block
+    font-weight: 400
+  tbody th
+    font-weight: 400
+  td
+    &.is-visible
+      background-color: #DFF0D8!important
+      color: #468847
+    &.is-hidden
+      background-color: #F9F9F9!important
+      color: #CCC
+
+.responsive-utilities-test
+  list-style: none outside none
+  margin-left: 0
+  margin-top: 5px
+  overflow: hidden
+  li
+    border: 1px solid #DDD
+    border-radius: 4px 4px 4px 4px
+    color: #999
+    float: left
+    font-size: 14px
+    font-weight: 700
+    height: 43px
+    line-height: 43px
+    position: relative
+    text-align: center
+    width: 25%
+    + li
+      margin-left: 10px
+  span
+    border-radius: 4px 4px 4px 4px
+    bottom: -1px
+    left: -1px
+    position: absolute
+    right: -1px
+    top: -1px
+    background-color: #DFF0D8
+    border: 1px solid #D6E9C6
+    color: #468847
+
+h2
+  margin-top: 27px
+  small
+    display: block
+    line-height: 18px
+
+h3
+  margin-top: 18px
+
+.jumbotron
+  h1, p
+    margin-right: 0
+    text-align: center
+  .btn
+    display: block
+    font-size: 18px
+    margin: 0 auto 10px
+    padding: 10px 14px
+
+.quick-links .divider
+  display: none
+
+.example-sites
+  margin-left: 0
+  > li
+    display: block
+    float: none
+    max-width: 280px
+    text-align: center
+    margin: 0 auto 18px
+  .thumbnail img
+    max-width: 270px
+
+table code
+  white-space: normal
+  word-wrap: break-word
+
+.modal-example .modal
+  bottom: auto
+  left: auto
+  position: relative
+  right: auto
+  top: auto
+
+.subnav a
+  border-top: 1px solid #E5E5E5
+
+.masthead
+  h1, p
+    text-align: center
+
+.responsive-utilities td
+  text-align: center
+
+.masthead h1, #download p
+  margin-bottom: 18px
+
+.subnav .nav, #variables label, #download h4
+  margin-bottom: 0
+
+.page-header .toggle-all, h2 table, h3 table, h4 table, h2 .row
+  margin-top: 5px
+
+.subnav li, .footer .pull-right
+  float: none

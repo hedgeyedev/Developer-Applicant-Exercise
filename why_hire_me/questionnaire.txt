@@ -1,25 +1,26 @@
 How many years of Web development experience do you have?
-
+3 years of web dev experience. Over 1 year in C#, Java. About 2 years in Ruby. 3 years in JavaScript, HTML, CSS
 
 How many years of JavaScript experience do you have?
-
+3
 
 How many years of Ruby experience do you have?
-
+2
 
 How many years of Rails development experience do you have?
-
+2
 
 What are your opinions on Agile software development?
-
+TDD, BDD, automated builds, CI, refactoring. Never pair programmed, but it sounds frustrating.
 
 TDD or BDD?
-
+Am I forced to chose? BDD covers more code base.
 
 What are you looking for in a job?
-
+Good people, a place to grow, and quiet neighborhood. 
 
 Are you legal to work in the US?
-
+Yes
 
 When can you start?
+Now Please!

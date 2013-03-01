@@ -1,0 +1,19 @@
+Features
+
+Feature 0.0.1
+	Installed guard, growl, pry, factorygirl, cabybara, launchy, shoulda, ruby-debug
+	Write Model Tests for Example
+	Write Controller Tests for API
+
+Feature 0.0.2
+	Add SASS, Bootstrap, Compass
+
+Feature 0.0.3
+	Add CoffeeScript, Jasmine, Guard Jasmine, Ember.js
+	
+Feature 0.0.4
+	MangoDB and all tests
+
+Feature 0.0.5
+	Authentication resource
+	Devise + OmniAuth (Facebook, Google, FMNA)

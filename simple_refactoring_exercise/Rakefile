@@ -6,4 +6,3 @@ RSpec::Core::RakeTask.new do |t|
   t.pattern = "./*_spec.rb"
   # Put spec opts in a file named .rspec in root
 end
-

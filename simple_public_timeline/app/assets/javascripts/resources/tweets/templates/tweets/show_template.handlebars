@@ -1,0 +1,17 @@
+<div class="well container span10">
+	<div class="span2">
+		<a {{bindAttr href="tweet.user_twitter_account_url"}}>
+			<img {{bindAttr src="tweet.user_profile_image_url"}} {{bindAttr alt="tweet.user_name"}} height="80" width="auto" /> 
+		</a>
+	</div>
+	<div class="span6">
+		<div class="container span6">
+			<h3><a {{bindAttr href="tweet.user_twitter_account_url"}}>{{tweet.user_name}}</a></h3>
+			{{tweet.text}}
+		</div>
+		<div class="container span6 marketing">
+			<p class="marketing-byline"><a {{bindAttr href="tweet.user_timeline_account_url"}}>Less than {{tweet.time_from_creation}} ago</a> via {{tweet.escape_source}}</p>
+				
+		</div>
+	</div>
+</div>

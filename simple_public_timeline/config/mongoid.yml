@@ -1,0 +1,14 @@
+development:
+  host: localhost
+  database: simple_public_timeline_development
+
+test:
+  host: localhost
+  database: simple_public_timeline_test
+
+# set these environment variables on your prod server
+production:
+  uri: <%= ENV['MONGOHQ_URL'] %>
+
+
+allow_dynamic_fields: false
