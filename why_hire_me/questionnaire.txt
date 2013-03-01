@@ -1,25 +1,29 @@
 How many years of Web development experience do you have?
-
+6
 
 How many years of JavaScript experience do you have?
-
+4 but not intense, mostly JQuery, would not call myself a js developer
 
 How many years of Ruby experience do you have?
+5
 
 
 How many years of Rails development experience do you have?
-
+3
 
 What are your opinions on Agile software development?
-
+It works, unfortunately to many people use the term agile very loosely, and thats where i've seen things go wrong
 
 TDD or BDD?
+Both, prefer BDD for the acceptance criteria(functional) testing, while TDD(rspec) for thinging through unit problems, usually use RSpec within my models and libs testing
 
 
 What are you looking for in a job?
-
+Challenge, feeling of fulfillment, learning opportunity
 
 Are you legal to work in the US?
+Yes
 
 
 When can you start?
+2-3 weeks from acceptance

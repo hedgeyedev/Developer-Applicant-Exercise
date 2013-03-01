@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Twitter Timeline</title>
+  </head>
+  <body>
+    <h1>Recent Public Tweets</h1>
+    <h2>What everyone on Twitter is talking about</h2>
+    <div id="twits">
+      <%for twit in @twits%>
+        <div class="twit">
+          <a href="https://twitter.com/<%=twit['user']['screen_name']%>"><img src="<%=twit['user']['profile_image_url']%>"></a>
+          <p>
+            <%=twit["text"]%>
+          </p>
+          <span class="time"><%=twit["created_at"]%></span>
+          <span class="source">via: <%=twit["source"]%></span>
+        </div>
+      <%end%>
+    </div>
+  </body>
+</html>
