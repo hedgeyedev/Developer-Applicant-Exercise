@@ -1,0 +1,29 @@
+<div class="row-fluid">
+  <div class="span12">
+    <h2>Recent Public Tweets</h2>
+    <h3>What everyone on Twitter is talking about</h3>
+    <br/>
+    <% @tweets.each do |tweet|%>
+    <div class="tweet">
+      <div class="row-fluid">
+        <div class='span12'>
+
+          <div class='avatar pull-left'>
+            <%= image_tag tweet['user']['profile_image_url'] %>
+          </div>
+          <div class="content pull-left">
+            <%= tweet['text'] %>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row-fluid">
+        <div class="meta-data">
+          <%= "#{link_to tweet['user']['screen_name'], "https://www.twitter.com/#{tweet['user']['screen_name']}"} #{time_ago_in_words(tweet['created_at'].to_time)} ago <strong>via #{tweet['source']}</strong>".html_safe%>
+        </div>
+      </div>
+    </div>
+    <% end %>
+  </div>
+</div>

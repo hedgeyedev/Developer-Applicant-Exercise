@@ -1,0 +1,3 @@
+My Text Editor is:      MacVim - I love the speed and how powerful it is.
+My Photo Editor is:     Photoshop and Fireworks - Photoshop is great for composition, but Fireworks is great for functional mockups.
+My OS is:               OSX - Love the usability
