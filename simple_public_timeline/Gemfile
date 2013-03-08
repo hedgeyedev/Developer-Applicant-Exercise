@@ -1,0 +1,8 @@
+source "https://rubygems.org"
+
+gem 'sinatra'
+gem 'tweetstream'
+gem 'twitter_filter'
+gem 'webrick'
+gem 'rspec'
+gem 'json'

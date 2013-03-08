@@ -1,0 +1,13 @@
+1) No need to convert a string into a string
+
+  template = String.new(source_template)
+
+2) The rest of this is just two substitutions, which is best handled with gsub!
+
+2a) The first substitution is trivial because we already have the value
+
+2b) The second substitution requires calculating the altcode, a task that belongs in a separate function
+
+3) We're really done already, but to be thorough, I threw in a test of the new altcode function
+
+4) You could even make the template function a single line by chaining the gsub! calls, but I think it's easier to read this way

@@ -1,0 +1,16 @@
+Hello, Hedgeye:
+
+I believe you should hire me because:
+
+* I'm a quality Ruby/Rails/JavaScript/JQuery programmer
+* My knowledge and skills are steadily improving, and I'm constantly buying/reading books, watching videos, and coding new things
+* I have strong knowledge of the database layer
+* I love programming and am committed to the craft and to writing clean, maintainable code
+* I'm a clear thinker and good communicator
+* I listen well
+* I speak up when I believe I have something important to say
+* I have experience in academic research and Internet product management
+* I have an economics Ph.D. and some finance and statistical knowledge, which would help me understand the problem domain
+* I have programmed in R, even generating charts like you use on Hedgeye.com
+
+--James

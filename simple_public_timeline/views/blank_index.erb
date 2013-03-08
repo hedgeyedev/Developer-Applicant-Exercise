@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <hr class="top">
+    <section>
+      <hgroup>
+        <h1>Recent Public Tweets</h1>
+        <h2>What everyone on Twitter is talking about!</h2>
+      </hgroup>
+      <div id="tweets"></div>
+    </section>
+    <hr>
+
+    <script type="text/template" class="template" id="test_tweet_template">
+    </script>
+    <script type="text/template" class="template" id="tweet_template">
+      <hr>
+      <article>
+        <img src={{= user.profile_image_url }}>
+        <span class="top_line">
+          <span class="screen_name">{{= user.screen_name }}</span>
+          <span class="full_text">{{= full_text }}</span>
+        </span>
+        <br />
+        <span class="bottom_line">{{= display_time_ago }} from {{= source }}
+          {{ if (typeof in_reply_to_screen_name != 'undefined') { }}
+            in reply to {{= in_reply_to_screen_name }}
+          {{ } }}
+        </span>
+      </article>
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.10/backbone-min.js"></script>
+    <script type="text/javascript">
+      _.templateSettings = {
+        interpolate: /\{\{\=(.+?)\}\}/g,
+        evaluate: /\{\{(.+?)\}\}/g
+      };
+
+      var tweet_displayer = _.template(
+        $('#tweet_template').html()
+      );
+
+      var handleTweet = function(tweet) {
+        $("#tweets").append(tweet_displayer(tweet));
+        console.log(tweet.user.screen_name);
+        console.log(tweet.user.profile_image_url);
+        console.log(tweet.full_text);
+        console.log(tweet.source);
+        console.log(tweet.created_at);
+        console.log(tweet.display_time_ago);
+        if (tweet.in_reply_to_screen_name) {
+          console.log(tweet.in_reply_to_screen_name);
+        }
+      };
+
+      var handleTweets = function(tweets) {
+        tweets.forEach(handleTweet);
+      };
+
+      $.ajax({
+        dataType: "json",
+        url: "tweets.json",
+        success: function(data) { 
+          console.log(data);
+          handleTweets(data);
+        }
+      });
+    </script>
+  </body>
+</html>

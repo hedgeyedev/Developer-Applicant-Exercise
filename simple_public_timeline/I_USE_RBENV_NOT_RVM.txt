@@ -1,0 +1,1 @@
+You say .rvmrc is required, but I use Rbenv. So I have included .ruby-version.
