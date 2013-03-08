@@ -1,0 +1,14 @@
+<h1>Recent Public Tweets</h1>
+<h3>What everyone on Twitter is talking about</h3>
+
+<% @tweets.each do |tweet| %>
+  <div class="tweet">
+    <img src="<%= tweet.user.profile_image_url %>" class="left"/>
+    <p class="left">
+      <a href="http://twitter.com/<%= tweet.user.screen_name %>">
+        <%= tweet.user.screen_name %>
+      </a> <%= tweet.text %>
+    </p>
+    <p class="small clear"><%= tweet.created_at.to_formatted_s(:long) %> from <%= tweet.source.html_safe %></p>
+  </div>
+<% end %>

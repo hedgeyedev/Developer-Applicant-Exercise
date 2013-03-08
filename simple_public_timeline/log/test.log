@@ -1,0 +1,96 @@
+Connecting to database specified by database.yml
+  [1m[36m (36.0ms)[0m  [1mbegin transaction[0m
+Processing by TimelinesController#index as HTML
+  Rendered timelines/index.html.erb within layouts/application (153.0ms)
+Completed 200 OK in 8225ms (Views: 764.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+Processing by TimelinesController#index as HTML
+  Rendered timelines/index.html.erb within layouts/application (161.0ms)
+Completed 200 OK in 8864ms (Views: 720.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (20.0ms)[0m  [1mbegin transaction[0m
+Processing by TimelinesController#index as HTML
+  Rendered timelines/index.html.erb within layouts/application (193.0ms)
+Completed 200 OK in 8530ms (Views: 760.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by TimelinesController#index as HTML
+Completed 200 OK in 1161ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+Processing by TimelinesController#index as HTML
+  Rendered timelines/index.html.erb within layouts/application (182.0ms)
+Completed 200 OK in 9165ms (Views: 734.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by TimelinesController#index as HTML
+Completed 200 OK in 1241ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by TimelinesController#index as HTML
+  Rendered timelines/index.html.erb within layouts/application (151.0ms)
+Completed 200 OK in 8602ms (Views: 649.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+Processing by TimelinesController#index as HTML
+Completed 200 OK in 1282ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by TimelinesController#index as HTML
+  Rendered timelines/index.html.erb within layouts/application (190.0ms)
+Completed 200 OK in 8137ms (Views: 948.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by TimelinesController#index as HTML
+Completed 200 OK in 1059ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+Processing by TimelinesController#index as HTML
+  Rendered timelines/index.html.erb within layouts/application (155.0ms)
+Completed 200 OK in 8738ms (Views: 767.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by TimelinesController#index as HTML
+Completed 200 OK in 1190ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by TimelinesController#js as HTML
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by TimelinesController#index as HTML
+  Rendered timelines/index.html.erb within layouts/application (160.0ms)
+Completed 200 OK in 8686ms (Views: 766.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by TimelinesController#js as HTML
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Processing by TimelinesController#index as HTML
+  Rendered timelines/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 1465ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by TimelinesController#js as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Processing by TimelinesController#index as HTML
+  Rendered timelines/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 1938ms (Views: 474.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by TimelinesController#js as HTML
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction

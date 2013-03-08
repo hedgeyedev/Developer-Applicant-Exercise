@@ -1,25 +1,33 @@
 How many years of Web development experience do you have?
-
+	4 years. 
 
 How many years of JavaScript experience do you have?
-
+	3 years, however I mostly use jQuery instead of raw JavaScript. I have read on other JS framework such as Backbone.js, Ember.js, but yet to use them in a project.
 
 How many years of Ruby experience do you have?
-
+	1 year.
 
 How many years of Rails development experience do you have?
-
+	~1 year.
 
 What are your opinions on Agile software development?
+	It's cool!!! 
+	I enjoy the short fast development cycle. It promotes great developement practices that I believe reduce the chances for errors, and bad software (which is what us developers are trying to do in the first place, build better software). Some of those are: incremental development (building the software in small increments instead of trying to build it all at once and later realized that it does not work), pair programming (another pair of eyes and brain to catch mistake and improve algorithms)...
 
+	I also believe it is much less stressful. The reason why: building in increments helps you organize better, and also makes your code as modular as possible. I believe being better organized reduces stressed because it not only gives you a roadmap, but also make reduces the bigger problem into manageable pieces. Nice (modular) codes makes it easier to implement new features and debug broken features, which also reduces stress.
+	Also, coding in pair makes development go faster (assuming the teammates are compatible), and also help gain and retain knowledge better. I will remember something that my teammate said longer than if I simply googled the answer.   
 
 TDD or BDD?
-
+	I have not used BDD enough to really pick a side; I have use TDD more. I believe both have their uses. I believe BDD is a good start for any project, but will later change to TDD. The BDD test will serve as a functionality tests for the user. Also the language for TDD makes it easier for client to understand where the developer is going with the project. TDD on the other hand, I believe, tests more the implementation of the code. 
+	So, I will say both with a preference toward TDD (but I may be bias). 
 
 What are you looking for in a job?
-
+	The short answer: Joy, and satisfaction. 
+	The long answer: 
+		I want a job doing something I enjoy. The environment has to be both fast paced and challenging enough to prevent me from boredom and to push me to learn new technologies and concepts, but at the same time enjoyable, agreable, fun and casual enough to help me unleash my creativity. In short I want to work for a company that is not afraid to try new things, and that keeps their developers busy, and at the same time pushes them to be creative. I also want satisfaction from the work I am doing. This is not necessarily money, although money is included, but I want to feel like my work matters. That it is not just something I do just to pay the bill.   
 
 Are you legal to work in the US?
-
+	Yes, through OPT. But I will need HB1 visa sponsorship in the near future (2 years from now appx.)
 
 When can you start?
+	Fall 2013 (August - September)
