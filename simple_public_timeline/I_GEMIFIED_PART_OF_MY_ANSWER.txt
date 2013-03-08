@@ -1,0 +1,6 @@
+I gemified part of my solution to this problem.
+
+You can install via RubyGems (require 'twitter_filter').
+
+Code at: https://github.com/JamesLavin/twitter_filter.
+
