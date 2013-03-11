@@ -1,0 +1,37 @@
+h1 {
+  font-size: 200%;
+  margin: 5px; 
+}
+
+h2 {
+  font-size: 150%;
+  margin: 3px;
+}
+
+img {
+  float: left;
+  padding-right: 10px;
+}
+
+span.screen_name {
+  color: blue;
+  font-weight: bold;
+}
+
+span.top_line {
+  font-size: 120%;
+}
+
+span.top_line a {
+  text-decoration: none;
+}
+
+span.bottom_line {
+  color: gray;
+  font-size: 80%;
+}
+
+span.bottom_line a {
+  color: gray;
+  text-decoration: none;
+}

@@ -1,25 +1,52 @@
-How many years of Web development experience do you have?
+Q. How many years of Web development experience do you have?
+
+A. 14 years. I've been involved in various aspects of web development since 1999, when I joined Perfect.com as a product development manager. I helped Perfect.com design and implement online reverse auctions (and co-authored 3 or 4 patent applications). At MeetChina, I did web product management and overhauled the data schema and end-to-end data gathering process when MeetChina became MeetWorldTrade. At OptimalHome, which I co-founded, I was the DBA and product lead. I later learned programming, discovering Ruby in late 2005 and Javascript and R a few years later. I was a stay-at-home dad for years and became a professional programmer exactly a year ago.
+
+----
+
+Q. How many years of JavaScript experience do you have?
+
+A. 4+ years. I used a lot of JavaScript and JQuery to create PowerMandarin.com. I built PowerMandarin into something I was proud of, but I eventually got scared to touch the client-side code because it had evolved into spaghetti code with everything touching everything else. I then discovered Backbone.js and realized I needed something like that to separate data, presentation, and behaviors. So I've learned Backbone and Coffeescript. I'm not an expert, but I've read a lot and programmed in Backbone and Javascript/Coffeescript at my previous two employers.
+
+----
+
+Q. How many years of Ruby experience do you have?
+
+A. 7+ years, but not nearly full-time. I discovered -- and immediately fell in love with -- Ruby in late 2005. I had written a lot of PHP and dabbled with Java, Python, C and, many years earlier, COBOL and Basic. Ruby was the first language I LOVED. (Almost) everything, including integers, is an object, and it has beautiful internal iterators, like Array#each.
+
+----
+
+Q. How many years of Rails development experience do you have?
+
+A. 7+, but not full-time. I instantly "got" Rails because it seemed to accelerate and simplify web development, relative to PHP and Java. As soon as I found Ruby and Rails in late 2005, I began coding up a website, Stratmentum.com. I built it for a year before discovering that SuccessFactors (and several other firms) had much the same idea and a huge head-start on me.
+
+----
+
+Q. What are your opinions on Agile software development?
+
+A. I generally like agile, especially its focus on: short development cycles, testing, rapid feedback from real customers, keeping code flexible, taking time to refactor as you develop, and quickly building something simple that works and then extending its functionality incrementally. Agile works especially well when business and tech people are in regular face-to-face communication. But I've seen agile work poorly (esp. with distributed teams) for three reasons: 1) Excessive focus on implementing new features incrementally can translate into failure to notice/address big picture problems (bad schemas/architectures, database inconsistency, database performance problems, insecure code, etc.); 2) Rushing to implement features with insufficient planning/design before coding commences leads to bad architectural decisions (in theory, you can refactor your way out of bad decisions, but refactoring the database layer can be very tricky, and incremental change tempts developers into grafting new features onto existing objects, which produces inflexible, "complected" code); and, 3) Time gets wasted through confusion and unclear decisionmaking processes (and bad decisions get made) when developers and business owners/customers are geographically distributed or communicate poorly. I worked at one firm with no official tech lead but whose de-facto lead was a agile true-believer. Our team often wasted days going back and forth with questions to clarify new requirements. To fix this recurring unclear marching orders problem, I tried to create a PRD-style process for large (but not small) projects, but my efforts were resisted by the tech lead (though the business lead saw the value). On several occasions, confusion and poor communication led to code duplication because large projects were divided into small tasks which different developers tackled in isolation, inevitably creating duplicate, inconsistent implementations of functionality each needed. Bottom line: I think agile's great for teams that communicate well but potentially problematic for distributed teams.
+
+----
+
+Q. TDD or BDD?
+
+A. Everyone has their own interpretation of "TDD" and "BDD." If you mean "TDD == test everything" and "BDD == test objects' behaviors but not their implementations," then TDD produces brittle tests whereas BDD produces tests that stand up to refactoring. You generally want to test object interfaces but not implementations. If you instead mean "TDD == inside-out development (like RSpec)" and "BDD == outside-in development (like Cucumber)," then BDD is a luxury while TDD is necessity. Writing code without tests WILL lead to problems. Writing tests BEFORE writing code isn't essential (esp. on small projects) but is a great practice that produces 1) Better designs and APIs (because writing tests first forces you to think about how you intend to use the objects you're about to create/change), and 2) A more complete, reliable regression test suite. Formal outside-in development is a nice luxury. Tools like Cucumber give non-technical business owners/customers an additional layer of insight (abstracted, basically, into English) into what the code is supposed to do... and can be relied on to do, by virtue of those tests. With its outside-in focus, BDD can help developers think about the big picture, and the BDD layer can serve as an API and codified "ubiquitous language" for developers and business owners/customers (a.k.a. domain knowledge experts) to communicate more precisely and effectively (esp. if they use domain-driven design). A BDD layer also helps when business owners/customers want to write formal acceptance tests. But I don't consider outside-in development essential, esp. on smaller projects and on agile teams with strong communication.
 
 
-How many years of JavaScript experience do you have?
+----
 
+Q. What are you looking for in a job?
 
-How many years of Ruby experience do you have?
+A. Challenges, learning opportunities, interesting colleagues committed to quality code and continual learning, a chance to build something of lasting value to others, the opportunity to work on the full tech stack, not just one layer.
 
+----
 
-How many years of Rails development experience do you have?
+Q. Are you legal to work in the US?
 
+A. Yes.
 
-What are your opinions on Agile software development?
+----
 
+Q. When can you start?
 
-TDD or BDD?
-
-
-What are you looking for in a job?
-
-
-Are you legal to work in the US?
-
-
-When can you start?
+A. I'll see you Monday?

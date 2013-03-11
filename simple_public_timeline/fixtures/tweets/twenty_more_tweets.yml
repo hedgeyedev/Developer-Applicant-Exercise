@@ -1,0 +1,3260 @@
+--- !ruby/object:Tweets 
+tweets: 
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:26:59 +0000 2013
+    :id: 309807420572577793
+    :id_str: "309807420572577793"
+    :text: "RT @ravensburger__: Heaven is a place on earth with you"
+    :source: web
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user: 
+      :id: 540241765
+      :id_str: "540241765"
+      :name: Melindoo
+      :screen_name: _La_Jaune
+      :location: ""
+      :url: https://www.facebook.com/profile.php?id=100002982753040
+      :description: "Love me for who I am, not for what I have  #teamlascars"
+      :protected: false
+      :followers_count: 55
+      :friends_count: 34
+      :listed_count: 0
+      :created_at: Thu Mar 29 20:05:20 +0000 2012
+      :favourites_count: 0
+      :utc_offset: 7200
+      :time_zone: Athens
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 1984
+      :lang: fr
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: D6153C
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/478070400/379978_345591768802615_238563862838740_1307444_2136467671_n.jpg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/478070400/379978_345591768802615_238563862838740_1307444_2136467671_n.jpg
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/3346813974/3425f235623c56d3c8924666e4f2d108_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3346813974/3425f235623c56d3c8924666e4f2d108_normal.jpeg
+      :profile_banner_url: https://si0.twimg.com/profile_banners/540241765/1362606121
+      :profile_link_color: 5430B8
+      :profile_sidebar_border_color: FFFFFF
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweeted_status: &id001 
+      :created_at: Thu Mar 07 23:24:10 +0000 2013
+      :id: 309806712448241665
+      :id_str: "309806712448241665"
+      :text: Heaven is a place on earth with you
+      :source: web
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user: 
+        :id: 1129165033
+        :id_str: "1129165033"
+        :name: Inspecteur Barnaby 2
+        :screen_name: ravensburger__
+        :location: ""
+        :url: 
+        :description: "La vie ne nous appartient plus quand notre coeur est \xC3\xA9pris d'un autre."
+        :protected: false
+        :followers_count: 13
+        :friends_count: 26
+        :listed_count: 0
+        :created_at: Mon Jan 28 20:39:13 +0000 2013
+        :favourites_count: 7
+        :utc_offset: 3600
+        :time_zone: Amsterdam
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 102
+        :lang: fr
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: C0DEED
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/3350273663/dba4f6ad5da41d7f330b2dca1d3dce22_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3350273663/dba4f6ad5da41d7f330b2dca1d3dce22_normal.jpeg
+        :profile_banner_url: https://si0.twimg.com/profile_banners/1129165033/1362091397
+        :profile_link_color: 0084B4
+        :profile_sidebar_border_color: C0DEED
+        :profile_sidebar_fill_color: DDEEF6
+        :profile_text_color: "333333"
+        :profile_use_background_image: true
+        :default_profile: true
+        :default_profile_image: false
+        :following: 
+        :follow_request_sent: 
+        :notifications: 
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 1
+      :entities: 
+        :hashtags: []
+
+        :urls: []
+
+        :user_mentions: []
+
+      :favorited: false
+      :retweeted: true
+    :retweet_count: 0
+    :entities: &id002 
+      :hashtags: []
+
+      :urls: []
+
+      :user_mentions: 
+      - :screen_name: ravensburger__
+        :name: Inspecteur Barnaby 2
+        :id: 1129165033
+        :id_str: "1129165033"
+        :indices: 
+        - 3
+        - 18
+    :favorited: false
+    :retweeted: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:26:59 -05:00
+  retweeted_status: !ruby/object:Twitter::Tweet 
+    attrs: *id001
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 540241765
+      :id_str: "540241765"
+      :name: Melindoo
+      :screen_name: _La_Jaune
+      :location: ""
+      :url: https://www.facebook.com/profile.php?id=100002982753040
+      :description: "Love me for who I am, not for what I have  #teamlascars"
+      :protected: false
+      :followers_count: 55
+      :friends_count: 34
+      :listed_count: 0
+      :created_at: Thu Mar 29 20:05:20 +0000 2012
+      :favourites_count: 0
+      :utc_offset: 7200
+      :time_zone: Athens
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 1984
+      :lang: fr
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: D6153C
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/478070400/379978_345591768802615_238563862838740_1307444_2136467671_n.jpg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/478070400/379978_345591768802615_238563862838740_1307444_2136467671_n.jpg
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/3346813974/3425f235623c56d3c8924666e4f2d108_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3346813974/3425f235623c56d3c8924666e4f2d108_normal.jpeg
+      :profile_banner_url: https://si0.twimg.com/profile_banners/540241765/1362606121
+      :profile_link_color: 5430B8
+      :profile_sidebar_border_color: FFFFFF
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:26:59 +0000 2013
+        :id: 309807420572577793
+        :id_str: "309807420572577793"
+        :text: "RT @ravensburger__: Heaven is a place on earth with you"
+        :source: web
+        :truncated: false
+        :in_reply_to_status_id: 
+        :in_reply_to_status_id_str: 
+        :in_reply_to_user_id: 
+        :in_reply_to_user_id_str: 
+        :in_reply_to_screen_name: 
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweeted_status: *id001
+        :retweet_count: 0
+        :entities: *id002
+        :favorited: false
+        :retweeted: false
+        :filter_level: medium
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:26:59 +0000 2013
+    :id: 309807420551618560
+    :id_str: "309807420551618560"
+    :text: "RT @ASPATADAS: Eu jogo indireta, mas na verdade eu gostaria de jogar um celular Nokia na cara da pessoa."
+    :source: web
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user: 
+      :id: 825870572
+      :id_str: "825870572"
+      :name: Cellinha
+      :screen_name: FcAvrilRamona22
+      :location: ""
+      :url: 
+      :description: Be happy and loves @AvrilLavigne.. Sigam o nosso tumblr http://fcavrilramonaa.tumblr.com/
+      :protected: false
+      :followers_count: 48
+      :friends_count: 59
+      :listed_count: 0
+      :created_at: Sat Sep 15 19:56:26 +0000 2012
+      :favourites_count: 8
+      :utc_offset: -10800
+      :time_zone: Brasilia
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 1252
+      :lang: pt
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: "000000"
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/804603377/eb2803b0a0d630e57a9ef64728728479.png
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/804603377/eb2803b0a0d630e57a9ef64728728479.png
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3324577990/8a6b503d1c4cf57c757ba47896ffb892_normal.gif
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3324577990/8a6b503d1c4cf57c757ba47896ffb892_normal.gif
+      :profile_banner_url: https://si0.twimg.com/profile_banners/825870572/1362259433
+      :profile_link_color: 8E13BF
+      :profile_sidebar_border_color: FFFFFF
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweeted_status: &id003 
+      :created_at: Thu Mar 07 23:10:39 +0000 2013
+      :id: 309803311421337602
+      :id_str: "309803311421337602"
+      :text: Eu jogo indireta, mas na verdade eu gostaria de jogar um celular Nokia na cara da pessoa.
+      :source: <a href="http://www.tweetdeck.com" rel="nofollow">TweetDeck</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user: 
+        :id: 261308632
+        :id_str: "261308632"
+        :name: AsPatadas
+        :screen_name: ASPATADAS
+        :location: ""
+        :url: 
+        :description: "Email para contato (profissional): divulgacaointernet@yahoo.com.br "
+        :protected: false
+        :followers_count: 710263
+        :friends_count: 9
+        :listed_count: 5797
+        :created_at: Sat Mar 05 17:55:07 +0000 2011
+        :favourites_count: 515
+        :utc_offset: -10800
+        :time_zone: Brasilia
+        :geo_enabled: true
+        :verified: false
+        :statuses_count: 15765
+        :lang: pt
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: "131516"
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme14/bg.gif
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme14/bg.gif
+        :profile_background_tile: true
+        :profile_image_url: http://a0.twimg.com/profile_images/3315985051/87b900663218b587900166254ee4c13b_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3315985051/87b900663218b587900166254ee4c13b_normal.jpeg
+        :profile_link_color: 009999
+        :profile_sidebar_border_color: EEEEEE
+        :profile_sidebar_fill_color: EFEFEF
+        :profile_text_color: "333333"
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: 
+        :follow_request_sent: 
+        :notifications: 
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 144
+      :entities: 
+        :hashtags: []
+
+        :urls: []
+
+        :user_mentions: []
+
+      :favorited: false
+      :retweeted: true
+    :retweet_count: 0
+    :entities: &id004 
+      :hashtags: []
+
+      :urls: []
+
+      :user_mentions: 
+      - :screen_name: ASPATADAS
+        :name: AsPatadas
+        :id: 261308632
+        :id_str: "261308632"
+        :indices: 
+        - 3
+        - 13
+    :favorited: false
+    :retweeted: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:26:59 -05:00
+  retweeted_status: !ruby/object:Twitter::Tweet 
+    attrs: *id003
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 825870572
+      :id_str: "825870572"
+      :name: Cellinha
+      :screen_name: FcAvrilRamona22
+      :location: ""
+      :url: 
+      :description: Be happy and loves @AvrilLavigne.. Sigam o nosso tumblr http://fcavrilramonaa.tumblr.com/
+      :protected: false
+      :followers_count: 48
+      :friends_count: 59
+      :listed_count: 0
+      :created_at: Sat Sep 15 19:56:26 +0000 2012
+      :favourites_count: 8
+      :utc_offset: -10800
+      :time_zone: Brasilia
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 1252
+      :lang: pt
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: "000000"
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/804603377/eb2803b0a0d630e57a9ef64728728479.png
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/804603377/eb2803b0a0d630e57a9ef64728728479.png
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3324577990/8a6b503d1c4cf57c757ba47896ffb892_normal.gif
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3324577990/8a6b503d1c4cf57c757ba47896ffb892_normal.gif
+      :profile_banner_url: https://si0.twimg.com/profile_banners/825870572/1362259433
+      :profile_link_color: 8E13BF
+      :profile_sidebar_border_color: FFFFFF
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:26:59 +0000 2013
+        :id: 309807420551618560
+        :id_str: "309807420551618560"
+        :text: "RT @ASPATADAS: Eu jogo indireta, mas na verdade eu gostaria de jogar um celular Nokia na cara da pessoa."
+        :source: web
+        :truncated: false
+        :in_reply_to_status_id: 
+        :in_reply_to_status_id_str: 
+        :in_reply_to_user_id: 
+        :in_reply_to_user_id_str: 
+        :in_reply_to_screen_name: 
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweeted_status: *id003
+        :retweet_count: 0
+        :entities: *id004
+        :favorited: false
+        :retweeted: false
+        :filter_level: medium
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:26:59 +0000 2013
+    :id: 309807420559998978
+    :id_str: "309807420559998978"
+    :text: "@asorianopastor ohhh yeahh baby!!! ;D"
+    :source: <a href="http://twitter.com/tweetbutton" rel="nofollow">Tweet Button</a>
+    :truncated: false
+    :in_reply_to_status_id: 309670612308209665
+    :in_reply_to_status_id_str: "309670612308209665"
+    :in_reply_to_user_id: 117061881
+    :in_reply_to_user_id_str: "117061881"
+    :in_reply_to_screen_name: asorianopastor
+    :user: 
+      :id: 190640286
+      :id_str: "190640286"
+      :name: "carmen solbes "
+      :screen_name: CarmenSolbes
+      :location: ""
+      :url: 
+      :description: 
+      :protected: false
+      :followers_count: 55
+      :friends_count: 147
+      :listed_count: 0
+      :created_at: Tue Sep 14 13:37:09 +0000 2010
+      :favourites_count: 0
+      :utc_offset: 3600
+      :time_zone: Madrid
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 71
+      :lang: es
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: EBEBEB
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/196288029/40731_455207983810_503003810_5697027_2475073_n_1_.jpg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/196288029/40731_455207983810_503003810_5697027_2475073_n_1_.jpg
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3249052180/6a81e3c0df16adf9dd720da59c49ce6f_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3249052180/6a81e3c0df16adf9dd720da59c49ce6f_normal.jpeg
+      :profile_link_color: 003399
+      :profile_sidebar_border_color: DEDEDE
+      :profile_sidebar_fill_color: F2F2F2
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :entities: &id005 
+      :hashtags: []
+
+      :urls: []
+
+      :user_mentions: 
+      - :screen_name: asorianopastor
+        :name: "\xC3\x81lvaro Soriano"
+        :id: 117061881
+        :id_str: "117061881"
+        :indices: 
+        - 0
+        - 15
+    :favorited: false
+    :retweeted: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:26:59 -05:00
+  retweeted_status: 
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 190640286
+      :id_str: "190640286"
+      :name: "carmen solbes "
+      :screen_name: CarmenSolbes
+      :location: ""
+      :url: 
+      :description: 
+      :protected: false
+      :followers_count: 55
+      :friends_count: 147
+      :listed_count: 0
+      :created_at: Tue Sep 14 13:37:09 +0000 2010
+      :favourites_count: 0
+      :utc_offset: 3600
+      :time_zone: Madrid
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 71
+      :lang: es
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: EBEBEB
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/196288029/40731_455207983810_503003810_5697027_2475073_n_1_.jpg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/196288029/40731_455207983810_503003810_5697027_2475073_n_1_.jpg
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3249052180/6a81e3c0df16adf9dd720da59c49ce6f_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3249052180/6a81e3c0df16adf9dd720da59c49ce6f_normal.jpeg
+      :profile_link_color: 003399
+      :profile_sidebar_border_color: DEDEDE
+      :profile_sidebar_fill_color: F2F2F2
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:26:59 +0000 2013
+        :id: 309807420559998978
+        :id_str: "309807420559998978"
+        :text: "@asorianopastor ohhh yeahh baby!!! ;D"
+        :source: <a href="http://twitter.com/tweetbutton" rel="nofollow">Tweet Button</a>
+        :truncated: false
+        :in_reply_to_status_id: 309670612308209665
+        :in_reply_to_status_id_str: "309670612308209665"
+        :in_reply_to_user_id: 117061881
+        :in_reply_to_user_id_str: "117061881"
+        :in_reply_to_screen_name: asorianopastor
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweet_count: 0
+        :entities: *id005
+        :favorited: false
+        :retweeted: false
+        :filter_level: medium
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:27:00 +0000 2013
+    :id: 309807420559998976
+    :id_str: "309807420559998976"
+    :text: 2010 http://t.co/gHA6NGfYMF
+    :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user: 
+      :id: 439590465
+      :id_str: "439590465"
+      :name: "Adriana "
+      :screen_name: adrianaLNB15
+      :location: "MADRID SUR (M\xC3\xB3stoles)"
+      :url: 
+      :description: "Aldeanos, NO morir\xC3\xA9 sin ir a tomorrowland. Futura estudiante de c. pol\xC3\xADticas. Solo hay una vida y un sentido para darle. Erreap\xC3\xA9. -15-"
+      :protected: false
+      :followers_count: 180
+      :friends_count: 201
+      :listed_count: 1
+      :created_at: Sat Dec 17 23:57:06 +0000 2011
+      :favourites_count: 476
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 5461
+      :lang: es
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: 4B5B5C
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/686415987/c2f0f4242b0f8a1c612e240c19004dc7.jpeg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/686415987/c2f0f4242b0f8a1c612e240c19004dc7.jpeg
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3342504841/eba674143b3747c550c5e45051f8e3bf_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3342504841/eba674143b3747c550c5e45051f8e3bf_normal.jpeg
+      :profile_banner_url: https://si0.twimg.com/profile_banners/439590465/1362512642
+      :profile_link_color: 79E8CC
+      :profile_sidebar_border_color: FFFFFF
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :entities: &id006 
+      :hashtags: []
+
+      :urls: []
+
+      :user_mentions: []
+
+      :media: 
+      - :id: 309807420564193281
+        :id_str: "309807420564193281"
+        :indices: 
+        - 5
+        - 27
+        :media_url: http://pbs.twimg.com/media/BEyoNSOCQAEjP0K.jpg
+        :media_url_https: https://pbs.twimg.com/media/BEyoNSOCQAEjP0K.jpg
+        :url: http://t.co/gHA6NGfYMF
+        :display_url: pic.twitter.com/gHA6NGfYMF
+        :expanded_url: http://twitter.com/adrianaLNB15/status/309807420559998976/photo/1
+        :type: photo
+        :sizes: 
+          :thumb: 
+            :w: 150
+            :h: 150
+            :resize: crop
+          :medium: 
+            :w: 600
+            :h: 450
+            :resize: fit
+          :large: 
+            :w: 1024
+            :h: 768
+            :resize: fit
+          :small: 
+            :w: 340
+            :h: 255
+            :resize: fit
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:27:00 -05:00
+  retweeted_status: 
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 439590465
+      :id_str: "439590465"
+      :name: "Adriana "
+      :screen_name: adrianaLNB15
+      :location: "MADRID SUR (M\xC3\xB3stoles)"
+      :url: 
+      :description: "Aldeanos, NO morir\xC3\xA9 sin ir a tomorrowland. Futura estudiante de c. pol\xC3\xADticas. Solo hay una vida y un sentido para darle. Erreap\xC3\xA9. -15-"
+      :protected: false
+      :followers_count: 180
+      :friends_count: 201
+      :listed_count: 1
+      :created_at: Sat Dec 17 23:57:06 +0000 2011
+      :favourites_count: 476
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 5461
+      :lang: es
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: 4B5B5C
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/686415987/c2f0f4242b0f8a1c612e240c19004dc7.jpeg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/686415987/c2f0f4242b0f8a1c612e240c19004dc7.jpeg
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3342504841/eba674143b3747c550c5e45051f8e3bf_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3342504841/eba674143b3747c550c5e45051f8e3bf_normal.jpeg
+      :profile_banner_url: https://si0.twimg.com/profile_banners/439590465/1362512642
+      :profile_link_color: 79E8CC
+      :profile_sidebar_border_color: FFFFFF
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:27:00 +0000 2013
+        :id: 309807420559998976
+        :id_str: "309807420559998976"
+        :text: 2010 http://t.co/gHA6NGfYMF
+        :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>
+        :truncated: false
+        :in_reply_to_status_id: 
+        :in_reply_to_status_id_str: 
+        :in_reply_to_user_id: 
+        :in_reply_to_user_id_str: 
+        :in_reply_to_screen_name: 
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweet_count: 0
+        :entities: *id006
+        :favorited: false
+        :retweeted: false
+        :possibly_sensitive: false
+        :filter_level: medium
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:27:00 +0000 2013
+    :id: 309807424737509376
+    :id_str: "309807424737509376"
+    :text: "RT @kelseyjoenosx: In a depressing mood now"
+    :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user: 
+      :id: 539186182
+      :id_str: "539186182"
+      :name: "jamie "
+      :screen_name: JamieLynCross
+      :location: Wales
+      :url: 
+      :description: bio's are shit, you judge by my picture weather to follow me anyway x
+      :protected: false
+      :followers_count: 1004
+      :friends_count: 243
+      :listed_count: 0
+      :created_at: Wed Mar 28 16:35:48 +0000 2012
+      :favourites_count: 62
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 8531
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: D1CDD1
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme17/bg.gif
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme17/bg.gif
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/3175635081/0528fdc52ad0fea54572fd5f2d9be0f2_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3175635081/0528fdc52ad0fea54572fd5f2d9be0f2_normal.jpeg
+      :profile_banner_url: https://si0.twimg.com/profile_banners/539186182/1360988582
+      :profile_link_color: AA10C9
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweeted_status: &id007 
+      :created_at: Thu Mar 07 23:21:11 +0000 2013
+      :id: 309805958782152704
+      :id_str: "309805958782152704"
+      :text: In a depressing mood now
+      :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user: 
+        :id: 116257844
+        :id_str: "116257844"
+        :name: heartbeat
+        :screen_name: kelseyjoenosx
+        :location: "newport "
+        :url: 
+        :description: "JessieJ i love you so much So perfect and amazing and i just love you #HeartBeat"
+        :protected: false
+        :followers_count: 1530
+        :friends_count: 543
+        :listed_count: 0
+        :created_at: Sun Feb 21 19:49:27 +0000 2010
+        :favourites_count: 2207
+        :utc_offset: 3600
+        :time_zone: Amsterdam
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 25845
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: "131516"
+        :profile_background_image_url: http://a0.twimg.com/profile_background_images/639845006/5b6gz3fkw140xmgm8xn7.png
+        :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/639845006/5b6gz3fkw140xmgm8xn7.png
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/3349389761/f22f3089f5fbb4d572597e9efe1b1fc5_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3349389761/f22f3089f5fbb4d572597e9efe1b1fc5_normal.jpeg
+        :profile_banner_url: https://si0.twimg.com/profile_banners/116257844/1362356078
+        :profile_link_color: 009999
+        :profile_sidebar_border_color: FFFFFF
+        :profile_sidebar_fill_color: EFEFEF
+        :profile_text_color: "333333"
+        :profile_use_background_image: false
+        :default_profile: false
+        :default_profile_image: false
+        :following: 
+        :follow_request_sent: 
+        :notifications: 
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 1
+      :entities: 
+        :hashtags: []
+
+        :urls: []
+
+        :user_mentions: []
+
+      :favorited: false
+      :retweeted: true
+    :retweet_count: 0
+    :entities: &id008 
+      :hashtags: []
+
+      :urls: []
+
+      :user_mentions: 
+      - :screen_name: kelseyjoenosx
+        :name: heartbeat
+        :id: 116257844
+        :id_str: "116257844"
+        :indices: 
+        - 3
+        - 17
+    :favorited: false
+    :retweeted: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:27:00 -05:00
+  retweeted_status: !ruby/object:Twitter::Tweet 
+    attrs: *id007
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 539186182
+      :id_str: "539186182"
+      :name: "jamie "
+      :screen_name: JamieLynCross
+      :location: Wales
+      :url: 
+      :description: bio's are shit, you judge by my picture weather to follow me anyway x
+      :protected: false
+      :followers_count: 1004
+      :friends_count: 243
+      :listed_count: 0
+      :created_at: Wed Mar 28 16:35:48 +0000 2012
+      :favourites_count: 62
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 8531
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: D1CDD1
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme17/bg.gif
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme17/bg.gif
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/3175635081/0528fdc52ad0fea54572fd5f2d9be0f2_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3175635081/0528fdc52ad0fea54572fd5f2d9be0f2_normal.jpeg
+      :profile_banner_url: https://si0.twimg.com/profile_banners/539186182/1360988582
+      :profile_link_color: AA10C9
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:27:00 +0000 2013
+        :id: 309807424737509376
+        :id_str: "309807424737509376"
+        :text: "RT @kelseyjoenosx: In a depressing mood now"
+        :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+        :truncated: false
+        :in_reply_to_status_id: 
+        :in_reply_to_status_id_str: 
+        :in_reply_to_user_id: 
+        :in_reply_to_user_id_str: 
+        :in_reply_to_screen_name: 
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweeted_status: *id007
+        :retweet_count: 0
+        :entities: *id008
+        :favorited: false
+        :retweeted: false
+        :filter_level: medium
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:27:00 +0000 2013
+    :id: 309807424741732352
+    :id_str: "309807424741732352"
+    :text: "RT @bieberizlove: #JustinTakeABreak we love you so much, we love seeing you but we want your health to be perfect. you need rest. &lt;3"
+    :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user: 
+      :id: 615755480
+      :id_str: "615755480"
+      :name: we love kidrauhl
+      :screen_name: aaholathuy
+      :location: at his crib watching netflix
+      :url: 
+      :description: &id010 "just a girl who believes . @justinbieber is my hero, my idol, my inspiration, and my everything.                                     \xE2\x9D\xA4\n\
+        belieber &a selenator  \xE2\x88\x9E"
+      :protected: false
+      :followers_count: 89
+      :friends_count: 171
+      :listed_count: 0
+      :created_at: Sat Jun 23 03:17:13 +0000 2012
+      :favourites_count: 672
+      :utc_offset: -18000
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 778
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: D4A675
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/623903346/x2fe82970336fb2d179dd9d8bfc4fb24.png
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/623903346/x2fe82970336fb2d179dd9d8bfc4fb24.png
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3341843400/212f3ba4d162ba43a8d110b52a3166ce_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3341843400/212f3ba4d162ba43a8d110b52a3166ce_normal.jpeg
+      :profile_banner_url: https://si0.twimg.com/profile_banners/615755480/1362532787
+      :profile_link_color: FB7772
+      :profile_sidebar_border_color: 4D3F62
+      :profile_sidebar_fill_color: 7F5467
+      :profile_text_color: A16476
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweeted_status: &id009 
+      :created_at: Thu Mar 07 23:23:55 +0000 2013
+      :id: 309806649156182017
+      :id_str: "309806649156182017"
+      :text: "#JustinTakeABreak we love you so much, we love seeing you but we want your health to be perfect. you need rest. &lt;3"
+      :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user: 
+        :id: 91657008
+        :id_str: "91657008"
+        :name: "\xD0\xBAidr\xCE\xB1\xCF\x85h\xE2\x84\x93\xE2\x88\x9E "
+        :screen_name: bieberizlove
+        :location: " L\xCF\x83\xCF\x85\xCE\xB9s\xCE\xB9\xCE\xB1\xCE\xB7\xCE\xB1\xE2\x99\xA1"
+        :url: http://kidrauhlizlove.tumblr.com/
+        :description: "i'm just an american girl that fell in love with a beautiful canadian boy.\xE2\x99\xA1 11-29-09;Justin followed/DM'd me. 2-11-13;Justin tweeted/RT'd me. \xE2\x99\xA5"
+        :protected: false
+        :followers_count: 11791
+        :friends_count: 3711
+        :listed_count: 192
+        :created_at: Sat Nov 21 21:26:07 +0000 2009
+        :favourites_count: 408
+        :utc_offset: -25200
+        :time_zone: Mountain Time (US & Canada)
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 27848
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: FFFFFF
+        :profile_background_image_url: http://a0.twimg.com/profile_background_images/784074287/754e75775e90adc6d226bc6b9a10b7ba.jpeg
+        :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/784074287/754e75775e90adc6d226bc6b9a10b7ba.jpeg
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/3347835213/4ef662793c8bbd821fc27fddc1d01cb0_normal.png
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3347835213/4ef662793c8bbd821fc27fddc1d01cb0_normal.png
+        :profile_banner_url: https://si0.twimg.com/profile_banners/91657008/1362544321
+        :profile_link_color: "050505"
+        :profile_sidebar_border_color: FFFFFF
+        :profile_sidebar_fill_color: "000000"
+        :profile_text_color: C6C963
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: 
+        :follow_request_sent: 
+        :notifications: 
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 6
+      :entities: 
+        :hashtags: 
+        - :text: JustinTakeABreak
+          :indices: 
+          - 0
+          - 17
+        :urls: []
+
+        :user_mentions: []
+
+      :favorited: true
+      :retweeted: true
+    :retweet_count: 0
+    :entities: &id011 
+      :hashtags: 
+      - :text: JustinTakeABreak
+        :indices: 
+        - 18
+        - 35
+      :urls: []
+
+      :user_mentions: 
+      - :screen_name: bieberizlove
+        :name: "\xD0\xBAidr\xCE\xB1\xCF\x85h\xE2\x84\x93\xE2\x88\x9E "
+        :id: 91657008
+        :id_str: "91657008"
+        :indices: 
+        - 3
+        - 16
+    :favorited: false
+    :retweeted: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:27:00 -05:00
+  retweeted_status: !ruby/object:Twitter::Tweet 
+    attrs: *id009
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 615755480
+      :id_str: "615755480"
+      :name: we love kidrauhl
+      :screen_name: aaholathuy
+      :location: at his crib watching netflix
+      :url: 
+      :description: *id010
+      :protected: false
+      :followers_count: 89
+      :friends_count: 171
+      :listed_count: 0
+      :created_at: Sat Jun 23 03:17:13 +0000 2012
+      :favourites_count: 672
+      :utc_offset: -18000
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 778
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: D4A675
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/623903346/x2fe82970336fb2d179dd9d8bfc4fb24.png
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/623903346/x2fe82970336fb2d179dd9d8bfc4fb24.png
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3341843400/212f3ba4d162ba43a8d110b52a3166ce_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3341843400/212f3ba4d162ba43a8d110b52a3166ce_normal.jpeg
+      :profile_banner_url: https://si0.twimg.com/profile_banners/615755480/1362532787
+      :profile_link_color: FB7772
+      :profile_sidebar_border_color: 4D3F62
+      :profile_sidebar_fill_color: 7F5467
+      :profile_text_color: A16476
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:27:00 +0000 2013
+        :id: 309807424741732352
+        :id_str: "309807424741732352"
+        :text: "RT @bieberizlove: #JustinTakeABreak we love you so much, we love seeing you but we want your health to be perfect. you need rest. &lt;3"
+        :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+        :truncated: false
+        :in_reply_to_status_id: 
+        :in_reply_to_status_id_str: 
+        :in_reply_to_user_id: 
+        :in_reply_to_user_id_str: 
+        :in_reply_to_screen_name: 
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweeted_status: *id009
+        :retweet_count: 0
+        :entities: *id011
+        :favorited: false
+        :retweeted: false
+        :filter_level: medium
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:27:00 +0000 2013
+    :id: 309807424762675200
+    :id_str: "309807424762675200"
+    :text: &id012 |-
+      ESO DEL AMOR?
+      JAJAJAJ SI ES ESO QUE SABE A MIERDA!
+    :source: web
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user: 
+      :id: 630734901
+      :id_str: "630734901"
+      :name: Banano
+      :screen_name: WoodyBananas33
+      :location: Bogota
+      :url: 
+      :description: Yo veo tan ridiculo el racismo como mi perfil
+      :protected: false
+      :followers_count: 267
+      :friends_count: 283
+      :listed_count: 0
+      :created_at: Mon Jul 09 00:52:04 +0000 2012
+      :favourites_count: 265
+      :utc_offset: -18000
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4387
+      :lang: es
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: 39F539
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/787402084/aed589da497fcb97ef8d2a58c852a2ef.jpeg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/787402084/aed589da497fcb97ef8d2a58c852a2ef.jpeg
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3235237815/b38537d4314c940d6be7e52a540b00a3_normal.png
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3235237815/b38537d4314c940d6be7e52a540b00a3_normal.png
+      :profile_banner_url: https://si0.twimg.com/profile_banners/630734901/1360519531
+      :profile_link_color: 00C4FF
+      :profile_sidebar_border_color: "000000"
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :entities: &id013 
+      :hashtags: []
+
+      :urls: []
+
+      :user_mentions: []
+
+    :favorited: false
+    :retweeted: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:27:00 -05:00
+  retweeted_status: 
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 630734901
+      :id_str: "630734901"
+      :name: Banano
+      :screen_name: WoodyBananas33
+      :location: Bogota
+      :url: 
+      :description: Yo veo tan ridiculo el racismo como mi perfil
+      :protected: false
+      :followers_count: 267
+      :friends_count: 283
+      :listed_count: 0
+      :created_at: Mon Jul 09 00:52:04 +0000 2012
+      :favourites_count: 265
+      :utc_offset: -18000
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4387
+      :lang: es
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: 39F539
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/787402084/aed589da497fcb97ef8d2a58c852a2ef.jpeg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/787402084/aed589da497fcb97ef8d2a58c852a2ef.jpeg
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3235237815/b38537d4314c940d6be7e52a540b00a3_normal.png
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3235237815/b38537d4314c940d6be7e52a540b00a3_normal.png
+      :profile_banner_url: https://si0.twimg.com/profile_banners/630734901/1360519531
+      :profile_link_color: 00C4FF
+      :profile_sidebar_border_color: "000000"
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:27:00 +0000 2013
+        :id: 309807424762675200
+        :id_str: "309807424762675200"
+        :text: *id012
+        :source: web
+        :truncated: false
+        :in_reply_to_status_id: 
+        :in_reply_to_status_id_str: 
+        :in_reply_to_user_id: 
+        :in_reply_to_user_id_str: 
+        :in_reply_to_screen_name: 
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweet_count: 0
+        :entities: *id013
+        :favorited: false
+        :retweeted: false
+        :filter_level: medium
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:27:00 +0000 2013
+    :id: 309807424737529857
+    :id_str: "309807424737529857"
+    :text: Craving some Tomato soup
+    :source: web
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user: 
+      :id: 38092431
+      :id_str: "38092431"
+      :name: AG.
+      :screen_name: autumnlesean
+      :location: "OKC. "
+      :url: 
+      :description: &id014 |-
+        To know me is to Love Me.
+        IG: sheaprettybitch
+      :protected: false
+      :followers_count: 871
+      :friends_count: 560
+      :listed_count: 0
+      :created_at: Wed May 06 02:34:19 +0000 2009
+      :favourites_count: 36
+      :utc_offset: -21600
+      :time_zone: Central Time (US & Canada)
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 25772
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: "404040"
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/797506343/9393cfba3c02ad803022465154c50302.jpeg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/797506343/9393cfba3c02ad803022465154c50302.jpeg
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3308393395/19d7e472407335ef960a2199665dada5_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3308393395/19d7e472407335ef960a2199665dada5_normal.jpeg
+      :profile_banner_url: https://si0.twimg.com/profile_banners/38092431/1361556098
+      :profile_link_color: FF7700
+      :profile_sidebar_border_color: "000000"
+      :profile_sidebar_fill_color: F6FFD1
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :entities: &id015 
+      :hashtags: []
+
+      :urls: []
+
+      :user_mentions: []
+
+    :favorited: false
+    :retweeted: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:27:00 -05:00
+  retweeted_status: 
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 38092431
+      :id_str: "38092431"
+      :name: AG.
+      :screen_name: autumnlesean
+      :location: "OKC. "
+      :url: 
+      :description: *id014
+      :protected: false
+      :followers_count: 871
+      :friends_count: 560
+      :listed_count: 0
+      :created_at: Wed May 06 02:34:19 +0000 2009
+      :favourites_count: 36
+      :utc_offset: -21600
+      :time_zone: Central Time (US & Canada)
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 25772
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: "404040"
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/797506343/9393cfba3c02ad803022465154c50302.jpeg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/797506343/9393cfba3c02ad803022465154c50302.jpeg
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3308393395/19d7e472407335ef960a2199665dada5_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3308393395/19d7e472407335ef960a2199665dada5_normal.jpeg
+      :profile_banner_url: https://si0.twimg.com/profile_banners/38092431/1361556098
+      :profile_link_color: FF7700
+      :profile_sidebar_border_color: "000000"
+      :profile_sidebar_fill_color: F6FFD1
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:27:00 +0000 2013
+        :id: 309807424737529857
+        :id_str: "309807424737529857"
+        :text: Craving some Tomato soup
+        :source: web
+        :truncated: false
+        :in_reply_to_status_id: 
+        :in_reply_to_status_id_str: 
+        :in_reply_to_user_id: 
+        :in_reply_to_user_id_str: 
+        :in_reply_to_screen_name: 
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweet_count: 0
+        :entities: *id015
+        :favorited: false
+        :retweeted: false
+        :filter_level: medium
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:27:00 +0000 2013
+    :id: 309807424733339648
+    :id_str: "309807424733339648"
+    :text: "RT @EresKurioso: \"Para hacerse o\xC3\xADr, a veces hay que cerrar la boca\". Stanislaw Jerzy Lec."
+    :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user: 
+      :id: 311163560
+      :id_str: "311163560"
+      :name: Lorena
+      :screen_name: lorennsanchis
+      :location: ""
+      :url: 
+      :description: "l'alegria \xC3\xA9s un sentiment revolucionari."
+      :protected: false
+      :followers_count: 188
+      :friends_count: 259
+      :listed_count: 1
+      :created_at: Sun Jun 05 00:36:47 +0000 2011
+      :favourites_count: 183
+      :utc_offset: -10800
+      :time_zone: Greenland
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 2825
+      :lang: es
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: A09DE8
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/658522308/z2d8lawbutzoln6d072x.jpeg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/658522308/z2d8lawbutzoln6d072x.jpeg
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/2605327394/5bo2gi6ffkp37ul7adxx_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/2605327394/5bo2gi6ffkp37ul7adxx_normal.jpeg
+      :profile_link_color: 161A18
+      :profile_sidebar_border_color: 120E03
+      :profile_sidebar_fill_color: E3CA64
+      :profile_text_color: E32047
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweeted_status: &id016 
+      :created_at: Wed Mar 06 21:38:59 +0000 2013
+      :id: 309417853189246976
+      :id_str: "309417853189246976"
+      :text: "\"Para hacerse o\xC3\xADr, a veces hay que cerrar la boca\". Stanislaw Jerzy Lec."
+      :source: <a href="http://www.google.es" rel="nofollow">EresKurioso</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user: 
+        :id: 1216328455
+        :id_str: "1216328455"
+        :name: "Sab\xC3\xADas que..."
+        :screen_name: EresKurioso
+        :location: "Planeta Tierra, V\xC3\xADa L\xC3\xA1ctea"
+        :url: 
+        :description: "Datos alucinantes e incre\xC3\xADbles: #Curiosidades #Frases #Ciencia #Tecnolog\xC3\xADa #Sexo #Cultura #Historia // Si te gusta alg\xC3\xBAn tweet no olvides de hacer RT."
+        :protected: false
+        :followers_count: 18819
+        :friends_count: 1261
+        :listed_count: 18
+        :created_at: Sun Feb 24 19:11:50 +0000 2013
+        :favourites_count: 0
+        :utc_offset: 
+        :time_zone: 
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 477
+        :lang: es
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: "131516"
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme14/bg.gif
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme14/bg.gif
+        :profile_background_tile: true
+        :profile_image_url: http://a0.twimg.com/profile_images/3307311659/aab96dab53925c3b370231d822b1e9e0_normal.png
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3307311659/aab96dab53925c3b370231d822b1e9e0_normal.png
+        :profile_banner_url: https://si0.twimg.com/profile_banners/1216328455/1361814777
+        :profile_link_color: 009999
+        :profile_sidebar_border_color: EEEEEE
+        :profile_sidebar_fill_color: EFEFEF
+        :profile_text_color: "333333"
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: 
+        :follow_request_sent: 
+        :notifications: 
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 270
+      :entities: 
+        :hashtags: []
+
+        :urls: []
+
+        :user_mentions: []
+
+      :favorited: false
+      :retweeted: true
+    :retweet_count: 0
+    :entities: &id017 
+      :hashtags: []
+
+      :urls: []
+
+      :user_mentions: 
+      - :screen_name: EresKurioso
+        :name: "Sab\xC3\xADas que..."
+        :id: 1216328455
+        :id_str: "1216328455"
+        :indices: 
+        - 3
+        - 15
+    :favorited: false
+    :retweeted: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:27:00 -05:00
+  retweeted_status: !ruby/object:Twitter::Tweet 
+    attrs: *id016
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 311163560
+      :id_str: "311163560"
+      :name: Lorena
+      :screen_name: lorennsanchis
+      :location: ""
+      :url: 
+      :description: "l'alegria \xC3\xA9s un sentiment revolucionari."
+      :protected: false
+      :followers_count: 188
+      :friends_count: 259
+      :listed_count: 1
+      :created_at: Sun Jun 05 00:36:47 +0000 2011
+      :favourites_count: 183
+      :utc_offset: -10800
+      :time_zone: Greenland
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 2825
+      :lang: es
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: A09DE8
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/658522308/z2d8lawbutzoln6d072x.jpeg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/658522308/z2d8lawbutzoln6d072x.jpeg
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/2605327394/5bo2gi6ffkp37ul7adxx_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/2605327394/5bo2gi6ffkp37ul7adxx_normal.jpeg
+      :profile_link_color: 161A18
+      :profile_sidebar_border_color: 120E03
+      :profile_sidebar_fill_color: E3CA64
+      :profile_text_color: E32047
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:27:00 +0000 2013
+        :id: 309807424733339648
+        :id_str: "309807424733339648"
+        :text: "RT @EresKurioso: \"Para hacerse o\xC3\xADr, a veces hay que cerrar la boca\". Stanislaw Jerzy Lec."
+        :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>
+        :truncated: false
+        :in_reply_to_status_id: 
+        :in_reply_to_status_id_str: 
+        :in_reply_to_user_id: 
+        :in_reply_to_user_id_str: 
+        :in_reply_to_screen_name: 
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweeted_status: *id016
+        :retweet_count: 0
+        :entities: *id017
+        :favorited: false
+        :retweeted: false
+        :filter_level: medium
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:27:00 +0000 2013
+    :id: 309807424766889985
+    :id_str: "309807424766889985"
+    :text: "RT @AdmiteloLatina: Admitelo Latina: Cuando tu \xC3\xADdolo no esta en unos premios no tiene caso verlo."
+    :source: web
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user: 
+      :id: 170907130
+      :id_str: "170907130"
+      :name: Margaret Gutierritos
+      :screen_name: andrealashidas2
+      :location: All Around The World
+      :url: http://www.facebook.com/Andrea.Mo.Gtz
+      :description: &id019 |-
+        14. @justinbieber is my role model. No te rindas cree y nunca digas nunca.
+        Heello: rapemebieber  Kik: andreamontesg
+      :protected: false
+      :followers_count: 926
+      :friends_count: 1993
+      :listed_count: 0
+      :created_at: Mon Jul 26 02:31:23 +0000 2010
+      :favourites_count: 532
+      :utc_offset: -21600
+      :time_zone: Central Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 8748
+      :lang: es
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: 9BBA6E
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/796097508/465d850a521e4633487a5d2c782b1a21.png
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/796097508/465d850a521e4633487a5d2c782b1a21.png
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3348423320/3fed01ffaf5ed5ee4905dedf5f880eea_normal.png
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3348423320/3fed01ffaf5ed5ee4905dedf5f880eea_normal.png
+      :profile_banner_url: https://si0.twimg.com/profile_banners/170907130/1361081688
+      :profile_link_color: 57936D
+      :profile_sidebar_border_color: AB2C63
+      :profile_sidebar_fill_color: "361645"
+      :profile_text_color: 02606A
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweeted_status: &id018 
+      :created_at: Tue Mar 05 16:46:36 +0000 2013
+      :id: 308981884522754050
+      :id_str: "308981884522754050"
+      :text: "Admitelo Latina: Cuando tu \xC3\xADdolo no esta en unos premios no tiene caso verlo."
+      :source: web
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user: 
+        :id: 614685995
+        :id_str: "614685995"
+        :name: "Adm\xC3\xADtelo Latina"
+        :screen_name: AdmiteloLatina
+        :location: Christian Beadles 14/02/2013
+        :url: http://ask.fm/AdmiteloLatina
+        :description: "\xC2\xBFSoy tu sombra? \xC2\xBFEstoy en tu mente?\r\n {13-01-2013}"
+        :protected: false
+        :followers_count: 11599
+        :friends_count: 2269
+        :listed_count: 9
+        :created_at: Fri Jun 22 00:06:17 +0000 2012
+        :favourites_count: 1588
+        :utc_offset: -16200
+        :time_zone: Caracas
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 21379
+        :lang: es
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: FFFFFF
+        :profile_background_image_url: http://a0.twimg.com/profile_background_images/742941419/3f7b9c65f470b5e67f1cccbb676e14ef.jpeg
+        :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/742941419/3f7b9c65f470b5e67f1cccbb676e14ef.jpeg
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/3311887416/0c4e8cda8494b985625703e5e9b79e01_normal.png
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3311887416/0c4e8cda8494b985625703e5e9b79e01_normal.png
+        :profile_banner_url: https://si0.twimg.com/profile_banners/614685995/1361484455
+        :profile_link_color: DE60CD
+        :profile_sidebar_border_color: FFFFFF
+        :profile_sidebar_fill_color: E5507E
+        :profile_text_color: "362720"
+        :profile_use_background_image: false
+        :default_profile: false
+        :default_profile_image: false
+        :following: 
+        :follow_request_sent: 
+        :notifications: 
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 86
+      :entities: 
+        :hashtags: []
+
+        :urls: []
+
+        :user_mentions: []
+
+      :favorited: false
+      :retweeted: true
+    :retweet_count: 0
+    :entities: &id020 
+      :hashtags: []
+
+      :urls: []
+
+      :user_mentions: 
+      - :screen_name: AdmiteloLatina
+        :name: "Adm\xC3\xADtelo Latina"
+        :id: 614685995
+        :id_str: "614685995"
+        :indices: 
+        - 3
+        - 18
+    :favorited: false
+    :retweeted: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:27:00 -05:00
+  retweeted_status: !ruby/object:Twitter::Tweet 
+    attrs: *id018
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 170907130
+      :id_str: "170907130"
+      :name: Margaret Gutierritos
+      :screen_name: andrealashidas2
+      :location: All Around The World
+      :url: http://www.facebook.com/Andrea.Mo.Gtz
+      :description: *id019
+      :protected: false
+      :followers_count: 926
+      :friends_count: 1993
+      :listed_count: 0
+      :created_at: Mon Jul 26 02:31:23 +0000 2010
+      :favourites_count: 532
+      :utc_offset: -21600
+      :time_zone: Central Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 8748
+      :lang: es
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: 9BBA6E
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/796097508/465d850a521e4633487a5d2c782b1a21.png
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/796097508/465d850a521e4633487a5d2c782b1a21.png
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3348423320/3fed01ffaf5ed5ee4905dedf5f880eea_normal.png
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3348423320/3fed01ffaf5ed5ee4905dedf5f880eea_normal.png
+      :profile_banner_url: https://si0.twimg.com/profile_banners/170907130/1361081688
+      :profile_link_color: 57936D
+      :profile_sidebar_border_color: AB2C63
+      :profile_sidebar_fill_color: "361645"
+      :profile_text_color: 02606A
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:27:00 +0000 2013
+        :id: 309807424766889985
+        :id_str: "309807424766889985"
+        :text: "RT @AdmiteloLatina: Admitelo Latina: Cuando tu \xC3\xADdolo no esta en unos premios no tiene caso verlo."
+        :source: web
+        :truncated: false
+        :in_reply_to_status_id: 
+        :in_reply_to_status_id_str: 
+        :in_reply_to_user_id: 
+        :in_reply_to_user_id_str: 
+        :in_reply_to_screen_name: 
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweeted_status: *id018
+        :retweet_count: 0
+        :entities: *id020
+        :favorited: false
+        :retweeted: false
+        :filter_level: medium
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:27:00 +0000 2013
+    :id: 309807424737529856
+    :id_str: "309807424737529856"
+    :text: TFOT-Demo-Tom waits(http://t.co/EPkflgHHML)
+    :source: <a href="http://twittbot.net/" rel="nofollow">twittbot.net</a>
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user: 
+      :id: 891349296
+      :id_str: "891349296"
+      :name: TheFallofTroybot
+      :screen_name: TFOTbot
+      :location: ""
+      :url: 
+      :description: "TheFallofTroy\xE9\x96\xA2\xE9\x80\xA3\xE3\x81\xAEyoutube\xE4\xB8\x8A\xE3\x81\xAE\xE5\x8B\x95\xE7\x94\xBB\xE3\x82\x84\xE6\xA5\xBD\xE6\x9B\xB2\xE3\x82\x926\xE6\x99\x82\xE9\x96\x93\xE3\x81\x8A\xE3\x81\x8D\xE3\x81\xAB\xE3\x83\xA9\xE3\x83\xB3\xE3\x83\x80\xE3\x83\xA0\xE7\xB4\xB9\xE4\xBB\x8B\xE3\x81\x99\xE3\x82\x8BBOT\xE3\x81\xA7\xE3\x81\x99\xE3\x80\x82LIVE\xE5\x8B\x95\xE7\x94\xBB\xE3\x81\xAF\xE3\x81\xAA\xE3\x82\x8B\xE3\x81\xB9\xE3\x81\x8F\xE3\x81\xBE\xE3\x81\xA8\xE3\x82\x82\xE3\x81\xAB\xE8\xA6\x8B\xE3\x82\x8C\xE3\x81\x9D\xE3\x81\x86\xE3\x81\xAA\xE7\x89\xA9\xE3\x82\x92\xE7\xB4\xB9\xE4\xBB\x8B\xE4\xBA\x88\xE5\xAE\x9A\xE3\x80\x82\xE7\x8F\xBE\xE5\x9C\xA8\xE5\xB7\xA5\xE4\xBA\x8B\xE4\xB8\xAD\xE3\x80\x82JustLikeVinyl,ThirtyYearsWar\xE3\x82\x82\xE3\x80\x82\xE3\x81\xA4\xE3\x81\xBE\xE3\x82\x8AThomasErak\xE9\x96\xA2\xE9\x80\xA3\xE3\x80\x82(\xE7\xAE\xA1\xE7\x90\x86\xE4\xBA\xBA@ookuboran)"
+      :protected: false
+      :followers_count: 3
+      :friends_count: 3
+      :listed_count: 0
+      :created_at: Fri Oct 19 16:45:00 +0000 2012
+      :favourites_count: 0
+      :utc_offset: 32400
+      :time_zone: Irkutsk
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 415
+      :lang: ja
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/2737755650/4806a5e7d5830a4c74e8c4676ef45299_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/2737755650/4806a5e7d5830a4c74e8c4676ef45299_normal.jpeg
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :entities: &id021 
+      :hashtags: []
+
+      :urls: 
+      - :url: http://t.co/EPkflgHHML
+        :expanded_url: http://youtu.be/sTpvQenRbTY
+        :display_url: youtu.be/sTpvQenRbTY
+        :indices: 
+        - 20
+        - 42
+      :user_mentions: []
+
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:27:00 -05:00
+  retweeted_status: 
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 891349296
+      :id_str: "891349296"
+      :name: TheFallofTroybot
+      :screen_name: TFOTbot
+      :location: ""
+      :url: 
+      :description: "TheFallofTroy\xE9\x96\xA2\xE9\x80\xA3\xE3\x81\xAEyoutube\xE4\xB8\x8A\xE3\x81\xAE\xE5\x8B\x95\xE7\x94\xBB\xE3\x82\x84\xE6\xA5\xBD\xE6\x9B\xB2\xE3\x82\x926\xE6\x99\x82\xE9\x96\x93\xE3\x81\x8A\xE3\x81\x8D\xE3\x81\xAB\xE3\x83\xA9\xE3\x83\xB3\xE3\x83\x80\xE3\x83\xA0\xE7\xB4\xB9\xE4\xBB\x8B\xE3\x81\x99\xE3\x82\x8BBOT\xE3\x81\xA7\xE3\x81\x99\xE3\x80\x82LIVE\xE5\x8B\x95\xE7\x94\xBB\xE3\x81\xAF\xE3\x81\xAA\xE3\x82\x8B\xE3\x81\xB9\xE3\x81\x8F\xE3\x81\xBE\xE3\x81\xA8\xE3\x82\x82\xE3\x81\xAB\xE8\xA6\x8B\xE3\x82\x8C\xE3\x81\x9D\xE3\x81\x86\xE3\x81\xAA\xE7\x89\xA9\xE3\x82\x92\xE7\xB4\xB9\xE4\xBB\x8B\xE4\xBA\x88\xE5\xAE\x9A\xE3\x80\x82\xE7\x8F\xBE\xE5\x9C\xA8\xE5\xB7\xA5\xE4\xBA\x8B\xE4\xB8\xAD\xE3\x80\x82JustLikeVinyl,ThirtyYearsWar\xE3\x82\x82\xE3\x80\x82\xE3\x81\xA4\xE3\x81\xBE\xE3\x82\x8AThomasErak\xE9\x96\xA2\xE9\x80\xA3\xE3\x80\x82(\xE7\xAE\xA1\xE7\x90\x86\xE4\xBA\xBA@ookuboran)"
+      :protected: false
+      :followers_count: 3
+      :friends_count: 3
+      :listed_count: 0
+      :created_at: Fri Oct 19 16:45:00 +0000 2012
+      :favourites_count: 0
+      :utc_offset: 32400
+      :time_zone: Irkutsk
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 415
+      :lang: ja
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/2737755650/4806a5e7d5830a4c74e8c4676ef45299_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/2737755650/4806a5e7d5830a4c74e8c4676ef45299_normal.jpeg
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:27:00 +0000 2013
+        :id: 309807424737529856
+        :id_str: "309807424737529856"
+        :text: TFOT-Demo-Tom waits(http://t.co/EPkflgHHML)
+        :source: <a href="http://twittbot.net/" rel="nofollow">twittbot.net</a>
+        :truncated: false
+        :in_reply_to_status_id: 
+        :in_reply_to_status_id_str: 
+        :in_reply_to_user_id: 
+        :in_reply_to_user_id_str: 
+        :in_reply_to_screen_name: 
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweet_count: 0
+        :entities: *id021
+        :favorited: false
+        :retweeted: false
+        :possibly_sensitive: false
+        :filter_level: medium
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:27:00 +0000 2013
+    :id: 309807424762691584
+    :id_str: "309807424762691584"
+    :text: "\xE3\x81\x82\xE3\x81\x8B\xE3\x82\x93\xE2\x80\xA6\xE3\x81\x8A\xE3\x81\xA6\xE3\x82\x93\xE3\x81\x93\xE3\x81\x95\xE3\x81\xBE\xE3\x82\x82\xE3\x83\xAA\xE3\x83\xB3\xE3\x82\xB4\xE3\x81\x95\xE3\x81\xBE\xE3\x82\x82\xE3\x80\x81\xE9\xBB\x92\xE3\x81\x84\xE9\x9B\xB2\xE3\x81\xAB\xE9\x9A\xA0\xE3\x81\x95\xE3\x82\x8C\xE3\x81\x9F\xE3\x81\xBE\xE3\x82\x93\xE3\x81\xBE\xE3\x82\x84\xE2\x80\xA6\xE7\x9B\xB8\xE5\xA4\x89\xE3\x82\x8F\xE3\x82\x89\xE3\x81\x9A\xE3\x81\x86\xE3\x81\xA1\xE3\x81\xAE\xE6\x98\x9F\xE8\xAA\xAD\xE3\x81\xBF\xE3\x81\xAF\xE5\xBD\xB9\xE7\xAB\x8B\xE3\x81\x9F\xE3\x81\x9A\xE3\x82\x84\xE3\x81\xAA\xE3\x80\x82\xE3\x81\x82\xE3\x81\xAE\xE3\x83\xB4\xE3\x82\xA1\xE3\x83\xB3\xE3\x83\x91\xE3\x82\xA4\xE3\x82\xA2\xE3\x81\x8C\xE3\x83\xAA\xE3\x83\xB3\xE3\x82\xB4\xE3\x81\x95\xE3\x81\xBE\xE3\x82\x84\xE3\x81\xA3\xE3\x81\x9F\xE3\x81\x93\xE3\x81\xA8\xE3\x81\xAB\xE3\x82\x82\xE3\x80\x81\xE6\xB0\x97\xE3\x81\x83\xE3\x81\xA4\xE3\x81\x8B\xE3\x81\xB8\xE3\x82\x93\xE3\x81\x8B\xE3\x81\xA3\xE3\x81\x9F\xE3\x82\x84\xE3\x81\xAA\xE3\x82\x93\xE3\x81\xA6\xE2\x80\xA6\xE3\x81\x93\xE3\x82\x93\xE3\x81\xAA\xE3\x82\x93\xE3\x80\x81\xE3\x81\xB0\xE3\x81\xB0\xE3\x81\x82\xE3\x81\xAB\xE5\x90\x88\xE3\x82\x8F\xE3\x81\x9B\xE3\x82\x8B\xE9\xA1\x94\xE3\x81\xAA\xE3\x81\x84\xE3\x82\x8F\xE2\x80\xA6"
+    :source: <a href="http://twittbot.net/" rel="nofollow">twittbot.net</a>
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user: 
+      :id: 183557998
+      :id_str: "183557998"
+      :name: "\xE3\x82\xB6\xE3\x82\xB8"
+      :screen_name: Himawari_Zazie
+      :location: "\xE5\xAE\xBF\xE5\xB1\x8B"
+      :url: 
+      :description: "\xE3\x81\x86\xE3\x81\xA1\xE3\x81\xAE\xE5\x90\x8D\xE5\x89\x8D\xE3\x81\xAF\xE3\x80\x8C\xE3\x82\xB6\xE3\x82\xB8\xE3\x80\x8D\xE3\x80\x81\xE3\x82\xB5\xE3\x83\xB3\xE3\x83\xBB\xE3\x83\x9F\xE3\x82\xB2\xE3\x83\xAB\xE3\x81\xA7\xE7\xB5\x90\xE7\x95\x8C\xE3\x82\x92\xE5\xBC\xB5\xE3\x81\xA3\xE3\x81\xA8\xE3\x82\x8B\xE6\x98\x9F\xE8\xAA\xAD\xE3\x81\xBF\xE3\x81\xAE\xE5\xB7\xAB\xE5\xA5\xB3\xE3\x80\x81\xE4\xBA\xBA\xE5\x91\xBC\xE3\x82\x93\xE3\x81\xA7\xE3\x80\x8C\xE3\x81\xB2\xE3\x81\xBE\xE3\x82\x8F\xE3\x82\x8A\xE5\xA8\x98\xE3\x80\x8D\xE3\x82\x84\xE3\x80\x82\xE3\x83\xAA\xE3\x83\x95\xE3\x82\xA9\xE3\x83\xAD\xE3\x83\xBC\xE5\xBF\x98\xE3\x82\x8C\xE3\x81\xA8\xE3\x81\xA3\xE3\x81\x9F\xE3\x82\x89@Hidaka219\xE3\x81\xAB\xE9\x80\xA3\xE7\xB5\xA1\xE5\x85\xA5\xE3\x82\x8C\xE3\x81\xA6\xE3\x81\x8F\xE3\x82\x8C\xE3\x81\x9F\xE3\x82\x89\xE3\x81\x99\xE3\x81\x90\xE3\x81\xAB\xE8\xBF\x94\xE3\x81\x99\xE3\x81\xA7\xE3\x80\x82\xE6\xB0\x97\xE3\x81\x8C\xE5\x90\x91\xE3\x81\x84\xE3\x81\x9F\xE3\x82\x89\xE6\x98\x9F\xE5\x8D\xA0\xE3\x81\x84\xE3\x82\x82\xE3\x81\x97\xE3\x81\x9F\xE3\x82\x8B\xE3\x80\x81\xE3\x81\x97\xE3\x81\x8B\xE3\x82\x82\xE3\x82\xBF\xE3\x83\x80\xE3\x82\x84\xE3\x81\xA7\xE3\x80\x82\xE4\xB9\x99\xE5\xA5\xB3\xE3\x81\xAE\xE5\x87\xBA\xE8\xA1\x80\xE5\xA4\xA7\xE3\x82\xB5\xE3\x83\xBC\xE3\x83\x93\xE3\x82\xB9\xE3\x82\x84\xE3\x80\x82\xE3\x81\xBE\xE3\x81\xA0\xE3\x81\xBE\xE3\x81\xA0\xE6\x85\xA3\xE3\x82\x8C\xE3\x81\xB8\xE3\x82\x93\xE3\x81\x93\xE3\x81\xA8\xE3\x82\x82\xE5\xA4\x9A\xE3\x81\x84\xE3\x81\x91\xE3\x81\xA9\xE3\x80\x81\xE3\x82\x88\xE3\x82\x8D\xE3\x81\x97\xE3\x82\x85\xE3\x81\x86\xE9\xA0\xBC\xE3\x82\x80\xE3\x81\xA7\xEF\xBC\x81"
+      :protected: false
+      :followers_count: 106
+      :friends_count: 39
+      :listed_count: 16
+      :created_at: Fri Aug 27 08:53:39 +0000 2010
+      :favourites_count: 0
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 14175
+      :lang: ja
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/1807948670/Zazie_Icon3_normal.png
+      :profile_image_url_https: https://si0.twimg.com/profile_images/1807948670/Zazie_Icon3_normal.png
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :entities: &id022 
+      :hashtags: []
+
+      :urls: []
+
+      :user_mentions: []
+
+    :favorited: false
+    :retweeted: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:27:00 -05:00
+  retweeted_status: 
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 183557998
+      :id_str: "183557998"
+      :name: "\xE3\x82\xB6\xE3\x82\xB8"
+      :screen_name: Himawari_Zazie
+      :location: "\xE5\xAE\xBF\xE5\xB1\x8B"
+      :url: 
+      :description: "\xE3\x81\x86\xE3\x81\xA1\xE3\x81\xAE\xE5\x90\x8D\xE5\x89\x8D\xE3\x81\xAF\xE3\x80\x8C\xE3\x82\xB6\xE3\x82\xB8\xE3\x80\x8D\xE3\x80\x81\xE3\x82\xB5\xE3\x83\xB3\xE3\x83\xBB\xE3\x83\x9F\xE3\x82\xB2\xE3\x83\xAB\xE3\x81\xA7\xE7\xB5\x90\xE7\x95\x8C\xE3\x82\x92\xE5\xBC\xB5\xE3\x81\xA3\xE3\x81\xA8\xE3\x82\x8B\xE6\x98\x9F\xE8\xAA\xAD\xE3\x81\xBF\xE3\x81\xAE\xE5\xB7\xAB\xE5\xA5\xB3\xE3\x80\x81\xE4\xBA\xBA\xE5\x91\xBC\xE3\x82\x93\xE3\x81\xA7\xE3\x80\x8C\xE3\x81\xB2\xE3\x81\xBE\xE3\x82\x8F\xE3\x82\x8A\xE5\xA8\x98\xE3\x80\x8D\xE3\x82\x84\xE3\x80\x82\xE3\x83\xAA\xE3\x83\x95\xE3\x82\xA9\xE3\x83\xAD\xE3\x83\xBC\xE5\xBF\x98\xE3\x82\x8C\xE3\x81\xA8\xE3\x81\xA3\xE3\x81\x9F\xE3\x82\x89@Hidaka219\xE3\x81\xAB\xE9\x80\xA3\xE7\xB5\xA1\xE5\x85\xA5\xE3\x82\x8C\xE3\x81\xA6\xE3\x81\x8F\xE3\x82\x8C\xE3\x81\x9F\xE3\x82\x89\xE3\x81\x99\xE3\x81\x90\xE3\x81\xAB\xE8\xBF\x94\xE3\x81\x99\xE3\x81\xA7\xE3\x80\x82\xE6\xB0\x97\xE3\x81\x8C\xE5\x90\x91\xE3\x81\x84\xE3\x81\x9F\xE3\x82\x89\xE6\x98\x9F\xE5\x8D\xA0\xE3\x81\x84\xE3\x82\x82\xE3\x81\x97\xE3\x81\x9F\xE3\x82\x8B\xE3\x80\x81\xE3\x81\x97\xE3\x81\x8B\xE3\x82\x82\xE3\x82\xBF\xE3\x83\x80\xE3\x82\x84\xE3\x81\xA7\xE3\x80\x82\xE4\xB9\x99\xE5\xA5\xB3\xE3\x81\xAE\xE5\x87\xBA\xE8\xA1\x80\xE5\xA4\xA7\xE3\x82\xB5\xE3\x83\xBC\xE3\x83\x93\xE3\x82\xB9\xE3\x82\x84\xE3\x80\x82\xE3\x81\xBE\xE3\x81\xA0\xE3\x81\xBE\xE3\x81\xA0\xE6\x85\xA3\xE3\x82\x8C\xE3\x81\xB8\xE3\x82\x93\xE3\x81\x93\xE3\x81\xA8\xE3\x82\x82\xE5\xA4\x9A\xE3\x81\x84\xE3\x81\x91\xE3\x81\xA9\xE3\x80\x81\xE3\x82\x88\xE3\x82\x8D\xE3\x81\x97\xE3\x82\x85\xE3\x81\x86\xE9\xA0\xBC\xE3\x82\x80\xE3\x81\xA7\xEF\xBC\x81"
+      :protected: false
+      :followers_count: 106
+      :friends_count: 39
+      :listed_count: 16
+      :created_at: Fri Aug 27 08:53:39 +0000 2010
+      :favourites_count: 0
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 14175
+      :lang: ja
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/1807948670/Zazie_Icon3_normal.png
+      :profile_image_url_https: https://si0.twimg.com/profile_images/1807948670/Zazie_Icon3_normal.png
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:27:00 +0000 2013
+        :id: 309807424762691584
+        :id_str: "309807424762691584"
+        :text: "\xE3\x81\x82\xE3\x81\x8B\xE3\x82\x93\xE2\x80\xA6\xE3\x81\x8A\xE3\x81\xA6\xE3\x82\x93\xE3\x81\x93\xE3\x81\x95\xE3\x81\xBE\xE3\x82\x82\xE3\x83\xAA\xE3\x83\xB3\xE3\x82\xB4\xE3\x81\x95\xE3\x81\xBE\xE3\x82\x82\xE3\x80\x81\xE9\xBB\x92\xE3\x81\x84\xE9\x9B\xB2\xE3\x81\xAB\xE9\x9A\xA0\xE3\x81\x95\xE3\x82\x8C\xE3\x81\x9F\xE3\x81\xBE\xE3\x82\x93\xE3\x81\xBE\xE3\x82\x84\xE2\x80\xA6\xE7\x9B\xB8\xE5\xA4\x89\xE3\x82\x8F\xE3\x82\x89\xE3\x81\x9A\xE3\x81\x86\xE3\x81\xA1\xE3\x81\xAE\xE6\x98\x9F\xE8\xAA\xAD\xE3\x81\xBF\xE3\x81\xAF\xE5\xBD\xB9\xE7\xAB\x8B\xE3\x81\x9F\xE3\x81\x9A\xE3\x82\x84\xE3\x81\xAA\xE3\x80\x82\xE3\x81\x82\xE3\x81\xAE\xE3\x83\xB4\xE3\x82\xA1\xE3\x83\xB3\xE3\x83\x91\xE3\x82\xA4\xE3\x82\xA2\xE3\x81\x8C\xE3\x83\xAA\xE3\x83\xB3\xE3\x82\xB4\xE3\x81\x95\xE3\x81\xBE\xE3\x82\x84\xE3\x81\xA3\xE3\x81\x9F\xE3\x81\x93\xE3\x81\xA8\xE3\x81\xAB\xE3\x82\x82\xE3\x80\x81\xE6\xB0\x97\xE3\x81\x83\xE3\x81\xA4\xE3\x81\x8B\xE3\x81\xB8\xE3\x82\x93\xE3\x81\x8B\xE3\x81\xA3\xE3\x81\x9F\xE3\x82\x84\xE3\x81\xAA\xE3\x82\x93\xE3\x81\xA6\xE2\x80\xA6\xE3\x81\x93\xE3\x82\x93\xE3\x81\xAA\xE3\x82\x93\xE3\x80\x81\xE3\x81\xB0\xE3\x81\xB0\xE3\x81\x82\xE3\x81\xAB\xE5\x90\x88\xE3\x82\x8F\xE3\x81\x9B\xE3\x82\x8B\xE9\xA1\x94\xE3\x81\xAA\xE3\x81\x84\xE3\x82\x8F\xE2\x80\xA6"
+        :source: <a href="http://twittbot.net/" rel="nofollow">twittbot.net</a>
+        :truncated: false
+        :in_reply_to_status_id: 
+        :in_reply_to_status_id_str: 
+        :in_reply_to_user_id: 
+        :in_reply_to_user_id_str: 
+        :in_reply_to_screen_name: 
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweet_count: 0
+        :entities: *id022
+        :favorited: false
+        :retweeted: false
+        :filter_level: medium
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:27:00 +0000 2013
+    :id: 309807424771088384
+    :id_str: "309807424771088384"
+    :text: Wtf do I do now..?
+    :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user: 
+      :id: 1047166015
+      :id_str: "1047166015"
+      :name: Patrick Phan
+      :screen_name: PatrickPhann
+      :location: ""
+      :url: 
+      :description: Names Patrick Phan. I bboy/dance. LB '16. Single. JP IS GAY.
+      :protected: false
+      :followers_count: 36
+      :friends_count: 33
+      :listed_count: 0
+      :created_at: Sun Dec 30 07:39:04 +0000 2012
+      :favourites_count: 85
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 134
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/3042846756/b26c7dde545cccbb73adadb4ca916c6b_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3042846756/b26c7dde545cccbb73adadb4ca916c6b_normal.jpeg
+      :profile_banner_url: https://si0.twimg.com/profile_banners/1047166015/1356896614
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :entities: &id023 
+      :hashtags: []
+
+      :urls: []
+
+      :user_mentions: []
+
+    :favorited: false
+    :retweeted: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:27:00 -05:00
+  retweeted_status: 
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 1047166015
+      :id_str: "1047166015"
+      :name: Patrick Phan
+      :screen_name: PatrickPhann
+      :location: ""
+      :url: 
+      :description: Names Patrick Phan. I bboy/dance. LB '16. Single. JP IS GAY.
+      :protected: false
+      :followers_count: 36
+      :friends_count: 33
+      :listed_count: 0
+      :created_at: Sun Dec 30 07:39:04 +0000 2012
+      :favourites_count: 85
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 134
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/3042846756/b26c7dde545cccbb73adadb4ca916c6b_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3042846756/b26c7dde545cccbb73adadb4ca916c6b_normal.jpeg
+      :profile_banner_url: https://si0.twimg.com/profile_banners/1047166015/1356896614
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:27:00 +0000 2013
+        :id: 309807424771088384
+        :id_str: "309807424771088384"
+        :text: Wtf do I do now..?
+        :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+        :truncated: false
+        :in_reply_to_status_id: 
+        :in_reply_to_status_id_str: 
+        :in_reply_to_user_id: 
+        :in_reply_to_user_id_str: 
+        :in_reply_to_screen_name: 
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweet_count: 0
+        :entities: *id023
+        :favorited: false
+        :retweeted: false
+        :filter_level: medium
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:27:00 +0000 2013
+    :id: 309807424741703680
+    :id_str: "309807424741703680"
+    :text: "THIS JUST IN: Smurfs love to love Smurfette! Tap #Smurfette once a day to earn extra XP. http://t.co/spHRJYxBen #SmurfsVillage @BeelineGames"
+    :source: <a href="http://www.beeline-i.com" rel="nofollow">Smurfs' Village Android</a>
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user: 
+      :id: 289268518
+      :id_str: "289268518"
+      :name: Michelle
+      :screen_name: MichStelling
+      :location: HvA- Amstelstation
+      :url: 
+      :description: 
+      :protected: false
+      :followers_count: 5
+      :friends_count: 8
+      :listed_count: 0
+      :created_at: Thu Apr 28 10:15:05 +0000 2011
+      :favourites_count: 0
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 2
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/1330082155/DSC01993_normal.JPG
+      :profile_image_url_https: https://si0.twimg.com/profile_images/1330082155/DSC01993_normal.JPG
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :entities: &id024 
+      :hashtags: 
+      - :text: Smurfette
+        :indices: 
+        - 49
+        - 59
+      - :text: SmurfsVillage
+        :indices: 
+        - 112
+        - 126
+      :urls: 
+      - :url: http://t.co/spHRJYxBen
+        :expanded_url: http://bit.ly/qgi0WR
+        :display_url: bit.ly/qgi0WR
+        :indices: 
+        - 89
+        - 111
+      :user_mentions: 
+      - :screen_name: BeelineGames
+        :name: Beeline Interactive
+        :id: 188075479
+        :id_str: "188075479"
+        :indices: 
+        - 127
+        - 140
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:27:00 -05:00
+  retweeted_status: 
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 289268518
+      :id_str: "289268518"
+      :name: Michelle
+      :screen_name: MichStelling
+      :location: HvA- Amstelstation
+      :url: 
+      :description: 
+      :protected: false
+      :followers_count: 5
+      :friends_count: 8
+      :listed_count: 0
+      :created_at: Thu Apr 28 10:15:05 +0000 2011
+      :favourites_count: 0
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 2
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/1330082155/DSC01993_normal.JPG
+      :profile_image_url_https: https://si0.twimg.com/profile_images/1330082155/DSC01993_normal.JPG
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:27:00 +0000 2013
+        :id: 309807424741703680
+        :id_str: "309807424741703680"
+        :text: "THIS JUST IN: Smurfs love to love Smurfette! Tap #Smurfette once a day to earn extra XP. http://t.co/spHRJYxBen #SmurfsVillage @BeelineGames"
+        :source: <a href="http://www.beeline-i.com" rel="nofollow">Smurfs' Village Android</a>
+        :truncated: false
+        :in_reply_to_status_id: 
+        :in_reply_to_status_id_str: 
+        :in_reply_to_user_id: 
+        :in_reply_to_user_id_str: 
+        :in_reply_to_screen_name: 
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweet_count: 0
+        :entities: *id024
+        :favorited: false
+        :retweeted: false
+        :possibly_sensitive: false
+        :filter_level: medium
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:27:00 +0000 2013
+    :id: 309807424750096384
+    :id_str: "309807424750096384"
+    :text: "essas pessoas melosas....pior s\xC3\xA3o aquelas q tentam ser melosas e acabam sendo pior doq as pessoas melosas, nossa senhora, s\xC3\xB3 jesus na causa"
+    :source: web
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user: 
+      :id: 1109386554
+      :id_str: "1109386554"
+      :name: Maria de Andrade
+      :screen_name: mariaandrade0
+      :location: ""
+      :url: 
+      :description: "abre os bra\xC3\xA7os vem e me namora"
+      :protected: false
+      :followers_count: 100
+      :friends_count: 107
+      :listed_count: 0
+      :created_at: Mon Jan 21 16:07:05 +0000 2013
+      :favourites_count: 156
+      :utc_offset: -10800
+      :time_zone: Brasilia
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 1186
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/3264808921/b54dcd064f49f4ed6283a4f098787fcc_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3264808921/b54dcd064f49f4ed6283a4f098787fcc_normal.jpeg
+      :profile_banner_url: https://si0.twimg.com/profile_banners/1109386554/1361473507
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :entities: &id025 
+      :hashtags: []
+
+      :urls: []
+
+      :user_mentions: []
+
+    :favorited: false
+    :retweeted: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:27:00 -05:00
+  retweeted_status: 
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 1109386554
+      :id_str: "1109386554"
+      :name: Maria de Andrade
+      :screen_name: mariaandrade0
+      :location: ""
+      :url: 
+      :description: "abre os bra\xC3\xA7os vem e me namora"
+      :protected: false
+      :followers_count: 100
+      :friends_count: 107
+      :listed_count: 0
+      :created_at: Mon Jan 21 16:07:05 +0000 2013
+      :favourites_count: 156
+      :utc_offset: -10800
+      :time_zone: Brasilia
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 1186
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/3264808921/b54dcd064f49f4ed6283a4f098787fcc_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3264808921/b54dcd064f49f4ed6283a4f098787fcc_normal.jpeg
+      :profile_banner_url: https://si0.twimg.com/profile_banners/1109386554/1361473507
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:27:00 +0000 2013
+        :id: 309807424750096384
+        :id_str: "309807424750096384"
+        :text: "essas pessoas melosas....pior s\xC3\xA3o aquelas q tentam ser melosas e acabam sendo pior doq as pessoas melosas, nossa senhora, s\xC3\xB3 jesus na causa"
+        :source: web
+        :truncated: false
+        :in_reply_to_status_id: 
+        :in_reply_to_status_id_str: 
+        :in_reply_to_user_id: 
+        :in_reply_to_user_id_str: 
+        :in_reply_to_screen_name: 
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweet_count: 0
+        :entities: *id025
+        :favorited: false
+        :retweeted: false
+        :filter_level: medium
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:27:00 +0000 2013
+    :id: 309807424745914368
+    :id_str: "309807424745914368"
+    :text: "@DefiendoASol  jajaj :D Helena Michelle pero me gusta mas Michelle jejej y tu?"
+    :source: web
+    :truncated: false
+    :in_reply_to_status_id: 309807013351784448
+    :in_reply_to_status_id_str: "309807013351784448"
+    :in_reply_to_user_id: 1250148378
+    :in_reply_to_user_id_str: "1250148378"
+    :in_reply_to_screen_name: DefiendoASol
+    :user: 
+      :id: 348731105
+      :id_str: "348731105"
+      :name: " #GrachiRocks"
+      :screen_name: Mimy2323
+      :location: Mexico
+      :url: 
+      :description: Me miras Te Miro Mi Corazon Hace Boom Boom! 3
+      :protected: false
+      :followers_count: 463
+      :friends_count: 375
+      :listed_count: 0
+      :created_at: Thu Aug 04 22:26:52 +0000 2011
+      :favourites_count: 169
+      :utc_offset: -21600
+      :time_zone: Mexico City
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 9433
+      :lang: es
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/808268801/3225a9a5a24cc4d9c3555258081ac4bf.jpeg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/808268801/3225a9a5a24cc4d9c3555258081ac4bf.jpeg
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/3343038495/81e178e6427460086375e74d29729e47_normal.png
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3343038495/81e178e6427460086375e74d29729e47_normal.png
+      :profile_banner_url: https://si0.twimg.com/profile_banners/348731105/1362591096
+      :profile_link_color: D33DDB
+      :profile_sidebar_border_color: FFFFFF
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :entities: &id026 
+      :hashtags: []
+
+      :urls: []
+
+      :user_mentions: 
+      - :screen_name: DefiendoASol
+        :name: "SOL\xE2\x99\x95"
+        :id: 1250148378
+        :id_str: "1250148378"
+        :indices: 
+        - 0
+        - 13
+    :favorited: false
+    :retweeted: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:27:00 -05:00
+  retweeted_status: 
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 348731105
+      :id_str: "348731105"
+      :name: " #GrachiRocks"
+      :screen_name: Mimy2323
+      :location: Mexico
+      :url: 
+      :description: Me miras Te Miro Mi Corazon Hace Boom Boom! 3
+      :protected: false
+      :followers_count: 463
+      :friends_count: 375
+      :listed_count: 0
+      :created_at: Thu Aug 04 22:26:52 +0000 2011
+      :favourites_count: 169
+      :utc_offset: -21600
+      :time_zone: Mexico City
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 9433
+      :lang: es
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/808268801/3225a9a5a24cc4d9c3555258081ac4bf.jpeg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/808268801/3225a9a5a24cc4d9c3555258081ac4bf.jpeg
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/3343038495/81e178e6427460086375e74d29729e47_normal.png
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3343038495/81e178e6427460086375e74d29729e47_normal.png
+      :profile_banner_url: https://si0.twimg.com/profile_banners/348731105/1362591096
+      :profile_link_color: D33DDB
+      :profile_sidebar_border_color: FFFFFF
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:27:00 +0000 2013
+        :id: 309807424745914368
+        :id_str: "309807424745914368"
+        :text: "@DefiendoASol  jajaj :D Helena Michelle pero me gusta mas Michelle jejej y tu?"
+        :source: web
+        :truncated: false
+        :in_reply_to_status_id: 309807013351784448
+        :in_reply_to_status_id_str: "309807013351784448"
+        :in_reply_to_user_id: 1250148378
+        :in_reply_to_user_id_str: "1250148378"
+        :in_reply_to_screen_name: DefiendoASol
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweet_count: 0
+        :entities: *id026
+        :favorited: false
+        :retweeted: false
+        :filter_level: medium
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:27:00 +0000 2013
+    :id: 309807424750120961
+    :id_str: "309807424750120961"
+    :text: "@hayatoooo8810 \xE3\x81\xAA\xE3\x83\xBC\xE3\x81\xAA\xE3\x81\x81\xE3\x80\x81\xE9\x81\x8A\xE3\x81\xBC\xE3\x83\xBC\xE3\x82\x84\xE7\xAC\x91"
+    :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+    :truncated: false
+    :in_reply_to_status_id: 309701620386639872
+    :in_reply_to_status_id_str: "309701620386639872"
+    :in_reply_to_user_id: 263173100
+    :in_reply_to_user_id_str: "263173100"
+    :in_reply_to_screen_name: hayatoooo8810
+    :user: 
+      :id: 1235467268
+      :id_str: "1235467268"
+      :name: "\xE3\x81\xBE\xE3\x81\xA3\xE3\x81\x8D\xE3\x83\xBC"
+      :screen_name: 1mackySnow11
+      :location: ""
+      :url: 
+      :description: "\xE4\xBB\x8A\xE5\xB9\xB4\xE3\x81\x8B\xE3\x82\x89\xE9\xBE\x8D\xE8\xB0\xB7\xE5\xA4\xA7\xE5\xAD\xA6\xE3\x81\xAE\xE7\x90\x86\xE5\xB7\xA5\xE5\xAD\xA6\xE9\x83\xA8\xE3\x81\xA7\xE3\x83\xBC\xE3\x81\x99\xEF\xBC\x81"
+      :protected: false
+      :followers_count: 20
+      :friends_count: 21
+      :listed_count: 0
+      :created_at: Sat Mar 02 17:15:12 +0000 2013
+      :favourites_count: 0
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 26
+      :lang: ja
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/3348828964/449a85133d065b1dd761b6aabb31c2bd_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3348828964/449a85133d065b1dd761b6aabb31c2bd_normal.jpeg
+      :profile_banner_url: https://si0.twimg.com/profile_banners/1235467268/1362546849
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :entities: &id027 
+      :hashtags: []
+
+      :urls: []
+
+      :user_mentions: 
+      - :screen_name: hayatoooo8810
+        :name: "\xE6\x9C\xA8\xE6\x9D\x91\xE3\x81\xAF\xE3\x82\x84\xE3\x81\xA8"
+        :id: 263173100
+        :id_str: "263173100"
+        :indices: 
+        - 0
+        - 14
+    :favorited: false
+    :retweeted: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:27:00 -05:00
+  retweeted_status: 
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 1235467268
+      :id_str: "1235467268"
+      :name: "\xE3\x81\xBE\xE3\x81\xA3\xE3\x81\x8D\xE3\x83\xBC"
+      :screen_name: 1mackySnow11
+      :location: ""
+      :url: 
+      :description: "\xE4\xBB\x8A\xE5\xB9\xB4\xE3\x81\x8B\xE3\x82\x89\xE9\xBE\x8D\xE8\xB0\xB7\xE5\xA4\xA7\xE5\xAD\xA6\xE3\x81\xAE\xE7\x90\x86\xE5\xB7\xA5\xE5\xAD\xA6\xE9\x83\xA8\xE3\x81\xA7\xE3\x83\xBC\xE3\x81\x99\xEF\xBC\x81"
+      :protected: false
+      :followers_count: 20
+      :friends_count: 21
+      :listed_count: 0
+      :created_at: Sat Mar 02 17:15:12 +0000 2013
+      :favourites_count: 0
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 26
+      :lang: ja
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/3348828964/449a85133d065b1dd761b6aabb31c2bd_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3348828964/449a85133d065b1dd761b6aabb31c2bd_normal.jpeg
+      :profile_banner_url: https://si0.twimg.com/profile_banners/1235467268/1362546849
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:27:00 +0000 2013
+        :id: 309807424750120961
+        :id_str: "309807424750120961"
+        :text: "@hayatoooo8810 \xE3\x81\xAA\xE3\x83\xBC\xE3\x81\xAA\xE3\x81\x81\xE3\x80\x81\xE9\x81\x8A\xE3\x81\xBC\xE3\x83\xBC\xE3\x82\x84\xE7\xAC\x91"
+        :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+        :truncated: false
+        :in_reply_to_status_id: 309701620386639872
+        :in_reply_to_status_id_str: "309701620386639872"
+        :in_reply_to_user_id: 263173100
+        :in_reply_to_user_id_str: "263173100"
+        :in_reply_to_screen_name: hayatoooo8810
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweet_count: 0
+        :entities: *id027
+        :favorited: false
+        :retweeted: false
+        :filter_level: medium
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:27:00 +0000 2013
+    :id: 309807424758497280
+    :id_str: "309807424758497280"
+    :text: "@Sha3oolh6 \xD8\xAD\xD9\x84\xD9\x88\xD9\x88\xD9\x88\xD9\x88\xD9\x88\xD9\x88 \xD8\xAF\xD8\xAE\xD9\x84\xD9\x88 \xD9\x81\xD9\x8A \xD9\x83\xD8\xB3\xD9\x83 \xD9\x85\xD8\xB4\xD8\xAA\xD9\x87\xD9\x8A \xD9\x81\xD9\x8A\xD9\x83"
+    :source: web
+    :truncated: false
+    :in_reply_to_status_id: 309806977339490305
+    :in_reply_to_status_id_str: "309806977339490305"
+    :in_reply_to_user_id: 1065235591
+    :in_reply_to_user_id_str: "1065235591"
+    :in_reply_to_screen_name: Sha3oolh6
+    :user: 
+      :id: 956228726
+      :id_str: "956228726"
+      :name: "\xD8\xAD\xD8\xA8\xD9\x8A\xD8\xA8 \xD8\xA7\xD9\x84\xD8\xB9\xD8\xAA\xD9\x8A\xD8\xA8\xD9\x8A"
+      :screen_name: e9998
+      :location: "\xD8\xA7\xD9\x84\xD8\xB3\xD8\xB9\xD9\x88\xD8\xAF\xD9\x8A\xD9\x87"
+      :url: 
+      :description: 
+      :protected: false
+      :followers_count: 7
+      :friends_count: 174
+      :listed_count: 0
+      :created_at: Sun Nov 18 21:04:31 +0000 2012
+      :favourites_count: 1
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 225
+      :lang: ar
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/3051698551/a373f5f995adf769359d7b431174eef3_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3051698551/a373f5f995adf769359d7b431174eef3_normal.jpeg
+      :profile_banner_url: https://si0.twimg.com/profile_banners/956228726/1357075423
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :entities: &id028 
+      :hashtags: []
+
+      :urls: []
+
+      :user_mentions: 
+      - :screen_name: Sha3oolh6
+        :name: "\xD9\x85\xD8\xB4\xD8\xA7\xD8\xB9\xD9\x84 "
+        :id: 1065235591
+        :id_str: "1065235591"
+        :indices: 
+        - 0
+        - 10
+    :favorited: false
+    :retweeted: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:27:00 -05:00
+  retweeted_status: 
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 956228726
+      :id_str: "956228726"
+      :name: "\xD8\xAD\xD8\xA8\xD9\x8A\xD8\xA8 \xD8\xA7\xD9\x84\xD8\xB9\xD8\xAA\xD9\x8A\xD8\xA8\xD9\x8A"
+      :screen_name: e9998
+      :location: "\xD8\xA7\xD9\x84\xD8\xB3\xD8\xB9\xD9\x88\xD8\xAF\xD9\x8A\xD9\x87"
+      :url: 
+      :description: 
+      :protected: false
+      :followers_count: 7
+      :friends_count: 174
+      :listed_count: 0
+      :created_at: Sun Nov 18 21:04:31 +0000 2012
+      :favourites_count: 1
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 225
+      :lang: ar
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/3051698551/a373f5f995adf769359d7b431174eef3_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3051698551/a373f5f995adf769359d7b431174eef3_normal.jpeg
+      :profile_banner_url: https://si0.twimg.com/profile_banners/956228726/1357075423
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:27:00 +0000 2013
+        :id: 309807424758497280
+        :id_str: "309807424758497280"
+        :text: "@Sha3oolh6 \xD8\xAD\xD9\x84\xD9\x88\xD9\x88\xD9\x88\xD9\x88\xD9\x88\xD9\x88 \xD8\xAF\xD8\xAE\xD9\x84\xD9\x88 \xD9\x81\xD9\x8A \xD9\x83\xD8\xB3\xD9\x83 \xD9\x85\xD8\xB4\xD8\xAA\xD9\x87\xD9\x8A \xD9\x81\xD9\x8A\xD9\x83"
+        :source: web
+        :truncated: false
+        :in_reply_to_status_id: 309806977339490305
+        :in_reply_to_status_id_str: "309806977339490305"
+        :in_reply_to_user_id: 1065235591
+        :in_reply_to_user_id_str: "1065235591"
+        :in_reply_to_screen_name: Sha3oolh6
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweet_count: 0
+        :entities: *id028
+        :favorited: false
+        :retweeted: false
+        :filter_level: medium
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:27:00 +0000 2013
+    :id: 309807424754311168
+    :id_str: "309807424754311168"
+    :text: "RT @gruppa_voina: \xD0\x9E\xD1\x82\xD0\xBA\xD1\x80\xD1\x8B\xD1\x82\xD0\xBA\xD0\xB0 \xD1\x81\xD1\x82\xD0\xB0\xD1\x80\xD0\xB8\xD0\xBA\xD1\x83 \xD0\x9F\xD1\x83\xD1\x82\xD0\xB8\xD0\xBD\xD1\x83 http://t.co/Jqi3axTDce"
+    :source: web
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user: 
+      :id: 787101475
+      :id_str: "787101475"
+      :name: Remark
+      :screen_name: 2004Remark
+      :location: ""
+      :url: 
+      :description: 
+      :protected: false
+      :followers_count: 24
+      :friends_count: 22
+      :listed_count: 0
+      :created_at: Tue Aug 28 14:11:08 +0000 2012
+      :favourites_count: 2
+      :utc_offset: 14400
+      :time_zone: Abu Dhabi
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 2182
+      :lang: ru
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/2552478398/3h226sb0pz2anvwmkl8p_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/2552478398/3h226sb0pz2anvwmkl8p_normal.jpeg
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweeted_status: &id029 
+      :created_at: Thu Mar 07 17:49:38 +0000 2013
+      :id: 309722523392679936
+      :id_str: "309722523392679936"
+      :text: "\xD0\x9E\xD1\x82\xD0\xBA\xD1\x80\xD1\x8B\xD1\x82\xD0\xBA\xD0\xB0 \xD1\x81\xD1\x82\xD0\xB0\xD1\x80\xD0\xB8\xD0\xBA\xD1\x83 \xD0\x9F\xD1\x83\xD1\x82\xD0\xB8\xD0\xBD\xD1\x83 http://t.co/Jqi3axTDce"
+      :source: web
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user: 
+        :id: 152327077
+        :id_str: "152327077"
+        :name: "\xD0\xB3\xD1\x80\xD1\x83\xD0\xBF\xD0\xBF\xD0\xB0 \xD0\xB2\xD0\xBE\xD0\xB9\xD0\xBD\xD0\xB0"
+        :screen_name: gruppa_voina
+        :location: moscow
+        :url: 
+        :description: "\xD1\x82\xD0\xB2\xD0\xB8\xD1\x82\xD1\x82\xD0\xB5\xD1\x80 \xD0\xB0\xD0\xBA\xD1\x82\xD0\xB8\xD0\xB2\xD0\xB8\xD1\x81\xD1\x82\xD0\xBE\xD0\xB2 \xD0\xB3\xD1\x80\xD1\x83\xD0\xBF\xD0\xBF\xD1\x8B \xD0\x92\xD0\xBE\xD0\xB9\xD0\xBD\xD0\xB0 // official twitter of activists of the Voina group //\r\n\
+          \r\n\
+          \xD0\xB4\xD0\xBB\xD1\x8F \xD1\x81\xD0\xB2\xD1\x8F\xD0\xB7\xD0\xB8 \xD1\x81 \xD0\x92\xD0\xBE\xD0\xB9\xD0\xBD\xD0\xBE\xD0\xB9 // get in touch with Voina: 6046040@gmail.com"
+        :protected: false
+        :followers_count: 35038
+        :friends_count: 1020
+        :listed_count: 829
+        :created_at: Sat Jun 05 16:57:15 +0000 2010
+        :favourites_count: 136
+        :utc_offset: 14400
+        :time_zone: Moscow
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 15432
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: "709397"
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme6/bg.gif
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme6/bg.gif
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/1001153557/upik_shturm2_normal.jpg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/1001153557/upik_shturm2_normal.jpg
+        :profile_link_color: FF3300
+        :profile_sidebar_border_color: 86A4A6
+        :profile_sidebar_fill_color: A0C5C7
+        :profile_text_color: "333333"
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: 
+        :follow_request_sent: 
+        :notifications: 
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 18
+      :entities: 
+        :hashtags: []
+
+        :urls: []
+
+        :user_mentions: []
+
+        :media: 
+        - :id: 309722523396874240
+          :id_str: "309722523396874240"
+          :indices: 
+          - 24
+          - 46
+          :media_url: http://pbs.twimg.com/media/BExa_noCIAA_-u-.jpg
+          :media_url_https: https://pbs.twimg.com/media/BExa_noCIAA_-u-.jpg
+          :url: http://t.co/Jqi3axTDce
+          :display_url: pic.twitter.com/Jqi3axTDce
+          :expanded_url: http://twitter.com/gruppa_voina/status/309722523392679936/photo/1
+          :type: photo
+          :sizes: 
+            :small: 
+              :w: 340
+              :h: 340
+              :resize: fit
+            :thumb: 
+              :w: 150
+              :h: 150
+              :resize: crop
+            :large: 
+              :w: 800
+              :h: 800
+              :resize: fit
+            :medium: 
+              :w: 600
+              :h: 600
+              :resize: fit
+      :favorited: false
+      :retweeted: true
+      :possibly_sensitive: false
+    :retweet_count: 0
+    :entities: &id030 
+      :hashtags: []
+
+      :urls: []
+
+      :user_mentions: 
+      - :screen_name: gruppa_voina
+        :name: "\xD0\xB3\xD1\x80\xD1\x83\xD0\xBF\xD0\xBF\xD0\xB0 \xD0\xB2\xD0\xBE\xD0\xB9\xD0\xBD\xD0\xB0"
+        :id: 152327077
+        :id_str: "152327077"
+        :indices: 
+        - 3
+        - 16
+      :media: 
+      - :id: 309722523396874240
+        :id_str: "309722523396874240"
+        :indices: 
+        - 42
+        - 64
+        :media_url: http://pbs.twimg.com/media/BExa_noCIAA_-u-.jpg
+        :media_url_https: https://pbs.twimg.com/media/BExa_noCIAA_-u-.jpg
+        :url: http://t.co/Jqi3axTDce
+        :display_url: pic.twitter.com/Jqi3axTDce
+        :expanded_url: http://twitter.com/gruppa_voina/status/309722523392679936/photo/1
+        :type: photo
+        :sizes: 
+          :small: 
+            :w: 340
+            :h: 340
+            :resize: fit
+          :thumb: 
+            :w: 150
+            :h: 150
+            :resize: crop
+          :large: 
+            :w: 800
+            :h: 800
+            :resize: fit
+          :medium: 
+            :w: 600
+            :h: 600
+            :resize: fit
+        :source_status_id: 309722523392679936
+        :source_status_id_str: "309722523392679936"
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:27:00 -05:00
+  retweeted_status: !ruby/object:Twitter::Tweet 
+    attrs: *id029
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 787101475
+      :id_str: "787101475"
+      :name: Remark
+      :screen_name: 2004Remark
+      :location: ""
+      :url: 
+      :description: 
+      :protected: false
+      :followers_count: 24
+      :friends_count: 22
+      :listed_count: 0
+      :created_at: Tue Aug 28 14:11:08 +0000 2012
+      :favourites_count: 2
+      :utc_offset: 14400
+      :time_zone: Abu Dhabi
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 2182
+      :lang: ru
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/2552478398/3h226sb0pz2anvwmkl8p_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/2552478398/3h226sb0pz2anvwmkl8p_normal.jpeg
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:27:00 +0000 2013
+        :id: 309807424754311168
+        :id_str: "309807424754311168"
+        :text: "RT @gruppa_voina: \xD0\x9E\xD1\x82\xD0\xBA\xD1\x80\xD1\x8B\xD1\x82\xD0\xBA\xD0\xB0 \xD1\x81\xD1\x82\xD0\xB0\xD1\x80\xD0\xB8\xD0\xBA\xD1\x83 \xD0\x9F\xD1\x83\xD1\x82\xD0\xB8\xD0\xBD\xD1\x83 http://t.co/Jqi3axTDce"
+        :source: web
+        :truncated: false
+        :in_reply_to_status_id: 
+        :in_reply_to_status_id_str: 
+        :in_reply_to_user_id: 
+        :in_reply_to_user_id_str: 
+        :in_reply_to_screen_name: 
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweeted_status: *id029
+        :retweet_count: 0
+        :entities: *id030
+        :favorited: false
+        :retweeted: false
+        :possibly_sensitive: false
+        :filter_level: medium
+- !ruby/object:Twitter::Tweet 
+  attrs: 
+    :created_at: Thu Mar 07 23:27:00 +0000 2013
+    :id: 309807424771076096
+    :id_str: "309807424771076096"
+    :text: &id031 |-
+      Hey ya'll
+      
+      New comer in the house &amp; am lurvin it
+    :source: web
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user: 
+      :id: 997055251
+      :id_str: "997055251"
+      :name: Lorene Ferrell
+      :screen_name: LoreneFerrell5
+      :location: WorldWide;)
+      :url: 
+      :description: "Tweet me :) \xE2\x80\xA6\xE2\x80\xA6Hey while your at it can you getme a red bll? :) #DreamBig and #DreamOutLoud"
+      :protected: false
+      :followers_count: 2
+      :friends_count: 178
+      :listed_count: 0
+      :created_at: Sat Dec 08 12:13:03 +0000 2012
+      :favourites_count: 0
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 20
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/3183902985/228fd11c07c10d94cde1535deadc772d_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3183902985/228fd11c07c10d94cde1535deadc772d_normal.jpeg
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :entities: &id032 
+      :hashtags: []
+
+      :urls: []
+
+      :user_mentions: []
+
+    :favorited: false
+    :retweeted: false
+    :filter_level: medium
+  created_at: 2013-03-07 18:27:00 -05:00
+  retweeted_status: 
+  user: !ruby/object:Twitter::User 
+    attrs: 
+      :id: 997055251
+      :id_str: "997055251"
+      :name: Lorene Ferrell
+      :screen_name: LoreneFerrell5
+      :location: WorldWide;)
+      :url: 
+      :description: "Tweet me :) \xE2\x80\xA6\xE2\x80\xA6Hey while your at it can you getme a red bll? :) #DreamBig and #DreamOutLoud"
+      :protected: false
+      :followers_count: 2
+      :friends_count: 178
+      :listed_count: 0
+      :created_at: Sat Dec 08 12:13:03 +0000 2012
+      :favourites_count: 0
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 20
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/3183902985/228fd11c07c10d94cde1535deadc772d_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3183902985/228fd11c07c10d94cde1535deadc772d_normal.jpeg
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: "333333"
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: 
+      :follow_request_sent: 
+      :notifications: 
+      :status: 
+        :created_at: Thu Mar 07 23:27:00 +0000 2013
+        :id: 309807424771076096
+        :id_str: "309807424771076096"
+        :text: *id031
+        :source: web
+        :truncated: false
+        :in_reply_to_status_id: 
+        :in_reply_to_status_id_str: 
+        :in_reply_to_user_id: 
+        :in_reply_to_user_id_str: 
+        :in_reply_to_screen_name: 
+        :geo: 
+        :coordinates: 
+        :place: 
+        :contributors: 
+        :retweet_count: 0
+        :entities: *id032
+        :favorited: false
+        :retweeted: false
+        :filter_level: medium
