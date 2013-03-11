@@ -15,7 +15,7 @@
         <article>
           <img src=<%= tweet.user.profile_image_url %>>
           <span class="top_line">
-            <span class="screen_name"><%= tweet.user.screen_name %></span>
+            <span class="screen_name"><a href="https://twitter.com/<%= tweet.user.screen_name %>"><%= tweet.user.screen_name %></a></span>
             <span class="full_text"><%= tweet.full_text %></span>
           </span>
           <br />

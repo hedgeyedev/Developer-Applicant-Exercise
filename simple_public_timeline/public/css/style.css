@@ -22,6 +22,10 @@ span.top_line {
   font-size: 120%;
 }
 
+span.top_line a {
+  text-decoration: none;
+}
+
 span.bottom_line {
   color: gray;
   font-size: 80%;
