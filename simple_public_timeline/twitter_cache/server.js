@@ -17,14 +17,12 @@
 
   message_type = function(message, type) {
     var len;
-
     len = type.length + 4;
     return message.substr(0, len) === ("{\"" + type + "\":");
   };
 
   date_key = function(date) {
     var dnum, len, padding, plen;
-
     plen = 16;
     dnum = "" + (date.valueOf());
     len = dnum.length;
@@ -46,7 +44,6 @@
       this._set_client_auth = __bind(this._set_client_auth, this);
       this._open_database = __bind(this._open_database, this);
       var _this = this;
-
       TwitterCache.__super__.constructor.call(this, this);
       this.on("message-parse-required", function(message) {
         return _this._parse_message(message);
@@ -60,7 +57,6 @@
 
     TwitterCache.prototype.start = function() {
       var _this = this;
-
       this.once("db-ready", function(db) {
         _this.db = db;
         return _this.connect();
@@ -73,7 +69,6 @@
 
     TwitterCache.prototype.connect = function() {
       var _this = this;
-
       this.once("client-auth-set", function() {
         return _this._verify_credentials();
       });
@@ -92,7 +87,6 @@
 
     TwitterCache.prototype._open_database = function() {
       var _this = this;
-
       return levelup('./twitter_cache.ldb', {
         valueEncoding: 'json',
         createIfMissing: true,
@@ -109,7 +103,6 @@
 
     TwitterCache.prototype._set_client_auth = function() {
       var error;
-
       try {
         this.client.setAuth(env.TWITTER_CONSUMER_KEY, env.TWITTER_CONSUMER_SECRET, env.TWITTER_ACCESS_TOKEN, env.TWITTER_ACCESS_SECRET);
         return this.emit("client-auth-set");
@@ -121,7 +114,6 @@
 
     TwitterCache.prototype._verify_credentials = function() {
       var _this = this;
-
       return this.client.get("account/verify_credentials", {
         skip_status: true
       }, function(user, error, status) {
@@ -135,10 +127,8 @@
 
     TwitterCache.prototype._stream_sample = function() {
       var _this = this;
-
       return this.client.stream("statuses/sample", {}, function(message) {
         var event;
-
         event = (function() {
           switch (false) {
             case !!message:
@@ -179,7 +169,6 @@
 
     TwitterCache.prototype.twenty_tweets = function(callback) {
       var tweets;
-
       tweets = [];
       return this.db.createReadStream({
         reverse: true,
@@ -208,7 +197,7 @@
         } else {
           console.warn("Empty twenty_tweets.json");
         }
-        return setTimeout(log_tweets, 5000);
+        return setTimeout(log_tweets, 500);
       });
     });
   };

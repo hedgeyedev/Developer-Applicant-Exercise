@@ -133,7 +133,7 @@ twitter_cache = new TwitterCache()
 twitter_cache.start()
 
 
-# dump 20 tweets into a cache file every 5 seconds
+# dump 20 tweets into a cache file every 0.5 seconds
 log_tweets = ->
   twitter_cache.twenty_tweets (tweets) ->
     fs.writeFile './twenty_tweets.json.new', JSON.stringify(tweets, null, "  "), ->
@@ -142,7 +142,7 @@ log_tweets = ->
         console.info "Refreshed twenty_tweets.json @#{tweets[0].created_at}"
       else
         console.warn "Empty twenty_tweets.json"
-      setTimeout log_tweets, 5000
+      setTimeout log_tweets, 500
 
 # start writing out tweets half a second after receiving the first tweet
 twitter_cache.once "tweet", ->
