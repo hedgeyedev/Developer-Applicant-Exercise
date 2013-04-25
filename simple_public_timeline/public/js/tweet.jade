@@ -1,0 +1,22 @@
+article.tweet(id=tweet.id_str)
+  a.account_group(href="https://twitter.com/#{tweet.user.screen_name}")
+    img(src=tweet.user.profile_image_url, alt=tweet.user.name)
+    span.name= tweet.user.name
+    &nbsp;
+    span.screen_name
+      span @
+      span= tweet.user.screen_name
+  .text= tweet.text
+  time(datetime=tweet.created_at)= (new Date(tweet.created_at)).toLocaleTimeString()
+  &nbsp;
+  span From
+  &nbsp;
+  span.from!= tweet.source
+  if tweet.in_reply_to_screen_name
+    &nbsp;
+    span in reply to
+    &nbsp;
+    a.in_reply_to(href="https://twitter.com/#{tweet.in_reply_to_screen_name}")
+      span.screen_name
+        span @
+        span= tweet.in_reply_to_screen_name

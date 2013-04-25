@@ -1,0 +1,80 @@
+@import compass
+
+
+$twitter_light_blue: hsla(200, 19, 93, 1)
+$twitter_blue_one: hsla(194, 100, 41, 1)
+$twitter_blue_two: hsla(194, 100, 36, 1)
+$twitter_gradient: linear-gradient($twitter_blue_one, $twitter_blue_two)
+
+
+*
+  margin: 0
+  padding: 0
+
+a
+  text-decoration: none
+
+
+=center-aligned
+  margin:
+    left: 10%
+    right: 10%
+
+
+html
+  +box-sizing(border-box)
+  background:
+    color: $twitter_light_blue
+  text-rendering: optimizeLegibility
+
+.topbar
+  background:
+    color: $twitter_blue_one
+    image: $twitter_gradient
+  height: 40px
+  .logo
+    display: inline-block
+    height: 30px
+    margin: 5px 0
+
+#tweets, #header, .topbar .logo
+  +center-aligned
+
+#header
+  margin:
+    top: 1em
+    bottom: 1em
+
+.tweet
+  margin:
+    bottom: 0.5em
+  padding:
+    top: 0.5em
+    right: 0.5em
+    bottom: 0.5em
+    left: 70px
+  background:
+    color: hsla(0, 100, 100, 0.5)
+  border: 1px solid hsla(0, 0, 90, 1)
+  +border-radius(10px)
+  word-wrap: break-word
+  position: relative
+
+  .account_group
+    img
+      width: 48px
+      height: 48px
+      +border-radius(5px)
+      position: absolute
+      top: 10px
+      left: 10px
+
+  .screen_name
+    color: hsla(0, 0, 75, 1)
+    font-weight: lighter
+
+  .name
+    color: hsla(0, 0, 0, 1)
+    font-weight: bold
+
+

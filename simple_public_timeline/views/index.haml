@@ -1,0 +1,3 @@
+#tweets
+  - tweets.each do |tweet|
+    = haml :tweet, :layout => false, :locals => {:tweet => tweet}

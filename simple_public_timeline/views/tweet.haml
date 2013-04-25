@@ -1,0 +1,17 @@
+%article.tweet{:id => tweet.id_str}<
+  %a.account_group{:href => "https://twitter.com/#{tweet.user.screen_name}"}<
+    %img{:src => tweet.user.profile_image_url, :alt => tweet.user.name}
+    %span.name= tweet.user.name
+    %span.screen_name<
+      %span> @
+      %span= tweet.user.screen_name
+  .text= tweet.text
+  %time{:datetime => tweet.created_at}= Time.iso8601(tweet.created_at).getlocal.strftime("%r")
+  %span From
+  %span.from= tweet.source
+  - if tweet.in_reply_to_screen_name
+    %span in reply to
+    %a.in_reply_to{:href => "https://twitter.com/#{tweet.in_reply_to_screen_name}"}<
+      %span.screen_name<
+        %span> @
+        %span= tweet.in_reply_to_screen_name

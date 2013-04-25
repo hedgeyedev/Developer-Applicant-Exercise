@@ -1,0 +1,25 @@
+Changes
+-------
+
+
+-  added gemfile describing dependencies
+   -  HTTPS rubygems source
+   -  required ruby version
+   -  required gems
+
+-  tweaked rspec setup to be more standard
+   -  spec dir
+   -  spec helper
+   -  modify load path using fully expanded path to avoid re-expansion on require; removed funky require_relative
+   -  deliberately specify mocking and expectation frameworks
+   -  use current expect syntax rather than older should syntax
+
+-  modified specs to test for smaller units of functionality, and potential edge case
+   -  pre-existing implementation is unable to perform substitutions on multiple tags (bug)
+   -  pre-existing implementation is unable to perform substitutions unless both tags are present (bug)
+
+-  rewrote code to pass specs
+
+
+The original implementation code barely resembles ruby. Cyclomatic complexity is high, String.new is completely unnecessary, duplication is very high, more state is held than is entirely necessary, and so forth. Most importantly, it's awkward to read and understand. Rather than modify the existing implementation, I replaced it with a one-liner. If additional tag types were available then splitting the code for handling each tag or class of tag, as well as separating out parsing (to handle `%any-text%` in one pass rather than a pass for each tag), would likely improve maintainability and efficiency. With just two tags, however, a one-liner using chained gsub is sufficient.
+

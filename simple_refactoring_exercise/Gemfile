@@ -1,0 +1,8 @@
+# -*- coding: utf-8 -*-
+
+source 'https://rubygems.org'
+ruby '1.9.3'
+
+gem 'rake', '~> 10.0.4'
+gem 'rspec-core', '~> 2.13.0'
+gem 'rspec-expectations', '~> 2.13.0'
