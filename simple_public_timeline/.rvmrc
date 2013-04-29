@@ -1,0 +1,5 @@
+rvm --create use "1.9.3-p392"
+
+if ! command -v bundle ; then
+  gem install bundler
+fi

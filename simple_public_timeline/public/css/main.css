@@ -1,0 +1,85 @@
+/* line 10, ../../views/stylesheets/main.sass */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 14, ../../views/stylesheets/main.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 24, ../../views/stylesheets/main.sass */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #eaeef1;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 30, ../../views/stylesheets/main.sass */
+.topbar {
+  background-color: #00a0d1;
+  background-image: linear-gradient(#00a0d1, #008db8);
+  height: 40px;
+}
+/* line 35, ../../views/stylesheets/main.sass */
+.topbar .logo {
+  display: inline-block;
+  height: 30px;
+  margin: 5px 0;
+}
+
+/* line 40, ../../views/stylesheets/main.sass */
+#tweets, #header, .topbar .logo {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* line 43, ../../views/stylesheets/main.sass */
+#header {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* line 48, ../../views/stylesheets/main.sass */
+.tweet {
+  margin-bottom: 0.5em;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 70px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #e6e6e6;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  word-wrap: break-word;
+  position: relative;
+}
+/* line 64, ../../views/stylesheets/main.sass */
+.tweet .account_group img {
+  width: 48px;
+  height: 48px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+/* line 72, ../../views/stylesheets/main.sass */
+.tweet .screen_name {
+  color: #bfbfbf;
+  font-weight: lighter;
+}
+/* line 76, ../../views/stylesheets/main.sass */
+.tweet .name {
+  color: black;
+  font-weight: bold;
+}

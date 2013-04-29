@@ -1,0 +1,19 @@
+こんにちは　Ｈｅｄｇｅｙｅ！ ＾＿＾ｂ
+Hello Hedgeye! ^_^b
+
+This opportunity presented itself and I couldn't help but apply. It's a rare thing to find a decent ruby job outside of the big hotspots (NYC, boston, portland, SF area, seattle, recently kansas city), and CT is where both my wife and I have family and a support network for our son.
+
+I think you should consider me as a hire because:
+
+  -  I'm uniquely positioned to have an understanding of a system as a whole, from hardware and network layer to OS level to distributed systems design to backend to frontend. As a caveat, while I may be a jack of all trades, I do not consider myself a master of any individual skill.
+
+  -  I'm not 20 anymore. While it was great fun at one point to play with new and interesting toys before hopping on to the next startup, what I'm looking for right now in my life is stability. If I'm a good fit for the position and the team is a good fit for me, then I'm in it for the long haul.
+
+  -  At the same time, I haven't lost my passion for new and interesting technology. I love to learn and apply that knowledge. I've had a time finding apps for my phone that don't choke on my feed list.
+
+  -  Being entirely self-taught to begin with, you can depend on me to get up to speed quickly when situation or strategy requires the use of previously unfamiliar technology.
+
+  -  I cheat. Or at least it feels like cheating when you can apply existing work to a problem, or when you bang out some coffeescript that would have been twice as many lines of javascript, or use compass with sass to take advantage of current best practices almost like magic (like using the opacity mixin, which even takes into account DirectX bugs in IE8 when in IE7 mode).
+
+
+__Travis Tilley__

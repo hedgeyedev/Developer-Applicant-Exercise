@@ -7,3 +7,9 @@ RSpec::Core::RakeTask.new do |task|
   task.verbose = true
 end
 
+desc "twitter cache server"
+task :twitter_cache do
+  chdir 'twitter_cache'
+  system 'npm', 'install'
+  exec 'node', './server.js'
+end

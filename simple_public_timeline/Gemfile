@@ -1,0 +1,27 @@
+# -*- coding: utf-8 -*-
+
+source 'https://rubygems.org'
+ruby '1.9.3'
+
+
+gem 'json'
+gem 'hashie'
+
+gem 'coffee-script'
+gem 'execjs'
+
+gem 'sass'
+gem 'compass'
+
+gem 'sinatra', '~> 1.4.2'
+
+gem 'redcarpet'
+gem 'haml'
+
+
+gem 'rake', '~> 10.0.4'
+
+
+# gem 'rspec-core', '~> 2.13.0'
+# gem 'rspec-expectations', '~> 2.13.0'
+# gem 'rspec-mocks', '~> 2.13.0'

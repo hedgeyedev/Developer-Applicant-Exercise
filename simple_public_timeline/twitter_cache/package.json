@@ -1,0 +1,20 @@
+{
+  "name": "twitter_cache",
+  "version": "0.1.0",
+  "description": "caching twitter stream client",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Travis Tilley <ttilley@gmail.com>",
+  "license": "BSD",
+  "dependencies": {
+    "twitter-api": "git://github.com/timwhitlock/node-twitter-api.git",
+    "levelup": "~0.8.0",
+    "level-ttl": "~0.0.1"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.2"
+  }
+}

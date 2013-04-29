@@ -1,25 +1,62 @@
 How many years of Web development experience do you have?
+=========================================================
+
+I've been doing web development of some kind since 2003/2004, though initially it was mostly to assist, and as a service to, clients of web.com who were using them as a hosting service. At the time my primary responsibilities were in network operations and systems administration. So ~10 years, give or take.
 
 
 How many years of JavaScript experience do you have?
+====================================================
+
+This is tough question. Web development and javascript go hand in hand, but there's popping onfoo handlers in your markup and then there's, you know... *JavaScript*. I'm going to make a completely wild guess here and say that my real use of *JavaScript* as a first class programming language in its own right started in about 2006. So ~7 years, give or take. At about that time I was writing internal applications entirely in dojojs due to the ease of writing rich interfaces with it. Years later when nodejs became a thing I was pretty excited and only became better as using JS to do real work. I'm not sure when I got turned on to coffeescript, but as you may notice here, I'm a big fan.
 
 
 How many years of Ruby experience do you have?
+==============================================
+
+I started writing in ruby in about 2004/2005. In my experience this is actually a pretty common date range. Looking back, the ruby "pickaxe" book came out in 2004 and the first edition of "Agile Web Development with Rails" came out in 2005. I suppose this coincides fairly well with the timing of ruby/rails first getting some real attention in the media. While I haven't worked with ruby my entire career, it's still my favorite language and I've been using it for ~9 years.
 
 
 How many years of Rails development experience do you have?
+===========================================================
+
+Despite ruby becoming such a big topic and a popular language due to rails, I didn't actually use rails until a year or so after I started writing in ruby. I'd say between 8 and 9 years.
 
 
 What are your opinions on Agile software development?
+=====================================================
+
+My opinion is that it's a good sign to be asked. :)
+
+Every time you take on a new type of task, you're learning as you go. As such you're going to see things that you were not capable of predicting with complete certainty at the outset. This results in unreliable estimates for units of time that are more than a day or two. It is a glorious side effect of most agile methodologies that you end up doing estimation in units closer to 2-8 hours, in a constant feedback loop that ends up increasing the accuracy of your mean estimate over time. It doesn't decrease the level of uncertainty or number of extreme outliers, but with iterations of a week to a month they can be dealt with before it becomes a serious problem.
+
+Variations on morning standup also mitigate the negative results of uncertainty by ensuring the team is aware of any blockers or tasks that ended up being larger than initially assumed. Resources can even be reassigned, if necessary, mid-iteration. Though, I must admit, anything too close to the "morning" part of morning standup makes me grumpy. ;)
+
+In short, the specific approach and methodology matters less than the benefits of a rapid feedback cycle and communication.
 
 
 TDD or BDD?
+===========
+
+Sometimes neither if you're looking for an honest answer. While I understand the benefits, it isn't always intuitive, and is best when your level of confidence is high and your mental model of what you're doing is perfectly clear. The accepted practice otherwise is to do a "spike", throw away the code, and reimplement based on what you learned from doing the spike. I have never seen this happen. While ideals are great to strive for, they're not often... pragmatic.
+
+To answer the actual question, a description of an application or library's behavior is significantly more useful than a test could ever be, especially if it's named something like `test_frozinator`... Whether written beforehand in BDD/TDD style or after the fact.
+
+Again, writing the BDD spec beforehand helps keep you focused, makes you write easier to test code (and thus easier to maintain), and has other benefits... but isn't always realistic.
 
 
 What are you looking for in a job?
+==================================
+
+Something interesting to do and a team I enjoy working with. Keeping things interesting usually means I enjoy wearing lots of hats and having my hands in lots of pots... I like being active in projects across multiple layers of the application/platform/company.
 
 
 Are you legal to work in the US?
+================================
+
+Unless I was beamed down to earth from another planet and don't remember, which would actually be pretty awesome.
 
 
 When can you start?
+===================
+
+...can I start now?
