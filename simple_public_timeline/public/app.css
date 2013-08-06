@@ -1,0 +1,45 @@
+ul {
+	padding: 0;
+	list-style-type:none;
+}
+
+.tweet {
+	float: left;
+	clear: left;
+	padding: 10px;
+	width: 430px;
+	border-top: solid 1px #ddd;
+}
+
+.wrapper {
+	width: 364px;
+	float: left;
+}
+
+.profile_image {
+	float: left;
+	margin-right: 10px;
+}
+
+.name {
+	font-weight: bolder;
+	color: #2DF;
+}
+
+.message {
+	margin-bottom: 5px;
+}
+
+.data {
+	font-size: .8em;
+	color: #777;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,15 @@
+!!!
+%html
+	%head
+		%title Twitter clone
+		-if defined? javascript
+			-javascript.each do |file|
+				%script{type:"text/javascript",src:file}
+		%link{rel:"stylesheet",type:"text/css",href:"app.css"}
+	%body
+		%header
+			%h1 Recent Public Tweets
+			%h3 What everyone on Twitter is talking about!
+		%section#content
+			-content ||= ""
+			=content

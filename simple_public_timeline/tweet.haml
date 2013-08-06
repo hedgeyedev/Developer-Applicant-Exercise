@@ -1,0 +1,10 @@
+%article.tweet
+	%img.profile_image{src:tweet.user.profile_image_url}
+	.wrapper
+		.message
+			%a.name{href:"https://twitter.com/#{tweet.user.screen_name}"}=tweet.user.name
+			=tweet.text
+		.data
+			=tweet.created_at.strftime "%-d %b %y - %-l:%M%P"
+			from
+			=tweet.source
