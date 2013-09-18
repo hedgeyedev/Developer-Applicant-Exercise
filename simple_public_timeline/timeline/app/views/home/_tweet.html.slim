@@ -1,0 +1,7 @@
+div
+  = image_tag tweet.profile_image_url
+  = link_to tweet.name, "https://twitter.com/" + tweet.screen_name
+  = tweet.content
+  = time_ago_in_words(tweet.published_at) + ' ago '
+  = 'from '
+  = tweet.source.html_safe 
