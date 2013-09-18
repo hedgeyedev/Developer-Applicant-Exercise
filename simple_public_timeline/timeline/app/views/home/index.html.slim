@@ -1,0 +1,21 @@
+.span8
+  = bootstrap_flash
+  h1 
+    | Public Tweets
+  #postsDiv
+    - @tweets.each do |tweet|
+      = render 'tweet', tweet: tweet 
+  #spinner.hide
+    = image_tag('ajaxSpinner.gif', width: '55')
+
+.span4
+  .well.sidebar-nav
+    h3 filter via restful
+
+    = form_tag root_path, method: :get do
+      = select_tag 'language', options_for_select(@tweets.map(&:options_for_language).uniq.compact.reduce({}){|x, sum| sum.merge x}, @lang), prompt: 'Select Language'
+      <br/>
+      = submit_tag 'Search', class:'btn'
+
+    h3 filter via ajax
+    = select_tag 'language1', options_for_select(Tweet.limit(100).map(&:options_for_language).uniq.compact.reduce({}){|x, sum| sum.merge x}, @lang), prompt: 'Select Language'

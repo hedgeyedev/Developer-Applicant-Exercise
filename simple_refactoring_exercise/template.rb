@@ -1,26 +1,24 @@
 module Template
-  def template(source_template, req_id)
-    template = String.new(source_template)
+  def template(source_template, request_id)
+    #healthy check
+    return 'source template is not string' unless source_template.kind_of? String
+    return 'request_id should be numeric' unless request_id.kind_of?(String) && request_id.match(/^\d+$/)
+    ['%CODE%', '%ALTCODE%'].each do |code| 
+       return "source template should have #{code}" unless source_template.include? code
+    end
+
 
     # Substitute for %CODE%
-    template_split_begin = template.index("%CODE%")
-    template_split_end = template_split_begin + 6
-    template_part_one =
-      String.new(template[0..(template_split_begin-1)])
-    template_part_two =
-      String.new(template[template_split_end..template.length])
-    code = String.new(req_id)
-    template =
-      String.new(template_part_one + code + template_part_two)
+    source_template.gsub!(/\%CODE\%/, request_id.to_s)
 
     # Substitute for %ALTCODE%
-    template_split_begin = template.index("%ALTCODE%")
-    template_split_end = template_split_begin + 9
-    template_part_one =
-      String.new(template[0..(template_split_begin-1)])
-    template_part_two =
-      String.new(template[template_split_end..template.length])
-    altcode = code[0..4] + "-" + code[5..7]
-    template_part_one + altcode + template_part_two
+    source_template.gsub(/\%ALTCODE\%/, convert(request_id.to_s))
+
+    #or merge to one
+    #source_template.gsub(/\%CODE\%(.*)\%ALTCODE\%/) {request_id.to_s + $1 + convert(request_id.to_s)}
+  end
+
+  def convert( origin_string )
+    origin_string.gsub(/(\d{5})(\d{3})(.*)/, '\1-\2')
   end
 end

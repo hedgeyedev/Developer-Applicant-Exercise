@@ -1,25 +1,28 @@
 How many years of Web development experience do you have?
-
+8
 
 How many years of JavaScript experience do you have?
+3
 
 
 How many years of Ruby experience do you have?
-
+4
 
 How many years of Rails development experience do you have?
-
+4
 
 What are your opinions on Agile software development?
-
+Agile will make sure my team successfully develop the project
 
 TDD or BDD?
-
+I love both. Test is must have
 
 What are you looking for in a job?
+exciting project I can use my skill
 
 
 Are you legal to work in the US?
-
+Green Card Holder
 
 When can you start?
+3 weeks
