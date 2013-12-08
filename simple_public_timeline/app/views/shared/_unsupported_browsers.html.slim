@@ -1,0 +1,30 @@
+- if !browser_supported?
+  #old-browser-modal.modal.fade
+    .modal-dialog
+      .modal-content
+        - if current_locale == "it"
+          .modal-header
+            h4.modal-title Stai usando un browser obsoleto!
+          .modal-body
+            = image_tag("/images/browsers.png", alt: browser.classes(" ", "", "Version ", false){|name| name.to_s.titleize})
+            p
+              ' Per fornirti l'esperienza di navigazione migliore e più sicura, questo sito supporta solamente la versione attuale e quella precedente di tutti i
+                browser principali.
+            p Seguendo il link in basso puoi aggiornare <strong>gratis</strong> il tuo browser alla versione più recente disponibile.
+          .modal-footer
+            .pull-right = link_to("Aggiorna gratis il tuo browser!", "http://browsehappy.com", class: "btn btn-primary")
+        - else
+          .modal-header: h4.modal-title You are using an unsupported legacy browser!
+          .modal-body
+            = image_tag("/images/browsers.png")
+            p To provide you the best and more secure browsing experience, this site only supports the current and previous release of all major browsers.
+            p By following the link below you can update <strong>for free</strong> your browser to the most up to date version available.
+
+          .modal-footer
+            .pull-right = link_to("Update your browser for free!", "http://browsehappy.com", class: "btn btn-primary")
+
+  javascript:
+    $(function() {
+      $("#old-browser-modal").modal({keyboard: false}).modal("show");
+      $("*").off("click");
+    });

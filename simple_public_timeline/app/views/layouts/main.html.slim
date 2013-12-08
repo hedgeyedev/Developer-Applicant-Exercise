@@ -1,0 +1,40 @@
+doctype html
+html class="#{browser.classes} #{scope_css}"
+  head
+    title 
+    meta name="description" content=""
+    meta name="keywords" content=""
+    meta name="author" content=""
+    meta charset="utf-8"
+
+    = stylesheet_link_tag("application", media: "all", "data-turbolinks-track" => true)
+    meta name="viewport" content="width=device-width, initial-scale=1.0"
+    meta http-equiv="X-UA-Compatible" content="IE=edge"
+
+  body
+    section#root == yield
+    footer
+      .container.text-center
+        ul.list-inline
+          li
+            span
+              ' &copy; 2013 and above
+            a href="http://github.com/Shogun"
+              i.fa.fa-github
+              | Shogun
+          li
+            a href="http://cowtech.it"
+              i.fa.fa-globe
+              | http://cowtech.it
+            a href="mailto:shogun@cowtech.it"
+              i.fa.fa-envelope
+              | shogun@cowtech.it
+
+    div.ribbon.ribbon-top-right
+      a href="http://github.com/Shogun/simple_public_timeline" target="_blank": span Fork me on GitHub
+
+    div.ribbon.ribbon-bottom-right.italy.visible-md.visible-lg
+      a href="http://www.italia.it" target="_blank": span Made by a proud Italian
+
+    = javascript_include_tag(:application)
+    == render(partial: "shared/unsupported_browsers", locals: {current_locale: @current_locale})

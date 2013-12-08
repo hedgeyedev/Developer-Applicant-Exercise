@@ -1,0 +1,26 @@
+doctype html
+html class=browser.classes
+  head
+    title = @error_title
+    meta charset="utf-8"
+
+    = stylesheet_link_tag("error", media: "all", "data-turbolinks-track" => true)
+    meta name="viewport" content="width=device-width, initial-scale=1.0"
+    meta http-equiv="X-UA-Compatible" content="IE=edge"
+
+    = csrf_meta_tags
+  body
+    .panel class=(@error_code == 503 ? "panel-warning" : "panel-danger")
+      .panel-heading
+        h4
+          = @error_title
+          small.pull-right &nbsp;HTTP error #{@error_code}
+      .panel-body
+        - if @error_code != 503
+          h4.message = (@error_message || @error.message)
+        - else
+          pre.code = @error.message
+
+        - if @error
+          hr
+          pre.code = @error.backtrace.join("\n")

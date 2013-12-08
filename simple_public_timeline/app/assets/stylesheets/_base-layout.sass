@@ -1,0 +1,81 @@
+//
+// This file is part of simple_public_timeline. Copyright (C) 2013 and above Shogun <shogun@cowtech.it>.
+// Licensed under the MIT license, which can be found at http://www.opensource.org/licenses/mit-license.php.
+//
+
+@import "twitter/bootstrap"
+
+// Templates
+=box-sizing($box_sizing)
+  box-sizing: $box_sizing
+  -moz-box-sizing: $box_sizing
+
+=linear-gradient($args...)
+  background: linear-gradient($args)
+  background: -webkit-linear-gradient($args)
+
+// General layout rules
+body
+  min-height: 100vh
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-flex-direction: column
+  -ms-flex-direction: column
+  flex-direction: column
+
+  & > #root
+    -webkit-flex: 1
+    -ms-flex: 1 0 auto
+    flex: 1
+    margin-bottom: 2rem
+
+footer
+  span, a
+    margin: 0 0 0.8rem 1rem
+    position: relative
+    white-space: nowrap
+    display: inline-block
+
+    i
+      opacity: 0.5
+      transition: opacity 0.3s ease
+      color: #333
+      padding: 0 0.1rem 0 1rem
+      font-size: 2rem
+      position: relative
+      top: 0.1rem
+      left: -0.5rem
+
+  a:hover
+    i
+      text-decoration: none
+      opacity: 1
+
+details[data-id]
+  display: none
+
+// Common typography
+.muted
+  color: #999
+
+.hide
+  display: none
+
+strong
+  font-weight: bold
+
+// Browser filtering
+#old-browser-modal
+  text-align: justify
+
+  img
+    max-width: 100%
+    display: block
+    margin: 2rem auto
+
+// Browser fixes
+html.msie.version-10
+  &, & body
+    height: 100%
+    min-height: 100vh

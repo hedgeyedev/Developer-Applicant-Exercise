@@ -1,0 +1,43 @@
+//
+// This file is part of css-ribbons. Copyright (C) 2013 and above Shogun <shogun@cowtech.it>.
+// Licensed under the MIT license, which can be found at http://www.opensource.org/licenses/mit-license.php.
+//
+// Version: 1.0.2 / 2013-11-15
+//
+
+=ribbon-corner($top: auto, $bottom: auto, $left: auto, $right: auto, $width: 15em, $height: 2em, $rotation: 0, $x_offset: 0, $y_offset: 0)
+  top: $top
+  bottom: $bottom
+  left: $left
+  right: $right
+
+  a
+    -webkit-transform: rotate($rotation)
+    transform: rotate($rotation)
+    margin-top: -($height / 2) - $y_offset
+    margin-left: -($width / 2) - $x_offset
+
+=ribbon($placement: "top-right", $width: 15em, $height: 2em, $offset_factor: 2.4)
+  $offset: $height / $offset_factor
+  position: fixed
+  overflow: hidden
+  width: $width / 1.6
+  height: $width / 1.6
+
+  a
+    width: $width
+    height: $height
+    display: block
+    overflow: hidden
+    position: absolute
+    top: 50%
+    left: 50%
+
+  @if $placement == "top-left"
+    +ribbon-corner($top: 0, $left: 0, $width: $width, $height: $height, $rotation: -45deg, $x_offset: $offset, $y_offset: $offset)
+  @else if $placement == "top-right"
+    +ribbon-corner($top: 0, $right: 0, $width: $width, $height: $height, $rotation: 45deg, $x_offset: -$offset, $y_offset: $offset)
+  @else if $placement == "bottom-left"
+    +ribbon-corner($bottom: 0, $left: 0, $width: $width, $height: $height, $rotation: 45deg, $x_offset: $offset, $y_offset: -$offset)
+  @else if $placement == "bottom-right"
+    +ribbon-corner($bottom: 0, $right: 0, $width: $width, $height: $height, $rotation: -45deg, $x_offset: -$offset, $y_offset: -$offset)
