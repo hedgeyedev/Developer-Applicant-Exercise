@@ -3,15 +3,13 @@
 # Licensed under the MIT license, which can be found at http://www.opensource.org/licenses/mit-license.php.
 #
 
-# TODO@PI: rvmrc
 class MainController < ApplicationController
   SIZE = 20
 
   helper MainHelper
 
   def index
-    count = params[:count].to_integer    
-    @tweets = client.search("yankees", count: count > 0 ? count : SIZE)
+    @tweets = fetch_tweets
   end
 
   def via_js
@@ -22,7 +20,7 @@ class MainController < ApplicationController
       if !@client then
         credentials = YAML.load_file(Rails.root + "config/twitter.yml")
 
-        @client = Twitter::REST::Client.new do |config|
+        @client = Twitter::Streaming::Client.new do |config|
           config.consumer_key = credentials[:consumer_key]
           config.consumer_secret = credentials[:consumer_secret]
           config.access_token = credentials[:access_token]
@@ -31,5 +29,18 @@ class MainController < ApplicationController
       end
 
       @client
+    end
+
+    def fetch_tweets
+      count = params[:count].to_integer    
+      count = SIZE if count < 1
+
+      rv = []
+      client.sample do |tweet|
+        rv << tweet if tweet.deleted != true
+        break if rv.count == count
+      end
+
+      rv
     end
 end
