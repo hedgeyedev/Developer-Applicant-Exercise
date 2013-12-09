@@ -11,12 +11,4 @@ module ApplicationHelper
   def browser_supported?(conf_file = nil)
     browser.supported?(conf_file || (Rails.root + "config/supported-browsers.yml").to_s)
   end
-
-  def scope_css
-    "%s %s" % [controller_path.gsub("/", "-"), action_name]
-  end
-
-  def sending_form?
-    request.post? || request.put?
-  end
 end

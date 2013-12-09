@@ -32,3 +32,9 @@ group(:assets) do
   gem "jquery-rails", "~> 3.0.4"
   gem "sugar-rails", "~> 1.4.0"
 end
+
+group(:development, :test) do
+  gem "rspec-rails", "~> 3.0.0.beta1"
+  gem "simplecov", "~> 0.8.0"
+  gem "json", "~> 1.8.1"
+end

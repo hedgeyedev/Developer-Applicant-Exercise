@@ -4,5 +4,7 @@
 #
 
 require File.expand_path("../config/application", __FILE__)
+require "rspec/core/rake_task"
 
+RSpec::Core::RakeTask.new("spec:coverage") { |t| t.ruby_opts = "-r./spec/coverage_helper" }
 SimplePublicTimeline::Application.load_tasks

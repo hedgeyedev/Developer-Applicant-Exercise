@@ -18,7 +18,7 @@ class ApplicationController < ActionController::Base
     "en"
   end
 
-    private
+  private
     def setup
       @current_locale = params.fetch(:locale, default_locale)
     end
@@ -36,6 +36,6 @@ class ApplicationController < ActionController::Base
         end
       end
 
-      render(nil, status: @error_code, layout: "error", formats: :html)
+      render(nil, status: @error_code, layout: "error", formats: [:html])
     end    
 end

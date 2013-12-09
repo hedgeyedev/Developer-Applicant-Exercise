@@ -16,7 +16,7 @@ module MainHelper
     end
 
     tweet.user_mentions.each do |mention|
-      entities << mention["indices"] + [link_to("@#{mention.screen_name}", "https://twitter.com/#{mention.screen_name}", target: :blank, rel: :tooltip, title: mention.name)]
+      entities << mention.indices + [link_to("@#{mention.screen_name}", "https://twitter.com/#{mention.screen_name}", target: :blank, rel: :tooltip, title: mention.name)]
     end
 
     entities.sort {|a, b| a[0] <=> b[0]}
