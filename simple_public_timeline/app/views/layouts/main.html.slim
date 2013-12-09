@@ -1,5 +1,5 @@
 doctype html
-html class="#{browser.classes} #{scope_css}"
+html class=browser.classes
   head
     title 
     meta name="description" content=""
@@ -12,7 +12,12 @@ html class="#{browser.classes} #{scope_css}"
     meta http-equiv="X-UA-Compatible" content="IE=edge"
 
   body
-    section#root == yield
+    section#root 
+      .jumbotron
+        .container
+          h1 Recent Public Tweets
+          h4 What everyone on Twitter is talking about
+      .tweets == yield
     footer
       .container.text-center
         ul.list-inline
@@ -30,10 +35,7 @@ html class="#{browser.classes} #{scope_css}"
               i.fa.fa-envelope
               | shogun@cowtech.it
 
-    div.ribbon.ribbon-top-right
-      a href="http://github.com/Shogun/simple_public_timeline" target="_blank": span Fork me on GitHub
-
-    div.ribbon.ribbon-bottom-right.italy.visible-md.visible-lg
+    div.ribbon.visible-md.visible-lg
       a href="http://www.italia.it" target="_blank": span Made by a proud Italian
 
     = javascript_include_tag(:application)

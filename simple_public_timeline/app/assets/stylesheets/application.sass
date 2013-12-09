@@ -25,6 +25,27 @@ footer
   background-color: #54ABCD
   color: white
 
+#root.loading
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-flex-direction: column
+  -ms-flex-direction: column
+  flex-direction: column
+
+  .tweets
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+
+.tweets
+  flex: 1
+  min-height: 100%
+
+  #loader, #error
+    margin: auto
+    text-align: center
+
 .tweet
   .avatar
     margin-right: 1rem
@@ -64,26 +85,22 @@ footer
   max-width: 300px
   
 .ribbon
-  &.ribbon-top-right
-    +ribbon
-
-  &.ribbon-bottom-right
-    +ribbon("bottom-right")
+  +ribbon("bottom-right")
 
   a
-    color: white
+    color: black
     font-family: "Ubuntu", serif
-    font-weight: normal
+    font-weight: bold
     text-align: center
     text-decoration: none
     white-space: nowrap
     padding: 1px
-    background-color: #A00
+    +linear-gradient(left, #009246, #009246 34%, #f1f2f1 34%, #f1f2f1 66%, #ce2b37 66%)
     box-shadow: 0 0 0.5rem #888888
-    text-shadow: 0 0 0.5rem #444444
+    text-shadow: none
 
     span
-      border: 1px dashed white
+      border: 1px dashed black
       border-left: 0
       border-right: 0
       padding: 0.25rem 0
@@ -91,13 +108,3 @@ footer
       display: block
       height: 100%
       box-sizing: border-box
-
-  &.italy
-    a
-      +linear-gradient(left, #009246, #009246 34%, #f1f2f1 34%, #f1f2f1 66%, #ce2b37 66%)
-      color: black
-      font-weight: bold
-      text-shadow: none
-
-      span
-        border-color: #000

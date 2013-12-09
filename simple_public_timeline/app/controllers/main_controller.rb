@@ -13,6 +13,10 @@ class MainController < ApplicationController
   end
 
   def via_js
+    if request.xhr? then
+      @tweets = fetch_tweets
+      render(:index, layout: false)
+    end
   end
 
   private
