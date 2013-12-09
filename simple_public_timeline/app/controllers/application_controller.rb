@@ -41,5 +41,5 @@ class ApplicationController < ActionController::Base
       else
         render(nil, status: @error_code, layout: "error", formats: [:html])
       end
-    end    
+    end
 end

@@ -36,7 +36,7 @@ class MainController < ApplicationController
     end
 
     def fetch_tweets
-      count = params[:count].to_integer    
+      count = params[:count].to_integer
       count = SIZE if count < 1
 
       rv = []

@@ -5,21 +5,7 @@
 
 module MainHelper
   def parse_entities(tweet)
-    entities = []
-
-    tweet.hashtags.each do |hashtag|
-      entities << hashtag.indices + [link_to("##{hashtag.text}", "https://twitter.com/search?q=%23#{hashtag.text}", target: :blank)]
-    end
-
-    (tweet.media + tweet.urls).each do |url|
-      entities << url.indices + [link_to(url.url.to_s, url.url.to_s, target: :blank)]
-    end
-
-    tweet.user_mentions.each do |mention|
-      entities << mention.indices + [link_to("@#{mention.screen_name}", "https://twitter.com/#{mention.screen_name}", target: :blank, rel: :tooltip, title: mention.name)]
-    end
-
-    entities.sort {|a, b| a[0] <=> b[0]}
+    (parse_hashtags(tweet) + parse_urls(tweet) + parse_users(tweet)).sort {|a, b| a[0] <=> b[0]}
   end
 
   def text_with_active_entities(tweet)
@@ -38,4 +24,22 @@ module MainHelper
 
     rv.html_safe
   end
+
+  private
+    def parse_hashtags(tweet)
+      tweet.hashtags.map {|hashtag|
+        hashtag.indices + [link_to("##{hashtag.text}", "https://twitter.com/search?q=%23#{hashtag.text}", target: :blank)]
+      }
+    end
+
+    def parse_urls(tweet)
+      (tweet.media + tweet.urls).map {|url| url.indices + [link_to(url.url.to_s, url.url.to_s, target: :blank)] }
+    end
+
+    def parse_users(tweet)
+      tweet.user_mentions.map {|mention|
+        mention.indices +
+        [link_to("@#{mention.screen_name}", "https://twitter.com/#{mention.screen_name}", target: :blank, rel: :tooltip, title: mention.name)]
+      }
+    end
 end

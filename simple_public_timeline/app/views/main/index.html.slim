@@ -17,7 +17,7 @@
               = image_tag(tweet.media.first.media_url_https, alt: tweet.text, class: "img-thumbnail img-rounded")
 
           small.muted
-            span rel="tooltip" title=(tweet.created_at.strftime("%A %B %d, %Y at %T") + " UTC") 
+            span rel="tooltip" title=(tweet.created_at.strftime("%A %B %d, %Y at %T") + " UTC")
               = time_ago_in_words(tweet.created_at).capitalize
               '  ago
             ' from

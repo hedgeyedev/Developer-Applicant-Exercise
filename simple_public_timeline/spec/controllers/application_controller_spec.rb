@@ -6,7 +6,11 @@
 require "spec_helper"
 
 describe ApplicationController do
-  subject { ApplicationController.new }
+  subject { 
+    app = ApplicationController.new
+    allow(app).to receive(:request).and_return(OpenStruct.new(xhr?: false))
+    app
+  }
 
   describe "#default_locale" do
     it "returns the default locale" do
@@ -51,10 +55,17 @@ describe ApplicationController do
       expect(subject.instance_variable_get(:@error_code)).to eq(503)
     end
 
-    it "should render the error" do
+    it "should render the error when NOT a XHR request" do
       expect(subject).to receive(:render).with(nil, status: 500, layout: "error", formats: [:html])
 
       subject.send(:handle_error, RuntimeError.new)
+    end
+
+    it "should render the error when a XHR request" do
+      allow(subject).to receive(:request).and_return(OpenStruct.new(xhr?: true))
+      expect(subject).to receive(:render).with(json: {status: 500, error: "ERROR"}, status: 500)
+
+      subject.send(:handle_error, RuntimeError.new("ERROR"))
     end
   end
 end
