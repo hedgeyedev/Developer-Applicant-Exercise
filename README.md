@@ -25,7 +25,7 @@ To be considered for a developer position at [Hedgeye](http://www2.hedgeye.com),
         1. Have the route `/` retrieve the Twitter data on the server side and then render
         2. Have the route `/via_js` retrieve the Twitter data with JavaScript and render it after the document loads
     * Required
-        * `.rvmrc` and `Gemfile`
+        * `.ruby-version`, `.ruby-gemset` and `Gemfile`
         * at least 1 spec.  More means extra credit
     * Tips
         * Do use gems, and JavaScript libraries.
