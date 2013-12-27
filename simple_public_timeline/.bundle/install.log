@@ -1,0 +1,12 @@
+# Logfile created on 2013-12-27 18:29:25 -0500 by logger.rb/36483
+I, [2013-12-27T18:29:25.505022 #4412]  INFO -- : 0:  rack (1.5.2) from /Users/cyruswalker/.rvm/gems/ruby-2.0.0-p247@simple_public_timeline/specifications/rack-1.5.2.gemspec
+I, [2013-12-27T18:29:27.561333 #4412]  INFO -- : 0:  rack-protection (1.5.1) from /Users/cyruswalker/.rvm/gems/ruby-2.0.0-p247@simple_public_timeline/specifications/rack-protection-1.5.1.gemspec
+I, [2013-12-27T18:29:28.883086 #4412]  INFO -- : 0:  tilt (1.4.1) from /Users/cyruswalker/.rvm/gems/ruby-2.0.0-p247@simple_public_timeline/specifications/tilt-1.4.1.gemspec
+I, [2013-12-27T18:29:30.582246 #4412]  INFO -- : 0:  sinatra (1.4.4) from /Users/cyruswalker/.rvm/gems/ruby-2.0.0-p247@simple_public_timeline/specifications/sinatra-1.4.4.gemspec
+I, [2013-12-27T18:29:30.582726 #4412]  INFO -- : 0:  bundler (1.5.0) from /Users/cyruswalker/.rvm/gems/ruby-2.0.0-p247@simple_public_timeline/specifications/bundler-1.5.0.gemspec
+I, [2013-12-27T18:29:57.746587 #4442]  INFO -- : 0:  rack (1.5.2) from /Users/cyruswalker/.rvm/gems/ruby-2.0.0-p247@simple_public_timeline/specifications/rack-1.5.2.gemspec
+I, [2013-12-27T18:29:57.746991 #4442]  INFO -- : 0:  rack-protection (1.5.1) from /Users/cyruswalker/.rvm/gems/ruby-2.0.0-p247@simple_public_timeline/specifications/rack-protection-1.5.1.gemspec
+I, [2013-12-27T18:29:59.366169 #4442]  INFO -- : 0:  redis (3.0.6) from /Users/cyruswalker/.rvm/gems/ruby-2.0.0-p247@simple_public_timeline/specifications/redis-3.0.6.gemspec
+I, [2013-12-27T18:29:59.366851 #4442]  INFO -- : 0:  tilt (1.4.1) from /Users/cyruswalker/.rvm/gems/ruby-2.0.0-p247@simple_public_timeline/specifications/tilt-1.4.1.gemspec
+I, [2013-12-27T18:29:59.367197 #4442]  INFO -- : 0:  sinatra (1.4.4) from /Users/cyruswalker/.rvm/gems/ruby-2.0.0-p247@simple_public_timeline/specifications/sinatra-1.4.4.gemspec
+I, [2013-12-27T18:29:59.367531 #4442]  INFO -- : 0:  bundler (1.5.0) from /Users/cyruswalker/.rvm/gems/ruby-2.0.0-p247@simple_public_timeline/specifications/bundler-1.5.0.gemspec

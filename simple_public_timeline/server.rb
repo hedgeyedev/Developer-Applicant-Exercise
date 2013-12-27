@@ -8,8 +8,6 @@ BIRDHOUSE = BirdHouse.new
 
   get '/' do
     @tweets = BIRDHOUSE.tweets
-    puts "CLASS: #{@tweets.class}"
-    puts "INSPECT: #{@tweets.size}"
     erb :index
   end
 
