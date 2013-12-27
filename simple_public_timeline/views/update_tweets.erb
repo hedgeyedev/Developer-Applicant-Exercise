@@ -1,0 +1,19 @@
+<div id="div1" class="col-lg-12">
+	<div class="well">
+		<% @tweets.each do |t| %>
+		<img src="<%= t['profile_image_url'] %>">
+		<a href="http://www.twitter.com/<%= t['username'] %>"><%= t['username'] %></a>
+		<div class="col-lg-6">
+			<blockquote>
+				<p class="text-info"><%=t['text'] %></p>
+				<cite>
+					<p class="text-success">
+						via <%=t['source'] %>
+					</p>
+					<p class="text-warning"><%= t['recieved_at'] %></p>
+				</cite>
+			</blockquote>
+		</div>
+		<% end %>
+	</div>
+</div>
