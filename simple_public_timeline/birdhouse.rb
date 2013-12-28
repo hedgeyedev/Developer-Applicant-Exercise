@@ -23,7 +23,7 @@ class BirdHouse
     # If the tweet count is too large, trim the list
     if @tweet_count >= 100
       puts "Tweet Count is now too large #{@tweet_count}"
-      @db.del(REDIS_KEY)
+      @db.ltrim(REDIS_KEY, 0, 19)
       @tweet_count = 0
     end
   
