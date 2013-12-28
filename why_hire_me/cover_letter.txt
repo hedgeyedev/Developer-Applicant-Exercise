@@ -1,0 +1,30 @@
+2053 Colonial Ave
+Bronx, New York, 10461
+Apt 3a
+(347-502-5941)
+
+To Whom It May Concern:
+
+This letter is meant to express my interest in discussing the Software Developer position at Hedgeye. This opportunity is intriguing to me because I feel that it defines a perfect blend of my past experience, and what I would like to obtain for my future experience. I believe that I can be a strong asset to the company.
+
+The key strengths I possess for success in this position include:
+
+- I have been exposed to an Agile world before. I understand the concepts of TDD/BDD, and my previous employment opportunities included continuous integration.
+- My current technical knowledge has been mostly obtained through my ambition. I have a tendency to spend many hours of my freetime playing with new technology, just so that I can share the latest and greatest with my colleagues.
+- My love for Ruby started with my days at Fidessa, and since then it has never stoped reshaping itself.
+- I'm fasinated with the Web Development world, and it is a dream of mine to become a rockstar developer in this environment.
+- I love to code in VIM, as a matter of fact this cover letter is written using VIM.
+
+My education includes a Bachelors degree in Computer Science from Virginia Commonwealth Univeristy. It has been many years since college, however I've never ceased to learn new things. I also have experience in the financial industry which includes but is not limited to:
+
+- Customer service and support
+- Pair Programming
+- Initial analysis of problems and isolation
+- Software quality testing
+- Process improvement and documentation
+
+It is my hope that Hedeye takes into consideration my candidacy. I have confidence that if I join the team, my skills will be an asset to Hedge.
+
+Regards,
+
+Cyrus Rhett Walker II
