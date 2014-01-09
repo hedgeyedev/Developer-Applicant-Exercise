@@ -1,0 +1,10 @@
+<% @statuses.each do |status| %>
+<article>
+  <img src="<%= status[:profile_image_url] %>">
+  <div>
+    <span class="author"><a href="https://twitter.com/<%= status[:screen_name] %>"><%= status[:screen_name] %></a></span>
+    <%= status[:text] %>
+    <span class="info"><%= status[:created_at] %> via <%= status[:source] %></span>
+  </div>
+</article>
+<% end %>

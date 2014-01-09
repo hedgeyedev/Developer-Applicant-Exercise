@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Twitter | <%= @title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div id="content">
+      <h1>Recent Public Tweets</h1>
+      <h2>What everyone on Twitter is talking about</h2>
+      <div id="status_updates">
+        <%= yield unless @fetch_twitter_js %>
+      </div>
+    </div>
+    <%= yield if @fetch_twitter_js %>
+  </body>
+</html>
