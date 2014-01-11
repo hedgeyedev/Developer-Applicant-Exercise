@@ -1,0 +1,31 @@
+body {background-color:#DDDDDD;font-family: Arial, Helvetica, sans-serif}
+#content {width:920px;padding:20px;margin:0 auto;position:relative;overflow:hidden;background-color:#ffffff}
+  #content h1{font-size:32px;}
+  #content h2{font-size:24px;}
+  #content #status_updates{width:100%;}
+    #content #status_updates article{padding:10px 0;border-bottom:1px solid #e0e0e0;min-height:44px;clear:both;}
+      #content #status_updates article img{float:left;width:48px;height:48px;}
+      #content #status_updates article div{margin-left:58px;font-size:16px;}
+        #content #status_updates article div span.author a{font-weight:bold;color:#333333;}
+          #content #status_updates article div span.author a:hover{color:#339DF3;}
+        #content #status_updates article div span.info{padding-top:5px;display:block;color:#333333;font-size:14px;}
+/*Tablet Portait*/
+@media screen and (max-width:1023px) {
+  #content {width:715px;padding:12px;}
+    #content h1{font-size:24px;}
+    #content h2{font-size:18px;}
+    #content #status_updates article{padding:7px 0;min-height:40px;}
+      #content #status_updates article img{width:42px;height:42px;}
+      #content #status_updates article div{margin-left:51px;font-size:15px;}
+      #content #status_updates article div span.info{padding-top:4px;font-size:12px;}
+}
+/*Phone*/
+@media screen and (max-width:767px) {
+  #content {width:300px;padding:8px;}
+    #content h1{font-size:18px;}
+    #content h2{font-size:14px;}
+    #content #status_updates article{padding:5px 0;}
+      #content #status_updates article img{width:36px;height:36px;}
+      #content #status_updates article div{margin-left:44px;font-size:13px;}
+      #content #status_updates article div span.info{padding-top:2px;font-size:10px;}
+}

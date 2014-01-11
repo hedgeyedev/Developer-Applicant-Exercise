@@ -1,25 +1,26 @@
 How many years of Web development experience do you have?
-
+Roughly seven years on a professional basis. Have been programming in PHP with MySQL to create small websites since 2004.
 
 How many years of JavaScript experience do you have?
-
+I have been using JavaScript for over seven years.
 
 How many years of Ruby experience do you have?
-
+Two.
 
 How many years of Rails development experience do you have?
-
+Two.
 
 What are your opinions on Agile software development?
-
+I believe Agile software development is extremely useful, practical and in pace to meet the growing needs of today's businesses and organizations.
 
 TDD or BDD?
-
+Don't necessarily lean toward one or the other. I have more experience with BDD.
 
 What are you looking for in a job?
-
+Team work.
 
 Are you legal to work in the US?
-
+Yes, US. Citizen.
 
 When can you start?
+Two weeks from date of hire.
