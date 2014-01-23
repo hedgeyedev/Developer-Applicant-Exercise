@@ -1,20 +1,20 @@
 How many years of Web development experience do you have?
-
+I have approximately 2 years of experience doing Web development. The majority of my experience came independent freelance projects.
 
 How many years of JavaScript experience do you have?
-
+My experience with Javascript goes back to my days in college. I have about 4-5 years of experience with the language. I primarily used it with the jQuery framework, however recently I have been exploring node.js, which has exposed me to a new perspective towards the language.
 
 How many years of Ruby experience do you have?
-
+I have 3 years of experience with Ruby. I first started using the language back in my days working at Fidessa.
 
 How many years of Rails development experience do you have?
-
+I have approximately 2 years of Rails experience.
 
 What are your opinions on Agile software development?
-
+I believe that Agile development is a wonderful tool that directly reflects the concepts found in object oriented programming. I believe it's greatest strength is the practice of iterative development. From my experience, this would allow me to sit down with clients and talk directly with them about how an application should behave, and from there define objects with state and behavior that is a direct reflection of clients needs. The Agile philosphy to me debunks Big Upfront Design, and exposes it's many flaws. With Agile software development, we can get more done over time because the number of fires that arise overtime become significantly less compared to other development practices. Furthermore,  I've been exposed to Agile techniques such as using a SCRUM master. From my experience, it helps keeps the developers honest, and on point. I recognize my opinion is bias due to the fact that I have not expensively investigated other development practices.
 
 TDD or BDD?
-
+To be honest, I do not believe there is significant advantages to either or. My perspective is that they are very similar, and it's really a focus of testing state verses behavior in my opinion.
 
 What are you looking for in a job?
 
