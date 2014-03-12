@@ -1,0 +1,16 @@
+<section id="add">  
+  <form action="/" method="post">  
+    <textarea name="content" placeholder="Write here"></textarea>  
+    <input type="submit" value="Submit!">  
+  </form>  
+</section>  
+  
+<% @notes.each do |note| %>  
+  <article <%= 'class="complete"' if note.complete %>>  
+    <p>  
+      <%= note.content %>
+    </p>  
+    <br> 
+    <p class="meta">at <%= note.created_at %></p>  
+  </article>  
+<% end %>  
