@@ -1,0 +1,18 @@
+I have been coding in web frameworks for 6 years, starting out in .NET
+and then moving to rails 3 years ago.  During that time I have become
+proficient across the stack, but my focus lately has been on the front
+end and feature development, as well as performance tuning.  I have
+become a go to person on my team for things test related, and thing
+relating to our backbone.js front-end.  I am active in our ruby and
+javascript meetups, I recently wrote a jquery widget, and plan to
+continue my open source involvment through blogging.  If you have any
+questions, please let me know,
+
+Appreciatevly,
+
+James Mac William 
+
+P.S.
+
+I am submitting this under my original github account but the one that I
+actually use is here: https://github.com/jamesmacwilliam

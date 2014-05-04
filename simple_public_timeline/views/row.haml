@@ -1,0 +1,13 @@
+%tr
+  %td.user_image.pull-left
+    %img{src: "#{tweet['profile_image_url']}", alt: "#{tweet['username']}"}
+    %br
+    %br
+  %td
+    %a.user_link{href: "http://twitter.com/#{tweet['username']}"}
+      = tweet['username']
+    %span.tweet= tweet['text']
+    %br
+    .grey
+      %span.created_at= tweet['created_at']
+      %span.source= "from #{tweet['source']}"

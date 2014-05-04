@@ -1,0 +1,5 @@
+- @tweets.each do |tweet|
+  = haml :row, locals: {tweet: tweet}
+- content_for :page_scripts do
+  %script{type: 'text/javascript'}
+    =erb 'formatters.js'.to_sym
