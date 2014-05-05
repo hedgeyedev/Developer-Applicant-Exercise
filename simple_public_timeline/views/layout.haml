@@ -1,0 +1,28 @@
+!!!
+%html
+  %head
+    %title Simple Public Timeline
+    %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
+    %script{type: 'text/javascript', src: '/js/moment.min.js'}
+    %script{type: 'text/javascript', src: '/js/jquery-2.1.0.js'}
+    %script{type: 'text/javascript', src: '/js/bootstrap.js'}
+    %script{type: 'text/javascript', src: '/js/Autolinker.min.js'}
+    %script{type: 'text/javascript', src: '/js/ICanHaz.js'}
+    %link{rel: 'stylesheet', href: '/css/bootstrap.css'}
+    %link{rel: 'stylesheet', href: '/css/bootstrap-theme.css'}
+    %link{rel: 'stylesheet', href: '/css/app.css'}
+
+  %body
+    .container-fluid
+      .row
+        .col-md-9
+          %table.table
+            %tbody
+              %tr
+                %td{colspan: '2'}
+                  %h2 Recent Public Tweets
+                  %h4 What everyone on Twitter is talking about!
+              = yield
+        .col-md-3
+
+    = yield_content :page_scripts

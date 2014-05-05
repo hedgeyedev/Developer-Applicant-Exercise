@@ -1,0 +1,6 @@
+- content_for :page_scripts do
+  %script{type: 'text/javascript'}
+    =erb 'twitter_builder.js'.to_sym
+
+-content_for :builder_done_scripts do
+  =erb 'formatters.js'.to_sym

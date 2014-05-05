@@ -1,0 +1,10 @@
+.grey {
+  color:rgb(157, 157, 157);
+}
+.user_link {
+  font-weight:bold;
+}
+.user_image {
+  width:58px;
+  margin-right:10px;
+}

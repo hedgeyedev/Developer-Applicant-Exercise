@@ -1,0 +1,15 @@
+%tr
+  %td.user_image.pull-left
+    %img{src: '{{profile_image_url}}', alt: '{{username}}'}
+    %br
+    %br
+  %td
+    %a.user_link{href: "http://twitter.com/{{username}}"}
+      {{username}}
+    %span.tweet
+      {{text}}
+    %br
+    .grey
+      %span.created_at
+        {{created_at}}
+      %span.source from {{{source}}}

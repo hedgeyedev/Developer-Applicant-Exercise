@@ -1,0 +1,18 @@
+ich.addTemplate(
+ 'row',
+ "<%= Tilt.new("views/row_mustache.haml").render.gsub(/\"/, '\\\"').gsub(/\n/,'') %>"
+)
+$.ajax('/.json', {
+  type: 'GET',
+  dataType: 'json',
+  contentType: 'application/json'
+}).done(function(response) {
+  $.each(response, function(count, twitter) {
+    build_html_from_twitter(twitter);
+  });
+  <%= yield_content :builder_done_scripts %>
+});
+
+build_html_from_twitter = function(response) {
+  $('tbody').append(ich.row(response));
+}

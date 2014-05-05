@@ -1,25 +1,37 @@
-How many years of Web development experience do you have?
+How many years of Web development experience do you have? 6
 
 
-How many years of JavaScript experience do you have?
+How many years of JavaScript experience do you have? 4
 
 
-How many years of Ruby experience do you have?
+How many years of Ruby experience do you have? 3
 
 
-How many years of Rails development experience do you have?
+How many years of Rails development experience do you have? 3
 
 
 What are your opinions on Agile software development?
 
+I have learned the importance of having representation from several
+spheres of the development (qe, ux, devs, po's) process at the beginning is vital to avoiding last minute unforeseen items.  It is important for devs to speak up if something doesn't feel right or consistent across the app regardless of seniority or role in the decision making process of what goes into the app.  I also believe that it is better to be focused on high quality and solid customer experience than it is on release times, not to say that release targets shouldn't be met, we usually meet them but if one is going to give, it should not be quality.
 
 TDD or BDD?
 
+Both are equally important, there should not be functionality in the app
+that is not described by tests, they are the manual that other devs will
+read before looking at the code and the only way to sanely refactor.  I
+have been more in favor of using well formatted specs to drive bdd
+rather than cucumber, but the same is true of bdd, tests should read
+nicely to people who are not developers.
 
 What are you looking for in a job?
 
+I'm looking for a shop that embraces the best tools, frameworks, and
+languages.  Gives back to the community.  Rewards hard work, and is a
+place that I will grow.
 
-Are you legal to work in the US?
+Are you legal to work in the US? yes
 
 
-When can you start?
+When can you start? I just want to give 2 weeks to my current employer,
+but otherwise I'm flexible.
