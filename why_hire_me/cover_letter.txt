@@ -1,0 +1,18 @@
+July 4th, 2015
+
+Hello Hedgeye team, 
+
+I am writing to apply for the position of Ruby on Rails Developer at Hedgeye.  There are some really amazing web development technologies right now, I'm especially interested in Volt which runs Ruby code on both the server and the client using Opal Ruby to JavaScript compiler.  This framework can do AngularJS-like data-binding all in Ruby and in a similar framework structure to Ruby on Rails.  I have recently mastered the skills to be a professional web developer through the ultra-selective App Academy and I am ready to contribute on day one to a wide range of technologies.  
+
+I have a mechanical engineering background and love heat transfer, but now I’m excited about transferring JSON data to your API.  I am passionate about finding the most concise solution to your problem to help bootstrap your project and bring your MVP to market.  I’m proficient in both front-end JavaScript and CSS as well as back-end Ruby on Rails and API architecture.  I will strive to not only complete the task, but also clearly document and communicate the logic and path taken to the finished product.
+
+My most current app, www.carbonfootprint.co, uses AngularJS and Ruby on Rails to track your carbon footprint as you make a more sustainable lifestyle.  Before that, I engineered an app using Backbone.js for a social venture, www.freefundraise.com; two entrepreneurs who wanted to use affiliate dollars to help children, oceans and forests.
+
+Please feel free to contact me if you want to take your company to the next level!
+
+Sincerely, 
+
+Max Plomer
+
+email: maxplomer@gmail.com
+cell: (203) 945-8606 

@@ -1,25 +1,47 @@
-How many years of Web development experience do you have?
+/-- How many years of Web development experience do you have? --/
+
+1 web, but been programming in some form since age 5 :)
+
+/-- How many years of JavaScript experience do you have? --/
+
+3
+
+/-- How many years of Ruby experience do you have? --/
+
+1
+
+/-- How many years of Rails development experience do you have? --/
+
+1
+
+/-- What are your opinions on Agile software development? --/
+
+System used to track human performance, break up a huge projects into tasks, scheduled meetings with scheduled questions, overall necessary to manage work in a virtual space
+
+/-- TDD or BDD? --/
+
+Both, great to use BDD to think about the details of implementation and organize a bunch of lower-level tests into a higher-level feature.
+
+Although, sometimes when a project is in a brainstorm period and you just want the most basic TDD to quickly bring MVP to market and ensure that new features are not breaking others.
+
+/-- What are you looking for in a job? --/
+
+Want to continue taking my skills to the next level, especially Ruby
+
+/-- Are you legal to work in the US? --/
+
+Yes
+
+/-- When can you start? --/
+
+Right now
 
 
-How many years of JavaScript experience do you have?
+/-- Anything else we should know. For example, one of your preferred development tools (editor, desktop app, etc.) and why you use it. --/
+
+editor: Sublime Text (prefer layout and highlighting themes)
+source control: GitHub for Mac app (prefer over using terminal commands)
+local database: Postgres.app (so easy to install)
+fun tools: smcFanControl (great tool to increase Macbook fan speed)
 
 
-How many years of Ruby experience do you have?
-
-
-How many years of Rails development experience do you have?
-
-
-What are your opinions on Agile software development?
-
-
-TDD or BDD?
-
-
-What are you looking for in a job?
-
-
-Are you legal to work in the US?
-
-
-When can you start?
