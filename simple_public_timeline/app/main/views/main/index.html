@@ -1,0 +1,20 @@
+<:Title>
+  Home
+
+<:Body>
+  <h1>Recent Public Tweets</h1>
+  <h2>What everyone on Twitter is talking about!</h2>
+
+  <table class="tweet-table">
+    {{ page._tweets.each do |tweet| }}
+      <tr>
+        <td>
+          <img src="{{ tweet._pic_url }}"> 
+          <a href="http://www.twitter.com/{{ raw(tweet._username) }}" target="_blank">{{ tweet._username }}</a> <br>
+          {{ tweet._text }} <br>
+          {{ tweet._time }} 
+          {{ raw(tweet._device) }} <br>
+        </td>
+      </tr>
+    {{ end }}
+  </table>
