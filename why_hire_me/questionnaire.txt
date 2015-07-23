@@ -33,3 +33,7 @@ Yes
 When can you start?
 
 September
+
+Preferred development tools:
+
+Sublime Text, Trello, Docker
