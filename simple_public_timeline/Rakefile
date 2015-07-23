@@ -1,0 +1,10 @@
+require 'rspec/core/rake_task'
+require File.join(File.dirname(__FILE__), 'server')
+
+task :default do
+  Server.run!
+end 
+
+RSpec::Core::RakeTask.new do |t|
+  t.pattern = "specs/*_spec.rb"
+end
