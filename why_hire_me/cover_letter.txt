@@ -1,0 +1,31 @@
+Hello Hedgeye Team,
+
+I am a web developer with experience in Ruby (Rails) and JavaScript
+(jQuery, Backbone), an MBA with a focus in Entrepreneurship, and a BS in
+Biology. I am looking to join a team that solves interesting problems,
+fosters continued learning, and has fun while they are doing it. What
+interests me about joining the Hedgeye team is the opportunity to work
+in an agile environment that values TDD/BDD. I also value the
+opportunity to work on all different aspects of the business and
+development while making a larger impact on the company.
+
+I have  experience in both front-end (CSS, HTML, JS) and backend
+(Rails, SQL) development. One of current my projects is a daily product
+digest of fitness and health products curated by its users, called
+Health Hunt (inspired by Product Hunt). Health Hunt is built with a
+Backbone front-end consuming a RESTful Rails JSON API. I used custom
+AJAX requests to create product voting and user following. I also
+created custom modals and forms to improve UI/UX while browsing. The app
+  fosters a community of users to curate interesting products and
+collections through daily posts and comments.
+
+Additional information on my background and projects are in my resume
+and can be viewed on my portfolio page(http://www.tparesi.com). Please
+let me know if you have any questions, and I look forward to hearing
+from you.
+
+
+All the Best,
+
+
+Thomas G Paresi
