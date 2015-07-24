@@ -1,0 +1,15 @@
+source 'http://rubygems.org'
+
+gem 'sinatra'
+
+gem 'kronic'
+gem 'rake'
+gem 'sass'
+gem 'slim'
+gem 'twitter'
+
+group :test do
+  gem 'rack-test'
+  gem 'rspec'
+  gem 'rspec-html-matchers'
+end

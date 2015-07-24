@@ -1,0 +1,7 @@
+javascript:
+  // load data from our server so as not to expose API keys
+  $(document).ready(function() {
+    $.get("/tweets", function(data) {
+      $(".tweet-list").append(data);
+    });
+  });

@@ -1,0 +1,24 @@
+// color palette
+$black: #000;
+$light-gray: #ccc;
+$dark-gray: #666;
+$light-blue: #83c1db;
+$dark-blue: darken($light-blue, 20%);
+$white: #fff;
+
+// other variables
+$border: 1px solid $light-gray;
+$image-width: 64px;
+$major-break: 30px;
+$minor-break: 15px;
+$panel-width: 700px;
+$sans-serif: Helvetica, Arial, sans-serif;
+
+// from bourbon.io
+@mixin clearfix {
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}

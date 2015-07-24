@@ -1,0 +1,83 @@
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $light-blue;
+  color: $black;
+  padding: $major-break;
+  font-family: $sans-serif;
+  font-size: 0.8em;
+}
+
+h1, a, p {
+  margin-bottom: $minor-break;
+}
+
+h1 {
+  border-top: $border;
+  font-size: 2.2em;
+  padding-top: $minor-break;
+}
+
+h2 {
+  font-size: 1.6em;
+  margin-bottom: $minor-break;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    text-decoration: underline;
+  }
+}
+
+.tweets {
+  background: $white;
+  max-width: $panel-width;
+  margin: 0 auto;
+  padding: $minor-break $major-break;
+
+  .tweet-list {
+    .tweet {
+      @include clearfix;
+      border-top: $border;
+      padding: $minor-break 0;
+
+      &:last-child {
+        border-bottom: $border;
+      }
+
+      img {
+        float: left;
+        width: $image-width;
+      }
+
+      .tweet-body {
+        margin-left: $image-width + $minor-break;
+
+        p {
+          a.screen_name {
+            color: $dark-blue;
+            font-weight: bold;
+
+            &:hover, &:focus {
+              color: $light-blue;
+            }
+          }
+
+          &.source {
+            color: $dark-gray;
+            font-size: smaller;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}

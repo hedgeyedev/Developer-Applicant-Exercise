@@ -1,0 +1,11 @@
+- tweets.each do |tweet|
+  .tweet
+    img src="#{tweet.user.profile_image_uri}"
+    .tweet-body
+      p
+        a.screen_name href="#{tweet.user.uri}" = tweet.user.screen_name
+        =< tweet.text
+      p.source
+        => format_date(tweet.created_at)
+        | from
+        ==< tweet.source
