@@ -1,0 +1,38 @@
+// Place all the styles related to the PublicTimeline controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ul {
+  list-style: none;
+}
+
+// Clearfix
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.tweet {
+  border-bottom: 1px solid grey;
+  margin: 10px 0;
+  width: 700px;
+}
+
+.tweet-picture {
+  float: left;
+  margin: 10px;
+}
+
+.tweet-body {
+  float: left;
+  width: 600px;
+}
+
+.tweet-time {
+  font-size: 12px;
+  font-weight: 100;
+  color: gray;
+  margin: 5px 0;
+}

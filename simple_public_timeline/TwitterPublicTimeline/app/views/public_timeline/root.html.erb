@@ -1,0 +1,15 @@
+<h1>Recent Public Tweets</h1>
+<h2>What everyone on Twitter is talking about</h2>
+
+<ul>
+  <% @tweets.each do |tweet| %>
+    <li class="tweet group">
+      <img class="tweet-picture" src="<%= tweet.user.profile_image_url  %>" alt="" />
+      <div class="tweet-body">
+        <a href="https://twitter.com/<%= tweet.user.screen_name %>"><%= tweet.user.screen_name %></a>
+        <%= tweet.text %>
+        <h4 class="tweet-time"><%= tweet.created_at.strftime("Created on %m/%d/%y at %I:%M%p") %> <%= tweet.source.html_safe %></h4>
+      </div>
+    </li>
+  <% end %>
+</ul>
