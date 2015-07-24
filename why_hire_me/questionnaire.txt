@@ -1,25 +1,48 @@
 How many years of Web development experience do you have?
 
+  - I started working with websites around 3 years agao when I had to
+    manage one for my business.
 
 How many years of JavaScript experience do you have?
 
+  - I have about 6 months of intensive JavaScript experience, ranging
+    from jQuery to Backbone.js.
 
 How many years of Ruby experience do you have?
 
+  - I have about 6 months of intensive Ruby experience.
 
 How many years of Rails development experience do you have?
 
+  - I have about 6 months of intensive Rails experience.
 
 What are your opinions on Agile software development?
 
+  - I am a big proponent of Agile software development. With a
+    background in Science, I appreciate the quick moving, iterative, and
+    collaborative atmosphere that Agile software development creates.
 
 TDD or BDD?
 
+  - I was trained using TDD, but I am not tied to TDD or BDD. I think
+    that developing tests first, whether they are test driven or
+    behavior driven, is an effective way to create code that is more
+    straightforward, requires less refactoring, and allows for quicker
+    growth. I am interested in learning more about BDD, but my
+    experience with TDD has shown me that upfront planning in the
+    development process creates more meaningful code.
 
 What are you looking for in a job?
 
+  - I am looking for a company/job that values developing the skills of
+    their engineers. I am interested in growing professionally as an
+    engineer and want to be in an environment that challenges me to do
+    so.
 
 Are you legal to work in the US?
 
+ - Yes.
 
 When can you start?
+
+  - I am available as soon as needed.
