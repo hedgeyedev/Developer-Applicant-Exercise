@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root 'home#index'
-  get 'home/javascript_way'
+  get  'via_js', to: 'home#javascript_way'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
