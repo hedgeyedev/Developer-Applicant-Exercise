@@ -1,25 +1,34 @@
 How many years of Web development experience do you have?
+3 years
 
 
 How many years of JavaScript experience do you have?
+1.5 years
 
 
 How many years of Ruby experience do you have?
-
+3 years
 
 How many years of Rails development experience do you have?
-
+3 years
 
 What are your opinions on Agile software development?
+In my opinion, agile development sometime leads unnecessary rework. It basically results in silo development, we build the application in parts. There might be chances that while writing functionality for one requirement might break the previous one causing regression. Although, using this software model, applications are delivered very fast and smooth.
 
 
 TDD or BDD?
+I do not have much experience with either. But I would like to give my opinion about them. I would go wth Test Driven Development, as it teaches us how to think and code. It is a good idea to write test cases which fails first then we fix them. The biggest advantage is as we progress towards new tasks, automated test tells us if any new changes is breaking a previous functionality.
 
 
 What are you looking for in a job?
+I am having 3 years of experience in rails and I am seeking a position where I can exercise those skills and apply them in real world. Another thing that is important to me is I would get a chance to explore the product which real users are using.
 
 
 Are you legal to work in the US?
 
+Yes
+
 
 When can you start?
+
+June 1 2016

@@ -1,0 +1,15 @@
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h2>Recent Public Tweets</h2>
+<h3>What everyone on Twitter is talking about</h3>
+<% @clients.each do |client| %>
+  <blockquote class="twitter-tweet">
+    <%= image_tag client.user.profile_image_url_https	%>
+    <%= link_to client.user.name ,"https://twitter.com/"+ client.user.username, :target => "new" %>:
+    <%= client.text %><br/>
+    <%= "#{time_ago_in_words(client.created_at)} ago"%><br/>
+    <%= "via #{client.source}".html_safe %>
+  </blockquote>
+  <br/> 
+<% end %>
+
+
