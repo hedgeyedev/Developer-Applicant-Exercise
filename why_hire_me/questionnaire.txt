@@ -1,25 +1,52 @@
 How many years of Web development experience do you have?
-
+  4.5 years
+  I've been doing web development since I took an Intro to Web Development class as a Freshman in
+  High School.
+  By the first half of 2013, I started work on what would become the biggest web dev project I ever
+  worked on, currently live at www.i2robotics.org
 
 How many years of JavaScript experience do you have?
-
+  4.5 years
+  I started using JS at the same time that I started web dev.
 
 How many years of Ruby experience do you have?
-
+  5 years
+  Since I started learning Ruby, I have gained an appreciation for the design goals that are behind
+  it, and I strive to master the language.
 
 How many years of Rails development experience do you have?
-
+  0 years
+  But I have been using Sinatra, for 4 years. And, I've started work on porting some of the websites
+  I've made over the years to Rails, so by the time I come to work for you, if I'm so lucky, I'm
+  sure I'll be well prepared to work in a Rails project.
 
 What are your opinions on Agile software development?
-
+  For a long time I've heard people talk about Agile development, but nobody ever could give me a
+  good explanation of what it meant. My development experience has always been in a situation where
+  a development strategy was not prescribed, either because it was an informal group, or because I
+  was the project leader. Now, looking at the Agile Manifesto, I realize that it really jells with
+  what I think is important, and pretty closely resembles the experiences I've had with my robotics
+  team.
 
 TDD or BDD?
-
+  I'm not sure if I am meant to pick sides, or if you want a commentary on the two of them
+  collectively.
+  I've never really done much automated testing, mainly because it was either impossible (code for a
+  physical robot), or impractical because of the small scope of the project. So at first glance, the
+  idea of writing a test first is a little strange to me. But if the goal is to have a corpus of
+  tests to verify a large system, it makes sense to use use the development process to ensure that
+  the tests really return correct results. In terms of a difference, I don't really know enough
+  to pass judgement, but it seems to me that the extensions that BDD provides over TDD make sense.
 
 What are you looking for in a job?
-
+  I'm looking for a project to sink my teeth into over the summer. With the intensity of my studies,
+  I haven't had the chance to do as much programming as I'd like. I want a project to work on,
+  something more significant than the just-because-I-can projects I would do at home. I’m also
+  looking to participate on a team. The rewards and challenges of being on an engineering team is
+  perhaps the thing I miss the most since graduating from my FIRST Tech Challenge robotics team.
 
 Are you legal to work in the US?
-
+  Yes.
 
 When can you start?
+  I get home from college on June 7, so I could start as early as the 8th.

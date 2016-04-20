@@ -1,0 +1,29 @@
+Dear Hedgeye:
+
+I am excited to be applying for your Web Developer Internship. In browsing internship opportunities
+online, I was delighted to find such a great opportunity so close to home, both literally, and more
+importantly in terms of my interests and skills.
+
+The experience I have being a part of, and leading, my FIRST Tech Challenge robotics team has done a
+ lot to prepare me to work on a development team, and I think it also fits the Agile Development
+ environment particularly well. The nature of the competition meant that we often had little time
+ in-between tournaments, where we had to turn around frequent updates to software, while also
+ maintaining a high level of reliability and reproducibility. And coordination between the hardware
+ and software priorities was essential. Under this stress, I learned first-hand the importance of
+ thoughtful software design, good abstraction, and best practices, and have developed high personal
+ standards for my code.
+
+Through my studies of Ruby and web technologies in High School, now my studies of Computer Science
+ theory at college, and all the while my independent projects, I have gained the skills to take on
+ a wide variety of programming challenges. Plus, my experience developing web applications is
+ significant. While most of them were learning projects, there were several that served a purpose,
+ and made it to production. Some examples include the website for my robotics team, and the web- and
+ app-based schedule system to which I contributed a great deal of the backend code, which is still
+ widely used amongst the 2,000 or so students of my High School.
+
+My various experiences were all fueled by a great passion for technology. I can’t wait to apply that
+ passion to doing web development at Hedgeye. Thank you for considering my application. I eagerly
+ await your reply.
+
+Sincerely,
+Alex Davis

@@ -1,0 +1,15 @@
+.tweet#template {
+    display: none;
+}
+
+div#loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+div#loading img {
+    position: relative;
+    top: -30px;
+    left: -30px;
+}

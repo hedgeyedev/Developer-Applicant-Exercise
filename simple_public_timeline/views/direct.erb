@@ -1,0 +1,24 @@
+<h1>Recent Public Tweets</h1>
+<h2>What everyone on Twitter is talking about!</h2>
+
+<div class="tweets">
+  <% @statuses.each do |status| %>
+      <div class="tweet" id="<%= status.id %>">
+        <hr/>
+        <div class="media">
+          <div class="media-left">
+            <a class="user-uri" href="<%= status.user.uri %>">
+              <img class="media-object" src="<%= status.user.profile_image_uri %>" alt="<%= status.user.name %>">
+            </a>
+          </div>
+          <div class="media-body">
+            <a class="user-link" href="<%= status.user.uri %>">
+              <h4 class="media-heading"><%= status.user.name %></h4>
+            </a>
+            <p><%= status.text %></p>
+            <small>at <%= status.created_at.strftime("%H:%M") %> via <%= status.source %></small>
+          </div>
+        </div>
+      </div>
+  <% end %>
+</div>

@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+ruby '1.9.3'
+
+gem 'sinatra'
+gem 'tweetstream'
+gem 'webrick' # I was using Thin at first, but I ran into issues because Thin and TweetStream both
+              #  use EventMachine, so when I stopped the TweetStream client, it also stopped the
+              #  server.
+gem 'tweetstream'
+gem 'rake'
+gem 'rspec'
+gem 'rack-test'
