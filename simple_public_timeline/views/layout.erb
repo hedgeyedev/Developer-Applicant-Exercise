@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Twitter Public Timeline</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Alex T Davis">
+
+  <!-- Seems appropriate to use Bootstrap, a creation of the Twitter founders. -->
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.css" rel="stylesheet">
+
+  <link href="/css/main.css" rel="stylesheet">
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <link href="//netdna.bootstrapcdn.com/respond-proxy.html" id="respond-proxy" rel="respond-proxy"/>
+  <link href="/respond.proxy.gif" id="respond-redirect" rel="respond-redirect"/>
+
+  <script src="//cdn.jsdelivr.net/html5shiv/3.7.1/html5shiv.min.js"></script>
+  <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+  <script src="/respond.proxy.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <%= yield %>
+
+  <footer>
+    <hr/>
+    <p>&copy; Alex T Davis 2016</p>
+  </footer>
+</div>
+
+</body>
+</html>
