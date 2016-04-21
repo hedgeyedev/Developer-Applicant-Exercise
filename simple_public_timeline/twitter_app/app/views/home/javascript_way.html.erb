@@ -1,0 +1,22 @@
+<!-- I have just loaded tweets from homepage, there were some CORS issue and current API 1.1 does
+requires authentication. 
+Also, client side authentication is discouraged so I just used the server side authentication and call them using Javascript. 
+ -->
+<script>
+function loadTweets() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+      document.getElementById("tweets").innerHTML = xhttp.responseText;
+    }
+  };
+  xhttp.open("GET", "<%= root_url %>", true);
+  xhttp.send();
+}
+</script>
+
+<a href="javascript:void(0)" onclick="loadTweets()">Request Tweets</a>
+
+<p id="tweets"></p>
+
+
