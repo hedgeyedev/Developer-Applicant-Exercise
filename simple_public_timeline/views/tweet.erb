@@ -1,0 +1,13 @@
+<div id="tweets">
+	<% @timeline.each do |post|%>
+	<img src="https://api.twitter.com/1/users/profile_image/<%= post['user']['screen_name']%>" />
+<br />
+<a href="http://twitter.com/<%= post['user']['screen_name']%>">
+<%= post['user']['screen_name']%> </a>
+: <%= post['text'] %>
+<br />
+via: <%= post['source'] %>
+@ <%=post['created_at']%>
+<br /><br />
+<%end%>
+</div>

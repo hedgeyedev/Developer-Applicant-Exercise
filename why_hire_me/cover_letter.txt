@@ -1,0 +1,5 @@
+Dear Hedgeye Risk Management,
+
+As an Informatics(Software Engineering) student at UCI, I've been searching for jobs for the past few months. More particularly, I've been seeking out a ruby on rails position in a production environment to bolster my skills with RESTful web applications. I've had some experience in the past, through personal interest in my early teenage years to an internship that brought me to asp programming. I believe in rails because it removes a lot of the headaches of other stacks. While practicing rails alone is helpful, I'm sure that a group environment would dramatically raise my productivity. I'm prepared to learn!
+
+Thanks for your consideration

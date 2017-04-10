@@ -1,0 +1,16 @@
+<div id="tweets">
+</div>
+<script type="text/javascript">
+$(window).load(function(){
+var url='http://api.twitter.com/1/statuses/public_timeline.json?callback=?';
+		$.getJSON(url,function(json){
+			$.each(json,function(i,tweet){
+			   $("#tweets").append('<img src="https://api.twitter.com/1/users/profile_image/'+tweet.user.screen_name+'" /><br />');
+			   $("#tweets").append('<a href="http://twitter.com/'+tweet.user.screen_name+'" >'+tweet.user.screen_name+'</a>: ');
+
+			   $("#tweets").append(tweet.text+'<br />');
+			   $("#tweets").append('via: '+tweet.source+' @ '+tweet.created_at+'<br /><br />');
+			});
+		});
+});
+</script>

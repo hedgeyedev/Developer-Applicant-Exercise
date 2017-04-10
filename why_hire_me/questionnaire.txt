@@ -1,25 +1,37 @@
 How many years of Web development experience do you have?
 
+Considering breaks, I've been working with dynamic languages for about 6 cumulative years. I began web development at the age of 12 (I'm 21 now), mainly tinkering/modifying php scripts/applications. I would describe myself during early teenage years as a "script kiddie". This taught me to appreciate the beauty that is ruby/rails.  
 
 How many years of JavaScript experience do you have?
 
+Roughly 2-3. I mainly have experience with basic jquery, modifying the dom (nothing too wild, however), ajax calls, etc. However, I am quick to learn. I am especially interested in MVC javascript frameworks.
 
 How many years of Ruby experience do you have?
 
+I've been working with Ruby for the past 8 or 9 months.
 
 How many years of Rails development experience do you have?
 
+I've worked with Rails for the same duration I've been working with Ruby. I first taught myself how to get a simple application up and running for a group project at school. Compared to my past experiences with php scripts, what is NOT to love about rails?
 
 What are your opinions on Agile software development?
 
+Agile is very team-oriented, collaborative, and efficient. It's more flexible for everyone(developer/customer), and quality results are produced faster. Agile requires direct access to the customer, which makes it especially appropriate for in-house development. 
 
 TDD or BDD?
 
+BDD all the way!
 
 What are you looking for in a job?
 
+I've been hoping to work on a production rails application for a few months, but rails internships are slim pickins in the Orange County area. I would like to gain some experience working collaboratively on a large rails application. Most importantly, I aim to sharpen my ruby & rails skills by working with an established team.
+
+I would like to become a better programmer through surrounding myself with professionals in the field. I would like to focus more on code and less on the idiosyncrasies of php or java (or whatever other language).
 
 Are you legal to work in the US?
 
+Yes.
 
 When can you start?
+
+Immediately.
