@@ -1,25 +1,27 @@
 How many years of Web development experience do you have?
-
+Just over 4 Years.
 
 How many years of JavaScript experience do you have?
-
+1 Year of serious javascript development.  I had not written anything in javascript more difficult than a jquery selector and click events until this past year.  In this last year I've been spending a lot of time experimenting with javascript mvc style frameworks.
 
 How many years of Ruby experience do you have?
-
+3 years of ruby experience.
 
 How many years of Rails development experience do you have?
-
+2.5 years of Rails experience
 
 What are your opinions on Agile software development?
+I think Agile development has proven to be one of the most successful patterns to software development in the past 5 years.  My journey from accounting to software development started with working on a project with Thoughtworks where I learned and saw how well this methodology worked.  I've been using it to varying degrees in my own work and ever since.
 
 
 TDD or BDD?
-
+BDD.  My coding methodology currently seems to be more TDD than BDD. The more I've been doing TDD the more I realize that BDD is what I'm working to do on a daily basis.
 
 What are you looking for in a job?
-
+I look for an environment that respects software developers.  I'm looking for a job that uses my favorite language 'Ruby'.  The job doesn't necessarily have to be pushing the envelope on technology problems, but I do enjoy solving problems on a day to day basis and I've realized that I can use code as a good way to express creativity in solving them.
 
 Are you legal to work in the US?
-
+Yes
 
 When can you start?
+August 1st 2012

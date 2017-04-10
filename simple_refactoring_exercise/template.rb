@@ -1,26 +1,35 @@
 module Template
   def template(source_template, req_id)
-    template = String.new(source_template)
+     TemplateConverter.new(source_template, req_id).convert
+  end
+
+  class TemplateConverter
+    def initialize(source_template, req_id)
+       @template, @req_id = source_template, req_id
+    end
 
     # Substitute for %CODE%
-    template_split_begin = template.index("%CODE%")
-    template_split_end = template_split_begin + 6
-    template_part_one =
-      String.new(template[0..(template_split_begin-1)])
-    template_part_two =
-      String.new(template[template_split_end..template.length])
-    code = String.new(req_id)
-    template =
-      String.new(template_part_one + code + template_part_two)
+    def substitute_for_code(template = @template)
+      substitute_markup(template, "%CODE%", @req_id)
+    end
+
 
     # Substitute for %ALTCODE%
-    template_split_begin = template.index("%ALTCODE%")
-    template_split_end = template_split_begin + 9
-    template_part_one =
-      String.new(template[0..(template_split_begin-1)])
-    template_part_two =
-      String.new(template[template_split_end..template.length])
-    altcode = code[0..4] + "-" + code[5..7]
-    template_part_one + altcode + template_part_two
+    def substitute_for_altcode(template = @template)
+      substitute_markup(template, "%ALTCODE%", alt_code(@req_id))
+    end
+
+    def substitute_markup(template, markup, value)
+      template.gsub(markup, value)
+    end
+
+    def alt_code(code)
+      "#{code[0..4]}-#{code[5..7]}"
+    end
+
+    def convert
+      substitute_for_altcode(substitute_for_code(@template))
+    end
+
   end
 end

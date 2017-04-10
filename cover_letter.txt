@@ -1,0 +1,22 @@
+Dear HedgeEye,
+
+Thank you for the opportunity to consider myself for a developer position.  I have been programming in different roles for
+the past 4 years.  Before that I was a Cost/Price Analyst at Parker Hannifin.  I have a passion for technology and love
+programming and had an opportunity to switch to being a programmer and took it.  After six months of work on a successful software
+implementation the company asked me to stay on as IT Manager. In that role I kept developing software, but I also was
+responsible for managing all internal software and applications.
+
+As we steadily pushed new features out to the system I experimented with creating a simple api and added rails
+applications for new features instead of adding more customizations to the ERP System.  I was initially inspired by the
+simplicity of Rails and how close to natural language the code could look.  I later realized what I loved so much about
+rails was the power and expressiveness you could achieve with Ruby.
+
+I believe my passion for coding and technology and my past experience will make me a great fit.  Can't wait to talk more
+about this position and see if my skills and personality make a good fit.
+
+Sincerely,
+
+Drew Purdy
+
+github profile:  www.github.com/andrewmp1
+LinkedIn profile:  www.linkedin.com/in/andrewpurdy

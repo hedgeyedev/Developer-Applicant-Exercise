@@ -1,0 +1,15 @@
+.content {
+    padding: 20px;
+}
+
+ul {
+    padding: 10px;
+    list-style: inline;
+}
+
+li {
+    padding: 10px;
+    list-style-type: none;
+    border: 5px solid #f5f5f5;
+    background-color: #f5f5dc;
+}

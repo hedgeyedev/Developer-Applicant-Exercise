@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Recent Public Tweets</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Recent Public Tweets</h1><br />
+<h3>What everyone on Twitter is talking about</h3>
+<div class="content">
+  <ul class="tweets">
+  <% @tweets.each do |t| %>
+     <li>
+       <a href="<%= user_link(t.user.screen_name) %>"><img src="<%= t.user.profile_image_url %>" /></a>
+       <%= t.text %><br />
+       Created at: <%= format_string_date(t.created_at) %> Source: <%= t.source %>
+     </li>
+  <% end %>
+  </ul>
+</div>
+
+</body>
+</html>
+
