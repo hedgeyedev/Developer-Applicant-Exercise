@@ -1,0 +1,9 @@
+/.idea
+/.bundle
+/log/*.log
+/tmp
+/config/twitter.yml
+/coverage
+/metrics/
+/.metrics
+/tmp/metric_fu

@@ -1,0 +1,110 @@
+//
+// This file is part of simple_public_timeline. Copyright (C) 2013 and above Shogun <shogun@cowtech.it>.
+// Licensed under the MIT license, which can be found at http://www.opensource.org/licenses/mit-license.php.
+//
+
+@import "base-layout"
+@import "font-awesome"
+@import "ribbon"
+@import url(//fonts.googleapis.com/css?family=Lato:300,700|Ubuntu:300,700)
+
+h1, h2, h3, h4, h5, h6
+  font-family: Lato, serif
+  font-weight: normal
+
+a, p, strong, em, li, dd, dt
+  font-family: Ubuntu, serif
+
+footer
+  .container
+    ul
+      border-top: 1px solid #CCC
+      padding-top: 1rem
+
+.jumbotron
+  background-color: #54ABCD
+  color: white
+
+#root.loading
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-flex-direction: column
+  -ms-flex-direction: column
+  flex-direction: column
+
+  .tweets
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+
+.tweets
+  flex: 1
+  min-height: 100%
+
+  #loader, #error
+    margin: auto
+    text-align: center
+
+.tweet
+  .avatar
+    margin-right: 1rem
+
+    img
+      max-width: 48px
+
+  .content
+    margin: 0.2rem 0 3rem 60px
+
+    a.author
+      color: #333
+      font-weight: bold
+      margin-right: 10px
+
+    .muted a:hover
+      color: #999
+
+    p
+      margin: 0
+
+    small
+      span
+        font-weight: bold
+
+      a
+        color: #999
+
+    .image
+      margin: 2rem
+      display: block
+
+      img
+        max-height: 200px
+
+.tooltip-inner
+  max-width: 300px
+  
+.ribbon
+  +ribbon("bottom-right")
+
+  a
+    color: black
+    font-family: "Ubuntu", serif
+    font-weight: bold
+    text-align: center
+    text-decoration: none
+    white-space: nowrap
+    padding: 1px
+    +linear-gradient(left, #009246, #009246 34%, #f1f2f1 34%, #f1f2f1 66%, #ce2b37 66%)
+    box-shadow: 0 0 0.5rem #888888
+    text-shadow: none
+
+    span
+      border: 1px dashed black
+      border-left: 0
+      border-right: 0
+      padding: 0.25rem 0
+      font-size: 1.2rem
+      display: block
+      height: 100%
+      box-sizing: border-box

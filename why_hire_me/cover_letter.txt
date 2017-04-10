@@ -1,0 +1,11 @@
+Hi!
+As you know, my name is Paolo Insogna.
+I'm 29 years old and I come from Campobasso, Italy.
+I got both my bachelor and masters degree in Computer Engineering at University of Rome "Tor Vergata" in 2006 and 2009.
+Developing and web-designing is my favorite hobby and I'm really passionate about that. I have 10+ years of experience in web designing (yes, I fought really hard with IE 6) and 5+ years of experience in Ruby and Ruby on Rails development.
+Besided programming I love videogames, table and live role playing, soccer and several other things. Also, I'm a espresso coffee maniac. Really. Get used to it.
+Hope to hear from you soon!
+Regards,
+  Paolo
+
+PS: My pull request will be from account ShadowPanda, which I use for job applications. But my real account with all my gems is ShogunPanda.

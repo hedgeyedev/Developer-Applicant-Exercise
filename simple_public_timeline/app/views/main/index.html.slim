@@ -1,0 +1,26 @@
+.container
+  - if @tweets.present? then
+    - @tweets.each do |tweet|
+      - user = tweet.user
+      .tweet.clearfix
+        .avatar.pull-left
+          = link_to("https://twitter.com/#{user.screen_name}", target: :blank) do
+            img.img-thumbnail.img-rounded src=user.profile_image_url_https alt="@#{user.screen_name}"
+        .content
+          p.user
+            = link_to(user.name, "https://twitter.com/#{user.screen_name}", target: :blank, class: "author")
+            = link_to("@" + user.screen_name, "https://twitter.com/#{user.screen_name}", target: :blank, class: "muted")
+          p = text_with_active_entities(tweet)
+
+          - if tweet.media.first.present?
+            = link_to tweet.media.first.expanded_url.to_s, target: :blank, class: :image do
+              = image_tag(tweet.media.first.media_url_https, alt: tweet.text, class: "img-thumbnail img-rounded")
+
+          small.muted
+            span rel="tooltip" title=(tweet.created_at.strftime("%A %B %d, %Y at %T") + " UTC")
+              = time_ago_in_words(tweet.created_at).capitalize
+              '  ago
+            ' from
+            span == tweet.source
+  - else
+    h4.muted.text-center No tweets found. Are all on strike?

@@ -1,0 +1,40 @@
+#
+# This file is part of simple_public_timeline. Copyright (C) 2013 and above Shogun <shogun@cowtech.it>.
+# Licensed under the MIT license, which can be found at http://www.opensource.org/licenses/mit-license.php.
+#
+
+source "https://rubygems.org"
+
+# General
+gem "rails", "~> 4.0.2"
+gem "thin", "~> 1.6.1"
+gem "lazier", "~> 3.3.10"
+gem "brauser", "~> 3.2.4"
+gem "slim", "~> 2.0.2"
+
+# Application Specific
+gem "twitter", "~> 5.1.1"
+gem "bovem", "~> 3.0.3"
+gem "oauth", "~> 0.4.7"
+gem "clavem", "~> 2.0.0"
+
+# Assets
+group(:assets) do
+  # Styling
+  gem "sass-rails", "~> 4.0.1"
+  gem "bootstrap-sass-rails", "~> 3.0.0.3"
+  gem "font-awesome-rails", "~> 4.0.1.0"
+
+  # Javascript
+  gem "coffee-rails", "~> 4.0.1"
+  gem "uglifier", "~> 2.3.2"
+  gem "therubyracer", "~> 0.12.0"
+  gem "jquery-rails", "~> 3.0.4"
+  gem "sugar-rails", "~> 1.4.0"
+end
+
+group(:development, :test) do
+  gem "rspec-rails", "~> 3.0.0.beta1"
+  gem "simplecov", "~> 0.8.0"
+  gem "json", "~> 1.8.1"
+end

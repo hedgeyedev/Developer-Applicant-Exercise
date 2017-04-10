@@ -1,0 +1,10 @@
+#
+# This file is part of simple_public_timeline. Copyright (C) 2013 and above Shogun <shogun@cowtech.it>.
+# Licensed under the MIT license, which can be found at http://www.opensource.org/licenses/mit-license.php.
+#
+
+require File.expand_path("../config/application", __FILE__)
+require "rspec/core/rake_task"
+
+RSpec::Core::RakeTask.new("spec:coverage") { |t| t.ruby_opts = "-r./spec/coverage_helper" }
+SimplePublicTimeline::Application.load_tasks

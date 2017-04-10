@@ -1,25 +1,26 @@
 How many years of Web development experience do you have?
-
+  10+
 
 How many years of JavaScript experience do you have?
-
+  5+
 
 How many years of Ruby experience do you have?
-
+  5+
 
 How many years of Rails development experience do you have?
-
+  5+
 
 What are your opinions on Agile software development?
-
+  It's a really powerful technique for developing in a fast and effective pace, especially when compared to big-company complex documentation analysis way to develop. The only thing is to try to stick to the roadmap and not to switch context too often.
 
 TDD or BDD?
-
+  Both, of course. :) But TDD may be more appropriate on the short term.
 
 What are you looking for in a job?
-
-
+  I'm looking for a dynamic workplace, flat hierarchy structure and interesting problems to solve daily. Oh, and a good compensation! ;)
+  
 Are you legal to work in the US?
-
+  I'm currently under H1B visa until Sep 2015, so a H1B transfer will be needed.
 
 When can you start?
+  As said earlier, as soon USCIS allows me to do that. I need to give two weeks earlier notice to the employer but I think visa transfer will be longer.
