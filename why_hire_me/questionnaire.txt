@@ -1,25 +1,28 @@
 How many years of Web development experience do you have?
-
+Less than a year
 
 How many years of JavaScript experience do you have?
-
+Less than a year
 
 How many years of Ruby experience do you have?
-
+Less than a year
 
 How many years of Rails development experience do you have?
-
+Less than a year
 
 What are your opinions on Agile software development?
-
+Not very familiar with it but seems highly effective
 
 TDD or BDD?
-
+BDD
 
 What are you looking for in a job?
-
+Learning experience; expand my knowledge of coding and Rails
 
 Are you legal to work in the US?
-
+Yes
 
 When can you start?
+Immediately
+
+***TextMate is preferred editor
