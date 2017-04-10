@@ -1,0 +1,50 @@
+<%
+  @statuses = []
+  @html_out = ""
+  
+  def time_diff (time_stamp)
+    
+	@current = Time.now
+	@previous = time_stamp
+	@elapsed = 0
+	
+    @elapsed = (@current-@previous)
+
+	case @elapsed 
+	    	
+	when 0...3
+		time_diff = 'moments ago'   
+		
+		when 3...60
+		time_diff = ((@elapsed).round).to_s + ' seconds ago'
+		
+		when 60...3600
+		time_diff = ((@elapsed/60).round).to_s + ' minutes ago'   
+		
+		when 3600...86400
+		time_diff = ((@elapsed/3600).round).to_s + ' hours ago' 		
+		
+		else
+		time_diff = 'Long time ago'
+	end   
+
+	end
+  
+  TweetStream::Client.new.sample do |status, client|
+    @statuses << status
+    client.stop if @statuses.size >= 20
+  end 
+        
+  @statuses.each do |lineitem|
+    
+    user_name = lineitem.user.name
+    user_screen_name = lineitem.user.screen_name
+    user_image = lineitem.user.profile_image_url
+    tweet = lineitem.text
+    time_tweeted = time_diff(lineitem.created_at)
+    time_right_now = (Time.now).to_s
+    tweet_source = lineitem.source
+    @html_out << '<p><img src="' + user_image + '" width=40 height=40 align=absmiddle><a href="http://twitter.com/#' + user_screen_name + '">' + user_name + '</a> ' + tweet + '<br />' + time_tweeted + ', Via: ' + tweet_source + '</p>'
+  end     
+%>
+<%=@html_out %>
