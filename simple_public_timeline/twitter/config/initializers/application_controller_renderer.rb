@@ -1,9 +1,14 @@
 # require 'omniauth'
 require 'oauth'
 require 'json'
+require "/.code"
 
 class ApiTwitter
-
+	CONSUMER_KEY = API_KEY
+	CONSUMER_SECRET = API_SECRET
+	OA_TOKEN = OAUTH_TOKEN
+	OA_SECRET = OAUTH_SECRET
+	BASE_URI = 'https://api.twitter.com/1.1/'
 
 
 	def initialize
