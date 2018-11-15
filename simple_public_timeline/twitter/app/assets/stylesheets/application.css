@@ -19,6 +19,19 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+a{
+	color: #39CFFF !important;
+}
+
+
+a:visited{
+	color: #39CFFF !important;
+}
+
+select {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
 
 .button-header {
 	float: right;
@@ -44,16 +57,75 @@ body{
 	height: 1000px;
 }
 
+.top-line {
+	border-top: 2px solid lightgrey; 
+}
+
 .transparent {
 	height: 27px;
+
 }
 
 .blue {
-	background-color: lightblue;
+	background-color: #DAEEF6;
 	height: 965px;
+	padding: 5%;
 }
 
 .white-main {
-	margin-top: 60px;
+	margin-top: 35px;
 }
+
+.button-join {
+	width: 100%;
+	margin-top: 10px;
+	border: 2px solid black;
+	color: #DAEEF6;
+	background-color: #2D7496;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.phone-mention {
+	font-size: 0.6em;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.dropdown {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	font-size: 0.8em;
+	padding-right: 3%;
+	padding-left: 3%;
+}
+.green-block {
+	border: 2px solid #0DD324;
+}
+
+.tweet {
+	width:100%;
+	word-wrap: break-word;
+}
+
+.name {
+	font-weight: bold;
+}
+.pic {
+	width:100%;
+	word-wrap: break-word;
+}
+
+.timestamp {
+	font-size: 0.7em;
+	color: lightgrey;
+}
+.separator {
+	border-top: 1px solid grey; 
+}
+
+
+
+
 
