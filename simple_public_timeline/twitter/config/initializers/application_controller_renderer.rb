@@ -39,7 +39,7 @@ class ApiTwitter
 	BASE_URI = 'https://api.twitter.com/1.1/'
 
 	def self.public_tweets
-		client.user_timeline("HEDGEYE", count:1, exclude_replies: true)
+		client.user_timeline("BBCNews", count:1, exclude_replies: true)
 	end
 
 	def self.client
