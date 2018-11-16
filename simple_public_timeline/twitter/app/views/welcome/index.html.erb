@@ -5,10 +5,29 @@
 	  			<h1 class="top-line">Recent Public Tweets</h1>
 	  			<h3>What everyone on Twitter is talking about!</h3>
 	  		
-	  				<% @tweets.each do |tweet| %>
-	  		
-	  				<%= tweet.text%>
-	  				<% end %>
+	  			<% @tweets.each do |tweet| %>
+      				<div class="row separator">
+      				</br>
+      					<div class="col-2">
+			      			<div class="pic">
+			      				<%= image_tag tweet.user.profile_image_url_https, :class => "pic-size" %>
+			      			</div>
+			      		</div>	
+		      			<div class="col-10">
+			      			<div class="row">
+				      			<div class="name">
+				      				<a href=<%=tweet.user.url%> ><%= tweet.user.screen_name %></a>
+				      			<span class="tweet"><%= parsed_tweet tweet %></span></div>
+			      			</div>
+				      		<div class="row">
+				      			<div class="timestamp"><%= tweet.created_at %> from 
+				      			<%= tweet.source.html_safe%> </div>
+			      			</div>
+		      			</div>
+		      		</br>
+	      			</div>
+	      		<%end%>
+
 	  			</div>
 			</div>
 		</div>
