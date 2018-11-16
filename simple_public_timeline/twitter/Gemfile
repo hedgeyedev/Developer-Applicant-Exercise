@@ -33,7 +33,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'oauth'
 
 gem 'twitter'
-gem 'dotenv-rails', groups: [:development, :test]
+gem 'dotenv-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
