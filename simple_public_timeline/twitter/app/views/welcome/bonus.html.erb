@@ -1,0 +1,73 @@
+<div class="main">
+
+	<%= image_tag("twitter_logo.png", :alt => "twitter logo", :class => "logo") %>
+	<button type="button" class="button-header">Join Twitter!</button>
+	<button type="button" class="button-header">Login</button>
+	
+
+		<div class="container">
+  			<div class="row">
+	   			<div class="col-9 white">
+	      			<div class="white-main">
+	      			<h1 class="top-line">Recent Public Tweets</h1>
+	      			<h3>What everyone on Twitter is talking about!</h3>
+
+	      			<div class="col-12">
+		      			<% @tweets.each do |tweet| %>
+		      				<div class="row separator">
+		      				</br>
+		      					<div class="col-2">
+					      			<div class="pic">
+					      				<%= image_tag tweet.user.profile_image_url_https, :class => "pic-size" %>
+					      			</div>
+					      		</div>	
+				      			<div class="col-10">
+					      			<div class="row">
+						      			<div class="name">
+						      				<a href=<%=tweet.user.url%> ><%= tweet.user.screen_name %></a>
+						      			<span class="tweet"><%= parsed_tweet tweet %></span></div>
+					      			</div>
+						      		<div class="row">
+						      			<div class="timestamp"><%= tweet.created_at %> from 
+						      			<%= tweet.source.html_safe%> </div>
+					      			</div>
+				      			</div>
+				      		</br>
+			      			</div>
+			      		<%end%>
+	      			</div>
+
+	      			</div>
+	    		</div>
+	    		
+	    		<div class="col-3">
+		    		<div class="row transparent">
+		    		</div>
+		    		<div class="row blue">
+		    			<div class="col-12">
+			      			<div>Create Your Account</div>
+			      			<button type="button" class="button-join">Join!</button>
+			      			<div class="phone-mention">Already using Twitter from your phone?
+			      				<a href="#">Click Here</a>
+			      			</div>
+			      			<select class="dropdown">
+			      		      <option value="title" selected>Select Language ...</option>
+							  <option value="English">Volvo</option>
+							  <option value="Spanish">Saab</option>
+							  <option value="French">Mercedes</option>
+							  <option value="German">Audi</option>
+							</select>
+							<div class="green-block">hello
+							<div>pic1<span> name1</span></div>
+							<div>pic2<span>name2</span></div>
+							<div>pic3<span>name3</span></div>
+							<div>pic4<span>name4</span></div>
+							</div>
+		      			</div>
+		    		</div>
+	    		</div>
+  			</div>
+		</div>
+
+
+</div>
