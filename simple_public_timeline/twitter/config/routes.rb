@@ -7,5 +7,6 @@ Rails.application.routes.draw do
 
 root to: 'welcome#index'
 get '/via_js', to: 'welcome#viajs'
+get '/tweetsapi', to: 'welcome#tweetsapi'
 
 end

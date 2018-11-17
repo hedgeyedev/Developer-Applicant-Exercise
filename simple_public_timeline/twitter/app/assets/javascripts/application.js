@@ -14,65 +14,52 @@
 //= require turbolinks
 //= require_tree .
 
-$(function() {
-console.log("doc ready!")
+// $.get("/tweetsapi.json", function(data) { 
+//         debugger
+//         document.getElementById('tweets_display').innerHTML = data;
+//     });
 
-    // function search(search_term) {
-    //     console.log('searching for ');
-    //     console.log(search_term);
+$.get("/tweetsapi.json", function(resp) {
+debugger
+    $('.tweets_display').innerHTML = '';
+    let tweets = resp.data
+    for (tweet of tweets) {
+        // debugger
+        let source = tweet.source
+        debugger
+        let timestamp = tweet.created_at
+        let name = tweet.user.screen_name
+        let imgSrc = tweet.user.profile_image_url_https
+        let profilUrl = tweet.user.url
+        let tweetTemplate = `
+            <div class="row separator">
+            </br>
+                <div class="col-2">
+                    <div class="pic">
+                        <img class ="pic-size" src=${imgSrc} >
+                    </div>
+                </div>  
+                <div class="col-10">
+                    <div class="row">
+                        <div class="name">
+                            <a href=${profilUrl}>${name}</a>
+                        <span class="tweet">${tweet.text}</span></div>
+                    </div>
+                    <div class="row">
+                        <div class="timestamp">${timestamp} from 
+                        ${source}</div>
+                    </div>
+                </div>
+            </br>
+            </div>
+        `
 
-        var search_term = {
-            q: 'bowery'
-        };
-
-        console.log(search_term);
-
-        $.ajax({
-            url:'https://api.twitter.com/1.1/statuses/mentions_timeline.json?' + $.param(search_term),
-            dataType:'jsonp',
-            success:function(data) {
-                console.log(data);
-
-                for (item in data['result']){
-                    $('#tweets').appen(
-                        '<li>' + data['results'][item]['text'] + '</li>'
-                        );
-                }
-            }
-
-        })
+        $('.tweets_display').append(tweetTemplate);
+        console.log(tweet.text)
+    }
 
 
-
-    // }
-
-	// $.ajax({
- //        type:'GET',
- //        dataType:'json',
- //        url:'https://stream.twitter.com/1.1/statuses/sample.json',
- //        data:{screen_name:'USERNAME', include_rts:1}, //show retweets
- //        success:function(data, textStatus, XMLHttpRequest) {
- //            var tmp = false;
- //            var results = $('#twitter_results');
- //            //console.log(data);
- //            for(i in data) {
- //                if(data[i].retweeted_status != null) {
- //                    tmp = $('<li class="retweet" itemid="'+data[i].retweeted_status.id_str+'"><div class="dogear"></div><img src="'+data[i].retweeted_status.user.profile_image_url+'" alt="" align="left" width="48" height="48" /><cite>'+data[i].retweeted_status.user.screen_name+'</cite><p>'+data[i].retweeted_status.text.linkify_tweet()+'</p></li>');
- //                    if(data[i].retweeted_status.favorited) {
- //                        tmp.addClass('favorite');
- //                    }
- //                } else {
- //                    tmp = $('<li itemid="'+data[i].id_str+'"><div class="dogear"></div><img src="'+data[i].user.profile_image_url+'" alt="" align="left" width="48" height="48" /><cite>'+data[i].user.screen_name+'</cite><p>'+data[i].text.linkify_tweet()+'</p></li>');
- //                    if(data[i].favorited) {
- //                        tmp.addClass('favorite');
- //                    }
- //                }
-                
- //                results.append(tmp);
- //            }
- //        },
- //        error:function(req, status, error) {
- //            alert('error: '+status);
- //        }
- //    });
 })
+
+
+   
