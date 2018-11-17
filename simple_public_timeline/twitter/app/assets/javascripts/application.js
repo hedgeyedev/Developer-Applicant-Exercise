@@ -14,19 +14,13 @@
 //= require turbolinks
 //= require_tree .
 
-// $.get("/tweetsapi.json", function(data) { 
-//         debugger
-//         document.getElementById('tweets_display').innerHTML = data;
-//     });
-
 $.get("/tweetsapi.json", function(resp) {
-debugger
+// debugger
     $('.tweets_display').innerHTML = '';
     let tweets = resp.data
     for (tweet of tweets) {
         // debugger
         let source = tweet.source
-        debugger
         let timestamp = tweet.created_at
         let name = tweet.user.screen_name
         let imgSrc = tweet.user.profile_image_url_https
@@ -59,7 +53,14 @@ debugger
     }
 
 
-})
+
+
+
+});
+
+
+
+
 
 
    

@@ -110,6 +110,7 @@ GEM
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
     json (1.8.6)
+    linkify (0.0.2)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -248,6 +249,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   dotenv-rails
   jbuilder (~> 2.5)
+  linkify
   listen (>= 3.0.5, < 3.2)
   oauth
   pry
@@ -266,4 +268,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.16.5
+   1.16.6
