@@ -1,25 +1,48 @@
 How many years of Web development experience do you have?
+2 years. I am just starting to work on projects for companies using Javascript and Ruby on Rails. 
 
 
 How many years of JavaScript experience do you have?
-
+1
 
 How many years of Ruby experience do you have?
-
+2
 
 How many years of Rails development experience do you have?
-
+2
 
 What are your opinions on Agile software development?
 
+I strongly believe the Agile philosophy is giving strong foundations to software development teams to stay efficient and healthy. Now more than ever we realize the real value of a company is in its people, their level of involvement and adaptability so a good communication and flexibility over planning and controlling is primordial. 
+
+I am particularely sensitive to the collaboration chapter and value face to face communication. This is why I attend several meetups a week and look actively to pair program. But I believe, more importantly, that those Agile principles should be seen as pillars supporting the sucess of a team and removing one is strongly endangering the overall balance. This is why a constant introspection at a personnal and team level is important to keep the agile principles alive in the work environment. 
+
+At the end it comes to the commitment level of each and everyone of us to be a doer, patient, open, deeply involved, trust others, welcome change and reflect on ourself to improve.
+None surprsingly this mindset is key to success and hapiness not only to software development but in other fields as well as in our personal lives.
+
 
 TDD or BDD?
+Both approaches have their pros and cons and rather then choosing one or the other, I believe a balance of both is often the answer. 
 
+As my training was focusing on TDD, I am used to this approach but definitely see a big value in BDD. 
+I believe the test synthax is more understanable by anybody foreign to the code which greatly helps collaboration and maintainability of the application. 
+It also gives a pretty good view of what the application is expected to do, which goes beyond the testing  work itself.
+The synthax context/event/outcomes in an almost plain english is also allowing non technical team members to write down the expected behaviour which can be easily translated by a programer.  Overall It seem easier to know what you want to test ahead of writting any code in the BDD option. 
+Another value I can see in the BDD is to focus on writting just enought code to get the desired behaviour versus writting excessive code ensuring present and futur tests will be passing and writting excessive test mocking dependencies like we usually do in TDD. 
+
+On the downside, we need to re-define the whole context for the different expected behaviours. Those tests are slower to run as we are testing the system as a whole and obvisouly they don't give much detail about what went wrong while the unit testing is focusing on revealing the root cause of failure. 
+
+To me it comes to the level of complexity and maintainbility needed for the feature as well as the confidence the developer has in retracing the root cause in case of failure. 
 
 What are you looking for in a job?
+I am looking for the right company before the right job. I usually apply to positions where the company describes their environment as fast pace and team oriented. I thrive in a supportive nuturing environment which gives me challenges and this is why the environment itself is more important than the job description. 
+My ideal postion would allow my company to benefit from my Ruby on Rails skills, entrusting me with more and more complex projects. 
+I am also looking to keep working with JavaScript and its librairies as I really enjoy working with API's and dynamic UI features. 
 
 
 Are you legal to work in the US?
-
+yes - Green Card
 
 When can you start?
+ASAP
+

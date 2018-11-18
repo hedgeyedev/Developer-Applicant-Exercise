@@ -15,11 +15,9 @@
 //= require_tree .
 
 $.get("/tweetsapi.json", function(resp) {
-// debugger
     $('.tweets_display').innerHTML = '';
-    let tweets = resp.data
+    let tweets = resp.tweets
     for (tweet of tweets) {
-        // debugger
         let source = tweet.source
         let timestamp = tweet.created_at
         let name = tweet.user.screen_name
@@ -51,11 +49,6 @@ $.get("/tweetsapi.json", function(resp) {
         $('.tweets_display').append(tweetTemplate);
         console.log(tweet.text)
     }
-
-
-
-
-
 });
 
 
