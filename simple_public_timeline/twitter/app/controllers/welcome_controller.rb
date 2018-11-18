@@ -1,11 +1,16 @@
 class WelcomeController < ApplicationController
 before_action :find_tweets
+layout false
+layout 'application', :except => :bonus
 
   def index
   end
 
   def tweetsapi
-	render json: {status: "SUCCESS", message:'Loaded tweets', data:@tweets}, status: :ok
+	   render json: {status: "SUCCESS", message:'Loaded tweets', tweets: @tweets}, status: :ok
+  end
+
+  def viajs
   end
 
   def bonus
