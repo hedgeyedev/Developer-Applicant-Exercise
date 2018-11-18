@@ -1,0 +1,31 @@
+Lizzie Sorin
+115 W. Rose Ave,
+Orange, CA 92867
+(714)-496-1099
+lizzie.acheson@gmail.com
+
+Mr. Forest Chang
+Hedgeye Risk Management
+33971 Selva Rd #265, 
+Dana Point, CA 92629
+
+
+Dear Mr. Chang,
+
+I am applying for the position of Ruby on Rails Developer with Hedgeye Risk Management, as discussed on the phone after the completion and review of the internship exercise.
+
+I discovered Ruby on Rails through researching and learning programming on my own. Ruby is the first language I learned and has made me fall in love with programming. I finally decided to get a more structured learning environment and completed a six-month full-stack Ruby on Rails bootcamp at Flatiron School. I am pleased to say that I am now capable on solving issues through my coding skills for companies such as yours. I possess the knowledge to both assist senior programmers and take on challenges independently.
+
+I recently had the opportunity to view one of your current projects designed to help your sales representatives manage subscriptions for their clients, and it gave me an idea of your company’s values that I share, particularly how Mr. Scott Smith was not only filling the main requirement but was also thinking how the feature could be improved to its best. I am, too, questioning every feature developed on my own projects to improve the user experience. I was also sensitive to the care brought in supporting internal teams to perform better. 
+
+If your company is looking for a real team player who is eager to help anywhere there is a need, I would be a great fit. I always contribute in my own ways to a supportive team environment and a positive mind set. My goal, in addition to always bringing the best of my programing skills, is to positively influence performance by efficient and empathetic communication.
+
+You will also find I possess great organizational skills. I am used to centralizing and sharing best practices among teams where I am involved, and I have the consistent habit of writing detailed documentation on the way I solve specific issues.
+I have established processes to debug programs and troubleshoot technical issues, and I hope you will see some of my other technical skills through the submitted exercises. 
+
+I am highly motivated and confident that I can quickly become a valuable member of your company. If your team is ready to challenge me and entrust me with their needs, please feel free to contact me, preferably in the morning, for a phone interview. 
+
+Respectfully,
+
+Lizzie Sorin
+(714)-496-1099
