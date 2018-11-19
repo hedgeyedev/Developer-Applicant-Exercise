@@ -2,6 +2,7 @@ class WelcomeController < ApplicationController
 before_action :find_tweets
 layout false
 layout 'application', :except => :bonus
+include TweetsStream 
 
   def index
   end
