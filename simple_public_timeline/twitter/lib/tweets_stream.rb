@@ -1,11 +1,12 @@
+# require 'omniauth'
 require 'oauth'
 require 'json'
 require 'dotenv'
 require 'tweetstream'
 
 class TweetsStream
-# # This will pull a sample of all tweets based on
-# # your Twitter account's Streaming API role.
+# This will pull a sample of all tweets based on
+# your Twitter account's Streaming API role.
 
 TweetStream.configure do |config|
   config.consumer_key       = ENV['API_KEY']
