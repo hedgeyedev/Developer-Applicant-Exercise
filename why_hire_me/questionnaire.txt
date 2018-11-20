@@ -1,7 +1,6 @@
 How many years of Web development experience do you have?
 2 years. I am just starting to work on projects for companies using Javascript and Ruby on Rails. 
 
-
 How many years of JavaScript experience do you have?
 1
 
@@ -22,6 +21,7 @@ Not surprsingly, this mindset is key to success and happiness, not only in softw
 
 
 TDD or BDD?
+
 Both approaches have their pros and cons, and rather than choosing one or the other, I believe a balance of both is often the answer. 
 
 As my training was focusing on TDD, I am used to this approach but definitely see a big value in BDD. 
@@ -35,6 +35,7 @@ On the downside, we need to redefine the whole context for different expected be
 For me, it comes down to the level of complexity and maintainability needed for the feature as well as the confidence the developer has in retracing the root cause in case of failure. 
 
 What are you looking for in a job?
+
 I am looking for the right company before the right job. I usually apply to positions where the company describes their environment as fast-paced and team oriented. I thrive in a supportive, nuturing environment where I am given challenges, and this is why the environment itself is more important than the job description. 
 My ideal position would allow my company to benefit from my Ruby on Rails skills, entrusting me with more and more complex projects. 
 I am also looking to keep working with JavaScript and its libraries as I really enjoy working with APIs and dynamic UI features. 
@@ -44,5 +45,5 @@ Are you legal to work in the US?
 yes - Green Card 
 
 When can you start?
-ASAP
+Now
 
