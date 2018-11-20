@@ -1,28 +1,29 @@
 == README
+This little app simulates the rendering of a sample of 20 tweets. 
+It uses the gem tweetstream for this selection.
+It uses rails backend and javaScript through two different routes for the rendering. 
+An addition bonus route has been added for the nostalgic of the former twitter.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: 1.9.3
 
-Things you may want to cover:
+* Rails version: 4.2.6
 
-* Ruby version
+* getting the app running: 
+in your terminal: bundle install
+run your server: rails s
+visit your local host on the port announced
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* How to run the test suite 
+in your terminal, run: rspec
 
 
-Please feel free to use a different markup language if you do not plan to run
+
+
+
+
+
+
+
+
 <tt>rake doc:app</tt>.
+
