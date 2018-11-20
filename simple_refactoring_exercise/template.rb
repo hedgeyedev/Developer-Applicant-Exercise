@@ -7,7 +7,9 @@ module Template
       # Too many temporary strings (that are overwritten): template_split_begin, template_split_end, 
       # template_part_one, template_part_two
       # Uses of new.String() which create a brand new data instead of having simple data type 
-      # conversion with to_s or prepending String 
+      # conversion with to_s or prepending String
+      # maybe the way to insert "-" in the middle of a string could be better as right now it involve
+      # the concatenation of three strings. 
 
     # For the record: the way this code was written involve that both of the key words are present 
 # ---------------------------------------------------------------------------------------------------------------------------------------------------#
@@ -42,6 +44,6 @@ module Template
     #   '%CODE%' => req_id, 
     #   '%ALTCODE%' => altcode
     # )
-    
+
   end
 end
