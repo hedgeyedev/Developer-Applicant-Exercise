@@ -1,0 +1,27 @@
+.head {
+	position: relative;
+}
+
+.dropdown {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	font-size: 0.8em;
+	padding-right: 3%;
+	padding-left: 3%;
+}
+
+.green-block {
+	border: 1px solid #0DD324;
+}
+
+.name-mini {
+	font-size: 0.7em;
+	margin-top: 15px;
+}
+
+.pic-mini-size {
+	height: 30px;
+	width: 30px;
+	margin: 10px;
+}
