@@ -7,7 +7,7 @@ describe "Welcome", type: :request do
 			Twitter::Tweet.new(
 				created_at: "Sun Nov 18 14:46:08 +0000 2018",
 				id: 1064167880558731300,
-				text: "RT @ValaAfshar: You are not your job. You are so much more. This elementary school surprised their ‘superhero’ custodian with an appreciat…",
+				text: "RT @ValaAfshar: You are not your job. You are so much more. This elementary school surprised their superhero custodian",
 			 	source: "<a href='http://twitter.com/download/android' rel='nofollow'>Twitter for Android</a>",
 				user: {
 					screen_name: "OregonFembot",
@@ -42,7 +42,7 @@ describe "Welcome", type: :request do
 		it "should return tweets" do
 			get "/tweetsapi"
 			parsed_body = JSON.parse(response.body)	
-			expect(parsed_body['tweets'][0]["text"]).to eql("RT @ValaAfshar: You are not your job. You are so much more. This elementary school surprised their ‘superhero’ custodian with an appreciat…")
+			expect(parsed_body['tweets'][0]["text"]).to eql("RT @ValaAfshar: You are not your job. You are so much more. This elementary school surprised their superhero custodian")
 		end
 		it "should return sources" do
 			get "/tweetsapi"

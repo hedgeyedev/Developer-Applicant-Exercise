@@ -11,9 +11,11 @@
     <script type="text/javascript" src="application.js"></script> -->
     
     <!-- internal stylesheet -->
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <link href="/assets/application.css" media="screen" rel="stylesheet" />
    <!--  internal javascript scripts -->
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <script src="/assets/application.js"></script>
+
+
     <!-- external css librairies -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
@@ -23,6 +25,16 @@
   
   <div class="container">
     <div class="row">
+
+      <div class="col-12">
+        <div class="row">
+        <%= image_tag("twitter_logo.png", :alt => "twitter logo", :class => "logo") %>
+        </div>
+        <div class="row arrow">
+        <%= image_tag("arrow.png", :alt => "twitter logo", :class => "arrow-pic") %>
+        </div>
+      </div>
+
       <div class="col-12 white">
           <div class="white-main">
           <h1 class="top-line">Recent Public Tweets</h1>
@@ -33,7 +45,7 @@
           </div>
       </div>
     </div>
-</div>
+  </div>
 
 
   </body>

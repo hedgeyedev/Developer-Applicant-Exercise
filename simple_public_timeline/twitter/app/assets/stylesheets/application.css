@@ -33,6 +33,9 @@ select {
   -webkit-border-radius: 0px;
 }
 
+.head {
+	position: relative;
+}
 .button-header {
 	float: right;
 	margin-top: 30px;
@@ -49,26 +52,32 @@ select {
 
 .logo {
 	width: 300px;
+	height: 100px;
+	display: block;
 }
 
 .white {
 	background-color: white;
 	width: 100%;
-
+}
+.arrow {
+	position: relative;
+	height: 50px;
+	display: block;
+}
+.arrow-pic {
+	position: absolute; 
+	left: 20px; 
+	bottom: 0;
 }
 
 .top-line {
-	border-top: 2px solid lightgrey; 
-}
-
-.transparent {
-	height: 27px;
-
+	border-top: 2px solid lightgrey;
 }
 
 .blue {
 	background-color: #DAEEF6;
-	height: 965px;
+	height: 100%;
 	padding: 5%;
 }
 
@@ -101,7 +110,7 @@ select {
 	padding-left: 3%;
 }
 .green-block {
-	border: 2px solid #0DD324;
+	border: 1px solid #0DD324;
 }
 
 .tweet {
@@ -110,10 +119,16 @@ select {
 	font-weight: normal;
 }
 
+.name-mini {
+	font-size: 0.7em;
+	margin-top: 15px;
+}
+
 .name {
 	font-weight: bold;
 	margin-top: 5px;
 }
+
 .pic {
 	width:100%;
 	word-wrap: break-word;
@@ -123,6 +138,14 @@ select {
 	width:70%;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	
+}
+
+.pic-mini-size {
+	height: 30px;
+	width: 30px;
+	margin: 10px;
+
 }
 
 .timestamp {

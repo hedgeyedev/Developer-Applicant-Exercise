@@ -1,7 +1,0 @@
-{
-  "name": "twitter",
-  "private": true,
-  "dependencies": {
-    "linkifyjs": "^2.1.7"
-  }
-}

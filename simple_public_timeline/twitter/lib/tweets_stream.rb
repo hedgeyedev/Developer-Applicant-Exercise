@@ -1,14 +1,9 @@
 module TweetsStream
 # This will pull a sample of all tweets based on
 # your Twitter account's Streaming API role.
-
-
-
 	def self.client
 		@client ||= TweetStream::Client.new 
 	end
-
-
 
 	def self.public_tweets
 		@statuses = []
@@ -19,7 +14,6 @@ module TweetsStream
 		  client.stop if @statuses.size >= 20
 		end
 		@statuses
-	
 	end
 
 	def self.statuses

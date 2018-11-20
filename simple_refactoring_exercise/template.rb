@@ -56,8 +56,12 @@ module Template
     # - from this function return the last source_tempalte alterated  
 # ---------------------------------------------------------------------------------------------------------------------------------------------------#
   # also if we are only looking at passing the spec we do not need to convert req_id or template into a string data type as it is tested in a string context. 
+  # another reason for doing this would be to if we have a validation when calling this method, ensuring we are only passing strings to it. 
     # altcode = req_id[0..4] + "-" + req_id[5..7]
-    # source_template.gsub(/[%]\bCODE\b[%]|[%]\bALTCODE\b[%]/, '%CODE%' => req_id, '%ALTCODE%' => altcode)
+    # source_template.gsub(/[%]\bCODE\b[%]|[%]\bALTCODE\b[%]/, 
+    #   '%CODE%' => req_id, 
+    #   '%ALTCODE%' => altcode
+    # )
 
   end
 end

@@ -1,8 +1,46 @@
-<div class="main">
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitter</title>
+    <%= csrf_meta_tags %>
+    <!-- jquery -->
+<!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <!-- linkify to render automatically href as link in the tweet content -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!--     <script type="text/javascript" src="linkify-string.js.js"></script>
+    <script type="text/javascript" src="application.js"></script> -->
+    
+    <!-- internal stylesheet -->
+  <link href="/assets/application.css" media="screen" rel="stylesheet" />
+   <!--  internal javascript scripts -->
+  <script src="/assets/application.js"></script>
 
-	<%= image_tag("twitter_logo.png", :alt => "twitter logo", :class => "logo") %>
-	<button type="button" class="button-header">Join Twitter!</button>
-	<button type="button" class="button-header">Login</button>
+
+    <!-- external css librairies -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+  </head>
+
+  <body>  
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12">
+        <div class="row head">
+        	<div class="col-9">
+        		<%= image_tag("twitter_logo.png", :alt => "twitter logo", :class => "logo") %>
+        	</div>
+        	<div class="col-3">
+        	<button type="button" class="button-header">Join Twitter!</button>
+			<button type="button" class="button-header">Login</button>
+			</div>
+        </div>
+        <div class="row arrow">
+        <%= image_tag("arrow.png", :alt => "twitter logo", :class => "arrow-pic") %>
+        </div>
+      </div>
+
+
 	
 
 		<div class="container">
@@ -41,8 +79,6 @@
 	    		</div>
 	    		
 	    		<div class="col-3">
-		    		<div class="row transparent">
-		    		</div>
 		    		<div class="row blue">
 		    			<div class="col-12">
 			      			<div>Create Your Account</div>
@@ -52,16 +88,24 @@
 			      			</div>
 			      			<select class="dropdown">
 			      		      <option value="title" selected>Select Language ...</option>
-							  <option value="English">Volvo</option>
-							  <option value="Spanish">Saab</option>
-							  <option value="French">Mercedes</option>
-							  <option value="German">Audi</option>
+							  <option value="English">English</option>
+							  <option value="Spanish">Spanish</option>
+							  <option value="French">French</option>
+							  <option value="German">German</option>
 							</select>
-							<div class="green-block">hello
-							<div>pic1<span> name1</span></div>
-							<div>pic2<span>name2</span></div>
-							<div>pic3<span>name3</span></div>
-							<div>pic4<span>name4</span></div>
+							<div class="green-block">
+
+								<% @tweets.each do |tweet| %>
+								<div class="row">
+					      			<div class="pic col-3">
+					      				<%= image_tag tweet.user.profile_image_url_https, :class => "pic-mini-size" %>
+					      			</div>
+					      		
+					      			<div class="name-mini col-9">
+					      				<a href=<%=tweet.user.url%> ><%= tweet.user.screen_name %></a>
+						      		</div>
+						      	</div>
+						      	<%end%>
 							</div>
 		      			</div>
 		    		</div>
@@ -71,3 +115,7 @@
 
 
 </div>
+
+
+</body>
+</html>

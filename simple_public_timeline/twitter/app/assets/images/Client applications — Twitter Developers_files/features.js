@@ -1,1 +1,0 @@
-var featureFlags = {googleAnalyticsEnabled : true,v2CodeEnabled : false,showUsersRecentSearchAndStafEnabled : false,showSearchTweetUsageGraphs : false,editDeveloperPortalApplicationsEnabled : false,clientAppManagementForAllEnabled : false,sentrySampleRate : 1.0};
