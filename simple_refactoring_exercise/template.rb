@@ -1,17 +1,17 @@
 module Template
   def template(source_template, req_id)
 # ---------------------------------------------------------------------------------------------------------------------------------------------------#
-    # the code smells here are :
+    # the "code smells" are :
       # duplicated code: finding the beginning and the end of a word to extract it and replace it 
       # by something else is done twice
       # Too many temporary strings (that are overwritten): template_split_begin, template_split_end, 
       # template_part_one, template_part_two
       # Uses of new.String() which create a brand new data instead of having simple data type 
       # conversion with to_s or prepending String
-      # maybe the way to insert "-" in the middle of a string could be better as right now it involve
+      # maybe the way to insert "-" in the middle of a string could be better as right now it involves
       # the concatenation of three strings. 
 
-    # For the record: the way this code was written involve that both of the key words are present 
+    # For the record: the way this code was written requires that both of the key words are present 
 # ---------------------------------------------------------------------------------------------------------------------------------------------------#
     # If we are ok with regex:
     code = req_id.to_s
@@ -36,7 +36,7 @@ module Template
 # ---------------------------------------------------------------------------------------------------------------------------------------------------#
     # also if we are only looking at passing the spec we do not need to convert req_id or template 
     # into a string data type as it is tested in a string context. 
-    # another reason for doing this would be to if we have a validation when calling this method, 
+    # another reason for doing this would be if we have validations when calling this method, 
     # ensuring we are only passing strings to it. 
 
     # altcode = code[0..7].insert(5, "-")
