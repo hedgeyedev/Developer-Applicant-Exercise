@@ -7,7 +7,7 @@ get '/' do
   haml :index
 end
 
-get '/via-js' do
+get '/via_js' do
   haml :index
 end
 

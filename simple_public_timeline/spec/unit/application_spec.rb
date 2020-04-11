@@ -19,9 +19,9 @@ describe 'App' do
     end
   end
 
-  describe 'GET /via-js' do
+  describe 'GET /via_js' do
     it 'return a 200' do
-      get '/via-js'
+      get '/via_js'
       expect(last_response.status).to eq 200
     end
   end
