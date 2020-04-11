@@ -12,7 +12,7 @@
       %option{value: 'klingon'} Klingon
   %ul#user-list
     - 20.times do
-      %a{:href => "#"}
+      %a{:href => '#'}
         %li
           %span.user-image
           %span.user-name= 'jeffrey lebowski'.chars.shuffle.join.gsub(/\w+/, &:capitalize)
