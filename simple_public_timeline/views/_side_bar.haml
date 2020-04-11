@@ -1,0 +1,19 @@
+#side-bar
+  #create-account-cta
+    %h4 Create Your Account
+    %button Join!
+    %p.subtext
+      Already using Twitter from your phone?
+      %a{href: '#'} Click Here.
+  #language-select
+    %select
+      %option{value: '', disabled: true, selected: true } Select Language ...
+      %option{value: 'english'} English
+      %option{value: 'klingon'} Klingon
+  %ul#user-list
+    - 20.times do
+      %a{:href => "#"}
+        %li
+          %span.user-image
+          %span.user-name= 'jeffrey lebowski'.chars.shuffle.join.gsub(/\w+/, &:capitalize)
+

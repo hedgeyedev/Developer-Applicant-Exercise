@@ -1,0 +1,10 @@
+.tweet
+  %img{src: tweet.user.profile_image_uri}
+  .tweet-content
+    %p.tweet-body
+      %a.username{href: tweet.user.uri}= tweet.user.screen_name
+      = tweet.full_text
+    %span.tweet-timestamp
+      = time_ago_in_words(tweet.created_at) + ' ago'
+      from
+      = tweet.source

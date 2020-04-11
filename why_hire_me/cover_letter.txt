@@ -1,0 +1,24 @@
+Dear Mr. Chang et al.,
+
+Thank you for taking the time to review my PR.
+
+After spending some time with the Hedgeye team in the N3st3d L00p5 talks, I was happy to hear that your team
+is in search of another engineer.
+
+While the official title that I often operate under is Software Engineer, I believe that a more appropriate
+descriptor of my career path is Lifelong Learner. I am a very curious and self motivated person who enjoys
+tackling challenging problems and growing through my experience collaborating with others.
+
+The main technology that I work with is Ruby on Rails but I am also experienced with all complementary
+technologies needed to produce elegant, scalable, and robust applications. Additional technologies that I have experience
+with include HTML/JS/CSS, Haml, Devise, Rspec, Redis, Linux, Docker, git, AWS, Heroku, and Graylog.
+
+My practical experience is also diverse. I have worked on greenfield and legacy products as both a contractor and an employee. Some notable past projects of mine include learning management systems, applications involving complex
+interactions with time, e-commerce sites, and automation pipelines for extremely large files.
+
+Given my experience and diverse toolkit, I feel that I would be an excellent compliment to your engineering team.
+
+I very much look forward to speaking with you soon.
+
+Best,
+Sam Lachance

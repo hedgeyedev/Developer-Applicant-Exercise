@@ -1,0 +1,5 @@
+# Things about Sam
+
+- Preferred OS: Debian Linux with i3
+- Preffered editor: Sublimetext (someday I'll find the time to learn emacs)
+- Preferred pet: Roscoe the Cat

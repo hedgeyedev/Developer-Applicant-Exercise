@@ -1,0 +1,7 @@
+#timeline
+  %h2 Recent Public Tweets
+  %h3 What everyone on Twitter is talking about!
+  %ul#tweets
+    - if tweets
+      - tweets.each do |tweet|
+        = haml :_tweet, locals: {tweet: tweet}

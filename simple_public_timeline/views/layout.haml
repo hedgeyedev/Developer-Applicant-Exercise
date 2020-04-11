@@ -1,0 +1,12 @@
+!!!
+%html
+  %head
+    %meta
+    %title Twitter
+    %link{href: '/stylesheets/application.css', type: 'text/css', rel: 'stylesheet'}
+    %script{src: 'https://code.jquery.com/jquery-3.4.1.min.js'}
+  %body
+    .wrapper
+      = haml :_header
+      = yield
+    = haml :_end_of_page_javascripts

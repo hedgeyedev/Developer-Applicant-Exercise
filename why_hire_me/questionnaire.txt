@@ -1,25 +1,32 @@
 How many years of Web development experience do you have?
-
+4
 
 How many years of JavaScript experience do you have?
-
+4
 
 How many years of Ruby experience do you have?
-
+4
 
 How many years of Rails development experience do you have?
-
+4
 
 What are your opinions on Agile software development?
-
+I have used Agile for several years and greatly prefer it over waterfall. I think
+that it, when implimented correctly, is an excellent way to manage projects and
+deliver high quality software.
 
 TDD or BDD?
-
+I personally prefer BDD because it encourages engineers to approach problems with
+the product owner's expectations in mind. I believe that this ultimately results in fewer
+miscommunications and happier owners.
 
 What are you looking for in a job?
-
+Above all, I am in search of a job will support me as a lifelong learner. I very
+much enjoy picking people's minds and using their experiences to hone my views
+and approaches to difficult problems.
 
 Are you legal to work in the US?
-
+Yes.
 
 When can you start?
+Immediately.

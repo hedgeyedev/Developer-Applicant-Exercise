@@ -1,0 +1,10 @@
+source 'http://rubygems.org'
+
+gem 'sinatra'
+gem 'haml'
+gem 'sass'
+gem 'rspec'
+gem 'rack-test'
+gem 'twitter'
+gem 'dotenv'
+gem 'actionview'

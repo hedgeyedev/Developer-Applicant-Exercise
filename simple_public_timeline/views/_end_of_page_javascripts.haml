@@ -1,0 +1,11 @@
+- unless @tweets
+  :javascript
+    $(function() {
+      $.ajax({
+        type: "GET",
+        dataType: "html",
+        url: '/tweets'
+      }).done(function(data) {
+        $('#timeline').replaceWith(data);
+      });
+    });
