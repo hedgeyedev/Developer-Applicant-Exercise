@@ -1,25 +1,31 @@
 How many years of Web development experience do you have?
-
+    <1 year, recently graduated Flatiron School immersive bootcamp for Software Engineering
 
 How many years of JavaScript experience do you have?
-
+    <1 year
 
 How many years of Ruby experience do you have?
-
+    <1 year
 
 How many years of Rails development experience do you have?
-
+    <1 year
 
 What are your opinions on Agile software development?
-
+    It is the most efficient approach. Also gives opportunity to clearly set plans and expectations.
+    I like the fact that it stresses continual testing to assure quality.
 
 TDD or BDD?
-
+    I dont think its a matter of either or, an incorporation of both would be best for production level code. 
+    Test Driven gives you a goal to aim for to establish a MVP. 
+    Once established then a transition to Behavior in order to cover edge cases. The user will test the limits of the applicaiton so its best to try to cover as much as possible on the front end of the process.
 
 What are you looking for in a job?
-
+    Opportunity to test my capabilities and continue to learn and grow as a Software Engineer.
+    An opportnity with a clear growth path.
+    Strong support system from managers and leaders in the company.
 
 Are you legal to work in the US?
-
+    Yes, no sponsorship needed.
 
 When can you start?
+    Immediately

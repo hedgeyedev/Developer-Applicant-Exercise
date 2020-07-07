@@ -1,0 +1,191 @@
+<head>
+    <title>Hire Ed for Support Engineer</title>
+</head>
+<style>
+    body {
+        background-image: url(https://i.pinimg.com/originals/fe/02/3b/fe023b93d6c0b95079b7704af192467b.jpg)
+    }
+    button {
+        background-color: white;
+        border: none;
+        color: CornFlowerBlue;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    div.top_bar {
+        margin: auto;  
+        column-count: 2;
+        width: 1200px;
+    }
+    div.log_buttons {
+        text-align: right;
+        padding: 30px;
+    }
+    div.main_container {
+        background-color: white;
+        margin: auto; 
+        width: 1200px;
+        column-count: 2;
+        display: flex;
+    }
+    div.tweet_container {
+        padding: 15px;
+    }
+    div.the_tweets {
+        width: 80%;
+        column-count: 2;
+        border-top: 1px solid black;
+        padding: 5px;
+        display: flex;
+    }
+    div.profile_img {
+        width: 10%;
+        padding: 5px;
+    }
+    div.content {
+        width: 90%;
+        padding: 5px;
+    }
+    div.signup_contaner {
+        width: 40%;
+        padding: 15px;
+        background-color: LightBlue;
+        text-align: center;
+    }
+    div.user_list {
+        background-color: white;
+        border: 2px solid green;
+        padding: 10px;
+        text-align: left;
+    }
+
+</style>
+
+<body>
+    <div>
+    <div class='top_bar'>
+        <div class="logo">
+            <img src='https://www.picgifs.com/graphics/t/twitter/graphics-twitter-000693.png' alt='twitter' height='80px' width='300px'/> 
+        </div>
+        <div class="log_buttons">
+            <button onclick="window.location.href='https://twitter.com/login'">Login</button>
+            <button onclick="window.location.href='https://twitter.com/account/new?lang=en'">Join Twitter!</button>
+        </div>
+    </div>
+    <div class='main_container'>
+        <div class='tweet_container'> 
+            <h1>Recent Public Tweets</h1>
+            <h2>What everyone on Twitter is talking about!</h2>
+            <% @tweets.each do |tweet| %>
+            <div class="the_tweets">
+                <div class="profile_img">
+                    <img src=<%=tweet.user.profile_image_url%> alt='profile_img' height='60px' width='60px'/>
+                </div>
+                    <br>
+                <div class='content'>
+                    <a href=<%tweet.user.url%>><%=tweet.user.screen_name%></a>
+                    <%= tweet.text %>
+                        <br>
+                    <%= tweet.created_at %> from <%= tweet.source %> 
+                </div>
+            </div>
+            <% end %>
+                <br>
+        </div>
+
+        <div class="signup_contaner">
+            <h3> Create Your Account </h3>
+            <button onclick="window.location.href='https://twitter.com/account/new?lang=en'">Join Twitter!</button>
+                <br>
+            <p>Already using Twitter from your phone? <a href='mobile.twitter.com'> Click Here </a></p>
+                <br>
+            <select data-placeholder="Choose a Language...">
+                <option value="AF">Afrikaans</option>
+                <option value="SQ">Albanian</option>
+                <option value="AR">Arabic</option>
+                <option value="HY">Armenian</option>
+                <option value="EU">Basque</option>
+                <option value="BN">Bengali</option>
+                <option value="BG">Bulgarian</option>
+                <option value="CA">Catalan</option>
+                <option value="KM">Cambodian</option>
+                <option value="ZH">Chinese (Mandarin)</option>
+                <option value="HR">Croatian</option>
+                <option value="CS">Czech</option>
+                <option value="DA">Danish</option>
+                <option value="NL">Dutch</option>
+                <option value="EN">English</option>
+                <option value="ET">Estonian</option>
+                <option value="FJ">Fiji</option>
+                <option value="FI">Finnish</option>
+                <option value="FR">French</option>
+                <option value="KA">Georgian</option>
+                <option value="DE">German</option>
+                <option value="EL">Greek</option>
+                <option value="GU">Gujarati</option>
+                <option value="HE">Hebrew</option>
+                <option value="HI">Hindi</option>
+                <option value="HU">Hungarian</option>
+                <option value="IS">Icelandic</option>
+                <option value="ID">Indonesian</option>
+                <option value="GA">Irish</option>
+                <option value="IT">Italian</option>
+                <option value="JA">Japanese</option>
+                <option value="JW">Javanese</option>
+                <option value="KO">Korean</option>
+                <option value="LA">Latin</option>
+                <option value="LV">Latvian</option>
+                <option value="LT">Lithuanian</option>
+                <option value="MK">Macedonian</option>
+                <option value="MS">Malay</option>
+                <option value="ML">Malayalam</option>
+                <option value="MT">Maltese</option>
+                <option value="MI">Maori</option>
+                <option value="MR">Marathi</option>
+                <option value="MN">Mongolian</option>
+                <option value="NE">Nepali</option>
+                <option value="NO">Norwegian</option>
+                <option value="FA">Persian</option>
+                <option value="PL">Polish</option>
+                <option value="PT">Portuguese</option>
+                <option value="PA">Punjabi</option>
+                <option value="QU">Quechua</option>
+                <option value="RO">Romanian</option>
+                <option value="RU">Russian</option>
+                <option value="SM">Samoan</option>
+                <option value="SR">Serbian</option>
+                <option value="SK">Slovak</option>
+                <option value="SL">Slovenian</option>
+                <option value="ES">Spanish</option>
+                <option value="SW">Swahili</option>
+                <option value="SV">Swedish </option>
+                <option value="TA">Tamil</option>
+                <option value="TT">Tatar</option>
+                <option value="TE">Telugu</option>
+                <option value="TH">Thai</option>
+                <option value="BO">Tibetan</option>
+                <option value="TO">Tonga</option>
+                <option value="TR">Turkish</option>
+                <option value="UK">Ukrainian</option>
+                <option value="UR">Urdu</option>
+                <option value="UZ">Uzbek</option>
+                <option value="VI">Vietnamese</option>
+                <option value="CY">Welsh</option>
+                <option value="XH">Xhosa</option>
+            </select>
+                <br><br>
+            <div class="user_list">
+            <% @tweets.each do |tweet| %>
+                <img src=<%=tweet.user.profile_image_url%> alt='profile_img' height='30px' width='30px'/>
+                <%= tweet.user.name %>
+                <br>
+            <% end %>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
