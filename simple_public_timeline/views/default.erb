@@ -37,7 +37,7 @@
     div.the_tweets {
         width: 80%;
         column-count: 2;
-        border-top: 1px solid black;
+        border-top: 1px solid grey;
         padding: 5px;
         display: flex;
     }
@@ -89,7 +89,7 @@
                     <a href=<%tweet.user.url%>><%=tweet.user.screen_name%></a>
                     <%= tweet.text %>
                         <br>
-                    <%= tweet.created_at %> from <%= tweet.source %> 
+                    <p color='grey'><%= tweet.created_at %> from <%= tweet.source %> </p>
                 </div>
             </div>
             <% end %>
