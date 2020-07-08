@@ -1,5 +1,3 @@
-require "pry"
-
 require "sinatra"
 require 'twitter'
 
@@ -9,8 +7,6 @@ client = Twitter::REST::Client.new do |config|
   config.access_token        = "1280571814071107585-WId025xTRT38cKvQpk7k3fYbNkHUjk"
   config.access_token_secret = "P0etij2W8XucvY2XN1WNi1F1kYkD7ZyLnpjSgp83yRxl2"
 end
-
-binding.pry
 
 get "/" do
     @tweets = client.search("bloomberg", options = {result_type: "popular", count: 20})
