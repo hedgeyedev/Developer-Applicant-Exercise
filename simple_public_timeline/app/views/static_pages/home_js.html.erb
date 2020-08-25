@@ -1,0 +1,63 @@
+<% provide(:title, t("page_titles.home")) %>
+<section>
+  <%= render 'timeline' do %>
+    <ul class="collection">
+      <div id="preloader" class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </ul>
+  <% end %>
+</section>
+
+<script>
+  $(document).on('turbolinks:load', function() {
+
+    fetch(`/api/v1/tweets/20`)
+    .then(response => {
+      $( "#preloader" ).remove();
+      return response.json();
+    })
+    .then(result => {
+      let $li = null;
+      let $img = null;
+      let $title = null;
+      let $title_content_name = null;
+      let $title_content = null;
+      let $subtitle = null;
+
+      for (let tweet of result.tweets){
+        $li = $("<li>", {"class": "collection-item avatar"});
+
+        $img = $("<img>", {"class": "circle no-radius", "src": tweet.user.profile_image_url});
+
+        $title = $("<span>", {"class": "title"});
+        $title_content_name = $("<a>", {"href": tweet.user.url, "text": `${tweet.user.name} `});
+        $title_content = $("<span>", {"text": tweet.full_text});
+        $title.append($title_content_name)
+        $title.append($title_content)
+
+        $subtitle = $("<p>", {"class": "small-text grey-text", "text": `${time_ago(new Date(tweet.created_at))} via `});
+        $subtitle.append($(tweet.source))
+
+        $li.append($img);
+        $li.append($title);
+        $li.append($subtitle);
+        $(".collection").append($li)
+      }
+    })
+    .catch(error => {
+      let $message = $("<h4>", {"class": "flow-text", "text": error});
+      $(".collection").append($message);
+    });
+  });
+</script>

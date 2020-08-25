@@ -1,0 +1,33 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+//Variable for setting main color in materialize library
+$primary-color: #8EC1DA;
+@import "materialize";
+
+img.resize-logo {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.transparent-bg {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
+}
+
+body {
+  background: #c0deed image-url("twitter-bg-clouds.png") repeat-x;
+}
+
+hr.style-1 {
+  border-top: 1px solid black;
+}
+
+.no-radius {
+  border-radius: 0;
+}
+
+.small-text{
+  font-size: small;
+}

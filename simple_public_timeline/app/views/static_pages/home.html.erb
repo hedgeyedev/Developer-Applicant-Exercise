@@ -1,0 +1,14 @@
+<% provide(:title, t("page_titles.home")) %>
+<section>
+  <%= render 'timeline' do %>
+    <ul class="collection">
+      <% @tweets.each do |tweet| %>
+      <li class="collection-item avatar">
+        <%= image_tag(tweet.user.profile_image_url.to_s, class: "circle no-radius")%>
+        <span class="title"><%= link_to(tweet.user.name, tweet.user.url.to_s)%> <span><%= tweet.full_text %></span></span>
+        <p class="small-text grey-text"><%= time_ago_in_words(tweet.created_at) %> via <%= tweet.source.html_safe %></p>
+      </li>
+      <% end %>
+    </ul>
+  <% end %>
+</section>
