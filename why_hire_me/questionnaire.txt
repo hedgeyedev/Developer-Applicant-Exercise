@@ -1,25 +1,45 @@
 How many years of Web development experience do you have?
-
+3 years
 
 How many years of JavaScript experience do you have?
-
+2 years
 
 How many years of Ruby experience do you have?
-
+1 year
 
 How many years of Rails development experience do you have?
-
+3 years
 
 What are your opinions on Agile software development?
-
+I believe Agile is the most effective development method for rapid development and delivery. Being able to quickly respond to 
+changing requirements is a must in today's fast-paced user-centric software environment. However, I do not believe applying 
+Agile to every stage of development is wise (for example, code maintenance), but that producing usable documentation must be 
+part of the development cycle.
 
 TDD or BDD?
-
+While I do not believe one technique is superior to the other, my choice depends on the type of project I would develop.
+I would choose TDD for projects where specific functionality is more important than behavior. For example, an API that needs 
+to return information from a database. Simple and precise test cases can be crafted to test the endpoints. However, if I had 
+to develop a user-friendly website built from that API, I would choose BDD. User experience is too complex to fit in simple 
+and specific test cases. With BDD I can prioritize user experience and satisfaction. 
 
 What are you looking for in a job?
-
+I am looking for a position where I can demonstrate and grow my skills in design, coding, and engineering. I want to be 
+part of team where "being a team player" is encouraged. Even though I want to use my Ruby on Rails skills to develop and 
+support web applications, I would seek the opportunity to wear "many hats" to learn and help as much as I can.
+I want to have a postive impact on my customers through effective communication and design excellence, and to be 
+recognized among my peers for my ability to adapt to changes.
 
 Are you legal to work in the US?
-
+Yes 
 
 When can you start?
+Immediately 
+
+Anything else we should know.
+
+My preferred IDE for developing Ruby on Rails is RubyMine. It is a very intuitive and smart IDE that will let you focus 
+on developing rather than figuring out your setup or finding the right file.
+
+My preferred productivity tool is Barrier (https://github.com/debauchee/barrier). If you have multiple computers, 
+it lets you seamlessly use the same mouse and keyboard for all computers.

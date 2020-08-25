@@ -1,0 +1,27 @@
+Dear Mr. Chang,
+
+After being a Hedgeye subscriber for the past several months, I was thrilled to discover a position within your engineering team that 
+closely aligns with both my interests and abilities. I have been preparing for an opportunity like this well before my 3 years of 
+experience developing web applications using Ruby on Rails. My constant itch to learn and challenge myself has taken me through many 
+fields ranging from IT, product/hardware development, web development, to now writing modules for the fifth most popular algorithmic-trading 
+python package, mlfinlab.
+
+During my time as an IT professional, I learned the immense value that clear communication provides for smooth operation. However, 
+as with any engineering role, communicating technical information to non-technical people can prove to be a challenging task. That's 
+when I learned the power of analogies to simplify technical jargon to everyday language. This way of effective communication landed 
+me a design lead role in my new job as a product/hardware developer. Here I was able to increase the productivity of the team by 300% 
+by applying the concept of "elegant solutions are simple solutions" (Please refer to my resume for details on this).
+
+While I have been testing, developing, and deploying Ruby on Rails web applications for only 3 years, it has been my aim to be as 
+thorough and methodical as possible when developing new apps. I enjoy putting on my "customer glasses" on and judge my work as user 
+instead of a developer because that pushes me to learn and integrate new technologies to keep up with an ever-evolving "customer". 
+My latest website is currently averaging over 200 weekly satisfied visitors.
+
+Finally, I would like to congratulate and celebrate Hedgeye for its principles of transparency, accountability, and trust. As someone 
+who believes in information transparency and values meritocracy, I would be delighted to help the company keep pushing forward and 
+serve as a maverick of the financial industry. I hope we have a chance to further talk about this job opening, and I can demonstrate 
+how I would solve some of the technical challenges ahead for Hedgeye.
+
+Regards,
+David Munoz Constantine
+
