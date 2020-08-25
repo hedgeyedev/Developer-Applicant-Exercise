@@ -1,26 +1,15 @@
+# Replaces determined strings with given strings.
 module Template
-  def template(source_template, req_id)
-    template = String.new(source_template)
+  # Module for replacing determined strings in a template with a give code.
+  def replace_in_template(source_template, code_to_insert)
+    raise ArgumentError, 'code_to_insert must be greater than 6 characters' unless code_to_insert.length >= 6
+    new_template = replace(source_template, '%CODE%', code_to_insert)
+    replace(new_template, '%ALTCODE%', code_to_insert[0..7].insert(5, '-'))
+  end
 
-    # Substitute for %CODE%
-    template_split_begin = template.index("%CODE%")
-    template_split_end = template_split_begin + 6
-    template_part_one =
-      String.new(template[0..(template_split_begin-1)])
-    template_part_two =
-      String.new(template[template_split_end..template.length])
-    code = String.new(req_id)
-    template =
-      String.new(template_part_one + code + template_part_two)
-
-    # Substitute for %ALTCODE%
-    template_split_begin = template.index("%ALTCODE%")
-    template_split_end = template_split_begin + 9
-    template_part_one =
-      String.new(template[0..(template_split_begin-1)])
-    template_part_two =
-      String.new(template[template_split_end..template.length])
-    altcode = code[0..4] + "-" + code[5..7]
-    template_part_one + altcode + template_part_two
+  def replace(template, pattern, replacement)
+    split_begin = template.index(pattern)
+    template.slice! pattern
+    template.insert(split_begin, replacement)
   end
 end
