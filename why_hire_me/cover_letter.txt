@@ -1,0 +1,25 @@
+Nicholas Lopez
+Email:        nhjlopez@gmail.com
+Phone:         310-977-3170
+Location:     Los Angeles (Open to Relocate)
+
+Software Engineer
+Portfolio:                      www.nhjlopez.com
+LinkedIn:  https://www.linkedin.com/in/310-nicholas-lopez/
+Github:                  https://github.com/caspercasanova
+
+My personal engineering philosophy resides within the belief that the best software manifests when engineers repackage developers’ tools and technologies so walks of all life are empowered through their use. 
+__________________________________________________________________________________________________________________________________________________________________________
+
+Dear Hiring Manager,
+
+I’m Nicholas, a full stack web engineer, fascinated with the intersection of physical and digital worlds. I have followed Hedgeye for many years, and have derived from content on Youtube as well as Glassdoor that Hedgeye values people who have a high degree of technical cognition, solid communication and the ability to work both autonomously and with a team. These are skills I have honed working on multiple projects, and I am confident that I would be a great asset to your team.
+
+I am currently contributing to an open source and volunteer made application named FightPandemics, which aims to connect local communities and residents to medical professionals in emergency. I am currently working with a team of engineers and product designers on integrating AWS’s Websocket technology for chat capabilities on the between parties. At first I recommended WebRTC, but after some deliberation, I concurred  with utilizing Websockets as the better choice for the project. I do my very best to stay up to date in the latest technologies as I love adding new skills to my software development toolbox, but at the end of the day adaptability is most important to my success and future as a developer. This experience has been eye-opening and a great opportunity for me to gain a glimpse into a development process with over 300 people contributing; the MVP is scheduled to release in early October. 
+
+My previous career as a medical assistant helped me develop many skills that seem to be underrepresented in tech - exuding clear, precise, and empathetic communication under stress is a skill that is not learned in many fields, yet nurses, doctors and medical staff tend to be vanguards of it as their profession demands it of them. Having a clear and empathetic communicator on your engineering team will help the team solve a variety of problems in less time and in a more streamlined fashion, and most importantly will maintain team cohesion in stressful times.
+
+I would love to discuss further how my skills with AWS, Mongo, React, and Node and as a full stack engineer can add value to the engineering team at Hedgeye. Please feel free to contact me by email nhjlopez@gmail.com or by phone at 310-977-3170. Thank you for the consideration.
+
+Sincerely, 
+Nicholas
