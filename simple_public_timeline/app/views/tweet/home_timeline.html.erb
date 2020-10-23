@@ -1,0 +1,8 @@
+<div class='App'>
+  <h3>Hello<h3>
+  <% if @tweets%>
+    <% @tweets.each do |tweet| %>
+      <div><%= tweet.full_text %></div>
+    <% end %>
+  <% end %>
+</div>
