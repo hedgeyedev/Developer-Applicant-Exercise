@@ -1,0 +1,24 @@
+<div class='App'>
+  <div class="Twitter_Header">
+    <h1>Twitter Logo</h1>
+    <div>
+      <button>Login</button>
+      <button>Sign Up</button>
+    </div>
+  </div>
+  <div class='Twitter_Main'>
+    <div class='Twitter_Feed'>  
+      <h3>Recent Public Tweets<h3>
+      <h4>What everyone on Twitter is talking about!<h4>
+      <% if @tweets%>
+        <%= render :partial => "tweets/tweet", :collection => @tweets %>
+      <% end %>
+    </div>
+
+    <div class="Sidebar">
+      <h3 class="something">This is the sidebar</h3>
+    </div>
+  </div>
+  
+  
+</div>

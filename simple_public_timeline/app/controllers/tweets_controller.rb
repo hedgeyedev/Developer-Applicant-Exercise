@@ -1,6 +1,11 @@
 require 'twitter'
 
-class TweetController < ApplicationController
+class TweetsController < ApplicationController
+
+  def index
+    @tweets = home_timeline  
+  end 
+
   def initialize
     @client = Twitter::REST::Client.new do |config|
       config.consumer_key        = "GDnMMmqIN4kIxxWk4ng0fYg8G"

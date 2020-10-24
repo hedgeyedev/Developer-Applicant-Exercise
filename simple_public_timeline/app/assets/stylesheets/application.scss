@@ -13,6 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+*,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	background-color: black;
+}
+
 .App {
-	color: green;
+	padding: 20px;
+}
+
+.Twitter_Header {
+	display: flex;
+	justify-content: space-between;
 }

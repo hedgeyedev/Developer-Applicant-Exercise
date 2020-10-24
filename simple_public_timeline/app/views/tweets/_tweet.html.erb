@@ -1,0 +1,19 @@
+ <div class='Tweet'>
+    <div class='Tweet_Pic_Container'>
+      <img src=<%= tweet.user.profile_image_uri_https %> >
+    </div>
+    <div class='Tweet_Body'>
+      <a href="#" class="Tweet_User">
+        <%= tweet.user.name %>
+      </a>
+      <p class="Tweet_Text">
+        <%= tweet.full_text %>
+      </p>
+      <h5>
+        <%= tweet.source %>
+      </h5>
+      <h5>
+        <%= tweet.created_at %>
+      </h5>
+    </div>
+  </div>
