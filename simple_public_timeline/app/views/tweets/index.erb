@@ -20,14 +20,19 @@
     </div>
 
     <div class="Sidebar">
-      <h3 class="something">This is the sidebar</h3>
+      
+      <h3 class="something">Create Your Account</h3>
+      
       <button>Join</button>
+      
       <p>Already Using Twitter from your phone? <a href='#'>Click Here</a></p>
-      <label for="lang">Select Language...</label>
-      <select id="lang">
-        <option value="English">English</option>
-      </select>
-
+      
+      <div class='Select_Lang'>
+        <label for="lang">Select Language...</label>
+        <select id="lang">
+          <option value="English">English</option>
+        </select>      
+      </div>
       <div class='IDK_WHAT_THIS_LIST_IS'>
         <% if @tweets %>
         <%# Filter out all duplicates (meaning if people tweeted twice recently) %>
