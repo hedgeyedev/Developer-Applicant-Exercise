@@ -9,11 +9,16 @@
       <p class="Tweet_Text">
         <%= tweet.full_text %>
       </p>
+      <a href='<%= tweet.uri %>' class='See_Tweet'>
+        Click Here To See Tweet
+      </a>
       <h5>
-        <%= tweet.source %>
+        Tweet Created At: <%= tweet.created_at %>
       </h5>
-      <h5>
-        <%= tweet.created_at %>
+      
+      <h5 class='Tweet_Source'>
+        Tweet Source: <%= tweet.source.html_safe  %>
       </h5>
+      
     </div>
   </div>

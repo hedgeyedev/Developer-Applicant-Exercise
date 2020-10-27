@@ -10,9 +10,13 @@
     <div class='Twitter_Feed'>  
       <h3>Recent Public Tweets<h3>
       <h4>What everyone on Twitter is talking about!<h4>
-      <% if @tweets%>
-        <%= render :partial => "tweets/tweet", :collection => @tweets %>
+      <% if @tweets %>
+        <%= 
+          render :partial => "tweets/tweet",
+          :collection => @tweets || "There are no tweets available at this time"
+        %>
       <% end %>
+      
     </div>
 
     <div class="Sidebar">
@@ -25,9 +29,16 @@
       </select>
 
       <div class='IDK_WHAT_THIS_LIST_IS'>
-        <% if @tweets%>
-          <%= render :partial => "tweets/onlinePeeps", tweet: @tweets %>
+        <% if @tweets %>
+        <%# Filter out all duplicates (meaning if people tweeted twice recently) %>
+          <% userSet = @tweets.uniq{|e| [e.user]}%>
+          <%= 
+            render :partial => "tweets/user", 
+            :collection => userSet || "There are no tweets available at this time"
+          %>
         <% end %>
+          
+      
       </div>
 
     </div>

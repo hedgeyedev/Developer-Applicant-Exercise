@@ -3,7 +3,7 @@ require 'twitter'
 class TweetsController < ApplicationController
 
   def index
-    @tweets = home_timeline  
+    @tweets = home_timeline 
   end 
 
   def initialize
@@ -18,10 +18,13 @@ class TweetsController < ApplicationController
   
   def home_timeline
     @tweets = @client.home_timeline
+    #@users = {}
     @tweets.each do |tweet|
       puts tweet
+     # @users[tweet.id] = tweet.user
     end
     @tweets
   end 
-
+  
+ 
 end

@@ -27,6 +27,10 @@ button {
 	color: dodgerblue;
 	border: 1px solid rgb(54, 49, 49);
 }
+a {
+	text-decoration: none;
+	color: rgb(90, 148, 205);
+}
 
 h1,
 h2,
@@ -48,20 +52,39 @@ h6 {
 }
 
 .Tweet {
-	.Tweet_Pic_Container {
+	display: flex;
+	border: 1px solid rgb(29, 161, 242);
+	border-radius: 4px;
+	margin-top: 13px;
+	padding: 12px;
+
+	& .Tweet_Pic_Container {
 		height: 50px;
 		width: 50px;
+		border-radius: 50%;
+		& img {
+			height: 100%;
+			width: auto;
+		}
 	}
 
 	& .Tweet_Body {
+		padding-left: 12px;
 		& .Tweet_User_Name {
 			color: rgb(29, 161, 242);
 			text-decoration: none;
 			font-weight: 500;
+			font-size: 17px;
+			letter-spacing: 1px;
+		}
+		& .See_Tweet {
+			text-decoration: none;
+			color: rgb(90, 148, 205);
 		}
 
 		& .Tweet_Text {
 			color: rgb(255, 255, 255);
+			padding-bottom: 12px;
 		}
 	}
 }
@@ -85,16 +108,30 @@ h6 {
 	align-items: center;
 }
 
+.IDK_WHAT_THIS_LIST_IS {
+	border: 1px solid cyan;
+	padding: 3px;
+	border-radius: 4px;
+}
+
 .OnlineCard {
 	display: flex;
-
+	align-items: baseline;
+	margin-top: 3px;
+	margin-bottom: 3px;
 	& .Online_Card_Img {
 		height: 30px;
 		width: 30px;
+		overflow: hidden;
+		& img {
+			height: 100%;
+			width: auto;
+		}
 	}
 
 	& .Online_Card_Name {
 		color: rgb(29, 161, 242);
 		text-decoration: none;
+		padding-left: 3px;
 	}
 }
