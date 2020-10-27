@@ -7,6 +7,7 @@ class TweetsController < ApplicationController
   end 
 
   def initialize
+    super
     @client = Twitter::REST::Client.new do |config|
       config.consumer_key        = "GDnMMmqIN4kIxxWk4ng0fYg8G"
       config.consumer_secret     = "HwUp1i60vum3KmkGgLjSlJcdtfAAKDEk6QJo68Jnq6DF9tu6IX"
