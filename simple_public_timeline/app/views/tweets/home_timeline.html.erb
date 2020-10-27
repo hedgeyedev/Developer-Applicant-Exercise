@@ -17,6 +17,19 @@
 
     <div class="Sidebar">
       <h3 class="something">This is the sidebar</h3>
+      <button>Join</button>
+      <p>Already Using Twitter from your phone? <a href='#'>Click Here</a></p>
+      <label for="lang">Select Language...</label>
+      <select id="lang">
+        <option value="English">English</option>
+      </select>
+
+      <div class='IDK_WHAT_THIS_LIST_IS'>
+        <% if @tweets%>
+          <%= render :partial => "tweets/onlinePeeps", tweet: @tweets %>
+        <% end %>
+      </div>
+
     </div>
   </div>
   

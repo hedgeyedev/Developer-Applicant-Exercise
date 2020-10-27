@@ -19,17 +19,82 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	background-color: rgb(21, 32, 43);
+	scrollbar-color: rgb(107, 125, 140) rgb(25, 39, 52);
+}
+button {
+	padding: 0.7em 0.9em;
+	color: dodgerblue;
+	border: 1px solid rgb(54, 49, 49);
 }
 
-.container {
-	background-color: black;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: rgb(29, 161, 242);
 }
 
 .App {
-	padding: 20px;
+	margin: 0 auto;
+	max-width: 1200px;
 }
 
 .Twitter_Header {
 	display: flex;
 	justify-content: space-between;
+}
+
+.Tweet {
+	.Tweet_Pic_Container {
+		height: 50px;
+		width: 50px;
+	}
+
+	& .Tweet_Body {
+		& .Tweet_User_Name {
+			color: rgb(29, 161, 242);
+			text-decoration: none;
+			font-weight: 500;
+		}
+
+		& .Tweet_Text {
+			color: rgb(255, 255, 255);
+		}
+	}
+}
+
+.Twitter_Main {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.Twitter_Feed {
+	max-width: 600px;
+}
+
+.Sidebar {
+	width: 350px;
+	border: 1px solid gray;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.OnlineCard {
+	display: flex;
+
+	& .Online_Card_Img {
+		height: 30px;
+		width: 30px;
+	}
+
+	& .Online_Card_Name {
+		color: rgb(29, 161, 242);
+		text-decoration: none;
+	}
 }
