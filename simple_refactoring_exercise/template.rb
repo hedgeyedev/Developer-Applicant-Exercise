@@ -1,26 +1,32 @@
 module Template
+  # first make a function that generates the altCode
+  def generateAltCode(codeString)
+    altCode = codeString[0..4] + "-" + codeString[5..7]
+  end 
+  
+  # now simply iterate through the string OR use a regex 
+  # to replace %CODE% or %altCode% occurances
   def template(source_template, req_id)
+    # generate altCode
+    altCode = generateAltCode(String.new(req_id))
+    
     template = String.new(source_template)
 
-    # Substitute for %CODE%
-    template_split_begin = template.index("%CODE%")
-    template_split_end = template_split_begin + 6
-    template_part_one =
-      String.new(template[0..(template_split_begin-1)])
-    template_part_two =
-      String.new(template[template_split_end..template.length])
-    code = String.new(req_id)
-    template =
-      String.new(template_part_one + code + template_part_two)
+    # in general i prefer to use built in methods when possible 
+    # so i utilize a built in method .gsub which is a global 
+    # string replacement method perfect for the test case that
+    # has multiple occurances of %code%/%altcode%
 
+    # Substitute for %CODE%
+    template = template.gsub('%CODE%', String.new(req_id))
     # Substitute for %ALTCODE%
-    template_split_begin = template.index("%ALTCODE%")
-    template_split_end = template_split_begin + 9
-    template_part_one =
-      String.new(template[0..(template_split_begin-1)])
-    template_part_two =
-      String.new(template[template_split_end..template.length])
-    altcode = code[0..4] + "-" + code[5..7]
-    template_part_one + altcode + template_part_two
+    template = template.gsub('%ALTCODE%', String.new(altCode))
+
+    template
   end
+
+  # in the end we have code that is more readable and is dynamic,
+  # meaning it can replace multiple orrurances of the %CODE% and
+  # %Altcode% key words
+
 end
