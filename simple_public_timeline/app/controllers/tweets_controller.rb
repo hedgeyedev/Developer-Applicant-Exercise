@@ -1,6 +1,7 @@
 require 'twitter'
 
 class TweetsController < ApplicationController
+  before_action :require_xhr_request, only: [:action, :action_2]
 
   def index
     @tweets = home_timeline 
@@ -26,5 +27,11 @@ class TweetsController < ApplicationController
     @tweets
   end 
   
- 
+
+  
+
+  private
+  def require_xhr_request
+    redirect_to(root_url) unless request.xhr?
+  end
 end
