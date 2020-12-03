@@ -1,25 +1,33 @@
 How many years of Web development experience do you have?
-
+	I have just over one year of web development experience.
 
 How many years of JavaScript experience do you have?
+	I have six months of JavaScript experience.
 
 
 How many years of Ruby experience do you have?
+	I have a little over a year of Ruby experience.
 
 
 How many years of Rails development experience do you have?
+	I have about 8 months of Rails development experience.
 
 
 What are your opinions on Agile software development?
+	I will admit up front that I am not incredibly knowledgeable in this area but from what I do know I think it is a nice approach to developing software. I think being able to collaborate with stake holders/customers on planning, designing and evaluating the work can yield productivity benefits and fast feedback.
 
 
 TDD or BDD?
+	As an RSpec user, I have to go with BDD.
 
 
 What are you looking for in a job?
+	I am looking for an opportunity that will give me the chance to show that I am capable of becoming a value added resource to team. I am looking for a employer that is willing to invest in me as much as I am willing to invest myself in the company. I am looking for a supportive culture in terms of growth and knowledge sharing both from other members of the team and myself.
 
 
 Are you legal to work in the US?
+	Yes I am legally permitted to work in the US.
 
 
 When can you start?
+	I can start immediately.
