@@ -8,6 +8,10 @@ class NewsApi
     @newsapi = News.new(ENV['NEWS_API_KEY'])
   end
 
+  def self.get_api_key
+    ENV['NEWS_API_KEY']
+  end
+
   def self.top_headlines country, category, page_size
     NewsApi.init_api if @news_api.nil?
     response = @newsapi.get_top_headlines(country: country, category: category, pageSize: page_size)

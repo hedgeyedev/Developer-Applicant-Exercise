@@ -1,0 +1,28 @@
+doctype html 
+html 
+  head
+    script src="https://unpkg.com/axios/dist/axios.min.js"
+  body
+    #headlines 
+
+
+javascript: 
+  let headlines = document.getElementById('headlines');
+  let api_key = "#{@api_key}"
+  axios.get(`https://newsapi.org/v2/top-headlines?country=us&category=business&pageSize=20&apiKey=${api_key}`)
+    .then(response => {
+      response.data.articles.forEach(article => {
+        let title = document.createElement("h3")
+        title.textContent = article.title 
+        headlines.append(title)
+      })
+    })
+    .catch(function (error) {
+      console.log(error);
+    })
+
+    
+
+
+
+
