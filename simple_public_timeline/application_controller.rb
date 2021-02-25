@@ -1,17 +1,12 @@
 require 'sinatra'
 require 'sinatra/reloader' if development?
-require 'news-api'
 require 'slim'
-require 'dotenv/load'
-
+require './news_api'
 
 class ApplicationController < Sinatra::Base
-
-  newsapi = News.new(ENV['NEWS_API_KEY']) 
-  
+ 
   get '/' do
-    response = newsapi.get_top_headlines(country: 'us', category: 'business', pageSize: 20)
-    @headlines = Rack::Response.new(response)
+    @headlines = Rack::Response.new(NewsApi.top_headlines('us', 'business', 20))
     slim :index
   end
 
