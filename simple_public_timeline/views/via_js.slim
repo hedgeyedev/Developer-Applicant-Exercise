@@ -6,7 +6,7 @@ html
   body
     h1.title News 
     h2 What's going on
-    #headlines 
+    #headlines
 
 javascript: 
   let headlines = document.getElementById('headlines');
@@ -26,7 +26,7 @@ javascript:
         articleImage.classList.add("article-image");
         articleTitle.classList.add("article-title");
         articleDescription.classList.add("article-description");
-
+       
         articleImage.src = headline.urlToImage;
         articleImage.alt = "image for article";
         articleImageContainer.append(articleImage);
