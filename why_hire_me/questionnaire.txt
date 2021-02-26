@@ -1,25 +1,26 @@
 How many years of Web development experience do you have?
-
+1
 
 How many years of JavaScript experience do you have?
-
+1
 
 How many years of Ruby experience do you have?
-
+1
 
 How many years of Rails development experience do you have?
-
+1
 
 What are your opinions on Agile software development?
-
+I like it generally, but it is important to stay focused.
 
 TDD or BDD?
-
+TDD for backend, BDD for frontend
 
 What are you looking for in a job?
-
+Challenging, growth, great teammates 
 
 Are you legal to work in the US?
-
+Yes
 
 When can you start?
+ASAP
