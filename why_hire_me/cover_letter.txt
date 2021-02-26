@@ -1,0 +1,13 @@
+I am a full-stack developer with a background in artificial intelligence and a 
+passion for technology and business. I've worked in an agile environment with Ruby
+on Rails, PSQL, Slim, JQuery, and SCSS. I enjoy mathematical programming and have 
+an interest in functional programming and machine learning engineering. I am interested
+in financial markets and have a small portfolio of ETFs.
+
+I would be excited to work at Hedgeye because you merge finance,
+media, and technology. I am intrigued by the exposure to challenging and unique 
+problems that you face as you grow. I could help you provide high-quality information 
+to your clients that will enhance their decision-making process.
+
+I look forward to learning more about Hedgeye and the technology projects you have 
+planned for the future.
