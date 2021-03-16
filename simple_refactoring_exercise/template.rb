@@ -8,6 +8,6 @@ module Template
 
     # Substitute for %ALTCODE%
     altcode = code[0..4] + "-" + code[5..7]
-    template.gsub!("%ALTCODE%",altcode)
+    template.gsub!("%ALTCODE%", altcode)
   end
 end
