@@ -1,25 +1,30 @@
 How many years of Web development experience do you have?
-
+  I have been involved in the making of web applications and sites for the better part of 9 years at this point, as both a manager and a developer. More recently, I have taken more  
 
 How many years of JavaScript experience do you have?
-
+  I have been working with JavaScript for two years. My experience includes working with frameworks such as React and Express.
 
 How many years of Ruby experience do you have?
-
+  I have been working with Ruby for a little over three years.
 
 How many years of Rails development experience do you have?
-
+  I have been working with Rails for little over two years.
 
 What are your opinions on Agile software development?
+  As a Software PM, Agile methodology is rampant in the workspace and I am very familiar with it. Like all managerial and procedural styles it has its upsides and its downsides. I find that the entire team needs to be sold on Agile methodology in order for it to be successful, and that's a harder ticket to sell than it sounds. Especially on smaller teams, "Being Agile" can just as easily get in the way of a team as it can benefit a team.
 
+  Further, Agile works best with teams that are physically close, quite the luxury nowadays. While it is possible to do Agile remotely, I find the appeal of the Agile workflow is to create teams that work independently yet symbotically — questions and iterations can be quickly bounced off of others' work and approaches can be driven by collective rather than individual silos that converge when necessary in Slack channels and chats. Further, the trademarks of Agile; scrum meetings, pair programming, group kanban boards, user story modeling, etc — benefit greatly from people being in the same room as eachother.  
+
+  There are definite benefits though, and I think Agile is a practice that you can make your own in any given environment. It's more about crafting a process built around iteration while rewarding experimentation and revision, while having set processes for how and when to roll out said changes. 
 
 TDD or BDD?
-
+  I am a proponent of Behavior Driven Development, especially using Cucumber/Gherkin. BDD is a process that works well with Agile development, as it is flexible, iterative and allows codebases to scale and grow without losing sight of *why* functions exist within an application. There is certainly nothing wrong with Test Driven Development, and it is better than the absolute alternative, which I like to call "client driven development."
 
 What are you looking for in a job?
-
+  I am looking for a steady role to hone my development skills and contribute to a team environment. For the last half-decade I have been juggling a myriad of different projects and roles and am really seeking a sense of consistency that my current position as a consultant cannot offer. I have been working *with* software development teams my entire career thus far, and I would truly like to feel like I belong to a team, instead of a middle man between stakeholders and a team. 
 
 Are you legal to work in the US?
-
+  I am a US-born citizen that is legally allowed to work for all US employers.
 
 When can you start?
+  As soon as you can have me!
