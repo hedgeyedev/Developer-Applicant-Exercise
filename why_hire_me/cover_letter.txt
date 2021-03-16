@@ -1,0 +1,24 @@
+Samuel Marshall
+1 Smith St, Apt 404B
+Norwalk, CT 06851
+(203) 927-9162
+samuel.r.marshall@gmail.com
+
+15 March 2021
+
+Forrest Chang
+Hedgeye Risk Management
+1 High Ridge Park
+Stamford, CT 06905
+
+Thank you for your interest in my application. My name is Samuel Marshall and I am a software/web developer with years of project management experience. I have been on both the development and the managerial side of a software project and, as such, I think I would be a perfect candidate for your Ruby on Rails Developer at your Stamford, CT location.
+
+For the last eight years as a project manager, I have loved to help people solve problems. I have worked with businesses, entrepreneurs, universities and our own office to manage teams that make software that helps people approach life in a slightly different way. For the first few years of my career, the work the designers and developers did was essentially magic. I wrote up documentation and tickets, they created software. But sometimes, I felt a bit like a translator that didn’t fully know the languages being spoken to him.
+
+To fix that, I enrolled myself in Flatiron School’s Self-Paced Full Stack Web Engineer program. Initially, my participation was viewed as simply a value add to me and my company. I was hoping I could finally talk the talk to the developers I managed and the clients I worked with. Then, as I progressed, it became clear that my passion wasn’t just solving other people’s problems, but using everything available to me in order to solve any problem. I enjoyed writing scripts and creating small applications to automate simple tasks. Hours would melt away as I built databases and routed APIs. Software development simultaneously reinvigorated my curiosity and provided me with countless new tools as an employee.
+
+As a project manager, I have been able to successfully manage both clients and teammates due to my ability to learn quickly and, more importantly, listen to the needs of those I work for and as well as those I work with. Through my bootcamp education, I have been able to quickly learn languages, libraries and practices integral to a well-built web application. I’ve attached my resume for review and look forward to discussing how to help Hedgeye continue to provide cutting-edge research in the financial sector. 
+
+Sincerely yours,
+
+Samuel Marshall
