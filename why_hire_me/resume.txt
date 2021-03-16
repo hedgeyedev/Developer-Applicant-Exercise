@@ -1,0 +1,44 @@
+# Technical Skills
+Experienced in Ruby, Rails, Javascript (ES6, React), Gherkin/Cucumber, RSpec, HTML/CSS, SQL, JIRA, Confluence, Git/GitHub, VSCode, Adobe Suite, MS Office, Slack, Wordpress, Sketch, AWS and GCloud/Suite. 
+
+# Education
+
+  B.A., Political Science
+  May 2012
+  University of Connecticut
+
+  Full Stack Development Bootcamp
+  March 2020
+  Flatiron School
+
+# Current Projects
+
+  Phrank! - https://github.com/srolandmarshall/phrank
+  An application for tracking and reviewing attended concerts.
+    ● Developed a React Client operating on top of a Ruby on Rails API.
+    ● Implemented Redux middleware for state-management and persistence with MySQL database.
+    ● Integrated third-party external API to include fan-sourced recordings of concerts to application.
+
+  2Du - https://github.com/srolandmarshall/2du
+    ● Exclusively used new React Hooks API to manage state with local browser storage to create a lightweight
+    personal To Do manager.
+    ● Scripted a JSON export and import feature for quick saving and uploading of lists.
+    ● Incorporated GitHub OAuth to allow syncing to GitHub gists for easy cloud storage.
+
+# Work History
+
+MINDTRUST – Project Manager/Software Developer
+2012 - Present 
+New Haven, CT
+
+MindTrust offers a team-as-a-service model to clients for digital solutions using lean teams and the newest technologies.
+
+  ● Helped plan development and launch the pilot version of an iPad-based national, standardized educational assessment for Qiyas, the National Center for Assessment in Saudi Arabia in collaboration with leading Child Studies researchers at Yale University and University of Houston.
+    o Collaborated with leading child development and assessment scholars to create and pilot 48 subtests o Pilot study conducted over four years has tested over 23,000 students over roughly 100,000 sessions in 14 regions of Saudi Arabia.
+  ● Worked with University of Houston to simultaneously develop and launch two educational assessment tools in conjunction with NIH and IES studies targeting underrepresented populations. on iPads and low-cost Android phones.
+    o Worked directly with University stakeholders and oversaw custom artwork design, cataloguing and documentation for over 600 individual test items for the iPad assessment.
+    o Wrote Ruby scripts to help manage, migrate and audit data collected by the Android application. ● Spearheaded an accounting app suite with a lean, three-person team for a private school in Hawaii, built exclusively using Google Dart/Flutter, Firebase and Firestore for rapid development and scalability.
+    o Mobile application is currently in use throughout the globe by over 100 students to track thousands of financial transactions in dozens of currencies.
+  ● Managed the import of 70,000 contacts, 4,000 companies, 21,000 donations and 1.5 million email engagements from DonorPerfect CRM to HubSpot by creating a custom Ruby application utilizing the HubSpot API.
+  ● Created test suite for large automotive part supplier using Cucumber behavior-driven-development model, in congress with Selenium to 100% cover user-centric behaviors within a e-commerce web application.
+
