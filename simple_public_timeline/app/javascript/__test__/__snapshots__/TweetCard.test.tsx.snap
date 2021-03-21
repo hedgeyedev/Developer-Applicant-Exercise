@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly text component 1`] = `
+<div
+  className="tweet-card"
+>
+  <div
+    className="icon"
+  >
+    <img
+      src="string"
+    />
+  </div>
+  <div
+    className="tweet-body"
+  >
+    <p>
+      <a
+        href="http://myprofile"
+      >
+        John
+      </a>
+      some cool tweet test text
+    </p>
+    <h5>
+      10:05 PM
+    </h5>
+    <h6>
+      <a
+        href="http://twitter.com/download/android"
+        rel="nofollow"
+      >
+        Twitter for Android
+      </a>
+    </h6>
+  </div>
+</div>
+`;

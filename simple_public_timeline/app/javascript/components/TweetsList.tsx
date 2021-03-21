@@ -13,7 +13,6 @@ interface User {
 }
 
 interface Tweet {
-  profile_image_url: string;
   user: User;
   created_at: string;
   source: string;
@@ -29,7 +28,7 @@ interface TweetCardProps {
  * Renders a tweet
  * @param Tweet a tweet with profile image, user, and created date
  */
-const TweetCard = ({ tweet }: TweetCardProps) => {
+export const TweetCard = ({ tweet }: TweetCardProps) => {
   const {
     user: { url, screen_name, profile_image_url },
     created_at,
@@ -87,7 +86,7 @@ const TweetsList = ({ tweets_url }: TweetsListProps) => {
   }, []);
 
   return (
-    <div className="">
+    <div>
       {recentTweets.map((tweet) => {
         return <TweetCard key={tweet.id_str} tweet={tweet} />;
       })}

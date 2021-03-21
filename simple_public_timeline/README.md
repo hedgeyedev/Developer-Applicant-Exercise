@@ -1,24 +1,19 @@
-# README
+Create the file: config/secrets.yml with:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+development:
+  consumer_key: "your key"
+  consumer_secret: "your secret"
+  access_token: "access_token"
+  access_secret: "access_secret"
+```
 
-Things you may want to cover:
+bundle install
 
-* Ruby version
+yarn install
 
-* System dependencies
+rake assets:precompile
 
-* Configuration
+bin/webpack
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rails server
