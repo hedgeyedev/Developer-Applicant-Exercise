@@ -1,0 +1,15 @@
+<div class="tweet-card">
+  <div class="icon">
+    <img src="<%= tweet.user.profile_image_url %>"/>
+  </div>
+  <div class="tweet-body">
+  <p>
+    <a href="<%= tweet.user.url %>" target="blank">
+      <%= tweet.user.screen_name %>
+    </a>
+    <%= tweet.text %>
+  </p>
+    <h5><%= tweet.created_at.to_time.localtime.strftime("%I:%M %p") %></h5>
+    <h6><%== tweet.source %></h6>
+  </div>
+</div>

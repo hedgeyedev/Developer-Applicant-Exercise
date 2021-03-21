@@ -1,0 +1,16 @@
+
+<% content_for :content do %>
+  <div class="container">
+    <div class="row">
+      <h1>Recent Public Tweets</h1>
+      <h5>What everyone on Twitter is talking about</h5>
+    </div>
+    <div class="row">
+      <div class="two-thirds column">
+        <%= content_for?(:content) ? yield(:content) : yield %>
+      </div>
+      <div class="one-third column"></div>
+    </div>
+  </div>
+<% end %>
+<%= render template: "layouts/application" %>
