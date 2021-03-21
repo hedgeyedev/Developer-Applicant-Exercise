@@ -15,7 +15,15 @@ describe Template do
     expect(template('Alt codes are %ALTCODE%, %ALTCODE% and two codes are %CODE%, %CODE%', '5678901234')).to eq 'Alt codes are 56789-012, 56789-012 and two codes are 5678901234, 5678901234'
   end
 
-  it "should error if contains %" do
-    expect {template('Code is %CODE%', '5678901234%')}.to raise_error StandardError
+  it "should escape requid if it contains %" do
+    expect(template('Code is %CODE%', '5678901234%')).to eq 'Code is 5678901234%'
+  end
+
+  it "should raise an exception if req_id doesn't have at least 8 characters" do
+    expect {template('Code is %CODE%', '5678')}.to raise_error StandardError
+  end
+
+  it "should still run if template doesn't have any placeholders" do
+    expect(template('Code is and altcode is', '5678901234')).to eq 'Code is and altcode is'
   end
 end
