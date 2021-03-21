@@ -1,1 +1,5 @@
+<%#
+Here we render the full tweets list by passing in the tweets_url helper.
+We use this URL inside the react component to make a GET request for the tweets
+%>
 <%= react_component("TweetsList", { tweets_url: url_for(action: 'via_js') }) %>

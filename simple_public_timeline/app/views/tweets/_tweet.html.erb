@@ -1,3 +1,8 @@
+<%# 
+The neat thing about React Rails is for example if we have additional
+activity that we want to add, we could server-render
+the TweetCard component found in (app/javascript/TweetsList) instead
+of using this partial %>
 <div class="tweet-card">
   <div class="icon">
     <img src="<%= tweet.user.profile_image_url %>"/>

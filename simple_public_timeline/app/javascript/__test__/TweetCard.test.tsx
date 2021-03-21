@@ -1,5 +1,5 @@
 import * as React from "react";
-import { TweetCard } from "../components/TweetsList";
+import { TweetCard } from "../components/TweetCard";
 import * as renderer from "react-test-renderer";
 
 it("render correctly text component", () => {
