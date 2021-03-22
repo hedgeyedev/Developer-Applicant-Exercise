@@ -1,0 +1,15 @@
+Hello Hedgeye!
+
+Thanks for reviewing my developer exercise submission.
+
+I realize I'm quite new to Ruby and Rails, but JavaScript is my specialty.
+I have a lot of experience building interactive UI in JavaScript, TypeScript,
+and new experience working with JS inside of Rails.
+
+I'm a big fan of Hedgeye and bring a lot to the table in terms of JS, UI,
+interactivity, and data visualization. 
+
+Thanks again for the opportunity to submit some code. 
+
+Cheers,
+John

@@ -1,25 +1,32 @@
 How many years of Web development experience do you have?
-
+Around 12. Quite a many. I started early. 
 
 How many years of JavaScript experience do you have?
-
+Around 8. I work in JS the most.  
 
 How many years of Ruby experience do you have?
-
+< 1. I've only recently started using rails in my current job.
 
 How many years of Rails development experience do you have?
-
+< 1
 
 What are your opinions on Agile software development?
-
+I've mostly had positive experiences working on Agile teams. 
 
 TDD or BDD?
-
+In most of my work, TDD was favored. 
+But I'm adaptable and adhere to the process set by the team.
 
 What are you looking for in a job?
-
+One of the rewarding parts of web development is seeing a product grow and change as you work on it.
+It's exciting to solve challenging problems and know that people use your work. The things I'm looking for 
+are:
+- Cool people to work with.
+- Building great products.
+- Learning and developing new skills and experience. 
 
 Are you legal to work in the US?
-
+Yes
 
 When can you start?
+3-4 Weeks
