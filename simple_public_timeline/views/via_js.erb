@@ -1,0 +1,25 @@
+<script type="module">
+  import { h, text, app } from "https://unpkg.com/hyperapp"
+
+  const tweetSingular = tweet => h("article", {}, [
+    h("div", { class: "dtc w2 w3-ns v-mid" }, [
+      h("img", { class: "ba b--black-10 db br2 w2 w3-ns h2 h3-ns" }, [])
+    ]),
+    h("div", { class: "dtc v-mid pl3" }, [
+      h("h1", { class: "f6 f5-ns fw6 lh-title black mv0" }, text("@user")),
+      h("span", { class: "db f6 fw4 mt0 mb0 black-60" }, text("tweet")),
+      h("span", { class: "db" }, text("posted recently via source"))
+    ])
+  ])
+
+  const tweetsPlural = tweets => h("ul", {}, tweets.map(tweetSingular))
+
+  app({
+    init: { status: "loading...", feed: ["one", "two", "three"] },
+    view: ({ status, feed }) => h("section", {}, feed.map(tweetSingular)),
+    node: document.getElementById("app")
+  })
+
+</script>
+
+<div id="app"></div>

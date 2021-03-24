@@ -1,0 +1,14 @@
+<section>
+<% get_feed.each do |item| %>
+  <article class="dt w-100 bb b--black-05 pb2 mt2" href="#">
+    <div class="dtc w2 w3-ns v-mid">
+      <img src="<%= item["user"]["profile_image_url_https"] %>" class="ba b--black-10 db br2 w2 w3-ns h2 h3-ns"/>
+    </div>
+    <div class="dtc v-mid pl3">
+      <h1 class="f6 f5-ns fw6 lh-title black mv0">@<%= item["user"]["screen_name"] %></h1>
+      <span class="db f6 fw4 mt0 mb0 black-60"><%= item["text"] %></span>
+      <span class="db">posted <%= time_phrase(item["created_at"]) %> <%= source_phrase(item["source"]) %></span>
+    </div>
+  </article>
+<% end %>
+</section>
