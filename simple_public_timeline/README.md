@@ -1,4 +1,6 @@
-# Install Rails App
+# Public Timeline Rails Application
+
+## Install Rails App
 
 1. Navigate to this folder in your terminal and `git clone git@github.com:srolandmarshall/public_timeline.git`
 2. Navigate to the rails app `cd public_timeline`
