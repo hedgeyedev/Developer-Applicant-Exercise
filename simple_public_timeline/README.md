@@ -6,6 +6,7 @@
 2. Navigate to the rails app `cd public_timeline`
 3. In terminal, `ruby -v` to confirm you are using `ruby-2.5.8`. `rvm` and `rbenv` should detect from either `.ruby-version` or the `Gemfile`.
 4. In terminal, `bundle install` (if you don't have Bundle configured, simply `gem install bundler`)
+5. In terminal, `yarn install`
 
 - _NOTE_: I did not use `rvm` for this project, so creating a gemset as specified in the application was out of scope without completely reconfiguring my ruby environment. However, `bundle` should work efficiently enough with any environment.
 
