@@ -1,0 +1,58 @@
+<script>
+
+// template function: apply tweet data to template, output string
+const template = (tweet) => {
+  let t = JSON.parse(tweet)
+  return `<article class="dt w-100 bb b--black-05 pb2 mt2">
+    <div class="dtc w2 w3-ns">
+      <a class="dim" href="${t.user_url}">
+        <img src="${t.user_img}" class="ba b--black-10 db br2 w2 w3-ns h2 h3-ns" />
+      </a>
+    </div>
+    <div class="dtc v-mid pl3">
+      <a class="f6 fw6 mv0 gray link dim" href="${t.user_url}">@${t.user_name}</a>
+      <span class="db f5 fw4 mv1">${t.text}</span>
+      <span class="db f6 fw4 silver i">posted <strong>${timePhrase(t.time)}</strong> via ${t.source}</span>
+    </div>
+  </article>`
+}
+
+const timePhrase = (time) => {
+    let now                = Math.round(Date.now() / 1000)
+    let posted             = Math.round(time)
+    let seconds            = now - posted
+    let approx_sec_by_five = Math.round(seconds / 5.0) * 5
+    let approx_min         = Math.round(seconds / 60.0)
+    let approx_min_by_five = Math.round(seconds / 300.0) * 5
+
+    if (seconds < 5)
+        return "just now"
+    else if (seconds < 35)
+        return `about ${approx_sec_by_five}sec ago`
+    else if (seconds < 250)
+        return `about ${approx_min}min ago`
+    else if (seconds < 600)
+        return `about ${approx_min_by_five}min ago`
+    else
+        return "recently"
+}
+
+// map tweets in feed with template
+const tweetsToHtml = (data) => data.map(template)
+
+// append each tweet's markup to #tweets
+const tweetsToDom = (data) => {
+  tweetsToHtml(data).map(
+    (t) => document.getElementById("tweets").innerHTML += t
+  )
+
+}
+
+// get feed
+fetch('/feed')
+  .then(res => res.json())
+  .then(data => tweetsToDom(data))
+
+</script>
+
+<section id="tweets"></section>
