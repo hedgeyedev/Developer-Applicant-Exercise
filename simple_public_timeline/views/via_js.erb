@@ -1,24 +1,68 @@
 <script type="module">
-  import { h, text, app } from "https://unpkg.com/hyperapp"
 
-  const tweetSingular = tweet => h("article", {}, [
-    h("div", { class: "dtc w2 w3-ns v-mid" }, [
-      h("img", { class: "ba b--black-10 db br2 w2 w3-ns h2 h3-ns" }, [])
-    ]),
-    h("div", { class: "dtc v-mid pl3" }, [
-      h("h1", { class: "f6 f5-ns fw6 lh-title black mv0" }, text("@user")),
-      h("span", { class: "db f6 fw4 mt0 mb0 black-60" }, text("tweet")),
-      h("span", { class: "db" }, text("posted recently via source"))
+import { h, text, app } from "https://unpkg.com/hyperapp@2.0.12"
+import { request } from "https://unpkg.com/@hyperapp/http@0.0.2"
+
+const initialState = {
+    feed: []
+}
+
+const GetTweets = (state, tweets) => ({
+    ...state,
+    feed: JSON.parse(tweets).map(tweet => JSON.parse(tweet))
+})
+
+const InitialAction = [
+    initialState,
+    request({
+        url: "/feed",
+        action: GetTweets
+    })
+]
+
+const timePhrase = time => {
+    let now                = Math.round(Date.now() / 1000)
+    let posted             = Math.round(time)
+    let seconds            = now - posted
+    let approx_sec_by_five = Math.round(seconds / 5.0) * 5
+    let approx_min         = Math.round(seconds / 60.0)
+    let approx_min_by_five = Math.round(seconds / 300.0) * 5
+
+    if (seconds < 5)
+        return "just now"
+    else if (seconds < 35)
+        return `about ${approx_sec_by_five}sec ago`
+    else if (seconds < 250)
+        return `about ${approx_min}min ago`
+    else if (seconds < 600)
+        return `about ${approx_min_by_five}min ago`
+    else
+        return "recently"
+}
+
+const tweetSingular = t =>
+    h("article", { class: "dt w-100 bb b--black-05 pb2 mt2" }, [
+        h("div", { class: "dtc w2 w3-ns" }, [
+            h("a", { class: "dim", href: "#" }, [
+                h("img", { class: "ba b--black-10 db br2 w2 w3-ns h2 h3-ns", src: t.user_img }, [])
+            ])
+        ]),
+        h("div", { class: "dtc v-mid pl3" }, [
+            h("h1", { class: "f6 fw6 mv0 gray link dim" }, text("@" + t.user_name)),
+            h("span", { class: "db f5 fw4 mv1" }, text(t.text)),
+            h("span", { class: "db f6 fw4 silver i" }, [
+                text('posted '),
+                h("strong", {}, text(timePhrase(t.time))),
+                text(` via ${t.source}`)
+            ])
+        ])
     ])
-  ])
 
-  const tweetsPlural = tweets => h("ul", {}, tweets.map(tweetSingular))
-
-  app({
-    init: { status: "loading...", feed: ["one", "two", "three"] },
-    view: ({ status, feed }) => h("section", {}, feed.map(tweetSingular)),
+app({
+    init: InitialAction,
+    view: ({ feed }) => h("section", {}, feed.map(tweetSingular)),
     node: document.getElementById("app")
-  })
+})
 
 </script>
 
