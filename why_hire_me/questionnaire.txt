@@ -1,25 +1,34 @@
 How many years of Web development experience do you have?
+- about 10 years
 
 
 How many years of JavaScript experience do you have?
+- about 10 years; I would say I was comfortable with JavaScript after my first professional year so more like 9 years in reality.
 
 
 How many years of Ruby experience do you have?
+- 0; I have dabbled (I have a few very small sites out there using Middleman) but no professional experience or paying clients.
 
 
 How many years of Rails development experience do you have?
+- 0; I have set up one or two tutorial projects in the past but no more than that
 
 
 What are your opinions on Agile software development?
+- I don't have a very strong opinion, but I believe that the concept of sprints is an effective and natural way to structure work effort.
 
 
 TDD or BDD?
+- I have generally used a BDD approach in the past (though I haven't worked on a pure Agile team). At my current job we are finding that a major weakness is our lack of formalized testing, so I am increasingly aware of the advantages of TDD.
 
 
 What are you looking for in a job?
+- I want to be challenged. I want an environment where personal skill growth is linked with team/company growth. My personal temperament inclines towards broad vs deep knowledge, so I am a stronger asset in an environment where the tasks are varied and/or unknown. That said, my general goal is to hone my programming craft, so I am focused on deepening my general skills as applied to any software stack (learning about the functional paradigm and the Lisp lineage has opened my mind to the idea that programming is not merely syntax). An ideal job is one where good code is important, and there are real problems to be solved.
 
 
 Are you legal to work in the US?
+- yes
 
 
 When can you start?
+- any time + notice (approx. 2 weeks)
