@@ -1,6 +1,6 @@
 <section>
 <% get_feed.each do |t| %>
-  <article class="dt w-100 bb b--black-05 pb2 mt2" href="#">
+  <article class="dt w-100 bb b--black-05 pb2 mt2">
     <div class="dtc w2 w3-ns">
       <a class="dim" href="<%= t.user_url %>" <% if t.user_url.empty? %>style="pointer-events: none;"<% end %>>
         <img src="<%= t.user_img %>" class="ba b--black-10 db br2 w2 w3-ns h2 h3-ns" />
