@@ -32,3 +32,12 @@ Are you legal to work in the US?
 
 When can you start?
 - any time + notice (approx. 2 weeks)
+
+
+Additional:
+- I have grown to really hate working on Windows. I can do it (I've been working with .NET and csharp sites for a while now), but I really don't like it. I started tinkering with Linux before I was employed as a web developer, and while I worked on Windows initially, my second job required a mac which worked out well. Lately, I am exploring the possibility of using OpenBSD as a daily workstation. Suffice to say, I can operate in any environment required of me, but given the choice I will go with a native *nix.
+- Several years ago, in a fit of unreasonableness, I learned vim. I have been using Visual Studio at work for a while now, and it feels like trying to swim through molasses. Recently (while learning about Lisp), I felt some jealousy for emacs, so I have been trying Emacs Doom. I am not sure if it will stick, although I have really been enjoying it for the most part.
+- Ideally, I want to have a job with *nix-only workflows, where I can refine my personal commandline workflows. Currently I have a few scripts that help me work within WSL, but I really want to use *nix full-time professionally and continue building up a good set of personal tools.
+- I really enjoy approaching tasks from the perspective of the potential user. I think the most interesting work is done at the edges, where the interfaces are.
+- I don't mind talking to clients, I actually often find myself enjoying the challenge.
+- I am a competent designer. I view graphic design as no different from any interface design. It's all just identifying goals, and engineering solutions to reach those goals.
