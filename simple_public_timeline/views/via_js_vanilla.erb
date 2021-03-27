@@ -5,12 +5,12 @@ const template = (tweet) => {
   let t = JSON.parse(tweet)
   return `<article class="dt w-100 bb b--black-05 pb2 mt2">
     <div class="dtc w2 w3-ns">
-      <a class="dim" href="${t.user_url}">
+      <a class="dim" href="${t.user_url}" ${(!t.user_url.length) ? 'style="pointer-events: none;"' : ""}">
         <img src="${t.user_img}" class="ba b--black-10 db br2 w2 w3-ns h2 h3-ns" />
       </a>
     </div>
     <div class="dtc v-mid pl3">
-      <a class="f6 fw6 mv0 gray link dim" href="${t.user_url}">@${t.user_name}</a>
+      <a class="f6 fw6 mv0 gray link dim" href="${t.user_url}" ${(!t.user_url.length) ? 'style="pointer-events: none;"' : ""}>@${t.user_name}</a>
       <span class="db f5 fw4 mv1">${t.text}</span>
       <span class="db f6 fw4 silver i">posted <strong>${timePhrase(t.time)}</strong> via ${t.source}</span>
     </div>
