@@ -1,7 +1,7 @@
 # coding: utf-8
 require 'json'
 
-Tweet = Struct.new(:text, :time, :lang, :source, :user_name, :user_img) do
+Tweet = Struct.new(:text, :time, :lang, :source, :user_name, :user_img, :user_url) do
   def time_phrase
     now                = Time.now.to_i
     posted             = self.time
@@ -40,7 +40,8 @@ def tweets
       t["data"]["lang"],
       t["data"]["source"],
       t["includes"]["users"][0]["username"],
-      t["includes"]["users"][0]["profile_image_url"]
+      t["includes"]["users"][0]["profile_image_url"],
+      t["includes"]["users"][0]["url"]
     )
   end
   out

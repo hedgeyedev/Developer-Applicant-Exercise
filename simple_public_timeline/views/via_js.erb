@@ -43,12 +43,12 @@ const timePhrase = time => {
 const tweetSingular = t =>
     h("article", { class: "dt w-100 bb b--black-05 pb2 mt2" }, [
         h("div", { class: "dtc w2 w3-ns" }, [
-            h("a", { class: "dim", href: "#" }, [
+            h("a", { class: "dim", href: t.user_url }, [
                 h("img", { class: "ba b--black-10 db br2 w2 w3-ns h2 h3-ns", src: t.user_img }, [])
             ])
         ]),
         h("div", { class: "dtc v-mid pl3" }, [
-            h("h1", { class: "f6 fw6 mv0 gray link dim" }, text("@" + t.user_name)),
+            h("a", { class: "f6 fw6 mv0 gray link dim", href: t.user_url }, text("@" + t.user_name))
             h("span", { class: "db f5 fw4 mv1" }, text(t.text)),
             h("span", { class: "db f6 fw4 silver i" }, [
                 text('posted '),

@@ -3,11 +3,11 @@ require './data'
 
 describe Tweet do
 
-  it "is a struct with fields :text, :time, :lang, :source, :user_name, :user_img, and the method :time_phrase" do
+  it "is a struct with fields :text, :time, :lang, :source, :user_name, :user_img, :user_url, and the method :time_phrase" do
     expect(
       (Tweet.new().methods &
-       [:text, :time, :lang, :source, :user_name, :user_img, :time_phrase]).size
-    ).to eq 7
+       [:text, :time, :lang, :source, :user_name, :user_img, :user_url, :time_phrase]).size
+    ).to eq 8
   end
 
   it "gives a correct approximation of the time since posted" do
