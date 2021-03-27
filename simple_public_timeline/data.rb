@@ -41,7 +41,7 @@ def tweets
       t["data"]["source"],
       t["includes"]["users"][0]["username"],
       t["includes"]["users"][0]["profile_image_url"],
-      t["includes"]["users"][0]["url"]
+      "https://twitter.com/" + t["includes"]["users"][0]["username"]
     )
   end
   out
