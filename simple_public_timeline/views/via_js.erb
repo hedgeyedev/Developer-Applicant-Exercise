@@ -48,7 +48,7 @@ const tweetSingular = t =>
             ])
         ]),
         h("div", { class: "dtc v-mid pl3" }, [
-            h("a", { class: "f6 fw6 mv0 gray link dim", href: t.user_url }, text("@" + t.user_name))
+            h("a", { class: "f6 fw6 mv0 gray link dim", href: t.user_url }, text("@" + t.user_name)),
             h("span", { class: "db f5 fw4 mv1" }, text(t.text)),
             h("span", { class: "db f6 fw4 silver i" }, [
                 text('posted '),
