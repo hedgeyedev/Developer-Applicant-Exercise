@@ -1,0 +1,19 @@
+<head>
+  <img src="https://lh3.googleusercontent.com/proxy/jBlcm61rbl9sc2R9rQZXbPVakqcD5p5MuMboOwfQ7X84n_0oS2-0A-afaC2CjM6z25gEai0aCB127rO8hSbDhfUbuIspXP3mUFT3BQiD_wus0tXOonwVdlQ">
+  <link href="<%= url('styles/styles.css') %>" rel="stylesheet" type="text/css" />
+  <h1>Recent Public Tweets</h1>
+  <h3>What everyone on Twitter is talking about</h3>
+</head>
+
+<link rel="stylesheet" href="/styles.css">
+
+<% @tweets.each do |tweet| %>
+  <div class="tweet-container">
+      <img class="picture" src="<%= tweet.user.profile_image_uri %>">
+      <div class="text-container">
+        <a class="author"  href="<%= tweet.user.url %>"><%= tweet.user.name %></a>
+        <div class="content"><%= auto_link(tweet.text) %></div>
+        <p class="date">tweeted on: <%= tweet.created_at.to_time.strftime('%B %e at %l:%M %p') %> from <%= tweet.source %> </p>
+    </div>
+  </div>
+<% end %>

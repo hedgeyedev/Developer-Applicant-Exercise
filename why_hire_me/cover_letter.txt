@@ -1,0 +1,18 @@
+Dear Hiring Manager,
+
+I'm interested in joining your firm as a fullstack developer. I've worked
+with Ruby on Rails on the backend, and a hybrid AngularJS/Angular 2+
+frontend. While I'm interested in deepening my knowledge of these
+technologies, I am happy to explore and learn new technologies - so long
+as sufficient time and a bit of coaching is available to help me along the
+way.
+
+I'm looking for a long-term position where I can become a valued member
+of a team, where I can contribute to the quality of the codebase and to the
+culture of the engineering department. Eventually, I want to mentor and
+onboard junior developers - I've had many mentors and senior developers
+help me along the way, and I would like to 'pay it forward' someday.
+
+Best,
+
+Edward Graham

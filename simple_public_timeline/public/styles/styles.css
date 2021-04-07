@@ -1,0 +1,27 @@
+.content {
+  display: inline;
+}
+
+.picture {
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.text-container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.author {
+  color: #1DA1F2;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.tweet-container {
+  border-top: 1px solid gray;
+  margin-left: 5px;
+  padding-left: 5px;
+}

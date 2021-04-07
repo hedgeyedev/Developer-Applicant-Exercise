@@ -1,25 +1,60 @@
 How many years of Web development experience do you have?
-
+- A little under 3 years of professional web development experience.
 
 How many years of JavaScript experience do you have?
-
+- 2 years of professionally using Javascript, as part of the AngularJS/Angular 8 framework.
 
 How many years of Ruby experience do you have?
-
+- A little under 3 years of professional ruby experience, as part of the Ruby on Rails framework.
 
 How many years of Rails development experience do you have?
-
+- A little under 3 years.
 
 What are your opinions on Agile software development?
+- I think it's a very useful work philosophy if you have consistent client
+or business-side feedback. In my experience, software developed in a vacuum can
+be produced quickly, but there are significant risks that the end result
+will diverge from the client wants or needs.
 
+A two week development period can mean more time is spent communicating or
+in meetings than coding, which can make coders grumpy. But it helps avoid
+situations where the client realizes that the last X months of software
+development are no longer what they need.
 
 TDD or BDD?
+- I am more accustomed to BDD, especially in situations where it is not feasible
+to implement robust testing. For example, when adding a new attribute to an existing
+model, it was preferred that I did not expand existing front end testing to cover
+the form for that attribute. The reason being we were moving away from the platform
+we used for frontend testing. In order to to use TDD, I would have had to implement
+a new platform for frontend testing, which was not feasible.
 
+TDD is the better practice, I think, for longterm stability and test coverage, but
+it should be assumed that complex user behavior that can't be easily tested
+should be accounted for when practicing TDD.
 
 What are you looking for in a job?
-
+- I am looking for a workplace that encourages progressional growth in
+its developers. Ideally (and I understand this won't always be the case)
+there will occasionally be time set aside to investigate new technologies,
+work on personal projects, or mentor junior developers.
 
 Are you legal to work in the US?
-
+- Yes, I am a US citizen.
 
 When can you start?
+- Relatively shortly. I will be unable to commute until my family is entirely
+vaccinated, but I can start working remotely as soon as I am set up.
+
+Anything else we should know?
+- I used RubyMine as a text editor at my last position and came to love
+it! A part of me rebels against paying for a text editor, but it was
+impossible to deny the efficiencies and productivity enhancement that
+came from using a robust and professionally maintained editor.
+
+- I should note here I was unable to finish the JS part of this application.
+I'll admit that I don't have much experience working with raw javascript - virtually
+all of the frontend work I did was in the context of the Angular framework.
+Unfortunately some personal things came up, and I had shift my focus to
+preparing for other interviews and other take-home assignments I received.
+Apologies for the incomplete work.

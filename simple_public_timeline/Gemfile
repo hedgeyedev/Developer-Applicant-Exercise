@@ -1,0 +1,19 @@
+# frozen_string_literal: true
+
+source "http://rubygems.org"
+gem 'sinatra'
+
+# twitter text depedends on idn-ruby
+# idn-ruby must have libidn installed
+# PC:
+# sudo apt-get install libldap2-dev
+# sudo apt-get install libidn11-dev
+# Mac:
+# brew install libidn
+
+gem 'idn-ruby', '~> 0.1.0'
+gem 'twitter-text'
+gem 'twitter', '~> 6'
+gem 'dotenv'
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
