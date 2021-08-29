@@ -1,0 +1,11 @@
+My name is Sean Robenalt, and I'm a motivated software engineer. I began learning software via an online bootcamp late 2016. 
+I got my first job a year later working for a YCombinator backed startup called Forever Labs. I was the only software engineer, 
+so I had to learn things on the fly. It was a great start to my career, and I liked that I got thrown into the mix in a fast-moving 
+startup so I could learn quick. Shortly after that, I began working on a side-project with a friend called FixMyCar. He consulted me 
+to build software for his mobile mechanic business, allowing users to go through a few steps on a website to get matched with a nearby 
+mechanic. We started working on the software, and cut to a year later we get $250k from an independent angel. We used that to 
+continue working on the side. We hired some employees and remote devs, and worked on it all 2020 in our free time. We closed a 
+$1.6M pre-seed round early this year and then I joined full-time there. We've since built out most of the foundation for everything, 
+and now it's in a place where I can explore other options since I am not needed as much as I was in the first few years. I love software,
+and love to write code. I'm very happy I got into this craft, and look forward to finding the next opportunity that will allow me to 
+challenge myself and learn new things.

@@ -1,25 +1,26 @@
 How many years of Web development experience do you have?
-
+I have 4 years of web development experience. Working in a lot of different technologies, mostly in startups. I've also worked for a software consulting firm, and Ford Motor Company on short contracts.
 
 How many years of JavaScript experience do you have?
-
+I've been working with JavaScript on most projects I've worked on over the past 4 years.
 
 How many years of Ruby experience do you have?
-
+Ruby was the technology I first learned when I started in web development, and have been working with it ever since. Both of my longest roles are Ruby on Rails apps, so I have 4 years working on production Ruby on Rails applications.
 
 How many years of Rails development experience do you have?
-
+4 years. To expand on the previous answer, with FixMyCar I built the Rails app from scratch, and have been in charge of deployments since the company has been running so I have a pretty good experience level with production Rails apps.
 
 What are your opinions on Agile software development?
-
+Agile is a theory, that can help speed things up in bigger size teams and organizations. In startups (which is where I have most experience), things move really fast and a lot of the agile principles have to play out on a much shorter time frame. In this case, agile boils down to internal communicating in order to prioritize and then monitoring the results of what you deploy so you can quickly iterate. In bigger/more establed orgs, there's more processes that are introduced because you have time. Estimating, sprint planning, doing retros are all good practices that help everyone get work done and stay on the same page.
 
 TDD or BDD?
-
+TDD is what I have most experience with. It's good if you can get a large percentage of your code-based covered with tests. Then it's very easy to catch bugs when working. BDD sounds good in theory, but I haven't used it much in practice.
 
 What are you looking for in a job?
-
+Currently, I'm looking for a little bit of a bigger org than I've been in coming from startups. I'd like for the software solutions to be in a field that I'm interested in. Investing is an interest of mine, so Hedge Eye is of interest at the moment. I'd like to work with a team that's interested in software, and wants to be creative and innovative with our software solutions that we build.
 
 Are you legal to work in the US?
-
+Yes
 
 When can you start?
+Mid to late September.
