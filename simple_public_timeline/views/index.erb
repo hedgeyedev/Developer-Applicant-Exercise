@@ -1,0 +1,25 @@
+<!doctype html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Twitter Timeline</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+  </head>
+
+  <body>
+    <div style="text-align:center;margin-top:50px;padding:50px;font-family:'Helvetica'">
+      <h2 style='margin:40px;'>Recent Public Tweets</h2>
+      <h4>What everyone on Twitter is talking about</h4>
+
+      <% @tweets.each do |tweet| %>
+        <p>Tweet: <%= tweet[:text] %></p>
+        <p>Username: <%= tweet[:user][:name] %></p>
+        <p>Profile photo: <img src=<%= tweet[:user][:photo] %>/></p>
+        <p>Source: <%= tweet[:source] %></p>
+        <p>URL: <%= tweet[:url] %></p>
+        <p>Date: <%= tweet[:created_at] %></p>
+        <hr>
+      <% end %>
+    </div>
+  </body>
+</html>

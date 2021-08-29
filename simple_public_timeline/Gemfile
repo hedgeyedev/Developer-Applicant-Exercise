@@ -1,0 +1,5 @@
+source :rubygems
+
+gem 'dotenv', '~> 2.7'
+gem 'sinatra'
+gem 'twitter'
