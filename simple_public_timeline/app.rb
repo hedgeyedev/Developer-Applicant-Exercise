@@ -3,6 +3,10 @@ require 'sinatra'
 require 'dotenv'
 Dotenv.load
 
+get '/via_js' do
+  html :via_js
+end
+
 get '/' do
   require_relative 'services/twitter/api'
 
