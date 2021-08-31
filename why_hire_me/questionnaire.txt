@@ -1,25 +1,38 @@
 How many years of Web development experience do you have?
-
+3
 
 How many years of JavaScript experience do you have?
-
+1
 
 How many years of Ruby experience do you have?
-
+3
 
 How many years of Rails development experience do you have?
-
+3
 
 What are your opinions on Agile software development?
-
+Far superior to waterfall, especially when the needs of the client are dynamic.
+Allows for better cross-functionality of team members and ability to more effectively plan work.
+I have experience working with both scrum and kanban, however I tend to prefer scrum as the
+iterations provide a better benchmark for tracking progress in my opinion.
 
 TDD or BDD?
-
+My current position uses BDD, and I also prefer it. BDD ensures that the core functionality that
+the client wants is understood by the team and product owner,
+as well as validated as part of the definition of done.
+TDD can be very effective for backend work, but is more difficult to implement for front end features in comparison
+from my experience.
+When I work on backend stories, I prefer to implement TDD for myself even though it is not required by my team, as it gets
+me to think about and plan the design before I start coding. This tends to lead to cleaner and more precise code, as well as a 
+more efficient development process for myself.
 
 What are you looking for in a job?
-
+A few different things. Competitive compensation, experienced team members who can provide constructive criticism and advice
+for me to improve both as an engineer and a person, a product focused position, opportunity for advancement and an environment
+that is not too stressful and conducive to learning. I love working hard and learning new things, it is my passion.
 
 Are you legal to work in the US?
-
+Yes, I am a US Citizen.
 
 When can you start?
+I can start in as soon as 2 weeks once an offer is accepted.
