@@ -7,4 +7,4 @@ services:
     volumes:
       - /home/apirelli/Developer-Applicant-Exercise:/opt/developer_applicant_exercise/current
     ports:
-      - "8000:80"
+      - "8080:80"
