@@ -15,7 +15,7 @@
 # it.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
-RSPEC_ROOT = "#{File.dirname __FILE__}/.."
+ROOT = "#{File.dirname __FILE__}/.."
 
 require 'byebug'
 

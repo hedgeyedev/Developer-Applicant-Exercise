@@ -14,7 +14,7 @@ RUN chown -R exercise_user:exercise_user /opt
 
 USER exercise_user
 RUN mkdir -p "$(rbenv root)"/plugins
-# RUN git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+RUN git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
 RUN echo 'export PATH="~/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
 RUN echo 'export GEM_HOME=~/.ruby/' >> ~/.bashrc
 RUN echo 'export PATH="$PATH:~/.ruby/bin"' >> ~/.bashrc

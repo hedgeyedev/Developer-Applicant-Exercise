@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "#{RSPEC_ROOT}/simple_refactoring_exercise/template_generators/code_template_service.rb"
+require "#{ROOT}/simple_refactoring_exercise/template_generators/code_template_service.rb"
 
 describe TemplateGenerators::CodeTemplateService do
   let(:valid_input_template) { 'Code is %CODE%; alt code is %ALTCODE%' }
