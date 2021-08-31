@@ -14,6 +14,7 @@ RUN mkdir -p /opt/developer_applicant_exercise/current
 COPY . /opt/developer_applicant_exercise/current
 RUN cp /opt/developer_applicant_exercise/current/simple_public_timeline/nginx/nginx.conf /etc/nginx/nginx.conf
 RUN chown -R exercise_user:exercise_user /opt
+RUN cp /opt/developer_applicant_exercise/current/simple_public_timeline/entrypoint.sh /entrypoint.sh
 
 USER exercise_user
 RUN git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
@@ -32,4 +33,4 @@ RUN bundle install --path /home/exercise_user/.rbenv/versions/2.7.4/lib/ruby/gem
 RUN npm install
 
 EXPOSE 80
-ENTRYPOINT [ "sudo service nginx start && bundle exec ruby simple_public_timeline/twitter_timeline_app.rb" ]
+ENTRYPOINT [ "/entrypoint.sh" ]

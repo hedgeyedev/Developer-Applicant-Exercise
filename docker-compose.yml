@@ -1,10 +1,10 @@
 version: "3.9"
 services:
   developer_applicant_exercise:
-    entrypoint: /bin/bash
-    stdin_open: true
+    # entrypoint: /bin/bash
+    # stdin_open: true
     image: developer_applicant_exercise:latest
-    volumes:
-      - /home/apirelli/Developer-Applicant-Exercise:/opt/developer_applicant_exercise/current
+    # volumes:
+    #   - /home/apirelli/Developer-Applicant-Exercise:/opt/developer_applicant_exercise/current
     ports:
       - "8080:80"
