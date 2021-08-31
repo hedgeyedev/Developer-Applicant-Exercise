@@ -15,6 +15,7 @@ COPY . /opt/developer_applicant_exercise/current
 RUN cp /opt/developer_applicant_exercise/current/simple_public_timeline/nginx/nginx.conf /etc/nginx/nginx.conf
 RUN chown -R exercise_user:exercise_user /opt
 RUN cp /opt/developer_applicant_exercise/current/simple_public_timeline/entrypoint.sh /entrypoint.sh
+RUN chown exercise_user:exercise_user /entrypoint.sh
 
 USER exercise_user
 RUN git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
