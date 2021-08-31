@@ -9,7 +9,7 @@ template.rb changes:
 template_spec.rb changes:
 - Setup test environment using Dockerfile and composefile in order to run the tests in a consistent environment accross machines
 - Included bash scripts for starting and stopping the container once the image has been built
-- Image must be built using with name and tag developer_applicant_exercise:latest
+- Image must be built using with name and tag developer_applicant_exercise:latest using command `docker build --no-cache -t developer_applicant_exercise .`
 - test can be ran using `bundle exec rspec` inside the docker container
 - Created .rspec file to include spec_helper.rb and output test results in documentation format by default
 - Moved file to spec/simple_refactoring_exercise/template_generators/code_template_service_spec.rb to follow rspec best practice for having a single spec directory
@@ -18,3 +18,4 @@ template_spec.rb changes:
 - Updated original test description to be more specific as to what it was actually testing
 - Added additional test for the case where a code that is too short to generate an altcode is passed in
 - Added byebug gem to spec_helper.rb for troubleshooting tests and code
+- Using rbenv and bundler with Gemfile and Gemfile.lock instead of .ruby-gemset with rvm
