@@ -3,7 +3,7 @@ services:
   developer_applicant_exercise:
     # entrypoint: /bin/bash
     # stdin_open: true
-    image: developer_applicant_exercise:latest
+    image: intense555/applicant_exercise_hedgeye:latest
     # volumes:
     #   - /home/apirelli/Developer-Applicant-Exercise:/opt/developer_applicant_exercise/current
     ports:
