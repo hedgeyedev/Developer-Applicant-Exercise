@@ -55,5 +55,7 @@ In no particular order these are tools I use every day:
 - Linux or OSX (If given no other *nix options)
     - I use Arch on my personal machines but I've also used several other distributions. 
     - My first Linux installation was a MEPIS live cd shortly followed up w/ Knoppix circa early 2000's. 
+- Gitlab 
+    - I use gitlab personally and professionally. I also like GitHub but I have not used it professionally for quite some time. 
 
 I'm sure there is more I can add here, especially personal things, but that may take some of the fun out of an interview.
