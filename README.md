@@ -1,5 +1,6 @@
-# Web Developer Applicant Exercise
 
+
+# Web Developer Applicant Exercise
 To be considered for a developer position at [Hedgeye](http://www.hedgeye.com), you must successfully complete these steps [**](#footnote)
 
 **Please note:** your code will be tested on Ruby 2.5.9 and the latest version of Chrome.
@@ -36,8 +37,6 @@ To be considered for a developer position at [Hedgeye](http://www.hedgeye.com), 
         * Write good code that you want people to see.
 6. Commit and Push your code to your fork
 7. Send a pull request, we will review your code and get back to you.  If your GitHub profile does not include your name, please include your name in the pull request.
-
-
 
 <a name="footnote"></a>** The awesome idea of github pull request as
 job application task was previously done by [Integrum](http://integrumtech.com) [here](https://github.com/integrum/job-application)
