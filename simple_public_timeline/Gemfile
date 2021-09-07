@@ -1,0 +1,20 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
+
+# gem "rails"
+
+gem 'bundler'
+gem 'rack-test'
+gem 'rake'
+gem 'require_all'
+gem 'rspec-expectations'
+gem 'rspec-mocks'
+gem 'rspec-rake'
+gem 'shotgun'
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'tweetstream'
+gem 'twitter'

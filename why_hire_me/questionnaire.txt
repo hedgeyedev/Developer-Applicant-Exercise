@@ -1,25 +1,61 @@
 How many years of Web development experience do you have?
-
+I have 9 years of professional experience, and 18 years of total experience.
 
 How many years of JavaScript experience do you have?
-
+The same as above but I have not used what i would call "vanilla" JS for several years. My recent JS work is all primarily TypeScript and strangely not much on the FrontEnd.
 
 How many years of Ruby experience do you have?
-
+If Chef Cookbooks (not just the DSL) count then 1 year professionally. I've only dabbled in ruby in the past. Chef was also my first exposure to rspec (chefspec). 
 
 How many years of Rails development experience do you have?
-
+0. I've built a couple of RoR apps personally and this was circa 2005 when I was reading why's poignant guide to ruby. Worth noting RoR was very new then and I'm sure it has 
+evolved drastically. I remember RoR data scaffolding and how magical it was being able have MVC code generated for a database table. 
 
 What are your opinions on Agile software development?
+I think it can encompass several different ways of working and can even be misinterpreted or misunderstood. Every place I've worked since 2012 has implemented some form of 
+Agile. I'm a proponent of the Agile Manifesto, and any methodology or ideology that keeps that front and center is good. I've enjoyed simple Scrum/KanBan with 
+quick and easy ceremonies and even XP (eXtreme Programming) where I exclusively test drove all of my code with a pairing partner and worked in week/multi-week sprints. I think it 
+can be easy for some companies to get lost in the process of Agile and put it's implementation over anything else and in almost every one of these situations the process was 
+favored over people which is an antithesis to the original manifesto. 
 
+In short, I treat it, and respect it as a valuable tool that can be configured and catered to work for all manner of teams. I dislike situations where a blanket Agile template is 
+rigidly inserted into the workflow of every team without any room for change. 
 
 TDD or BDD?
-
+Both have value and can be used to accomplish different equally valuable testing. 
+My experience with BDD is much more recent and primarily with SpecFlow (cucumber/gherkin style). 
 
 What are you looking for in a job?
-
+Autonomy. A High trust environment. A work life balance. The ability to lift and empower fellow engineers through teaching and involving them in my work, and myself in theirs. 
+I enjoy solving problems and surrounding myself with colleagues who are smarter than myself so I can continue learning and growing every day. I know it's a cliche but these are 
+the factors that keep me happy and give me something to look forward to every day, and I also look for them in a job. 
 
 Are you legal to work in the US?
-
+Yes I am a US Citizen. 
 
 When can you start?
+~2 Weeks from an employment offer. 
+
+Other Things:
+In the README it mentions favorite editors, tools, etc.. 
+In no particular order these are tools I use every day:
+
+- Fish Shell and (omf) oh-my-fish
+    - I use the terminal heavily and the predictive and contextual history, and "intellisense" you get right out of the box with Fish is incredible. 
+    - OMF just adds a really nice ecosystem layer on top of Fish that allows me to install tools through their public repositories
+    - It has great themes, powerline support, python venv and ruby rbenv plugins as well. 
+    - I've been using it over bash for so long that I sometimes take for granted what all it offers so if you're really curious about it I'm happy to demo some of my favorites. 
+- Enumerable CLI tools, including OS specific, but to name a couple aws-cli, aws-cdk, and git. 
+- Visual Studio Code 
+    - I use a lot of JetBrains products so I'm no stranger to a big helpful IDE ecosystem but VSCode's simplicity and adaptivity is top notch and i've grown to love it. 
+    - I can write full Mono C# (dotnet, msbuild) apps and tools with it and I can barely distinguish it from my days of using Visual Studio with Resharper. 
+    - I am doing this exercise in VSCode w/ Ruby plugins installed. 
+- Slack/Discord
+    - Great comms tools for work or leisure 
+- Linux or OSX 
+    - I use Arch on my personal machines but I've also used several other distributions. 
+    - My first Linux installation was a MEPIS live cd shortly followed up w/ Knoppix circa early 2000's. 
+- Gitlab 
+    - I use gitlab personally and professionally. I also like GitHub but I have not used it professionally for quite some time. 
+
+I'm sure there is more I can add here, especially personal things, but that may take some of the fun out of an interview.
