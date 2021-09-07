@@ -26,7 +26,7 @@ Both have value and can be used to accomplish different equally valuable testing
 My experience with BDD is much more recent and primarily with SpecFlow (cucumber/gherkin style). 
 
 What are you looking for in a job?
-Autonomy. A High trust environment. The ability to lift and empower fellow engineers through teaching and involving them in my work, and myself in theirs. 
+Autonomy. A High trust environment. A work life balance. The ability to lift and empower fellow engineers through teaching and involving them in my work, and myself in theirs. 
 I enjoy solving problems and surrounding myself with colleagues who are smarter than myself so I can continue learning and growing every day. I know it's a cliche but these are 
 the factors that keep me happy and give me something to look forward to every day, and I also look for them in a job. 
 
@@ -52,7 +52,7 @@ In no particular order these are tools I use every day:
     - I am doing this exercise in VSCode w/ Ruby plugins installed. 
 - Slack/Discord
     - Great comms tools for work or leisure 
-- Linux or OSX (If given no other *nix options)
+- Linux or OSX 
     - I use Arch on my personal machines but I've also used several other distributions. 
     - My first Linux installation was a MEPIS live cd shortly followed up w/ Knoppix circa early 2000's. 
 - Gitlab 

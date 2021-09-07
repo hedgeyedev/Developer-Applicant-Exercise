@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Recent Public Tweets</title>
+    <link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+  </head>
+  <body>
+    <h1>Recent Public Tweets</h1><br />
+    <h2>What everyone on TWitter is talking about!</h2>
+    <br />
+    <% @tweets.each do |tweet| %>
+      <img src="<%= tweet.user.profile_image_url_https %>" /> <a href="<%= tweet.user.url %>"> <%= tweet.user.name %></a>
+      <br />
+      <p><%= tweet.text %></p>
+      <br />
+      <%= tweet.created_at %> from <%= tweet.source %> <br />
+    <% end %>    
+  </body>
+</html>

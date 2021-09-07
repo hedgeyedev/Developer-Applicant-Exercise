@@ -1,1 +1,32 @@
-# TODO write a nice cover letter.
+September 6th 2021
+
+Dear Hedgeye Engineering Team,
+
+I have 9 years of professional experience as a full stack Software Engineer and for the last 4 years I have primarily focused on backend systems and architecture including the 
+automation of building and deploying cloud based infrastructure and systems. Most of my experience in the cloud is based on AWS and I've used several tools to automate the
+creation of cloud infrastructure and services. 
+
+At EquipmentShare I employ several tools to build infrastructure for my team for our systems. We have Kubernetes (EKS) clusters for most of our web based applications
+and large data processing services that primarily run on EC2 compute nodes. We leverage Helm, Flux, Terraform and CDK for most of this automation and it's largely driven
+by our GitOps/Gitlab pipelines. I regularly build AWS Lambdas with CDK and AWS SAM, several of these architectures include consumption and triggers from SQS queues and Kinesis data 
+streams. My current stack is Python (>=3) and TypeScript, and I primarily use TypeScript with CDK while provisioning cloud infrastructure. I helped design and build our Alerting
+platform which is comprised of several data streams, SNS topics and EKS/Lambda consumers that takes information from our equipment trackers and fans these events out to any
+interested consumers so we can do things like email, SMS, and in-app notifications for our customers based on enumerable equipment data points that they care about.  
+
+At my previous employer CARFAX I took great interest in a lot of our home-brewed deployment automation tools that were built in Gradle using several different JVM stacks. 
+I was given an opportunity to join the small DevOps team and after much tribulation we were given the opportunity to present several members of the executive team our plan 
+to expand the DevOps culture and start considering cloud based opportunities to aid in a significantly faster and potentially cheaper alternative for development teams to create
+new services and applications. Once our goals were greenlit we started organizing several interested members of our operations teams and originally decided on AWS Fargate as our
+first platform for taking containerized applications and deploying them to the cloud. Eventually we not only managed to transition many operations roles into developer roles
+by virtue of making sure our automation was code driven, but we were also able to allow teams to own and deploy their applications to the cloud by utilizing our templates and existing platform.
+
+I am very interested in fostering a lot of these same ideals at Hedgeye, and empowering fellow engineers to quickly deliver valuable features and products securely, and quickly. As 
+a software engineer I'm adverse to gatekeeping and operations-level roadblocks hindering the ability for engineering teams to get work done. My mantra has always been to securely
+automate everything. There exists a plethora of ways to allow engineers the ability to own their own destiny as a team with the advent of cloud based computing. My goals if 
+considered for this opportunity, would be to build, maintain, and share these tools, platforms, best practices, and help elevate a DevSecOps culture for engineering teams.
+
+Thank you for considering me for this position. 
+
+Sincerely, 
+
+Wayne Noonan
