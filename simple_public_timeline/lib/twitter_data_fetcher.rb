@@ -18,8 +18,9 @@ module TwitterDataFetcher
 
             if tweet.is_a?(Twitter::Tweet)
                 tweets << Tweet.new(tweet.user.profile_image_url_https,
-                                    tweet.user.url, tweet.text,
-                                    tweet.created_at, tweet.source)
+                                    tweet.user.name, tweet.user.url,
+                                    tweet.text, tweet.created_at,
+                                    tweet.source)
             end
         end
     end
