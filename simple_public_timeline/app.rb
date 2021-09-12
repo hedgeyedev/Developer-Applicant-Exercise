@@ -1,6 +1,6 @@
 require 'sinatra'
 
-require './lib/twitter_data_fetcher.rb'
+require_relative './lib/twitter_data_fetcher.rb'
 
 get '/' do
     tweets = TwitterDataFetcher::get_tweets()
