@@ -2,7 +2,15 @@
     <tbody>
         <% tweets.each do |tweet| %>
             <tr>
-                <td><%= tweet.user_profile_image %></td>
+                <td>
+                    <img class="fit-picture" src="<%= tweet.user_profile_image %>" alt="Twitter User Profile Picture" >
+                    <p>
+                        <%= tweet.text %>
+                    </p>
+                    <p>
+                    <%= tweet.publish_time %> from <%= tweet.source %>
+                    </p>
+                </td>
             </tr>
         <% end %>
     </tbody>
