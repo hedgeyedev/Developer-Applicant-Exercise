@@ -7,7 +7,7 @@
                 <td>
                     <img class="fit-picture" src="<%= tweet.user_profile_image %>" alt="Twitter User Profile Picture" >
                     <p>
-                        <%= tweet.text %>
+                        <a href="<%= tweet.user_profile_link %>"><%= tweet.username %></a> <%= tweet.text %>
                     </p>
                     <p>
                     <%= tweet.publish_time %> from <%= tweet.source %>
