@@ -5,8 +5,8 @@
         <% tweets.each do |tweet| %>
             <tr>
                 <td>
-                    <img class="fit-picture" src="<%= tweet.user_profile_image %>" alt="Twitter User Profile Picture" >
                     <p>
+                        <img class="fit-picture" src="<%= tweet.user_profile_image %>" alt="Twitter User Profile Picture" >
                         <a href="<%= tweet.user_profile_link %>"><%= tweet.username %></a> <%= tweet.text %>
                     </p>
                     <p>
