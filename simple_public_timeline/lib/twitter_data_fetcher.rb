@@ -1,5 +1,7 @@
 require 'twitter'
 
+require_relative '../models/tweet.rb'
+
 module TwitterDataFetcher
     $twitter_streaming_client = Twitter::Streaming::Client.new do |config|
         config.consumer_key        = ''
@@ -14,7 +16,11 @@ module TwitterDataFetcher
         $twitter_streaming_client.sample do |tweet|
             return tweets if tweets.length() == num_tweets
 
-            tweets << tweet.user.profile_image_url_https if tweet.is_a?(Twitter::Tweet)
+            if tweet.is_a?(Twitter::Tweet)
+                tweets << Tweet.new(tweet.user.profile_image_url_https,
+                                    tweet.user.url, tweet.text,
+                                    tweet.created_at, tweet.source)
+            end
         end
     end
 end
