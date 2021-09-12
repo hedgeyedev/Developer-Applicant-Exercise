@@ -1,6 +1,6 @@
 class Tweet
 
-    attr_reader :user_profile_image, :user_profile_link, :text, :publish_time, :source
+    attr_reader :user_profile_image, :user_profile_link, :username, :text, :publish_time, :source
 
     def initialize(user_profile_image, username,
                     user_profile_link, text,
