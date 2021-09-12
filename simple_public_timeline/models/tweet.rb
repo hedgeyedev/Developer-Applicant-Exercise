@@ -1,11 +1,13 @@
 class Tweet
 
+    attr_reader :user_profile_image, :user_profile_link, :text, :publish_time, :source
+
     def initialize(user_profile_image, user_profile_link,
                     text, publish_time, source)
         @user_profile_image = user_profile_image
         @user_profile_link = user_profile_link
         @text = text
-        @publish_time = publish_time
+        @publish_time = @publish_time = publish_time.strftime('%A %d %B %Y %I:%M:%S %p')
         @source = source
     end
 
