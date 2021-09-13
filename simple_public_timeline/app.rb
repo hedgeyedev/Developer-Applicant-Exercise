@@ -26,6 +26,9 @@ end
 
 get '/tweets' do
     content_type :json
-    tweets_json = TwitterDataFetcher::get_tweets_json()
+    # If num_tweets param is not a valid integer value then default to 20 tweets
+    num_tweets = params['num_tweets'].to_i <= 0 ? 20 : params['num_tweets'].to_i
+
+    tweets_json = TwitterDataFetcher::get_tweets_json(num_tweets)
     return { tweets: tweets_json }.to_json
 end
