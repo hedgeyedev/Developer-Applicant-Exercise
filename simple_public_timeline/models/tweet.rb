@@ -1,3 +1,5 @@
+require 'json'
+
 class Tweet
 
     attr_reader :user_profile_image, :user_profile_link,
@@ -21,5 +23,15 @@ class Tweet
             data_csv_format << self.instance_variable_get(attribute) + ','
         end
         return data_csv_format
+    end
+
+    # Return the Tweet object's data as a JSON document
+    def to_json(*a)
+        tweet_map = {}
+        self.instance_variables.each do |attribute|
+            tweet_key = attribute[1..-1].to_sym
+            tweet_map[tweet_key] = self.instance_variable_get(attribute)
+        end
+        return tweet_map.to_json(*a)
     end
 end

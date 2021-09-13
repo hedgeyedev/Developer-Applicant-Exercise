@@ -24,4 +24,13 @@ module TwitterDataFetcher
             end
         end
     end
+
+    def self.get_tweets_json(num_tweets = 20)
+        tweets = self.get_tweets(num_tweets)
+        tweets_json = []
+
+        tweets.each do |tweet|
+            tweets_json << tweet.to_json
+        end
+    end
 end

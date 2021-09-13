@@ -23,3 +23,9 @@ get '/' do
     tweets = TwitterDataFetcher::get_tweets()
     erb :index, :locals => { :tweets => tweets }
 end
+
+get '/tweets' do
+    content_type :json
+    tweets_json = TwitterDataFetcher::get_tweets_json()
+    return { tweets: tweets_json }.to_json
+end
