@@ -53,10 +53,15 @@ function renderTweets() {
         if (httpRequest.readyState == XMLHttpRequest.DONE) {
             if (httpRequest.status == 200) {
                 var response = JSON.parse(httpRequest.responseText);
-                alert(response.tweets[0].user_profile_link);
+                var tweets = response.tweets;
+                var tweetsTableBodyElement = document.getElementById('tweets-table').getElementsByTagName('tbody')[0];
+
+                tweets.forEach(function(tweet) {
+                    var tweetDataRow = tweetsTableBodyElement.insertRow();
+                    tweetDataRow.innerHTML = getTweetViewData(tweet);
+                });
                 return true;
-            }
-            else {
+            } else {
                 renderErrorMessage('Failed to fetch tweets');
                 return false;
             }
