@@ -28,6 +28,23 @@ function renderErrorMessage(errorMessage) {
 }
 
 /*
+    Injects and returns the required tweet's information into the table data template
+    to be inserted in a table row when rendering the tweets table in the view
+*/
+function getTweetViewData(tweet) {
+    return `
+<td>
+    <p>
+        <img class="fit-picture" src="${tweet.user_profile_image}" alt="Twitter User Profile Picture">
+        <a href="${tweet.user_profile_link}">${tweet.username}</a> ${tweet.text}
+    </p>
+    <p>
+        ${tweet.publish_time} from ${tweet.source}
+    </p>
+</td>`;
+}
+
+/*
     Checks the HTTP GET request response, parses the response data, and updates
     the view to display the 20 most recent tweets to the user on the screen
 */
