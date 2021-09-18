@@ -1,25 +1,39 @@
 How many years of Web development experience do you have?
 
+7+ years
 
 How many years of JavaScript experience do you have?
 
+4+ years
 
 How many years of Ruby experience do you have?
 
+3+ years
 
 How many years of Rails development experience do you have?
 
+2+ years
 
 What are your opinions on Agile software development?
 
+The spirit of Agile to me means flexible and dynamic. No leader should be enforcing and prescribing a one size fits all approach for an Agile implementation for all engineering teams. Additionally, it is important to break the bad habits and practices from Waterfall especially when it comes to tracking progress and collecting metrics as those techniques do not work with the iterative Agile development methodology. This leads to a mutant development methodology that a lot of organizations fall into which is WaterScrumFall https://www.plutora.com/blog/water-scrum-fall.
+
+As long as the above mentioned concerns do not exist Agile can do wonders and work really well for engineering teams. Personally, I am a big fan of the Kanban implementation of Agile. I enjoy the flexibility it provides especially for DevOps and SRE related work which can involve many internal and external dependencies from software, to vendor, to cloud provider outages, etc. Scrum is an implementation where I possess quite extensive amounts of experience. The biggest thing which I do not enjoy about Scrum is the ceremony overhead and fatigue especially in a more tedious implementation of it known as SAFe Agile. Extreme programming (XP) is something I quite enjoy as long as it is accompanied with its more critical part which is paired programming. I most definitely enjoy pairing up with engineering to brainstorm, architect, develop, or debug/troubleshoot at the level of: function, process, system, deployment, platform, etc. Again, the same annoyance I have experienced with XP is the weekly ceremony bloat.
 
 TDD or BDD?
 
+Big fan of Behavior Driven Development (BDD) for full stack web applications with which the end-user interacts directly. BDD does an excellent job of enabling one to describe the true functionality and expected behavior of an application from the perspective of the business user. Serves as a great means to align tests and expected application functionality with business requirements. BDD does require more thought, planning, and effort than TDD but it well worth it as it allows technical folks to put themselves in the shoes of the user and business and provides a great means for non-technical people to define their desired capability in a matching fashion.
+
+Now when it comes to libraries, command line tools, and APIs I would have to lean more towards Test Driven Development (TDD) with a focus on unit testing. TDD really well for software, without the additional overhead of BDD of good requirements/functionality matching descriptive prose, where all one cares to validate that various user and edge cases with the same correct input consistently produce the same correct output. This approach lends itself really well for validating the contract between the caller and the software being invoked or executed.
 
 What are you looking for in a job?
 
+The ability to take ownership of, build out, and iteratively improve the CI/CD pipelines, DevSecOps processes and practices, and SRE implementation of observability, monitoring, and reliability of cloud platforms and applications. Opportunity to participate in design and architecture discussions/decisions, building out proof of concepts with new technologies for forward looking initiatives and new future projects/applications, and help with strategic and technical roadmap development.
 
 Are you legal to work in the US?
 
+Yes
 
 When can you start?
+
+About a month from date of offer
