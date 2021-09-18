@@ -32,3 +32,7 @@ get '/tweets' do
     tweets_json = TwitterDataFetcher::get_tweets_json(num_tweets)
     return { tweets: tweets_json }.to_json
 end
+
+get '/via_js' do
+    erb :via_js, :layout => false
+end
