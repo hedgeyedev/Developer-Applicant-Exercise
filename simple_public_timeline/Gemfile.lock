@@ -25,6 +25,8 @@ GEM
     rack (1.6.13)
     rack-protection (1.5.5)
       rack
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
       rspec-expectations (~> 3.10.0)
@@ -64,6 +66,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  rack-test (~> 1.1.0)
   rspec (~> 3.5)
   sinatra (~> 1.4, >= 1.4.7)
   twitter (~> 6.2)
