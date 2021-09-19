@@ -34,12 +34,11 @@ describe 'Twitter Public Timeline App' do
 
         it "Renders client side async JS Twitter Public Timeline HTML View with 20 most recent Tweets" do
             get '/via_js'
-           expect(last_response.status).to be(200)
-           expect(last_response.body).to include(<<-EXPECTED
-<h2>Recent Public Tweets</h2>
-<h3>What everyone on Twitter is talking about</h3>
-<table>
-EXPECTED
-)
+            response_body = last_response.body
+
+            expect(last_response.status).to be(200)
+            expect(response_body).to include('<span id="error-message"></span>')
+            expect(response_body).to include('<h2>Recent Public Tweets</h2>')
+            expect(response_body).to include('<h3>What everyone on Twitter is talking about</h3>')
         end
 end
