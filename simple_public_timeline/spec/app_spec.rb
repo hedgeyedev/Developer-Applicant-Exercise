@@ -10,13 +10,13 @@ describe 'Twitter Public Timeline App' do
 
         it "Renders server side Twitter Public Timeline HTML View with 20 most recent Tweets" do
             get '/'
+            response_body = last_response.body
+
             expect(last_response.status).to be(200)
-            expect(last_response.body).to include(<<-EXPECTED
-<h2>Recent Public Tweets</h2>
-<h3>What everyone on Twitter is talking about</h3>
-<table>
-EXPECTED
-)
+            expect(response_body).to include('<h2>Recent Public Tweets</h2>')
+            expect(response_body).to include('<h3>What everyone on Twitter is talking about</h3>')
+            # Check whether twitter tweets table contains 20 table rows each containing a single tweet's data
+            expect(response_body).to include('<tr>').exactly(20).times
         end
 
         it "Returns 20 most recent Tweets in response JSON format" do
