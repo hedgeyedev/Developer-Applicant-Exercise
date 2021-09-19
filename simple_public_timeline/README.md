@@ -4,8 +4,10 @@ Application renders HTML views and supports JSON payload responses. Implemented 
 
 ## Running the app
 
-`ruby app.py`
+1. `ruby app.py`
+
+2. Accessible at: `localhost:4567`
 
 ## Running the RSpec tests
 
-`rake`
+1. `rake`
