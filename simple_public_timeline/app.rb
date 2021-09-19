@@ -1,4 +1,4 @@
-require 'sinatra'
+require 'sinatra/base'
 
 require_relative './lib/twitter_data_fetcher.rb'
 
@@ -19,20 +19,25 @@ if ( ENV['TWITTER_CONSUMER_KEY']        == nil ||
     )
 end
 
-get '/' do
-    tweets = TwitterDataFetcher::get_tweets()
-    erb :index, :locals => { :tweets => tweets }
-end
+class TwitterPublicTimelineApp < Sinatra::Base
 
-get '/tweets' do
-    content_type :json
-    # If num_tweets param is not a valid integer value then default to 20 tweets
-    num_tweets = params['num_tweets'].to_i <= 0 ? 20 : params['num_tweets'].to_i
+    get '/' do
+        tweets = TwitterDataFetcher::get_tweets()
+        erb :index, :locals => { :tweets => tweets }
+    end
 
-    tweets_json = TwitterDataFetcher::get_tweets_json(num_tweets)
-    return { tweets: tweets_json }.to_json
-end
+    get '/tweets' do
+        content_type :json
+        # If num_tweets param is not a valid integer value then default to 20 tweets
+        num_tweets = params['num_tweets'].to_i <= 0 ? 20 : params['num_tweets'].to_i
 
-get '/via_js' do
-    erb :via_js, :layout => false
+        tweets_json = TwitterDataFetcher::get_tweets_json(num_tweets)
+        return { tweets: tweets_json }.to_json
+    end
+
+    get '/via_js' do
+        erb :via_js, :layout => false
+    end
+
+    run! if __FILE__ == $0
 end
