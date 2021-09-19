@@ -1,3 +1,5 @@
+require 'rack/test'
+
 require_relative '../app.rb'
 
 describe 'Twitter Public Timeline App' do
