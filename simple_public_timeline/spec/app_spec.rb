@@ -27,6 +27,9 @@ describe 'Twitter Public Timeline App' do
            expect(JSON.parse(last_response.body)['tweets'].length).to be (20)
         end
 
+        # Commented out to ensure that the tests can run and pass in a consistent repeatable fashion. Running
+        # this additional tests leads to the Twitter's API limit being hit yields inconsistent test execution results.
+
         # it "Returns user specified number of most recent Tweets in response JSON format" do
         #     num_tweets = rand(10)
         #     get "/tweets?num_tweets=#{num_tweets}"
