@@ -1,25 +1,26 @@
 How many years of Web development experience do you have?
-
+About 25. If you remember or are curious, my first web development experience was with IE3.
 
 How many years of JavaScript experience do you have?
-
+1? It has been off and on for me. Nearly all of my work has been backend focused and only occasionally have had to do much frontend work.
 
 How many years of Ruby experience do you have?
-
+15+. My first exposure was through watir, which is where I learned to love ruby.
 
 How many years of Rails development experience do you have?
-
+10+.
 
 What are your opinions on Agile software development?
-
+When it is done wrong, it can be a four letter word for me. The core principles of frequent customer collaboration, delivering often, and responding quickly to change are super important.
 
 TDD or BDD?
-
+I don't think it is an or, you can do both. BDD done right will lead to a list or skeleton of what tests will be needed, helping the developer have better tests. TDD is fabulous and almost always pays off right away.
 
 What are you looking for in a job?
-
+Small team, enhance the customer's life, and have a broad impact (see my cover letter).
 
 Are you legal to work in the US?
-
+Yes. I am a US citizen.
 
 When can you start?
+Tomorrow :). I am in the interview process with other companies though and would want to compare any offers.

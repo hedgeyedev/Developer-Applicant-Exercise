@@ -1,0 +1,3 @@
+I love RubyMine and don't know how I would work without it. It is slow and fat but the integrated debugger and other tool integrations make it essential for me.
+
+Mac OS? Definitely not as strong of a preference, but some tools that I love are mac specific (like Dash). Brew is so much nicer that apt too!

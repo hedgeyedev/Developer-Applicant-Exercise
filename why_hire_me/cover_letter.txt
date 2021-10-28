@@ -1,0 +1,36 @@
+
+Forrest,
+
+As I struggle to come up with something to write for this cover letter (which will probably be the hardest part of this
+whole exercise!), I feel like it might be best to just call out some of my core values.
+
+Simplicity
+Simpler may be more code or less elegant than other choices, but it wins in the long term. Future Dave would always
+prefer to have a smaller amount of simpler code to review and understand. Following common patterns and paradigms is a
+part of that too. How many times have I looked back at old code with comments like "will be needed in future" and found
+no use for it? Vanilla rails, while it sounds boring, is actually my favorite flavor.
+
+Small team means broad impact
+One of the main reasons I am looking for a smaller team is to have a broader impact on the product(s) and more chances
+to branch out and grow. The roles seem to get narrower and narrower as the org gets larger, which is not where I want
+to go.
+
+Measurement and observability
+I am the guy who likes to have a monitor full of charts that show various aspects of the system. The "is it up?" check
+is valuable but not very helpful at 2AM when an alert fires that says it is down. Building in real time measurement into
+the code can expose all kinds of valuable insights. Who wants to look at logs?
+
+Craftsmanship
+Do I just want to build something or build something that I want to be proud of? I am ok with making mistakes and having
+bugs but do not want them to happen all the time.
+
+Testing
+Most of the time I can quickly look at a project and tell if they used TDD or not. It is much easier to start a project
+with tests than bolt them on later! Who wants to refactor in a project or app that doesn't have tests?
+
+Have an impact on people
+For my next role, I am looking for a company that is really focused on helping people enrich or enhance their lives. The
+value of fortune and glory has gone down for me and I would rather have the thanks and appreciation that comes from
+people.
+
+Thanks for your consideration!
