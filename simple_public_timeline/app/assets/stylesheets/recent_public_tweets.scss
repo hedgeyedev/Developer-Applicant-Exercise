@@ -1,0 +1,75 @@
+// Place all the styles related to the recent_public_tweets controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+.main_body {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  grid-template-rows: 50px 1fr;
+  grid-gap: 5px;
+  grid-template-areas:
+          "top_nav top_right"
+          "messages_body right_nav";
+  padding: 10px;
+  background-color: white;
+  grid-auto-rows: minmax(120px, auto);
+  margin: auto;
+}
+
+.top_nav {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  height: 64px;
+  grid-area: top_nav;
+  background-color: lightblue;
+}
+
+.top_right {
+  height: 64px;
+  text-align: center;
+  vertical-align: center;
+  background-color: lightblue;
+  color: blue;
+  padding-top: 10px;
+}
+
+.messages_body {
+  grid-column-start: 1;
+  grid-row: 2 / span 21;
+  grid-area: messages_body;
+  padding: 10px;
+  align-items: start;
+}
+
+.messages_body > div {
+  float: left;
+}
+
+.message {
+  padding: 5px;
+  vertical-align: top;
+  min-height: 50px;
+  float: none;
+}
+
+.message_text > p {
+  text-indent: 70px;
+  color: gray;
+  font-size: 80%;
+}
+
+.message_image {
+  float: left;
+  padding-right: 10px;
+}
+
+.right_nav {
+  background-color: lightcyan;
+  grid-column-start: 2;
+  grid-row: 2 / span 11;
+  grid-area: right_nav;
+  padding: 10px;
+}
+
+

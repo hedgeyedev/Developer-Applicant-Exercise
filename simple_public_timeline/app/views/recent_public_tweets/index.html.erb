@@ -1,0 +1,17 @@
+<div class="messages_body">
+  <hr>
+  <h1>Recent Public Tweets</h1>
+  <h2>What everyone on Twitter is talking about!</h2>
+  <hr>
+  <% @timeline.each do |tweet| %>
+    <div class="message">
+      <div class="message_image">
+        <img src=<%= tweet[:profile_image_url] %> class="message_image">
+      </div>
+      <div class="message_text">
+        <a href=""><%= tweet[:username] %></a> <%= tweet[:text] %>
+        <p> <%= time_ago_in_words(tweet[:created_at].to_datetime) %> ago from <%= tweet[:source] %></p>
+      </div>
+    </div>
+  <% end %>
+</div>
