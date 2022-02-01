@@ -2,10 +2,10 @@ require "sinatra"
 require "twitter"
 
 twitter_client = Twitter::REST::Client.new do |config|
-  config.consumer_key = "YPBqJoYGQzGmS5orlN4s1wqHc"
-  config.consumer_secret = "VVDiYPcCSPQmzcuzHEH1v7lzV83mjaXEBjnSIF1ZUVhXAL1WrJ"
-  config.access_token = "1325875417870262273-FsSEdGk422uuzU9PCoN3KUKV2TeBf3"
-  config.access_token_secret = "FrW97JQc7j3VkLsXLkms58KQDsbt8iOfAPdkqvVBzgrEM"
+  config.consumer_key = ENV["TWITTER_CONSUMER_KEY"]
+  config.consumer_secret = ENV["TWITTER_CONSUMER_SECRET"]
+  config.access_token = ENV["ACCESS_TOKEN"]
+  config.access_token_secret = ENV["ACCESS_TOKEN_SECRET"]
 end
 
 get "/" do
@@ -15,7 +15,7 @@ get "/" do
 end
 
 get "/via_js" do
-    
+
 end
 
 get "/search.js" do
