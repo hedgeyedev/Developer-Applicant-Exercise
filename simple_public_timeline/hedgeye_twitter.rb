@@ -1,5 +1,24 @@
+require "dotenv/load"
 require "sinatra"
 require "twitter"
+
+require 'dotiw'
+include DOTIW::Methods
+
+helpers do
+    # There is probably an idiomatic way of putting this method into the helpers
+    # but it doesn't occur to me right away.
+    def dotiw(time)
+        distance_of_time_in_words(Time.now, time)
+    end
+
+    def replace_handles_with_links(text)
+        text = String.new(text)
+        text.gsub!(/@([A-Z,0-9,\_,a-z]+)/) do
+            "@<a href=\"https://twitter.com/#{$1}\">#{$1}</a>"
+        end
+    end
+end
 
 twitter_client = Twitter::REST::Client.new do |config|
   config.consumer_key = ENV["TWITTER_CONSUMER_KEY"]
@@ -11,21 +30,19 @@ end
 get "/" do
   @results = twitter_client.search("Hedgeye", result_type: "recent").take(20)
 
-  erb :index
+  erb :index, layout: :plain
 end
 
 get "/via_js" do
-
+  erb :via_js, layout: :javascript
 end
 
-get "/search.js" do
-    @results = []
+get "/search" do
+  search_term = params["search"] || "Hedgeye"
 
-    search_term = params["search"] || "Hedgeye"
+  @results = twitter_client.search(search_term, result_type: "recent").take(20)
 
-    twitter_client.search(search_term, result_type: "recent").take(20).collect do |tweet|
-        @results << tweet.to_h
-    end
+  puts @results[0].to_h.inspect
 
-    @results.to_json
+  erb "<%= @results.map { |tweet| erb :_tweet, :locals => { tweet: tweet } }.join %>"
 end

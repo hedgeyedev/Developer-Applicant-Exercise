@@ -1,0 +1,18 @@
+<div class="tweet">
+    <img src="<%= tweet.user.profile_image_uri %>" class="avatar" />
+    <div class="body">
+        <div class="content">
+            <span class="user">
+                <a href="<%= tweet.user.url %>"><%= tweet.user.name %></a>
+            </span>
+            <span class="text">
+                <%= replace_handles_with_links(tweet.text) %>
+            </span>
+        </div>
+        <div class="metadata">
+            <span class="time"><%= dotiw(time_for(tweet.created_at)) %></span>
+            ago from
+            <span class="source"><%= tweet.source %></span>
+        </div>
+    </div>
+</div>
