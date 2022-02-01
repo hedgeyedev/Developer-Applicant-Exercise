@@ -4,6 +4,7 @@ describe Template do
   include Template
 
   it "should substitute %CODE% and %ALTCODE% in the template" do
+    # This refactoring is called "Introduce Explaining Variable"
     template = 'Code is %CODE%; alt code is %ALTCODE%'
     code = '5678901234'
     result = 'Code is 5678901234; alt code is 56789-012'
