@@ -1,25 +1,46 @@
 How many years of Web development experience do you have?
-
+15+
 
 How many years of JavaScript experience do you have?
-
+15+
 
 How many years of Ruby experience do you have?
-
+15
 
 How many years of Rails development experience do you have?
-
+15
 
 What are your opinions on Agile software development?
-
+I'm for it. What I value the most is the way that agile demands stakeholder involvement.
+There is an XKCD cartoon where a developer is told "you'll never find a programming language
+that frees you from the burden of clarifying your ideas". Agile places the responsibility
+for clarifying ideas to the whole product team. The ability to triage and minimize the scope
+of work into to unambiguous deliverables is essential.
 
 TDD or BDD?
+I've had success adhering to TDD in Rails, with models and views.
 
+Where I've struggled is in places where the behavior is not strictly defined, or
+where you are prototyping. In such instances I've seen teams either let their tests
+languish or even just paste the output straight into the tests to get them to pass.
+
+TDD requires clear expectations and a full team commitment.
 
 What are you looking for in a job?
+My first interest is to care about the human impact of the role. What problems are we solving
+for people? I've worked in licensing (with IP holders whose products I care about), childhood
+education (my daughter attended Trackers), and in addiction recovery (important family connections).
 
+At Hedgeye I am excited to feed my passion for understanding investing. I feel the market is a
+venue for understanding "the interconnectedness of all things". It is a tool for providing
+for one's future as well as a window into the whole of human endeavor.
+
+Beyond this I value the opportunity to learn from my colleagues and become a better developer. I also
+hope to find ways to gain mentorship and management experience. I would like those to be a bigger part
+of my career moving forward.
 
 Are you legal to work in the US?
-
+Yes.
 
 When can you start?
+February 17th, 2021
