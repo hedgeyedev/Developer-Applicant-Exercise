@@ -47,6 +47,8 @@ GEM
     rack (2.2.3)
     rack-protection (2.1.0)
       rack
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
     rake (13.0.6)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
@@ -95,6 +97,8 @@ PLATFORMS
 DEPENDENCIES
   dotenv
   dotiw
+  rack
+  rack-test
   rspec
   rufo
   sinatra

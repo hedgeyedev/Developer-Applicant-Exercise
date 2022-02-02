@@ -13,6 +13,9 @@ body {
     display: flex;
     flex-direction: row;
 }
+.tweet a {
+    color: #0c699e;
+}
 img.avatar {
     margin-right: 10px;
     width: 50px;
@@ -36,4 +39,8 @@ img.loading {
     margin-right: auto;
     max-width: 200px;
     margin-top: 200px;
+}
+.search, .query {
+    font-size: 25px;
+    line-height: 30px;
 }
