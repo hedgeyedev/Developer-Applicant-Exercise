@@ -4,6 +4,10 @@ This Sinatra app can be run by calling `ruby hedgeye_twitter.rb` in the `simple_
 
 ## Setup
 
+### Ruby versions
+
+I use `asdf` locally to configure my ruby version. It does not create gemsets like `rvm` used to. It uses the `.tool-versions` file found in the above directory.
+
 ### Environment variables
 
 This app uses the Dotenv ruby gem. Please create a file called `.env` in this directory. It should look like this:
