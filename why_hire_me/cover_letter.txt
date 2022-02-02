@@ -1,4 +1,31 @@
 Dear Hedgeye Team,
 
-With gratitude,
+I want to thank you for your consideration for this role. Several times
+in my life I have had the good fortune to have my personal interests play
+a big part in my work. The work becomes more enjoyable and I'm able to
+bring a lot more to the table due to my background. For example, at
+CTI Solutions Inc. one of our customers is Blizzard Entertainment - and I
+have played way too much World of Warcraft. Being able to visit their campus
+professionally and work with their licensing team was an amazing experience.
+
+Pursuing this role with Hedgeye is a similar confluence of my professional
+skills and personal interests. In 2021 I began pursuing investing for the
+first time in my life. I opened an online brokerage account but soon
+felt that I had questions bigger than I could answer. I've been reading tons
+of books, getting up at 6 AM PST to watch Bloomberg TV and, yes, lurking on
+r/wallstreetbets, to get as wide a perspective as I can.
+
+I've even built tools to help me have perspective on what's happening
+in the markets. For my first attempt I created a simple Ruby on Rails app and
+fed it 10 years of daily candle data pulled from Yahoo! Finance. I asked it to
+do find correlations between stocks in the S&P 500. It created millions of rows
+of data and took several days to complete - but the answers were interesting.
+I'm now in the process of improving my initial naive approach with better tools
+such as Apache Spark.
+
+The chance to once again blend my personal passions with professional excellence
+is extremely compelling. I'm looking forward to getting to know your technical
+team better through the interview process.
+
+Best,
 Justin Myers
