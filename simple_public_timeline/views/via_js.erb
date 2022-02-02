@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Hedgeye Sentiment Analyzer</title>
+    <link rel="stylesheet" href="hedgeye_twitter.css" />
+    <script type="text/javascript">
+        function getSearchValue() {
+            return document.getElementById("query").value;
+        }
+
+        function populateTweetsList(text) {
+            document.getElementById("tweets").innerHTML = text;
+        }
+
+        function setSpinner() {
+            populateTweetsList("<img src=\"cupertino_activity_indicator.gif\" class=\"loading\" />")
+        }
+
+        function getTweets() {
+            setSpinner();
+
+            const tweetSearchRequest = new Request('/search?query=' + getSearchValue(), {
+                method: 'GET',
+                mode: 'cors',
+                cache: 'default',
+            });
+
+            fetch(tweetSearchRequest)
+                .then(response => response.text())
+                .then(text => populateTweetsList(text));
+        }
+
+        window.addEventListener('load', function() {
+            getTweets();
+        })
+    </script>
+</head>
+
+<body>
+    <h1>Recent Public Tweets</h1>
+    <h2>Everyone on Twitter is talking about <input type="text" id="query" size="10" value="Hedgeye" /><button onClick="getTweets()">Search</button></h2>
+    <div id="tweets" class="tweets"></div>
+</body>
+
+</html>

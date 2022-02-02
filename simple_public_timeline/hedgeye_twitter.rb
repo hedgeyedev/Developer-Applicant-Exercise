@@ -34,11 +34,11 @@ get "/" do
 end
 
 get "/via_js" do
-  erb :via_js, layout: :javascript
+  erb :via_js
 end
 
 get "/search" do
-  search_term = params["search"] || "Hedgeye"
+  search_term = params["query"] || "Hedgeye"
 
   @results = twitter_client.search(search_term, result_type: "recent").take(20)
 
