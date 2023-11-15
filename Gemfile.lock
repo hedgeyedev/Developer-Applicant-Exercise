@@ -4,6 +4,9 @@ GEM
     diff-lcs (1.5.0)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
+    nio4r (2.5.9)
+    puma (6.4.0)
+      nio4r (~> 2.0)
     rack (2.2.8)
     rack-protection (3.1.0)
       rack (~> 2.2, >= 2.2.4)
@@ -32,6 +35,7 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
+  puma
   rspec
   sinatra
 
