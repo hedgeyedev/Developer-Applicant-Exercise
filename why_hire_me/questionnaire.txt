@@ -1,25 +1,27 @@
 How many years of Web development experience do you have?
-
+-> 5
 
 How many years of JavaScript experience do you have?
-
+-> 4
 
 How many years of Ruby experience do you have?
-
+-> 2
 
 How many years of Rails development experience do you have?
-
+-> 2
 
 What are your opinions on Agile software development?
-
+-> It helps to deliver the product faster and better.
 
 TDD or BDD?
-
+-> I practiced TDD with Java(https://github.com/Integerous/tdd-practice-in-java) and applied TDD at Toss Payments and Zum Internet with more than 70% code coverage.
+I really enjoyed writing test code, and I believe TDD helped me to write better code. I don't have any work experience with BDD, but I'm willing to learn it.
 
 What are you looking for in a job?
-
+-> I am seeking a position that offers stability and a healthy work-life balance, as family commitments are important to me. Additionally, I am eager to find a role where I can continuously learn and evolve as a developer.
 
 Are you legal to work in the US?
-
+-> Yes.
 
 When can you start?
+-> 27th November.
