@@ -1,0 +1,24 @@
+body {
+    font-size: 20px;
+    padding: 20px;
+}
+content {
+    display: flex;
+    align-items: center;
+}
+.photo {
+    display: flex;
+    border-top: slategrey solid 2px;
+    width: 600px;
+    padding: 10px 0 10px 0;
+    margin: 5px;
+}
+.photo a {
+    color: dodgerblue;
+    cursor: pointer;
+}
+img.thumbnail {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
