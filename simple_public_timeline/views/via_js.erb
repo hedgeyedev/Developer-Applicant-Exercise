@@ -1,23 +1,23 @@
 <html>
-	<head>
-		<title>Hedgeye timeline</title>
-		<link rel="stylesheet" href="photos.css" />
-		<script type="text/javascript">
-			window.addEventListener('load', function() {
-				getPhotos();
-			})
+<head>
+	<title>Hedgeye timeline</title>
+	<link rel="stylesheet" href="photos.css" />
+	<script type="text/javascript">
+		window.addEventListener('load', function() {
+			getPhotos();
+		})
 
-			function getPhotos() {
-				fetch('https://jsonplaceholder.typicode.com/photos')
-					.then(response => response.json())
-					.then(data => generatePhotos(data))
-					.catch(error => console.error(error));
-			}
+		function getPhotos() {
+			fetch('https://jsonplaceholder.typicode.com/photos')
+				.then(response => response.json())
+				.then(data => generatePhotos(data))
+				.catch(error => console.error(error));
+		}
 
-			function generatePhotos(photos) {
-				let html = '';
-				photos.forEach(photo => {
-					html += `
+		function generatePhotos(photos) {
+			let html = '';
+			photos.forEach(photo => {
+				html += `
           <div class="photo">
             <img src="${photo.thumbnailUrl}" class="thumbnail" />
             <div class="body">
@@ -32,15 +32,15 @@
             </div>
           </div>
         `;
-				});
-				document.getElementById("photos").innerHTML = html;
-			}
-		</script>
-	</head>
+			});
+			document.getElementById("photos").innerHTML = html;
+		}
+	</script>
+</head>
 
-	<body>
-		<h1>Recent Public Tweets</h1>
-		<h2>Everyone on Twitter is talking about Hedgeye</h2>
-		<div id="photos" class="photos"></div>
-	</body>
+<body>
+<h1>Recent Public Tweets</h1>
+<h2>Everyone on Twitter is talking about Hedgeye</h2>
+<div id="photos" class="photos"></div>
+</body>
 </html>
