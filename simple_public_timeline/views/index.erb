@@ -1,3 +1,15 @@
-<div class="tweet">
-  <h3>timeline here</h3>
-</div>
+<% @results.each do |photo| %>
+  <div class="photo">
+    <img src="<%= photo["thumbnailUrl"] %>" class="thumbnail" />
+    <div class="body">
+      <div class="content">
+        <div class="title">
+           <%= photo["title"] %>
+        </div>
+        <a class="url" href="<%= photo["url"] %>">
+           <%= photo["url"] %>
+        </a>
+      </div>
+    </div>
+  </div>
+<% end %>
