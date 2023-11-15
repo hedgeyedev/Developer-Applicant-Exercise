@@ -9,3 +9,7 @@ get '/' do
 
   erb :index, layout: :main
 end
+
+get '/via_js' do
+  erb :via_js
+end
