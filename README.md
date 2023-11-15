@@ -2,7 +2,7 @@
 
 To be considered for a developer position at [Hedgeye](http://www.hedgeye.com), you must successfully complete these steps [**](#footnote)
 
-**Please note:** your code will be tested on Ruby 2.5.9 and the latest version of Chrome.
+**Please note:** your code will be tested on Ruby 2.7 or 3.2 and the latest version of Chrome.
 
 1. Fork this repository
 2. In the *why_hire_me* directory
@@ -32,7 +32,7 @@ To be considered for a developer position at [Hedgeye](http://www.hedgeye.com), 
         * If you are Ruby, JavaScript, and web development savvy, it shouldn't take you that long.  A sample implementation, sans specs, is less than 100 lines of text total.
         * Don't get caught up on styling, that's what designers are for.  But extra credit for improved styling, and/or looking like the original
         * Be careful with Twitter's rate limiting while testing.
-        * Since Twitter retired the public_timeline, getting the last 20 entries is harder than it used to be.  I suggest something like https://github.com/intridea/tweetstream for ruby for access to sample (https://stream.twitter.com/1.1/statuses/sample.json).  There are other clever ways to get around that and a stream that looks like the old status
+        * Since Elon Musk took over twitter, free API is not useful - feel free to use https://github.com/hedgeyedev/fake_twitter_api as the data source. ~Since Twitter retired the public_timeline, getting the last 20 entries is harder than it used to be.  I suggest something like https://github.com/intridea/tweetstream for ruby for access to sample (https://stream.twitter.com/1.1/statuses/sample.json).  There are other clever ways to get around that and a stream that looks like the old status~
         * Write good code that you want people to see.
 6. Commit and Push your code to your fork
 7. Send a pull request, we will review your code and get back to you.  If your GitHub profile does not include your name, please include your name in the pull request.
