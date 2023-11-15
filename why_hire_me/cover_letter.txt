@@ -1,0 +1,12 @@
+Dear Hedgeye Risk Management Team,
+
+I am writing with enthusiasm for the Full-Stack Software Engineer position. My extensive experience in software engineering, especially in Ruby and various web technologies, aligns well with the demands of this role.
+
+As a Software Engineer at Relate, I played a pivotal role in architecting and developing robust software from scratch, enhancing performance, and integrating advanced APIs. My tenure at Toss Payments and Zum Internet further strengthened my skills, particularly in re-architecting and optimizing legacy systems. These roles have deepened my commitment to coding principles and design simplicity, reflecting Hedgeye's focus on quality.
+
+I am particularly excited about applying my skills in Agile and TDD/BDD at Hedgeye, and my background in Ruby on Rails complements your web, multimedia, and mobile application development needs. My passion for continuous learning and improvement in software craftsmanship is something I am eager to bring to your team.
+
+Thank you for considering my application. I am excited about the possibility of contributing to Hedgeye's culture of quality, innovation, and teamwork.
+
+Warm regards,
+Ryan Han
