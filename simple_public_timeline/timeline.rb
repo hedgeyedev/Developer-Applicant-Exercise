@@ -13,3 +13,8 @@ end
 get '/via_js' do
   erb :via_js
 end
+
+def extract_name_from_x_url(url)
+  username = url.split('/').last
+  username.split('_').map(&:capitalize).join(' ') # Convert 'matthew_henry' to 'Matthew Henry'
+end

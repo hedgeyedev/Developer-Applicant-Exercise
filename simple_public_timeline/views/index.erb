@@ -5,7 +5,7 @@
       <div class="content">
         <div class="user">
           <a href="<%= tweet["user"]["url"] %>">
-            <%= tweet["user"]["url"] %>
+            <%= extract_name_from_x_url(tweet["user"]["url"]) %>
           </a>
         </div>
         <div class="text">
