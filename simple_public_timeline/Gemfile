@@ -1,0 +1,14 @@
+source 'https://rubygems.org'
+
+ruby '2.7.8'
+
+gem 'sinatra'
+gem 'httparty'
+gem 'json'
+gem 'nokogiri'
+gem 'dotiw'
+
+group :test do
+  gem 'rspec'
+  gem 'rack-test'
+end

@@ -1,0 +1,48 @@
+body {
+  background-color: #e6ecf0;
+  color: #333;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #1da1f2; /* Twitter blue color */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  padding: 10px;
+}
+
+img {
+  float: left;
+  height: 50px;
+  margin-right: 10px;
+  width: 50px;
+}
+
+a {
+  color: #1da1f2; /* Twitter blue color */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border-top: #efefef;
+}
+
+.source {
+  color: gray;
+}
