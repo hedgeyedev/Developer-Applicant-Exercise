@@ -1,14 +1,20 @@
-<% @results.each do |photo| %>
-  <div class="photo">
-    <img src="<%= photo["thumbnailUrl"] %>" class="thumbnail" />
+<% @results.each do |tweet| %>
+  <div class="tweet">
+    <img src="<%= tweet["user"]["profile_image_url"] %>" class="thumbnail" />
     <div class="body">
       <div class="content">
-        <div class="title">
-           <%= photo["title"] %>
+        <div class="user">
+          <a href="<%= tweet["user"]["url"] %>">
+            <%= tweet["user"]["url"] %>
+          </a>
         </div>
-        <a class="url" href="<%= photo["url"] %>">
-           <%= photo["url"] %>
-        </a>
+        <div class="text">
+          <%= tweet["text"] %>
+        </div>
+      </div>
+      <div>
+        <span class="created_at"><%= tweet["created_at"] %></span>
+        <span class="source">via <%= tweet["source"] %></span>
       </div>
     </div>
   </div>

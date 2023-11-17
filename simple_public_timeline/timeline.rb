@@ -3,7 +3,7 @@ require 'net/http'
 require 'uri'
 
 get '/' do
-  uri = URI("https://jsonplaceholder.typicode.com/photos")
+  uri = URI("http://localhost:5555/1.1/statuses/status.json") # https://github.com/hedgeyedev/fake_twitter_api
   response = Net::HTTP.get(uri)
   @results = JSON.parse(response).take(20)
 

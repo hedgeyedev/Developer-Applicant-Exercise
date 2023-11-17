@@ -6,14 +6,14 @@ content {
     display: flex;
     align-items: center;
 }
-.photo {
+.tweet {
     display: flex;
     border-top: slategrey solid 2px;
     width: 600px;
     padding: 10px 0 10px 0;
     margin: 5px;
 }
-.photo a {
+.tweet a {
     color: dodgerblue;
     cursor: pointer;
 }
