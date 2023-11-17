@@ -2,6 +2,9 @@ require 'sinatra'
 require 'net/http'
 require 'uri'
 require 'nokogiri'
+require 'dotiw'
+
+include DOTIW::Methods
 
 get '/' do
   uri = URI("http://localhost:5555/1.1/statuses/status.json") # https://github.com/hedgeyedev/fake_twitter_api
@@ -28,4 +31,8 @@ def extract_source_from(html_string)
   return nil if html_string.nil? || !html_string.is_a?(String)
   doc = Nokogiri::HTML(html_string)
   doc.text.strip
+end
+
+def time_distance_in_words(time)
+  distance_of_time_in_words(Time.now, time, except: :seconds)
 end

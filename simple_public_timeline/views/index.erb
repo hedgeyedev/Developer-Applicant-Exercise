@@ -5,19 +5,23 @@
          class="thumbnail" />
     <div class="body">
       <div class="content">
-        <div class="user">
-          <a href="<%= tweet["user"]["url"] %>">
-            <%= extract_name_from_x_url(tweet["user"]["url"]) %>
+        <div>
+          <a href="<%= tweet["user"]["url"] %>" style="text-decoration: none;">
+            <b><%= extract_name_from_x_url(tweet["user"]["url"]) %></b>
           </a>
         </div>
-        <div class="text">
+        <div>
           <%= tweet["text"] %>
         </div>
       </div>
       <div class="tweet_info">
-        <span class="created_at"><%= tweet["created_at"] %></span>
+        <span>
+          <%= time_distance_in_words(tweet["created_at"]) %> ago
+        </span>
         <% unless extract_source_from(tweet["source"]).nil? %>
-          <span class="source">via <%= extract_source_from(tweet["source"]) %></span>
+          <span>
+            via <%= extract_source_from(tweet["source"]) %>
+          </span>
         <% end %>
       </div>
     </div>
