@@ -7,3 +7,4 @@ gem 'sinatra'
 gem 'puma' # for RubyMine debugger
 gem 'nokogiri'
 gem 'dotiw'
+gem 'rack-test'
