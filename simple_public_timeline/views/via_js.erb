@@ -1,46 +1,92 @@
-<html>
-<head>
-	<title>Hedgeye timeline</title>
-	<link rel="stylesheet" href="photos.css" />
-	<script type="text/javascript">
-		window.addEventListener('load', function() {
-			getPhotos();
-		})
+<div id="tweetsContainer"></div>
 
-		function getPhotos() {
-			fetch('https://jsonplaceholder.typicode.com/photos')
-				.then(response => response.json())
-				.then(data => generatePhotos(data))
-				.catch(error => console.error(error));
-		}
+<script>
+    document.addEventListener('DOMContentLoaded', fetchTweets);
 
-		function generatePhotos(photos) {
-			let html = '';
-			photos.forEach(photo => {
-				html += `
-          <div class="photo">
-            <img src="${photo.thumbnailUrl}" class="thumbnail" />
+    async function fetchTweets() {
+        try {
+            const response = await fetch("http://localhost:5555/1.1/statuses/status.json?count=20");
+            const data = await response.json();
+            renderTweets(data);
+        } catch (error) {
+            console.error("Error fetching tweets:", error);
+        }
+    }
+
+    function renderTweets(tweets) {
+        const container = document.getElementById('tweetsContainer');
+        tweets.forEach(tweet => {
+            const tweetElement = renderTweet(tweet);
+            container.appendChild(tweetElement);
+        });
+    }
+
+    function renderTweet(tweet) {
+        const tweetElement = document.createElement('div');
+        tweetElement.className = 'tweet';
+        tweetElement.innerHTML = getTweetHTML(tweet);
+        return tweetElement;
+    }
+
+    function getTweetHTML(tweet) {
+        return `
+            <img src="${tweet.user.profile_image_url}"
+                 onerror="this.onerror=null;this.src='x-logo.png';"
+                 class="thumbnail" />
             <div class="body">
-              <div class="content">
-                <div class="title">
-                  ${photo.title}
+                <div class="content">
+                    <div>
+                        <a href="${tweet.user.url}" class="user-link">
+                            <b>${extractNameFromXUrl(tweet.user.url)}</b>
+                        </a>
+                    </div>
+                    <div>${tweet.text}</div>
                 </div>
-                <a class="url" href="${photo.url}">
-                  ${photo.url}
-                </a>
-              </div>
+                <div class="tweet_info">
+                    <span>${timeDistanceInWords(tweet.created_at)}</span>
+                    ${tweet.source ? `<span>via ${extractSourceFrom(tweet.source)}</span>` : ''}
+                </div>
             </div>
-          </div>
         `;
-			});
-			document.getElementById("photos").innerHTML = html;
-		}
-	</script>
-</head>
+    }
+</script>
 
-<body>
-<h1>Recent Public Tweets</h1>
-<h2>Everyone on Twitter is talking about Hedgeye</h2>
-<div id="photos" class="photos"></div>
-</body>
-</html>
+<script>
+    function extractNameFromXUrl(url) {
+        if (typeof url !== 'string' || !url.includes('/')) {
+            return "X User";
+        }
+
+        const username = url.split('/').pop();
+        if (!username || username.trim() === '') {
+            return "X User";
+        }
+
+        return username.split('_').map(part => part.charAt(0).toUpperCase() + part.slice(1).toLowerCase()).join(' ');
+    }
+
+    function timeDistanceInWords(time) {
+        const now = new Date();
+        const diffInSeconds = Math.floor((now - new Date(time)) / 1000);
+
+        if (diffInSeconds < 60) {
+            return 'just now';
+        } else if (diffInSeconds < 3600) {
+            return `${Math.floor(diffInSeconds / 60)} minutes ago`;
+        } else if (diffInSeconds < 86400) {
+            return `${Math.floor(diffInSeconds / 3600)} hours ago`;
+        } else {
+            return `${Math.floor(diffInSeconds / 86400)} days ago`;
+        }
+    }
+
+    function extractSourceFrom(htmlString) {
+        if (htmlString === null || typeof htmlString !== 'string') {
+            return null;
+        }
+
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(htmlString, 'text/html');
+        return doc.body.textContent.trim();
+    }
+</script>

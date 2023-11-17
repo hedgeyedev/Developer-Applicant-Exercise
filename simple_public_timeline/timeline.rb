@@ -15,7 +15,7 @@ get '/' do
 end
 
 get '/via_js' do
-  erb :via_js
+  erb :via_js, layout: :main
 end
 
 def extract_name_from_x_url(url)
