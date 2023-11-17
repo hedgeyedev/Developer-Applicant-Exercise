@@ -1,0 +1,16 @@
+Dear Hiring Manager,
+
+I am writing to express my interest in the Full-Stack Software Engineer position at Hedgeye Risk Management as advertised. With a over a decade of full-stack web development experience and a commitment to software craftsmanship, I am excited about the opportunity to contribute to Hedgeye’s mission of providing actionable investment research and premier financial media.
+
+My passion for Ruby on Rails runs deep, and I have many years of expertise in this framework through my roles at WeWork and Fractured Atlas. I also bring with me extensive knowledge and hands-on experience in Python, JavaScript, React, PostgreSQL, and Git. This background positions me perfectly for the responsibilities inherent in this role, which closely mirror my experience in developing and maintaining web applications.
+
+While I haven't had direct experience with Extreme Programming (XP) on previous teams, I'm well-versed in many of its practices, such as code review, pair programming, automated testing, and the importance of small iterative releases. Additionally, having encountered instances of superficial or "agile-in-name-only" projects in the past, I truly appreciate the value of genuine agile practices that drive meaningful results.
+
+The strongest argument for bringing me on board is my exceptional teamwork skills. I have a natural ability to build positive working relationships with colleagues, approach collaboration with humility, prioritize user-centric solutions, and welcome constructive feedback with open arms. My approach to software development closely aligns with your team's values, and I take genuine pleasure in working with and enhancing our processes for delivering impactful solutions to the business.
+
+I am excited about the opportunity to contribute to Hedgeye's mission and the potential to discuss how my skills and experiences align with your team's needs in greater detail during an interview. I look forward to the possibility of becoming a part of Hedgeye's dynamic team and contributing to its continued success.
+
+Thank you for considering my application.
+
+Sincerely,
+Ian Guffy

@@ -1,25 +1,29 @@
 How many years of Web development experience do you have?
-
+* 12
 
 How many years of JavaScript experience do you have?
-
+* 7+
 
 How many years of Ruby experience do you have?
-
+* 6+
 
 How many years of Rails development experience do you have?
-
+* 6+
 
 What are your opinions on Agile software development?
+* I love the agile manifesto, I don't like when companies purchase "Agile" trainings and put a veneer of agile over their non-agile practices. 
+* Iterating rapidly in close coordination with business stakeholders who act as partners is an amazing environment to develop software in for all parties: more business value delivery, happier developers & happier business stakeholders.
 
 
 TDD or BDD?
-
+* I tend to think of features from the user's perspective first and then go from there, so I'm more on the BDD side of things. However if other engineers work better developing their features using TDD that's great too - at the end of the day the important thing is the team has automated tests written and maintained and that the system does what the users need it to do. In my experience mix of unit & integration testing is best as complexity can take many forms in a given system. 
+* I've seen a variety of processes be effective and I've also seen the same process that worked great on one team not work as well with another, so to me the important thing is for the team to figure out what works best for them (which is a continuous process).
 
 What are you looking for in a job?
-
+* I'm looking to work on interesting problems with good people in an environment that supports productivity. Many companies call themselves "agile" but not all of them actually are.
 
 Are you legal to work in the US?
-
+* Yes
 
 When can you start?
+* Immediately
