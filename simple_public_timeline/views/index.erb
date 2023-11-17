@@ -1,6 +1,8 @@
 <% @results.each do |tweet| %>
   <div class="tweet">
-    <img src="<%= tweet["user"]["profile_image_url"] %>" class="thumbnail" />
+    <img src="<%= tweet["user"]["profile_image_url"] %>"
+         onerror="this.onerror=null;this.src='x-logo.png';"
+         class="thumbnail" />
     <div class="body">
       <div class="content">
         <div class="user">
