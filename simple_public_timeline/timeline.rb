@@ -6,10 +6,22 @@ require 'dotiw'
 
 include DOTIW::Methods
 
+API_URL = "http://localhost:5555/1.1/statuses/status.json" # I would normally put these in a config file
+MAX_RESULTS = 20
+
+helpers do # I would normally put these in a separate module or class, but for the sake of simplicity, I'm putting them here
+  def fetch_twitter_data
+    uri = URI(API_URL + "?count=#{MAX_RESULTS}")
+    response = Net::HTTP.get(uri)
+    JSON.parse(response)
+  rescue StandardError => e
+    puts "Error fetching data: #{e.message}"
+    []
+  end
+end
+
 get '/' do
-  uri = URI("http://localhost:5555/1.1/statuses/status.json") # https://github.com/hedgeyedev/fake_twitter_api
-  response = Net::HTTP.get(uri)
-  @results = JSON.parse(response).take(20)
+  @results = fetch_twitter_data
 
   erb :index, layout: :main
 end
