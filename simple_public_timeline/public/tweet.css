@@ -8,7 +8,7 @@ content {
 }
 .tweet {
     display: flex;
-    border-top: slategrey solid 2px;
+    border-top: lightgrey solid 1px;
     width: 600px;
     padding: 10px 0 10px 0;
     margin: 5px;
@@ -18,7 +18,13 @@ content {
     cursor: pointer;
 }
 img.thumbnail {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     margin-right: 10px;
+}
+
+.tweet_info span {
+    margin-top: 5px;
+    font-size: 15px;
+    color: grey;
 }
