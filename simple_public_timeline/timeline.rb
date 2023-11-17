@@ -16,8 +16,12 @@ get '/via_js' do
 end
 
 def extract_name_from_x_url(url)
+  return "X User" unless url.is_a?(String) && url.include?('/')
+
   username = url.split('/').last
-  username.split('_').map(&:capitalize).join(' ') # Convert 'matthew_henry' to 'Matthew Henry'
+  return "X User" if username.nil? || username.strip.empty?
+
+  username.split('_').map(&:capitalize).join(' ') # "john_doe" => "John Doe"
 end
 
 def extract_source_from(html_string)
