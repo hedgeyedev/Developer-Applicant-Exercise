@@ -1,0 +1,19 @@
+<div class="main-container">
+  <div class="main-headline">Recent Public Tweets</div>
+  <div class="sub-headline">What everyone on Twitter is talking about!</div>
+  <div class="tweet-list" id="tweetsViaJs">
+  </div>
+</div>
+<script>
+    jQuery(document).ready(function() {
+        jQuery("time.timeago").timeago();
+        $('#tweetsViaJs').html("")
+        $.ajax({
+            type: 'post',
+            url: '/tweetList',
+            success: function(result) {
+                $('#tweetsViaJs').html(result);
+            }
+        });
+    });
+</script>

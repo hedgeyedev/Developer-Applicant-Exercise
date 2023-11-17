@@ -1,0 +1,72 @@
+body {
+    background-color: cadetblue;
+    font-family: “Helvetica Neue”,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.main-headline {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.sub-headline {
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+
+.main-container {
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.tweet-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet-item-container {
+    display: inherit;
+    flex-direction: row;
+    border-top: lightslategray 1px solid;
+    padding: 10px 10px;
+    min-height: 60px;
+
+    & a {
+        text-decoration: none;
+    }
+
+    .tweet-profile-img {
+        display: inherit;
+        flex-direction: column;
+        max-height: 40px;
+        justify-content: flex-start;
+        width: 50px;
+    }
+
+    .profile-image {
+        width: 50px;
+    }
+
+    .tweet-content-container {
+        display: inherit;
+        flex-direction: column;
+        padding: 2px 10px;
+        justify-content: space-between;
+        .tweet-content {
+            word-wrap: normal;
+        }
+
+        .tweet-time-ago {
+            font-size: 11px;
+            color: lightslategray;
+        }
+    }
+}
+
+

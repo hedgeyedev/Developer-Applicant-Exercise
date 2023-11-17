@@ -1,25 +1,29 @@
 How many years of Web development experience do you have?
-
+Compressed I'd approximate 20.
 
 How many years of JavaScript experience do you have?
-
+Compressed I'd approximate 10.
 
 How many years of Ruby experience do you have?
-
+Compressed I'd approximate 3.
 
 How many years of Rails development experience do you have?
-
+Compressed I'd approximate 3.
 
 What are your opinions on Agile software development?
-
+I prefer the advantages that the Agile methodology offers in constant iteration. The regular cadence of standups encourages me to reset and focus on what have I done, what I plan on doing and any blocker(s) that might be preventing me from progresing forward. Likewise at the group level I have found it helpful to encourage communication and collaboration. The phrase "Inch by inch" comes to mind.
 
 TDD or BDD?
-
+If I had to choose between the two then I would choose BDD because I view BDD as encompassing TDD. I equate TDD as unit and integration tests and BDD with functional tests and satisfying acceptance criteria.
 
 What are you looking for in a job?
-
+I am looking for a job where the company is growing and there are opportunities to grow and take on more responsibilities.
 
 Are you legal to work in the US?
-
+Yes.
 
 When can you start?
+I would prefer to give my current obligation at least 2 weeks notice.
+
+What are your preferred development tools?
+My preferred development tools depends on the project. In most cases I prefer an IDE for code completion and the option to debug. When it comes to bash scripting and IaC I prefer Sublime Text. I prefer Intellij over Eclipse for Java/Groovy/Vue development. XCode for iOS/tvOS development but there really isn't a choice to be made per se. For Typescript and React Native I prefer Visual Studio Code.

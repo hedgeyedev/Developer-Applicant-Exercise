@@ -1,26 +1,10 @@
 module Template
+  # My notes on what was refactored and why:
+  # Code duplication when parsing the template string is pretty much the same for both
+  # CODE and ALTCODE. The use of magic numbers is also not ideal. A great opportunity to
+  # leverage regular expressions to make it more readable and maintainable.
   def template(source_template, req_id)
-    template = String.new(source_template)
-
-    # Substitute for %CODE%
-    template_split_begin = template.index("%CODE%")
-    template_split_end = template_split_begin + 6
-    template_part_one =
-      String.new(template[0..(template_split_begin-1)])
-    template_part_two =
-      String.new(template[template_split_end..template.length])
-    code = String.new(req_id)
-    template =
-      String.new(template_part_one + code + template_part_two)
-
-    # Substitute for %ALTCODE%
-    template_split_begin = template.index("%ALTCODE%")
-    template_split_end = template_split_begin + 9
-    template_part_one =
-      String.new(template[0..(template_split_begin-1)])
-    template_part_two =
-      String.new(template[template_split_end..template.length])
-    altcode = code[0..4] + "-" + code[5..7]
-    template_part_one + altcode + template_part_two
+    altcode = req_id[0..4] + "-" + req_id[5..7]
+    source_template.sub(/%CODE%/, req_id).sub(/%ALTCODE%/, altcode)
   end
 end

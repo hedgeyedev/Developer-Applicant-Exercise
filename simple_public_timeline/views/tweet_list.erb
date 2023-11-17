@@ -1,0 +1,24 @@
+<div class="tweet-list" id="tweetsViaJs">
+  <% tweets.each do |tweet| %>
+    <div class="tweet-item-container">
+      <div class="tweet-profile-img">
+        <img src="<%= tweet['user']['profile_image_url'] %>" alt="Profile Image" class="profile-image" onerror="this.src='/images/twitter_logo.svg';this.onerror='';">
+      </div>
+      <div class="tweet-content-container">
+        <div class="tweet-content">
+          <a href="<%= tweet['user']['url'] %>"><%= tweet['user']['screen_name'] %></a>
+          <% if tweet['in_reply_to_screen_name'] %>
+            <a href="https://twitter.com/<%= tweet['in_reply_to_screen_name'] %>">@<%= tweet['in_reply_to_screen_name'] %></a>
+          <% end %>
+          <%= tweet['text'] %>
+        </div>
+        <div class="tweet-time-ago">
+          <time class="timeago" datetime="<%= DateTime.parse(tweet['created_at']) %>">Unknown</time> from <%= tweet['source'] %>
+          <% if tweet['in_reply_to_screen_name'] %>
+            in reply to <%= tweet['in_reply_to_screen_name'] %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

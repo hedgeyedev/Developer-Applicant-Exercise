@@ -1,0 +1,36 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+# Ruby version
+ruby '3.2.2'
+
+gem 'activerecord'
+gem 'faraday'
+gem 'jekyll-timeago'
+gem 'json'
+gem 'pry'
+gem 'rake'
+gem 'sassc'
+gem 'sinatra'
+gem 'sinatra-activerecord'
+gem 'sinatra-contrib'
+gem 'sinatra-static-assets'
+gem 'thin'
+gem 'x'
+
+group :development do
+  gem 'dotenv'
+  gem 'rubocop'
+  gem 'sqlite3'
+  gem 'tux' # gives you access to an interactive console similar to 'rails console'
+end
+
+group :test do
+  gem 'rack-test'
+  gem 'rspec', require: 'spec'
+end
+
+group :production do
+  # gem 'pg'
+end
