@@ -14,9 +14,11 @@
           <%= tweet["text"] %>
         </div>
       </div>
-      <div>
+      <div class="tweet_info">
         <span class="created_at"><%= tweet["created_at"] %></span>
-        <span class="source">via <%= tweet["source"] %></span>
+        <% unless extract_source_from(tweet["source"]).nil? %>
+          <span class="source">via <%= extract_source_from(tweet["source"]) %></span>
+        <% end %>
       </div>
     </div>
   </div>
