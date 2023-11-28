@@ -1,25 +1,39 @@
 How many years of Web development experience do you have?
 
+10 years
 
 How many years of JavaScript experience do you have?
 
+4 years
 
 How many years of Ruby experience do you have?
 
+8 years
 
 How many years of Rails development experience do you have?
 
+8 years
 
 What are your opinions on Agile software development?
 
+"One size, does not fit all." I am a fan of kahnban but scrum has been more the "to-go" choice for most teams.
+I find that for smaller teams, a hybrid model works well.
 
 TDD or BDD?
 
+Good question. This is also dependent on the team. For backend only work, TDD is a solid approach. BDD is a great
+way to test out full stack applications, if the test suite is setup and configured correctly. I work on limited
+teams that had a proper BDD setup.
 
 What are you looking for in a job?
 
+I am looking for a team I can grow with. I am big on collaboration and wearing many hats. I would like to find a
+job opportunity where I can wear many hats and learn new technologies.
 
 Are you legal to work in the US?
 
+Yes
 
 When can you start?
+
+Right away
