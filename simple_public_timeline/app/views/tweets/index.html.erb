@@ -1,0 +1,14 @@
+<h1>Recent Public Tweets</h1>
+<h2>What everyone on Twitter is talking about</h2>
+
+<div id="tweets">
+  <% @tweets.each do |tweet| %>
+    <div class="tweet">
+      <%= image_tag tweet[:user][:profile_image_url], alt: tweet[:user][:screen_name] %>
+      <p><%= link_to tweet[:user][:screen_name], "http://twitter.com/#{tweet[:user][:screen_name]}" %></p>
+      <p><%= tweet[:text] %></p>
+      <p><%= tweet[:created_at] %></p>
+      <p>via <%= tweet[:source].html_safe %></p>
+    </div>
+  <% end %>
+</div>
