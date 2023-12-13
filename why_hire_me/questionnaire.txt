@@ -1,25 +1,32 @@
 How many years of Web development experience do you have?
-
+I have 12 years of specifically web development experience, with 18 years of overall development experience.
 
 How many years of JavaScript experience do you have?
-
+I have 12 years of JavaScript experience.
 
 How many years of Ruby experience do you have?
-
+I have 12 years of Ruby experience.
 
 How many years of Rails development experience do you have?
-
+I have 12 years of Rails development experience.
 
 What are your opinions on Agile software development?
+I think Agile software development is an effective way to get feedback quickly, as well as quickly iterate on features/products so that we can get to a product that accurately meets the needs of the stakeholders quickly.  
 
+This is in contrast to the waterfall approach, where we specify everything up front, and then perhaps design the wrong thing with a longer period of development, as well as having to spend more time modifying code because the needed finished product seldom matches the initial description.
 
 TDD or BDD?
+BDD principles can be used in TDD (as it is a specific type of TDD), and is useful in making sure we are testing the functionality that matters when we write TDD style tests.  It is also nice because it works well when we're only testing for a behavior (not a specific object), then we can make sure the behavior is the same even if the underlying object changes.  
+
+With Ruby on Rails development, it's nice to use RSpec for testing for this reason, as at least the titles of the tests read like English sentences (as in BDD) and can match statements specified in the requirements.  Also in RSpec, we can specify behaviors and reuse those behaviors across multiple types of objects to test that each object has that behavior.  This is great for duck-typing, among other things.  The most important part with BDD is probably that it tells us that the object does what it's supposed to do (and encourages good practices such as managing and limiting the responsibilities of objects).
 
 
 What are you looking for in a job?
-
+As far as the day to day, I really like a collaborative culture, with code reviews, automated tests, and working together.  I also like room for growth and a team sized such that I can make an impact on what we're building.
 
 Are you legal to work in the US?
+Yes, I am a US citizen.
 
 
 When can you start?
+Any time, although 2 weeks would be good.
