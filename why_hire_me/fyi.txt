@@ -1,0 +1,2 @@
+As far as a preferred editor, I typically use IntelliJ or RubyMine (also derived from the same IntelliJ base).  I use it because of the syntax highlighting, syntax error checking, occasionally autocompletion, various plugins (such as those for coding style), and quick and easy search functionality.  Most of the other things I do from the command line.  Also, if I connect to a remote server (or virtual server), or I'm doing a simple text edit, I often use vim.  Vim is just because I'm familiar with it.
+
