@@ -1,0 +1,16 @@
+.post-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 10px;
+  padding: 20px;
+}
+
+.post-grid-container > div {
+  text-align: left;
+  padding: 20px 0;
+}
+
+.post-text-container {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}

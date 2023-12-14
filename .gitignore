@@ -1,3 +1,6 @@
 # Ignore auto-generated files/directories
 .DS_Store
 
+# Ignore IntelliJ files
+.idea/
+*.iml

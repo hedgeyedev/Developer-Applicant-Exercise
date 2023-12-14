@@ -1,0 +1,22 @@
+<hr/>
+<h1>Recent Public Tweets</h1>
+<h2>What everyone on Twitter is talking about!</h2>
+<% @tweets.each do |t| %>
+  <hr />
+  <div class="post-grid-container" data-controller="post">
+    <div>
+      <img src="<%= t['user']['profile_image_url'] %>" />
+    </div>
+    <div class="post-text-container">
+      <%="#{t['user']['screen_name']}" -%>
+      <%="#{t['text']}" %>
+      <br/>
+      <span data-post-target="time">
+        <%= "#{t['created_at']}" %>
+      </span>
+      <span> from <%= get_link_text(t['source'].html_safe) %></span>
+    </div>
+  </div>
+<% end %>
+
+
