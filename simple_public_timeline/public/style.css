@@ -1,0 +1,44 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow: auto; /* Clearfix for the floated image */
+}
+
+img {
+  float: left; /* Float the image to the left */
+  margin-right: 10px; /* Add some space between the image and the text */
+  height: 50px;
+  width: 50px;
+}
+
+.user-info {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.user-info a {
+  color: #1da1f2;
+  text-decoration: none;
+  font-weight: bold; /* Optional: makes the username stand out */
+}
+
+.user-info a:hover {
+  text-decoration: underline;
+}
+
+.user-info .timestamp {
+  display: block; /* Make the timestamp appear on a new line */
+  color: #777; /* Optional: different color for timestamp */
+  font-size: 0.8em; /* Smaller font size for timestamp */
+}
+
+p {
+  margin: 5px 0;
+}
