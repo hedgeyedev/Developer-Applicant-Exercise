@@ -1,25 +1,41 @@
 How many years of Web development experience do you have?
 
+I have 5 years of experience in Web development.
 
 How many years of JavaScript experience do you have?
 
+I have 5 years of experience working with JavaScript.
 
 How many years of Ruby experience do you have?
 
+I do not have professional experience with Ruby, but I'm open to learning.
 
 How many years of Rails development experience do you have?
 
+I have briefly experimented with Rails in a simple web app project. Though my experience is limited, I am eager to expand my knowledge in this area.
 
 What are your opinions on Agile software development?
 
+I view Agile software development positively, valuing its focus on regular communication, transparency, and continuous improvement. My experience with Agile's daily standups and sprint retrospectives has enhanced team collaboration and contributed significantly to my professional growth.
 
 TDD or BDD?
 
+My testing experience is rooted in using JUnit for unit testing AEM components and Playwright for UI testing. While my role didn't strictly adhere to TDD or BDD, I recognize the benefits of these methodologies and am interested in further exploring them in future projects.
 
 What are you looking for in a job?
 
+I am in pursuit of a long-term opportunity that offers the chance for substantial growth and continuous learning. My goal is to contribute meaningfully and evolve professionally in an environment that fosters innovation and collaboration. Ideally, this journey would be with a company at the forefront of the investment and trading sector, a field I am deeply passionate about. Being part of an organization that aligns with my personal interest in the dynamics of markets and trading would be the perfect convergence of my professional skills and personal passions.
 
 Are you legal to work in the US?
 
+Yes, I am legally authorized to work in the US.
 
 When can you start?
+
+I am available to start as soon as possible.
+
+Editor of choice and other desktop apps?
+
+My editor of choice is Visual Studio Code. I appreciate its extensive range of extensions which significantly enhance and expedite the development process. Additionally, features like integrated terminals, GitLens, and customizable themes contribute to its efficiency and user-friendliness, making it an indispensable tool in my development toolkit.
+
+In addition to my preferred development tool, VSCode, I also regularly use the TradingView platform for market analysis. My experience extends to coding in TradingView's Pine Script editor, where I've developed custom scripts for market analysis and trading strategies. This aligns with my interest in the financial markets and complements my technical skills as a software developer. It showcases my ability to apply software development principles in diverse contexts, including trading and investment analysis, which I believe could be beneficial in a role that intersects with the financial markets.

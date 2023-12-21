@@ -1,0 +1,28 @@
+Kelvin Collado
+Danbury, CT 06810
+203-600-8893
+12/20/2023
+
+Hiring Manager
+Hedgeye
+Stamford, CT 06905
+
+Dear Hiring Manager,
+
+I am writing to express my enthusiastic interest in the Software Engineer position at Hedgeye. With over five years of full-stack software development experience and a profound interest in financial markets, particularly futures trading, I am excited about the opportunity to contribute to a company that's innovating in the investment space.
+
+At Hedgeye, your commitment to transparency, accountability, and trust, as well as your revolutionary approach to investment research, resonates deeply with my professional values and personal interests. My background in web development across diverse sectors, including e-commerce, cybersecurity, and warehouse manufacturing, has equipped me with a versatile skill set that I believe aligns well with the innovative spirit at Hedgeye.
+
+In my most recent role as a Full Stack Software Developer at CBTS, I honed my skills in JavaScript, Node.js, Java, and various other technologies. I played a pivotal role in executing the full Software Development Life Cycle, collaborating with cross-functional teams to optimize user experiences. My work included developing solutions that enhanced marketing efficiency and user engagement, aligning closely with Hedgeye's focus on delivering high-value, user-centric investment insights.
+
+My freelance projects and previous roles have further developed my capability to adapt quickly, innovate solutions, and work effectively in dynamic environments – skills I am eager to bring to the Hedgeye team. My achievements in developing MVPs for cybersecurity applications and integrating API data for NFT platforms demonstrate my capacity to handle complex projects and contribute to Hedgeye's mission of breaking down the barriers of traditional Wall Street approaches.
+
+Moreover, my passion for the futures market and a personal commitment to continuous learning in the field of investment make me particularly excited about the prospect of joining a company at the forefront of financial research and risk management.
+
+I am eager to bring my technical expertise, collaborative spirit, and innovative mindset to Hedgeye, where I can contribute to your team’s efforts in reshaping investment strategies and delivering exceptional value to your community of global investors.
+
+Thank you for considering my application. I look forward to the possibility of discussing how my skills, experience, and interests align with the needs of your team.
+
+Warm regards,
+
+Kelvin Collado
