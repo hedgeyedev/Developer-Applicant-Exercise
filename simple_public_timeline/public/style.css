@@ -8,12 +8,12 @@ li {
   border: 1px solid #ddd;
   padding: 10px;
   margin-bottom: 10px;
-  overflow: auto; /* Clearfix for the floated image */
+  overflow: auto;
 }
 
 img {
-  float: left; /* Float the image to the left */
-  margin-right: 10px; /* Add some space between the image and the text */
+  float: left;
+  margin-right: 10px;
   height: 50px;
   width: 50px;
 }
@@ -26,7 +26,7 @@ img {
 .user-info a {
   color: #1da1f2;
   text-decoration: none;
-  font-weight: bold; /* Optional: makes the username stand out */
+  font-weight: bold;
 }
 
 .user-info a:hover {
@@ -34,9 +34,9 @@ img {
 }
 
 .user-info .timestamp {
-  display: block; /* Make the timestamp appear on a new line */
-  color: #777; /* Optional: different color for timestamp */
-  font-size: 0.8em; /* Smaller font size for timestamp */
+  display: block;
+  color: #777;
+  font-size: 0.8em;
 }
 
 p {

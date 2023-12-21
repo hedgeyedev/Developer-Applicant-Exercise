@@ -5,12 +5,7 @@ gem 'sinatra'
 gem 'httparty'
 
 group :test do
-  # RSpec for tests
   gem 'rspec', '~> 3.0'
-
-  # Rack::Test for testing requests
   gem 'rack-test', require: 'rack/test'
-
-  # For pretty test formatting
   gem 'fuubar'
 end

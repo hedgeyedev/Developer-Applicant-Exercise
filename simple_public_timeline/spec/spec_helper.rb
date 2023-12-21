@@ -1,6 +1,6 @@
 require 'rack/test'
 require 'rspec'
-require_relative '../app.rb' # Adjust the relative path as necessary.
+require_relative '../app.rb'
 
 ENV['RACK_ENV'] = 'test'
 
