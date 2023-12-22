@@ -1,25 +1,32 @@
 How many years of Web development experience do you have?
-
+8
 
 How many years of JavaScript experience do you have?
-
+8
 
 How many years of Ruby experience do you have?
-
+4
 
 How many years of Rails development experience do you have?
-
+4
 
 What are your opinions on Agile software development?
-
+It's a great development framework that facilitates communication between product and engineering and
+allows for the team to effectively plan what to take on. It breaks down the work into manageable sprints,
+which are groomed and planned by the whole team (Product, Engineering, QA) and allows for folks to meet daily
+to discuss concerns or blockers that are impeding development. It also provides team members with opportunities
+to decide what and how much work to take on, which provides development with a sustainable workload.
 
 TDD or BDD?
-
+Both, Behavior Driven Development ensures external stakeholders and product are being heard and getting what they need.
+Test Driven Development takes the requirements of the stakeholders and implements them to ensure the feature delivers what was intended
 
 What are you looking for in a job?
-
+I'm looking for a company that is invested in the products they sell as well as the people they employ. I'd 
+love to work as a part of a team that is ruby centric and is building out new features for their products. 
 
 Are you legal to work in the US?
-
+Yes
 
 When can you start?
+ASAP

@@ -1,0 +1,28 @@
+Terence Boyle
+171 Chestnut St, Apt 2, New Haven CT 06511
+203-927-8932
+
+
+Hello Hedgeye!
+
+I am applying for the role of Full Stack Software Engineer and would like to explain why I am a good fit
+for the role. Having been in web development for the last eight years, and as a Ruby on Rails developer 
+for the last four, I have experience in feature development, project planning and design, and code 
+deployments. The team I worked on produced many features including an Email Drip Campaign that allowed our
+customers to craft a series of related emails that would reach thousands of their potential candidates at 
+given intervals. This allowed our customers to not have to manage their candidate outreach so closely and 
+ensure they were reaching the right candidates at the right time.
+
+Our team also went through several upgrades for Ruby and Rails which required significant refactoring. We also 
+migrated our databases from MySql to Postgres and eventually from Postgres to AWS RDS. Working on a small team 
+developing eight Rails applications provided with not just development experience, but also hosting and devops. 
+Whether it was refactoring microservices and their service wrappers, deploying EC2 instances to the cloud, or
+rewriting our deployment scripts, I found myself wearing several hats.
+
+I'd like to thank you for considering me for the role of Full Stack Software Engineer and look forward to 
+hearing from you.
+
+- Terence Boyle
+
+
+
