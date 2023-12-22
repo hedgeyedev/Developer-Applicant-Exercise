@@ -3,7 +3,6 @@ require 'net/http'
 require 'uri'
 require 'debug'
 
-
 get '/' do
   uri = URI('http://localhost:1234/1.1/statuses/status.json')
   params = {count: 20}
@@ -17,4 +16,3 @@ end
 get '/via_js' do
   erb :js_view
 end
-
