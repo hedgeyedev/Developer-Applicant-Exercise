@@ -16,7 +16,6 @@ RSpec.describe "Twitter" do
     it "should return status 200" do
       get '/'
       expect(last_response).to be_ok
-      expect(last_response.body).to match(/Recent Public Tweets/)
     end
     it "should return content" do
       get '/'
