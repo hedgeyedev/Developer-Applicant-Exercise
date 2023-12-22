@@ -1,0 +1,17 @@
+<h2>Recent Public Tweets</h2>
+<h3>What everyone on Twitter is talking about</h3>
+
+<% @posts.each do |post| %>
+  <div>
+    <div>
+      <image src=<%= post["user"]["profile_image_url"] %> />
+    </div>
+    <a href=<%= post["user"]["url"] %>><%= post["user"]["url"] %></a>
+    <p><%= post["text"]%></p>
+    <p>
+      <span>Tweeted at: <%= post["created_at"] %></span> from
+      <span><%= post["source"] %> </span>
+      </p>
+  </div>
+  <hr/>
+<% end %>

@@ -1,0 +1,32 @@
+
+<div id="twitter">
+  <h2>Recent Public Tweets</h2>
+  <h3>What everyone on Twitter is talking about</h3>
+
+</div>
+<script>
+
+  (async function(){
+    var response = await fetch('http://localhost:1234/1.1/statuses/status.json?count=20')
+    var data = await response.json();
+
+    var root = document.getElementById("twitter"); 
+    var body = ""
+    data.forEach((tweet) => {
+      root.innerHTML = root.innerHTML + `<div>
+                                          <div>
+                                            <image src=${tweet["user"]["profile_image_url"]}/>
+                                          </div>
+                                          <a href=${tweet["user"]["url"]}>${tweet["user"]["url"]}</a>
+                                          <p>${tweet["text"]}</p>
+                                          <p>
+                                            <span>Tweeted at: ${tweet["created_at"]}</span> from
+                                            <span>${tweet["source"]}</span>
+                                          </p>
+                                          </div>
+                                          <hr />`;
+
+    })
+  })();
+
+</script>
