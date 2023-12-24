@@ -1,0 +1,14 @@
+<div class="tweet-container">
+  <img src="<%= tweet['user']['profile_image_url'] %>">
+  <div class="information-container">
+    <div>
+      <a href="<%= tweet['user']['url'] %>"><%= tweet['user']['screen_name']%></a>
+      <span><%= tweet['text'] %></span>
+    </div>
+    <div>
+      <span><%= tweet['created_at'] %></span>
+      <span> from <%= tweet['source'] %></span>
+    </div>
+  </div>
+</div>
+<hr>

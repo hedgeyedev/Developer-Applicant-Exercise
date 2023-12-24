@@ -1,0 +1,15 @@
+Dear Forrest,
+
+I am excited to express my interest in the Full-Stack Software Engineer position at Hedgeye Risk Management. The company's commitment to being a bold, trusted provider of actionable investment research and a premier online financial media company aligns seamlessly with my background, and I am enthusiastic about the prospect of contributing my technical expertise and passion for learning to your dynamic team.
+
+Over the past years, I have dedicated myself to advancing my experience in software engineering, with a primary focus on backend development. My experience as a backend engineer has equipped me with the skills to lead the development of high-performance Ruby on Rails APIs, ensuring exceptional user experiences and system reliability. While my professional journey has predominantly been in backend development, I have actively expanded my skill set to encompass frontend technologies through personal projects showcased on my GitHub profile.
+
+What excites me about this position at Hedgeye is the opportunity to apply my diverse skill set to the development of web, multimedia, and mobile applications. Beyond my technical abilities, I share Hedgeye's enthusiasm for collaboration, innovation, and a commitment to quality. My experience as a collaborative problem-solver and my dedication to code integrity, evidenced by the formulation of automated tests, make me confident in my ability to meet and exceed the expectations outlined in the job description.
+
+I am deeply passionate about creating solutions that address real-world challenges, and my background in a startup environment has instilled in me a strong sense of ownership, initiative, and adaptability—qualities that I believe will be invaluable in contributing to Hedgeye's dynamic and entrepreneurial culture.
+
+Thank you for considering my application. I look forward to the possibility of contributing to Hedgeye's unwavering commitment to Transparency, Accountability, and Trust.
+
+Sincerely,
+
+Daniel Watson

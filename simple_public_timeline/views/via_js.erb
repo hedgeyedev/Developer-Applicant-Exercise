@@ -1,0 +1,96 @@
+<html>
+  <head>
+    <title>Twitter</title>
+    <style>
+      .tweet-container {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+      }
+
+      .tweet-container > div {
+        flex: 1;
+        display: flex;
+      }
+
+      .information-container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .tweet-container img {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+      }
+
+      .tweet-container div:nth-child(2) {
+        flex: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>
+        Recent Public Tweets
+      </h2>
+    </div>
+    <div>
+      <h4>
+        What everyone on Twitter is talking about
+      </h4>
+    </div>
+    <div id='tweets-container'>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const api_url = 'http://localhost:4567/1.1/statuses/status.json?count=20';
+        const tweetsContainer = document.getElementById('tweets-container');
+
+        fetch(api_url)
+          .then(function(response) {
+            return response.json();
+          })
+          .then(function(data) {
+            const tweets = data;
+            tweets.forEach(function(tweet) {
+              const tweetContainer = document.createElement('div')
+              tweetContainer.classList.add('tweet-container');
+
+              const profileImage = document.createElement('img');
+              profileImage.src = tweet.user.profile_image_url;
+              profileImage.alt = "Profile Image";
+
+              const tweetContent = document.createElement('div');
+              tweetContent.innerHTML = `
+                <a href= ${tweet.user.url}>${tweet.user.screen_name}</a>
+                <span>${tweet.text}</span>
+              `;
+
+              const informationContainer = document.createElement('div');
+              informationContainer.classList.add('information-container');
+
+              informationContainer.appendChild(tweetContent);
+
+              const createDetails = document.createElement('div');
+              createDetails.innerHTML = `
+                <span>${tweet.created_at}</span>
+                <span> from ${tweet.information}</span>
+              `;
+
+              informationContainer.appendChild(createDetails);
+
+              tweetContainer.appendChild(profileImage);
+              tweetContainer.appendChild(informationContainer)
+
+              tweetsContainer.appendChild(tweetContainer);
+              tweetsContainer.appendChild(document.createElement('hr'));
+            });
+          })
+          .catch(function(error) {
+            console.error('Error fetching data:', error);
+          });
+      });
+    </script>
+  </body>
+</html>

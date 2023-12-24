@@ -1,25 +1,27 @@
 How many years of Web development experience do you have?
-
+3 years
 
 How many years of JavaScript experience do you have?
-
+3 years
 
 How many years of Ruby experience do you have?
-
+3 years
 
 How many years of Rails development experience do you have?
-
+3 years
 
 What are your opinions on Agile software development?
-
+I like the concept of an Agile software development approach. On one hand  it allows developers to break bigger problems down into smaller solutions and get out work in a faster pace. In my experience this principle has been a good approach to being an effective developer. It's also important to test often and effectively which helps in catching potential bugs. If good specs aren't being created, it will eventually lead to bigger issues trying to track down errant code.  An agile approach also needs to upkeep constant communication between all involved. Having communication as a priority keeps everyone in sync and presents more opportunities for collaboration.
 
 TDD or BDD?
-
+My experience has mainly been with TDD. I think it's effective in ensuring code is functioning properly as long as the spec is setup correctly. I find it helps in situations, where there is previous code, to give better context.
+BDD does seem like it could be used in conjunction with TDD to get some input from other stakeholders for the feature. This would help to make sure we build the feature correctly with more team involvement.
 
 What are you looking for in a job?
-
+I'm looking for an environment where I can continue to grow and learn as a developer while building meaningful products that have an impact on the company. I encourage, receiving transparent feedback and building trust in the workplace that everybody is working toward similar goals.
 
 Are you legal to work in the US?
-
+Yes.
 
 When can you start?
+I am able to start as soon as possible.

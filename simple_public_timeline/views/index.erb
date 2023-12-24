@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Twitter</title>
+    <style>
+      .tweet-container {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+      }
+
+      .tweet-container > div {
+        flex: 1;
+        display: flex;
+      }
+
+      .information-container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .tweet-container img {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+      }
+
+      .tweet-container div:nth-child(2) {
+        flex: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>
+        Recent Public Tweets
+      </h2>
+    </div>
+    <div>
+      <h4>
+        What everyone on Twitter is talking about
+      </h4>
+    </div>
+    <div id='tweets-container'>
+      <% @tweets.each do |tweet| %>
+        <%= erb :_tweet, locals: { tweet: tweet } %>
+      <% end %>
+    </div>
+  </body>
+</html>
