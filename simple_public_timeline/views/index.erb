@@ -1,0 +1,14 @@
+<h1>Recent Public Tweets</h1>
+<h2>What everyone on Twitter is talking about</h2>
+
+<ul>
+  <% tweets.each do |tweet| %>
+    <li>
+      <img src="<%= tweet[:user][:profile_image_url] %>" alt="Profile Image">
+      <a href="<%= tweet[:user][:url] %>"><%= tweet[:user][:name] %></a>
+      <p><%= tweet[:text] %></p>
+      <time><%= tweet[:created_at] %></time>
+      <span>via <%= tweet[:source] %></span>
+    </li>
+  <% end %>
+</ul>
