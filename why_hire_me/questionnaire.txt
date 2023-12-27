@@ -1,25 +1,42 @@
 How many years of Web development experience do you have?
-
+23
 
 How many years of JavaScript experience do you have?
-
+23 although to varying degrees. Mostly I've been backend focused
+throughout my career but occasionally I do a deeper dive on the JS side.
 
 How many years of Ruby experience do you have?
-
+~12
 
 How many years of Rails development experience do you have?
-
+~12
 
 What are your opinions on Agile software development?
-
+I was doing Java when the Xtreme Programming movement was
+happening and I always loved the pragmatic, developer led
+process part of it. The culture of automated testing that
+it upholds is really great and in general I think it
+empowers developers. Over the years the ideas have gone
+through changes so I think it's important to stick to the
+spirit of tight communication loops with people via regular
+touch points or with code via constant testing.
 
 TDD or BDD?
-
+I don't really see them as two things to be compared. I feel like the
+philosophy of BDD helps organize my approach to TDD. Many times when I'm on a
+green field feature I'll kick things off in a TDD way with a test but
+the test itself starts with just comments describing the "given x, when y, then z"
+BDD approach.
 
 What are you looking for in a job?
-
+Looking to join a solid team that build each other up and have
+a sense of shared ownership of the product. I also really
+love to work on products that empower folks to reach their
+financial goals either through enterprise or in this case with direct
+financial tool support.
 
 Are you legal to work in the US?
-
+Yes
 
 When can you start?
+Immediately
