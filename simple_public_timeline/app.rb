@@ -3,7 +3,7 @@ require 'json'
 require 'faraday'
 
 get '/' do
-  connection = Faraday.new(url: 'http://localhost:3000')
+  connection = Faraday.new(url: ENV['API_HOST'])
   response = connection.get('/1.1/statuses/status.json')
 
   if response.status == 200
