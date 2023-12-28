@@ -1,0 +1,23 @@
+<!-- views/index.erb -->
+<h1>Recent Public Tweets</h1>
+<h2>What everyone on Twitter is talking about!</h2>
+<div class="container">
+    <% @tweets.first(20).each do |tweet| %>
+      <div class="tweet">
+        <div class="img-container">
+          <img src="<%= tweet['user']['profile_image_url'] %>" alt="Profile Image">
+        </div>
+        <div>
+          <p>
+            <a class="link" href="<%= tweet['user']['url'] %>" target="_blank">
+              @<%= tweet['user']['screen_name'] %>
+            </a>
+            <%= tweet['text'] %>
+          </p>
+          <div class="date-container">
+            <span class="date"><%= tweet['created_at'] %></span> from <%= tweet['source'] %>
+          </div>
+        </div>
+      </div>
+    <% end %>
+</div>
