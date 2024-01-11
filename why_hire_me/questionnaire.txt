@@ -1,25 +1,26 @@
 How many years of Web development experience do you have?
-
+18
 
 How many years of JavaScript experience do you have?
-
+16
 
 How many years of Ruby experience do you have?
-
+0
 
 How many years of Rails development experience do you have?
-
+0
 
 What are your opinions on Agile software development?
-
+When used properly it can be of great benefit to a software team, but if it's just taken as a framework of buzzwords it can seem ineffective.
 
 TDD or BDD?
-
+Ideally? BDD. In practice, I've rarely seen TDD used successfully across a whole team, mostly because I think it has to be a top-down decision and has to be baked into the development process. A lot of times, stakeholders would prefer "done" to "tested and done" if it means quicker delivery - at least until problems arise! I also think that involving actual end users into the group of stakeholders can have a very positive impact upon delivery but also upon the success of the product, as you can get feedback as a developer that's otherwise opaque to you from your vantage point.
 
 What are you looking for in a job?
-
+Good projects. Those are ones in which I can maybe flex some of my skills, maybe learn something new, whether a new language, library, or even domain. Projects that have high impact on the user base - it's always satisfying to get positive feedback on something you've worked on (even negative feedback can be great if it's actionable, because then you _really_ convert some users!). Good leadership. That can make or break any team or project and I've seen both sides of that equation! Succinctly, I think good leaders are enablers and uplifters, not taskmasters or overseers. And good teams. The best I've worked for all had a shared vision, trying to get the best out of everyone and lift each other up instead of intra/inter-group rivalries.
 
 Are you legal to work in the US?
-
+Yes.
 
 When can you start?
+01/15/23

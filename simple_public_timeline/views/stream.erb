@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hedgeye Stream</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <h1>Recent Public Tweets</h1>
+  <h3>What everyone on Twitter is talking about</h3>
+  
+  <% if defined?(twits) %>
+  <% twits.each do |twit| %>
+    <li>
+        <img src="<%= twit["user"]["profile_image_url"] %>"> 
+        <a href="<%= twit["user"]["url"] %>"><%= twit["user"]["screen_name"] %></a> 
+        <%= twit["text"] %><br>
+        <%= twit["source"] %><br>
+        <%= twit["created_at"] %><br>
+    </li>
+  <% end %>
+  <% end %>
+	<script src="index.js"></script>
+  </body>
+</html>
