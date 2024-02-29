@@ -1,25 +1,35 @@
 How many years of Web development experience do you have?
-
+2
 
 How many years of JavaScript experience do you have?
-
+1
 
 How many years of Ruby experience do you have?
-
+1
 
 How many years of Rails development experience do you have?
-
+1
 
 What are your opinions on Agile software development?
-
+My view of Agile software development was heavily shaped by my experiences and learning from mentors like Forrest Chang. 
+Agile's adaptability, iterative progress and emphasis on collaboration closely align with my own experiences in software
+development, especially in team projects at the Turing School. I value Agile for its ability to efficiently address client
+needs and facilitate continuous improvement in the development process. 
 
 TDD or BDD?
-
+From my experience, I've mostly done TDD at the Turing School. We'd write the RSpec spec tests first that detail the logic/data flow 
+and then move on to implementation. Sometimes, these tests can be difficult to write so it may be more time efficient to start with BDD.
+However, no matter what there should be a test for every function and piece of logic added. I use SimpleCov to get a quick snapshot of
+the test coverage extent. 
 
 What are you looking for in a job?
-
+In my pursuit of a career in software engineering, I am looking for a role where I can continue to grow as a software craftsman, embracing
+the values of quality, continuous learning, and teamwork. My experiences have underscored the importance of mentorship, collaboration, 
+and a commitment to excellence. I am eager to join a team like Hedgeye where I can contribute my skills in Ruby and web development while
+also growing in an environment that values technical excellence, personal development, and a collaborative culture. 
 
 Are you legal to work in the US?
-
+Yes.
 
 When can you start?
+Immediately. 
