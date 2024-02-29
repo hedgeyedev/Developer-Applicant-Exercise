@@ -1,0 +1,35 @@
+Dear Hiring Manager,
+
+Greetings, my name is Charles Ren. After attending monthly Ruby OC meetings with Forrest Chang, I am continuously inspired 
+by his approach to software methodology and his still burning passion for Rails architecture. It was through our talks that 
+I was introduced to the idea of being a software craftsman and striving to improve in this skill. He showed me the teachings 
+of Uncle Bob’s design principles, understanding of the Blub Paradox from Paul Graham, and issues of technical debt by Ward Cunningham. 
+And that doesn’t even include the two books on TDD & Extreme Programming by Kent Beck. These meetings are more than just learning sessions; 
+they’re a gateway to a deeper understanding and appreciation of software craftsmanship, something I eagerly anticipate each time, 
+and that gives me assurance that I would fit in very well within your company, since these same values fit in perfectly with my own ideals.
+
+In the spring of sophomore year of college, I tried to find a career shift from healthcare to software engineering.
+Despite a summer internship at a local hospital, I had accepted that the fastest way to a career change was to graduate a year early 
+and throw myself into coding. I self-taught full-stack JavaScript and after a year, I decided that I wanted a more focused education. 
+This led me to the Backend Program at Turing School of Software & Design, where I discovered the elegance of Ruby and completed several 
+Ruby on Rails projects in the last eight months, many of them in a pair or team setting. Through these team-based projects, 
+I’ve come to understand that teamwork is essential to combining diverse skill sets in a collaborative environment - 
+enhancing pair-programming and problem-solving abilities. 
+
+These projects not only honed my coding skills but also underscored the importance of teamwork in software engineering. 
+Reflecting on my initial journey in healthcare, where a physician advised me to prioritize good management over solely financial gain, 
+I find a strong similarity with my experience in software development. This advice, emphasizing the pursuit of guidance and mentorship, 
+has profoundly influenced my career path. My time with Forrest has only reinforced this belief, instilling a deep conviction in his vision of 
+dedicated software craftsmanship. I am eager to bring my passion and learned skills to Hedgeye, where I can contribute to and grow 
+within an environment that values both personal development and the continuous pursuit of technical excellence. 
+
+I look forward to speaking with you soon, I can be reached anytime by phone or email. 
+
+Warmest regards,
+Charles Ren
+
+[Resume](https://www.linkedin.com/in/charles-ren-code/overlay/1709019776638/single-media-viewer/?profileId=ACoAACiCb14BYMr0K4eO8QVrQcl-YZsLtEpR7JY)
+[Rails Engine -API](https://github.com/Dylan-Perry/rails_engine)
+[Little Esty Shop Pt.1](https://github.com/JimmyTrulock/little-shop-7)
+[Little Esty Shop Pt.2](https://github.com/chuckrenny/bulk-discounts)
+[Adopt Don't Shop](https://github.com/trpubz/adopt-dont-shop-7)
