@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Twitter</title>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="header">
+    <h1>Twitter</h1>
+    <div class="login-join">
+      <%= link_to 'Login', login_path, class: 'login' %>
+      
+      <%= link_to 'Join Twitter', register_user_path, class: 'join' %>
+    </div>
+  </div>
+
+  <div class="tweets-container">
+    <div class="tweets-list">
+    <%= '_______________________________________________________________________________' %>
+    <h3>Recent Public Tweets</h3>
+    <h4>What everyone on Twitter is talking about!</h4>
+    <%= '_______________________________________________________________________________' %>
+      <% @users.each do |user| %>
+        <div class="tweet">
+          <%= image_tag(user.profile_image, alt: "#{user.username}'s profile pic", class: 'profile-image') if user.profile_image.present? %>
+          <div class="content">
+            <strong><%= user.username %></strong>
+            <p><%= user.text %></p>
+            <small><%= user.tweet_creation %> via <%= user.source %></small>
+            <%= '________________________________________________________________________' %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+
+    <div class="sidebar">
+      <div class="create-account">
+        <h5>Create Your Account</h5>
+        <%= link_to 'Join!', register_user_path, class: 'join-button' %>
+      </div>
+      <h5>Already using Twitter from your phone? Click here</h5>
+      <div class="language-select">
+        <%= select_tag "language", options_for_select([['Select Language...', ''], 'English', 'Español', 'Français', 'Mandarin']), class: 'language-dropdown' %>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #0eaae6;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.login-join {
+  font-size: 14px;
+}
+
+.login-join a {
+  color: white;
+  text-decoration: none;
+  padding: 2px 10px;
+  margin-left: 5px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.tweets-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweets-list {
+  width: 70%;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.tweet {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.tweet img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.tweet .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweet .username {
+  color: #0eaae6;
+  font-weight: bold;
+}
+
+.sidebar .create-account {
+  background-color: #00aced;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.sidebar .join-button {
+  background-color: #00008B; /* Button background color */
+  color: #00aced; /* Button text color */
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+.sidebar select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+}
