@@ -22,17 +22,6 @@
     <h3>Recent Public Tweets</h3>
     <h4>What everyone on Twitter is talking about!</h4>
     <hr>
-      <% @users.each do |user| %>
-        <div class="tweet">
-          <%= image_tag(user.profile_image, alt: "#{user.username}'s profile pic", class: 'profile-image') %>
-          <div class="content">
-            <a href="<%= user.profile_link %>"><strong><%= user.username %></strong></a>
-            <p><%= user.text %></p>
-            <small><%= user.tweet_creation %> via <%= user.source %></small>
-          </div>
-        </div>
-        <hr>
-      <% end %>
     </div>
 
     <div class="sidebar">
@@ -46,5 +35,8 @@
       </div>
     </div>
   </div>
+  
+ <%= javascript_include_tag 'via_js' %>   
+
 </body>
 </html>

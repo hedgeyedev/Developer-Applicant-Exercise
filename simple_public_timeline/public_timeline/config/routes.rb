@@ -4,7 +4,8 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 
-  root "users#timeline"
+  root 'users#timeline'
+  get '/via_js', to: 'tweets#via_js'
 
   get '/login', to: 'users#login'
   get '/register', to: 'users#register', as: 'register_user'
